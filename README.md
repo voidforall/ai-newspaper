@@ -23,6 +23,12 @@ npm run build -- --template=classic
 
 The classic template uses a warm paper texture, a traditional masthead, and multi-column story sections. Store `"template": "classic"` in an issue JSON file to make it that issue's default; `--template` overrides the saved choice for a single build.
 
+## Daily GitHub Pages publishing
+
+The `Publish daily newspaper` workflow builds and deploys `public/` to GitHub Pages whenever `main` changes, every day at 07:00 UTC, or when manually run from the Actions tab. In the repository's **Settings → Pages**, select **GitHub Actions** as the publishing source.
+
+The workflow works without credentials using deterministic selection and copy. To enable AI selection and editing, add the `OPENAI_API_KEY` and `OPENAI_MODEL` repository secrets.
+
 `npm run generate` reads `sources.json`, fetches its enabled sources, retains HN items from the last 24 hours, deduplicates original URLs, then investigates each selected original article before publishing:
 
 - `issues/YYYY-MM-DD.json` — durable editorial data
