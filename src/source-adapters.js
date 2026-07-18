@@ -4,11 +4,11 @@ const adapters = {
   "hacker-news": fetchTopStories
 };
 
-export async function fetchConfiguredArticles(sources) {
+export async function fetchConfiguredArticles(sources, options = {}) {
   const activeSources = sources.filter((source) => source.enabled);
   return (await Promise.all(activeSources.map((source) => {
     const adapter = adapters[source.id];
     if (!adapter) throw new Error(`No adapter is registered for source: ${source.id}`);
-    return adapter();
+    return adapter(options);
   }))).flat();
 }

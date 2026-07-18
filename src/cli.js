@@ -10,6 +10,7 @@ import { renderCollection } from "./render-collection.js";
 const outputDirectory = "public";
 const issueDirectory = "issues";
 const researchDirectory = "research";
+const collectionPageSize = 1;
 const today = () => new Date().toISOString().slice(0, 10);
 
 function argumentValue(name) {
@@ -19,6 +20,14 @@ function argumentValue(name) {
 
 function templateArgument() {
   return argumentValue("template");
+}
+
+function issueDate() {
+  const date = argumentValue("date") ?? today();
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || Number.isNaN(Date.parse(`${date}T00:00:00.000Z`))) {
+    throw new Error(`Invalid --date value: ${date}`);
+  }
+  return date;
 }
 
 function editionSlug(sources) {
@@ -55,33 +64,34 @@ async function readIssues() {
 }
 
 async function writeCollection(issues) {
-  const pageSize = 12;
-  const pages = Math.max(1, Math.ceil(issues.length / pageSize));
+  const pages = Math.max(1, Math.ceil(issues.length / collectionPageSize));
   await mkdir(outputDirectory, { recursive: true });
   await Promise.all(Array.from({ length: pages }, async (_, index) => {
     const page = index + 1;
     const path = page === 1 ? join(outputDirectory, "index.html") : join(outputDirectory, "page", String(page), "index.html");
     await mkdir(dirname(path), { recursive: true });
-    await writeFile(path, renderCollection(issues, { page, pageSize }));
+    await writeFile(path, renderCollection(issues, { page, pageSize: collectionPageSize }));
   }));
 }
 
 async function generate() {
   const sources = JSON.parse(await readFile("sources.json", "utf8"));
-  const articles = await fetchConfiguredArticles(sources);
+  const date = issueDate();
+  const articles = await fetchConfiguredArticles(sources, { date: argumentValue("date") });
   const selectedArticles = await selectArticlesWithAi(articles);
   const investigatedArticles = await investigateArticles(selectedArticles);
-  const issue = await editIssueWithAi(createIssue({ date: today(), id: editionId(today(), sources), articles: investigatedArticles }), investigatedArticles);
+  const issue = await editIssueWithAi(createIssue({ date, id: editionId(date, sources), articles: investigatedArticles }), investigatedArticles);
   await writeEdition(issue);
   await build();
 }
 
 async function research() {
   const sources = JSON.parse(await readFile("sources.json", "utf8"));
-  const articles = await fetchConfiguredArticles(sources);
+  const date = issueDate();
+  const articles = await fetchConfiguredArticles(sources, { date: argumentValue("date") });
   const selectedArticles = await selectArticlesWithAi(articles);
   const investigatedArticles = await investigateArticles(selectedArticles);
-  const path = join(researchDirectory, `${editionId(today(), sources)}.json`);
+  const path = join(researchDirectory, `${editionId(date, sources)}.json`);
   await mkdir(dirname(path), { recursive: true });
   await writeFile(path, `${JSON.stringify({ date: today(), articles: investigatedArticles }, null, 2)}\n`);
   console.log(`Saved research ${path}`);
@@ -97,4 +107,4 @@ const command = process.argv[2];
 if (command === "generate") await generate();
 else if (command === "research") await research();
 else if (command === "build") await build();
-else throw new Error("Usage: node src/cli.js <generate|research|build> [--template=standard|classic]");
+else throw new Error("Usage: node src/cli.js <generate|research|build> [--date=YYYY-MM-DD] [--edition=slug] [--template=standard|classic]");
