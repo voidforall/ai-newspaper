@@ -1,4 +1,4 @@
-# Daily AI Newspaper
+# AI Newspaper
 
 A static daily newspaper generated from configurable sources. The first configured source is Hacker News; every story retains its supplied attribution links.
 
@@ -11,7 +11,19 @@ npm test
 npm run generate
 ```
 
-`npm run generate` reads `sources.json`, fetches its enabled sources, retains HN items from the last 24 hours, deduplicates original URLs, and publishes:
+To edit an edition in the current Codex session, run `npm run research`. It writes the selected, investigated source material to `research/YYYY-MM-DD.json`; use `$ai-newspaper-editor` to turn that material into `issues/YYYY-MM-DD.json`, then run `npm run build`.
+
+## Render templates
+
+Use the standard responsive layout by default, or select the print-inspired `classic` template when building:
+
+```sh
+npm run build -- --template=classic
+```
+
+The classic template uses a warm paper texture, a traditional masthead, and multi-column story sections. Store `"template": "classic"` in an issue JSON file to make it that issue's default; `--template` overrides the saved choice for a single build.
+
+`npm run generate` reads `sources.json`, fetches its enabled sources, retains HN items from the last 24 hours, deduplicates original URLs, then investigates each selected original article before publishing:
 
 - `issues/YYYY-MM-DD.json` — durable editorial data
 - `public/YYYY-MM-DD/index.html` — dated edition
@@ -25,7 +37,7 @@ export OPENAI_MODEL="your-model-id"
 npm run generate
 ```
 
-When credentials are present, AI first selects and orders up to ten candidate stories, then rewrites the title, summary, category, and “why it matters” field. Invalid/unavailable AI output falls back to the top-scoring stories and deterministic copy. It receives no source-creation ability and the pipeline retains the original source links.
+When credentials are present, AI first selects and orders up to ten candidate stories, then uses extracted original-article text to write the digest, category, and “why it matters” field. Invalid/unavailable AI output falls back to the extracted text; an unavailable original article retains its HN context. The pipeline retains the original source links.
 
 ## Extend
 

@@ -60,7 +60,13 @@ function renderSections(stories) {
     .join("\n");
 }
 
-export function renderIssue(issue) {
+function resolveTemplate(template) {
+  if (["standard", "classic"].includes(template)) return template;
+  throw new Error(`Unknown render template: ${template}`);
+}
+
+export function renderIssue(issue, { template = issue.template ?? "standard" } = {}) {
+  const selectedTemplate = resolveTemplate(template);
   const [lead, ...remainingStories] = issue.stories;
   const masthead = issue.editionTitle.toUpperCase();
   const leadMarkup = lead ? renderStory(lead, { lead: true }) : "<p class=\"empty-edition\">No stories made this edition.</p>";
@@ -103,6 +109,18 @@ export function renderIssue(issue) {
     .story .why, .story .sources { margin-bottom: 0; }
     .footer { border-top: 3px double var(--rule); font: .68rem/1.25 Arial, sans-serif; letter-spacing: .04em; margin-top: 26px; padding-top: 9px; text-align: center; text-transform: uppercase; }
     .empty-edition { font-style: italic; }
+    .template-classic { --ink: #171717; --paper: #e3e1dc; --rule: #292929; --accent: #171717; background-color: var(--paper); background-image: repeating-linear-gradient(0deg, #ffffff20 0, #ffffff20 1px, #1a1a1a0a 1px, #1a1a1a0a 3px), repeating-linear-gradient(90deg, transparent 0, transparent 8px, #1a1a1a08 9px); box-shadow: 0 1px 18px #1111114a; max-width: 1180px; padding: 18px 24px 36px; }
+    .template-classic .edition-line { font-family: "Courier New", monospace; }
+    .template-classic .masthead { border-bottom-width: 6px; padding: 6px 0 8px; }
+    .template-classic .masthead h1 { font-family: "Bodoni 72", Didot, Georgia, serif; font-size: clamp(3.2rem, 9vw, 7.8rem); letter-spacing: -.09em; }
+    .template-classic .deck { font-size: clamp(.95rem, 1.7vw, 1.18rem); }
+    .template-classic .lead-story h2 { font-family: "Bodoni 72", Didot, Georgia, serif; font-size: clamp(2.5rem, 5vw, 4.7rem); }
+    .template-classic .lead-story .summary { border-left: 1px solid var(--rule); border-top: 0; font-size: 1.05rem; margin: 0; padding: 0 0 0 20px; }
+    .template-classic .newspaper-grid { column-count: 3; column-gap: 24px; display: block; }
+    .template-classic .news-section { border-left: 0; margin: 0 0 22px; padding-left: 0; }
+    .template-classic .story { break-inside: avoid; }
+    .template-classic .story h2 { font-family: "Bodoni 72", Didot, Georgia, serif; font-size: 1.55rem; }
+    .template-classic .kicker { color: var(--ink); font-family: "Courier New", monospace; }
     @media (max-width: 720px) {
       .newspaper { margin: 0; padding: 14px 16px 30px; }
       .masthead h1 { letter-spacing: -.055em; }
@@ -110,11 +128,12 @@ export function renderIssue(issue) {
       .lead-story .summary { border-left: 0; border-top: 1px solid var(--rule); margin-top: 13px; padding: 12px 0 0; }
       .news-section { border-bottom: 2px solid var(--rule); border-left: 0; padding: 20px 0; }
       .news-section:last-child { border-bottom: 0; }
+      .template-classic .newspaper-grid { column-count: 1; }
     }
   </style>
 </head>
 <body>
-  <main class="newspaper">
+  <main class="newspaper template-${selectedTemplate}">
     <div class="edition-line"><span>${escapeHtml(issue.date)}</span><span>Daily Edition</span><span>Independent Daily Edition</span></div>
     <header class="masthead"><h1>${escapeHtml(masthead)}</h1></header>
     <p class="deck"><strong>TODAY&#039;S EDITION</strong> — ${escapeHtml(issue.editorNote)}</p>

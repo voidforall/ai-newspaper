@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Newspaper Editor"
+  short_description: "Research and edit a daily AI newspaper issue"
+  default_prompt: "Use $ai-newspaper-editor to research, edit, and publish today’s edition."

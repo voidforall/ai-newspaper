@@ -44,3 +44,26 @@ test("renders a daily issue with editorial context and attributable stories", ()
   assert.match(html, />Unsafe source<\/span>/);
   assert.doesNotMatch(html, /Vol\. 01/);
 });
+
+test("renders the classic template with a paper texture and traditional columns", () => {
+  const html = renderIssue({
+    date: "2026-07-18",
+    editionTitle: "The Daily Signal",
+    editorNote: "A printed edition.",
+    stories: [{
+      headline: "A classic headline",
+      summary: "A story set in a paper-like layout.",
+      category: "Ideas",
+      importance: 1,
+      whyItMatters: "It offers a print-oriented presentation.",
+      sourceLinks: []
+    }]
+  }, { template: "classic" });
+
+  assert.match(html, /class="newspaper template-classic"/);
+  assert.match(html, /repeating-linear-gradient/);
+  assert.match(html, /column-count: 3/);
+  assert.doesNotMatch(html, /template-classic \.front-page \{ column-count:/);
+  assert.doesNotMatch(html, /template-classic \.lead-story \{ display: block;/);
+  assert.doesNotMatch(html, /template-classic \.news-section \{ break-inside: avoid;/);
+});

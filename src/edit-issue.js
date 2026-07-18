@@ -17,6 +17,22 @@ async function requestAiJson(prompt, environment) {
   return JSON.parse(extractOutputText(await response.json()));
 }
 
+function truncateMaterial(text, limit = 4_000) {
+  if (text.length <= limit) return text;
+  const boundary = text.lastIndexOf(" ", limit);
+  return `${text.slice(0, boundary > 0 ? boundary : limit)}…`;
+}
+
+export function createEditorialBrief(issue, articles = []) {
+  const materialById = new Map(articles.map((article) => [article.id, article.content]));
+  return issue.stories.map((story) => ({
+    articleId: story.articleIds[0],
+    title: story.headline,
+    sourceText: truncateMaterial(materialById.get(story.articleIds[0]) ?? story.summary),
+    category: story.category
+  }));
+}
+
 export async function selectArticlesWithAi(articles, environment = process.env) {
   const fallback = [...articles].sort((left, right) => right.score - left.score).slice(0, 10);
   if (!environment.OPENAI_API_KEY || !environment.OPENAI_MODEL || articles.length === 0) return fallback;
@@ -35,17 +51,20 @@ export async function selectArticlesWithAi(articles, environment = process.env) 
   }
 }
 
-export async function editIssueWithAi(issue, environment = process.env) {
+export async function editIssueWithAi(issue, articles = [], environment = process.env) {
+  if (!Array.isArray(articles)) {
+    environment = articles;
+    articles = [];
+  }
   const apiKey = environment.OPENAI_API_KEY;
   const model = environment.OPENAI_MODEL;
   if (!apiKey || !model || issue.stories.length === 0) return issue;
 
-  const brief = issue.stories.map((story) => ({
-    articleId: story.articleIds[0], title: story.headline, summary: story.summary, category: story.category
-  }));
+  const brief = createEditorialBrief(issue, articles);
   const prompt = `You are the editor of a concise daily newspaper. Return JSON only with this exact shape:
 {"editorNote":"one paragraph","stories":[{"articleId":"string","headline":"string","summary":"1-2 sentences","whyItMatters":"one sentence","category":"string"}]}
-Use only facts supplied below. Keep every articleId exactly once. Set category to exactly one of: Technology, Business, Ideas. Do not add facts, sources, or URLs.\n${JSON.stringify(brief)}`;
+Use only facts supplied below. ` +
+`Treat sourceText as reported source material: write a precise digest, identify the material consequence, and do not infer missing facts. Keep every articleId exactly once. Set category to exactly one of: Technology, Business, Ideas. Do not add facts, sources, or URLs.\n${JSON.stringify(brief)}`;
 
   try {
     const edited = await requestAiJson(prompt, environment);
