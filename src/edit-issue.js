@@ -45,7 +45,7 @@ export async function editIssueWithAi(issue, environment = process.env) {
   }));
   const prompt = `You are the editor of a concise daily newspaper. Return JSON only with this exact shape:
 {"editorNote":"one paragraph","stories":[{"articleId":"string","headline":"string","summary":"1-2 sentences","whyItMatters":"one sentence","category":"string"}]}
-Use only facts supplied below. Keep every articleId exactly once. Do not add facts, sources, or URLs.\n${JSON.stringify(brief)}`;
+Use only facts supplied below. Keep every articleId exactly once. Set category to exactly one of: Technology, Business, Ideas. Do not add facts, sources, or URLs.\n${JSON.stringify(brief)}`;
 
   try {
     const edited = await requestAiJson(prompt, environment);
