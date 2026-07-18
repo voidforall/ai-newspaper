@@ -20,6 +20,10 @@ export async function fetchTopStories({ limit = 30, now = Date.now() } = {}) {
       url: story.url,
       publishedAt: new Date(story.time * 1000).toISOString(),
       rawSummary: story.text ?? "",
-      score: story.score ?? 0
+      score: story.score ?? 0,
+      sourceLinks: [
+        { name: "Hacker News", url: `https://news.ycombinator.com/item?id=${story.id}` },
+        { name: "Original source", url: story.url }
+      ]
     }));
 }

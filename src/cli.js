@@ -2,7 +2,8 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { createIssue } from "./create-issue.js";
 import { editIssueWithAi } from "./edit-issue.js";
-import { fetchTopStories } from "./hacker-news.js";
+import { fetchConfiguredArticles } from "./source-adapters.js";
+import { selectArticlesWithAi } from "./edit-issue.js";
 import { renderIssue } from "./render-issue.js";
 
 const outputDirectory = "public";
@@ -22,8 +23,10 @@ async function writeIssue(issue) {
 }
 
 async function generate() {
-  const articles = await fetchTopStories();
-  const issue = await editIssueWithAi(createIssue({ date: today(), articles }));
+  const sources = JSON.parse(await readFile("sources.json", "utf8"));
+  const articles = await fetchConfiguredArticles(sources);
+  const selectedArticles = await selectArticlesWithAi(articles);
+  const issue = await editIssueWithAi(createIssue({ date: today(), articles: selectedArticles }));
   await writeIssue(issue);
 }
 

@@ -22,7 +22,15 @@ function renderStory(story) {
 }
 
 export function renderIssue(issue) {
-  const stories = issue.stories.map(renderStory).join("\n");
+  const byCategory = issue.stories.reduce((groups, story) => {
+    const group = groups.get(story.category) ?? [];
+    group.push(story);
+    groups.set(story.category, group);
+    return groups;
+  }, new Map());
+  const stories = [...byCategory.entries()]
+    .map(([category, categoryStories]) => `<section><h2 class="section-title">${escapeHtml(category)}</h2>${categoryStories.map(renderStory).join("\n")}</section>`)
+    .join("\n");
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -36,6 +44,7 @@ export function renderIssue(issue) {
     h1, h2 { font-family: Arial, sans-serif; line-height: 1.1; }
     h1 { font-size: clamp(2.3rem, 8vw, 4.6rem); margin: 0; }
     article { border-bottom: 1px solid #aaa092; padding: 24px 0; }
+    .section-title { border-bottom: 2px solid #1e1c18; font-size: 1.3rem; margin: 32px 0 0; padding-bottom: 8px; text-transform: uppercase; }
     .category { color: #8b2f1f; font: bold .78rem/1 Arial, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
     .why { font-style: italic; }
     .sources { font: .85rem/1.4 Arial, sans-serif; }

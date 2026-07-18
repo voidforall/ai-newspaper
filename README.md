@@ -1,6 +1,6 @@
 # Daily AI Newspaper
 
-A static daily newspaper generated from Hacker News. It always attributes each story to Hacker News and its original URL.
+A static daily newspaper generated from configurable sources. The first configured source is Hacker News; every story retains its supplied attribution links.
 
 ## Run
 
@@ -11,7 +11,7 @@ npm test
 npm run generate
 ```
 
-`npm run generate` fetches up to 30 current HN top stories, retains items from the last 24 hours, deduplicates original URLs, selects the ten highest-scoring stories, and publishes:
+`npm run generate` reads `sources.json`, fetches its enabled sources, retains HN items from the last 24 hours, deduplicates original URLs, and publishes:
 
 - `issues/YYYY-MM-DD.json` — durable editorial data
 - `public/YYYY-MM-DD/index.html` — dated edition
@@ -25,10 +25,10 @@ export OPENAI_MODEL="your-model-id"
 npm run generate
 ```
 
-The AI editor may only rewrite the title, summary, category, and “why it matters” field. It receives no source-creation ability and the pipeline retains the original source links.
+When credentials are present, AI first selects and orders up to ten candidate stories, then rewrites the title, summary, category, and “why it matters” field. Invalid/unavailable AI output falls back to the top-scoring stories and deterministic copy. It receives no source-creation ability and the pipeline retains the original source links.
 
 ## Extend
 
-- Add a new source adapter that returns the normalized article shape used by `createIssue`.
+- Add a new source adapter in `src/source-adapters.js`, then enable it in `sources.json`. Its normalized articles must carry `sourceLinks`, so attribution is never guessed downstream.
 - Replace the fallback categorizer with a richer editor prompt or a review queue.
 - Deploy `public/` through any static host and schedule `npm run generate` daily.

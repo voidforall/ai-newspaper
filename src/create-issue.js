@@ -1,7 +1,3 @@
-const SOURCE_NAMES = {
-  "hacker-news": "Hacker News"
-};
-
 function categoryFor(article) {
   const text = `${article.title} ${article.rawSummary ?? ""}`.toLowerCase();
   if (/ai|model|software|database|program|computer|security/.test(text)) return "Technology";
@@ -26,16 +22,12 @@ function storyFrom(article) {
     category: categoryFor(article),
     importance: article.score,
     whyItMatters: `The Hacker News community gave this story ${article.score} points.`,
-    sourceLinks: [
-      { name: SOURCE_NAMES[article.sourceId] ?? article.sourceId, url: `https://news.ycombinator.com/item?id=${article.id.replace(/^hn-/, "")}` },
-      { name: "Original source", url: article.url }
-    ]
+    sourceLinks: article.sourceLinks
   };
 }
 
 export function createIssue({ date, articles, editionTitle = "The Daily Signal" }) {
   const selected = uniqueByUrl(articles)
-    .sort((left, right) => right.score - left.score)
     .slice(0, 10);
 
   return {

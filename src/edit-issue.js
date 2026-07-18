@@ -7,6 +7,34 @@ function extractOutputText(response) {
     .join("");
 }
 
+async function requestAiJson(prompt, environment) {
+  const response = await fetch("https://api.openai.com/v1/responses", {
+    method: "POST",
+    headers: { Authorization: `Bearer ${environment.OPENAI_API_KEY}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ model: environment.OPENAI_MODEL, input: prompt })
+  });
+  if (!response.ok) throw new Error(`OpenAI request failed: ${response.status}`);
+  return JSON.parse(extractOutputText(await response.json()));
+}
+
+export async function selectArticlesWithAi(articles, environment = process.env) {
+  const fallback = [...articles].sort((left, right) => right.score - left.score).slice(0, 10);
+  if (!environment.OPENAI_API_KEY || !environment.OPENAI_MODEL || articles.length === 0) return fallback;
+  const candidates = articles.map((article) => ({ id: article.id, title: article.title, summary: article.rawSummary, score: article.score }));
+  const prompt = `You are selecting a balanced daily newspaper. Return JSON only: {"articleIds":["id"]}. Select at most ten IDs from the supplied candidates, ordered by editorial importance. Do not invent IDs.\n${JSON.stringify(candidates)}`;
+  try {
+    const selectedIds = (await requestAiJson(prompt, environment)).articleIds;
+    if (!Array.isArray(selectedIds) || selectedIds.length === 0 || selectedIds.length > 10) return fallback;
+    const byId = new Map(articles.map((article) => [article.id, article]));
+    const selected = selectedIds.map((id) => byId.get(id));
+    if (new Set(selectedIds).size !== selectedIds.length || selected.some((article) => !article)) return fallback;
+    return selected;
+  } catch (error) {
+    console.warn(`AI selection skipped: ${error.message}`);
+    return fallback;
+  }
+}
+
 export async function editIssueWithAi(issue, environment = process.env) {
   const apiKey = environment.OPENAI_API_KEY;
   const model = environment.OPENAI_MODEL;
@@ -20,15 +48,14 @@ export async function editIssueWithAi(issue, environment = process.env) {
 Use only facts supplied below. Keep every articleId exactly once. Do not add facts, sources, or URLs.\n${JSON.stringify(brief)}`;
 
   try {
-    const response = await fetch("https://api.openai.com/v1/responses", {
-      method: "POST",
-      headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ model, input: prompt })
-    });
-    if (!response.ok) throw new Error(`OpenAI request failed: ${response.status}`);
-    const edited = JSON.parse(extractOutputText(await response.json()));
+    const edited = await requestAiJson(prompt, environment);
     const edits = new Map(edited.stories.map((story) => [story.articleId, story]));
-    if (edits.size !== issue.stories.length || !edited.editorNote) return issue;
+    const issueIds = new Set(issue.stories.map((story) => story.articleIds[0]));
+    if (
+      edits.size !== issue.stories.length || !edited.editorNote ||
+      [...edits.keys()].some((id) => !issueIds.has(id)) ||
+      [...edits.values()].some((edit) => ![edit.headline, edit.summary, edit.whyItMatters, edit.category].every((value) => typeof value === "string"))
+    ) return issue;
 
     return {
       ...issue,
