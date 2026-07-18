@@ -1,0 +1,209 @@
+{
+  "id": "2026-07-18-hacker-news",
+  "date": "2026-07-18",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-48952880"
+      ],
+      "headline": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
+      "summary": "Kaiser Permanente advice nurse Raquel Alvarez Sanchez works from her home office in Santa Rosa on April 6, 2026.  Kaiser Permanente nurses have raised concerns about the growing use of AI to monitor their work ahead of upcoming contract negotiations.",
+      "category": "Technology",
+      "importance": 495,
+      "whyItMatters": "The Hacker News community gave this story 495 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48952880"
+        },
+        {
+          "name": "Original source",
+          "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48947560"
+      ],
+      "headline": "First atmosphere found on Earth-like planet in habitable zone of distant star",
+      "summary": "First atmosphere found on Earth-like planet in habitable zone of distant star 20 hours ago Share Save Add as preferred on Google Pallab Ghosh Science Correspondent Melissa Weiss/Center for Astrophysics |Harvard & Smithsonian Artwork: The red tinge illustrates an atmosphere around a rocky planet orbting a red star Researchers have found the first atmosphere surrounding an Earth-like, rocky planet orbiting within the habitable zone of a distant star.  The researchers say that their discovery provides the strongest evidence yet that worlds with conditions similar to Earth could exist beyond our solar system.",
+      "category": "Ideas",
+      "importance": 447,
+      "whyItMatters": "The Hacker News community gave this story 447 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48947560"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.bbc.com/news/articles/cy4kdd1e0ejo"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48947825"
+      ],
+      "headline": "The state of open source AI",
+      "summary": "A Letter From Our CTO, Raffi Krikorian &ldquo; In New Zealand's far north, a Māori broadcaster trains speech models for te reo &mdash; a language too small for any market &mdash; under a license that keeps the data with its people.  PwC, one of the largest accounting firms in the world, fine-tuned an open model on the language of finance and runs it today for hundreds of clients, on its own hardware, with no per-token meter running.",
+      "category": "Technology",
+      "importance": 431,
+      "whyItMatters": "The Hacker News community gave this story 431 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48947825"
+        },
+        {
+          "name": "Original source",
+          "url": "https://stateofopensource.ai/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48947717"
+      ],
+      "headline": "Kimi K3, and what we can still learn from the pelican benchmark",
+      "summary": "Simon Willison’s Weblog Subscribe Sponsored by: Atlassian &mdash; Give your agents a plan.  Not a prompt.",
+      "category": "Ideas",
+      "importance": 331,
+      "whyItMatters": "The Hacker News community gave this story 331 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48947717"
+        },
+        {
+          "name": "Original source",
+          "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48954851"
+      ],
+      "headline": "Regressive JPEGs",
+      "summary": "Regressive JPEGs: 2026-07-17 One of the cool features of JPEG files is that there's the option to save low frequency components first.  This means that a partially downloaded image will be displayed at low resolution instead of being cut off.",
+      "category": "Ideas",
+      "importance": 270,
+      "whyItMatters": "The Hacker News community gave this story 270 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48954851"
+        },
+        {
+          "name": "Original source",
+          "url": "https://maurycyz.com/projects/bad_jpeg/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48950122"
+      ],
+      "headline": "Learning a few things about running SQLite",
+      "summary": "Hello!  I&rsquo;ve been working on a Django site recently, and I decided to use SQLite as the database.",
+      "category": "Technology",
+      "importance": 242,
+      "whyItMatters": "The Hacker News community gave this story 242 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48950122"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48951461"
+      ],
+      "headline": "The Zilog Z80 has turned 50",
+      "summary": "The Zilog Z80 has turned 50 Back to the Blog Index Introduction As of writing, the Zilog Z80 processor was officially launched 50 years ago, in July of 1976, less than 4 years after the last human had walked on the moon, decades closer to WWII than to the present day, roughly at a half way point between the Kennedy assassination and the fall of the Berlin wall, closer to the Korean war than to 9/11 which is itself an event that happened a quarter of a century ago.  (Sorry&hellip;) The processor was extremely successful, being used in many 8 bit microcomputers, including early personal computers, home & hobby computers, as well as many embedded, industrial applications.",
+      "category": "Technology",
+      "importance": 215,
+      "whyItMatters": "The Hacker News community gave this story 215 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48951461"
+        },
+        {
+          "name": "Original source",
+          "url": "https://goliath32.com/blog/z80.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48950518"
+      ],
+      "headline": "Lego building instructions through time",
+      "summary": "Building instructions.  The silent helper that without a single word guides you, step by step, to transform your pile of bricks to fantastic creations.",
+      "category": "Ideas",
+      "importance": 119,
+      "whyItMatters": "The Hacker News community gave this story 119 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48950518"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.lego.com/en-us/history/articles/d-lego-building-instructions-through-time"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48952565"
+      ],
+      "headline": "TP-Link Kasa cameras leaked home GPS via unauthenticated UDP for 6 years",
+      "summary": "BadChemical / IoT-Vulnerability-Research-Public Public Notifications You must be signed in to change notification settings Fork 0 Star 8 Files Expand file tree main / Kasa_EC71. md Copy path Blame More file actions Blame More file actions Latest commit History History History 290 lines (179 loc) · 29.",
+      "category": "Technology",
+      "importance": 116,
+      "whyItMatters": "The Hacker News community gave this story 116 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48952565"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48951898"
+      ],
+      "headline": "Static search trees: 40x faster than binary search (2024)",
+      "summary": "Table of Contents 1 Introduction 1. 1 Problem statement 1.",
+      "category": "Ideas",
+      "importance": 113,
+      "whyItMatters": "The Hacker News community gave this story 113 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48951898"
+        },
+        {
+          "name": "Original source",
+          "url": "https://curiouscoding.nl/posts/static-search-tree/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-18T08:50:02.838Z"
+}
