@@ -5,12 +5,11 @@ import { fetchConfiguredArticles } from "./source-adapters.js";
 import { editIssueWithAi, selectArticlesWithAi } from "./edit-issue.js";
 import { investigateArticles } from "./investigate-content.js";
 import { renderIssue } from "./render-issue.js";
-import { renderCollection } from "./render-collection.js";
+import { renderCollection, renderSourceTimeline, sourceFor } from "./render-collection.js";
 
 const outputDirectory = "public";
 const issueDirectory = "issues";
 const researchDirectory = "research";
-const collectionPageSize = 1;
 const today = () => new Date().toISOString().slice(0, 10);
 
 function argumentValue(name) {
@@ -64,13 +63,19 @@ async function readIssues() {
 }
 
 async function writeCollection(issues) {
-  const pages = Math.max(1, Math.ceil(issues.length / collectionPageSize));
   await mkdir(outputDirectory, { recursive: true });
-  await Promise.all(Array.from({ length: pages }, async (_, index) => {
-    const page = index + 1;
-    const path = page === 1 ? join(outputDirectory, "index.html") : join(outputDirectory, "page", String(page), "index.html");
+  await writeFile(join(outputDirectory, "index.html"), renderCollection(issues));
+  const groups = new Map();
+  for (const issue of issues) {
+    const source = sourceFor(issue);
+    const group = groups.get(source.slug) ?? { source, issues: [] };
+    group.issues.push(issue);
+    groups.set(source.slug, group);
+  }
+  await Promise.all([...groups.values()].map(async ({ source, issues: sourceIssues }) => {
+    const path = join(outputDirectory, "sources", source.slug, "index.html");
     await mkdir(dirname(path), { recursive: true });
-    await writeFile(path, renderCollection(issues, { page, pageSize: collectionPageSize }));
+    await writeFile(path, renderSourceTimeline(source, sourceIssues));
   }));
 }
 

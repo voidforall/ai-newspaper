@@ -1,84 +1,35 @@
 function escapeHtml(value) {
-  return String(value)
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#039;");
+  return String(value).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#039;");
 }
 
-function editionSources(issue) {
-  return [...new Set(issue.stories.flatMap((story) => story.sourceLinks ?? [])
-    .map((source) => source.name)
-    .filter((name) => name !== "Original source"))].join(" · ");
+export function sourceFor(issue) {
+  const source = issue.stories.flatMap((story) => story.sourceLinks ?? []).find((link) => link.name !== "Original source");
+  const name = source?.name ?? "Independent edition";
+  return { name, slug: name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "edition" };
 }
 
-function pageHref(targetPage, currentPage) {
-  if (currentPage === 1) return targetPage === 1 ? "./" : `page/${targetPage}/`;
-  return targetPage === 1 ? "../../" : `../${targetPage}/`;
+function newestFirst(issues) {
+  return [...issues].sort((a, b) => String(b.date).localeCompare(String(a.date)) || String(b.id).localeCompare(String(a.id)));
 }
 
-function editionHref(issue, currentPage) {
-  const prefix = currentPage === 1 ? "" : "../../";
-  return `${prefix}editions/${encodeURIComponent(issue.id)}/`;
+export function renderCollection(issues) {
+  const groups = new Map();
+  for (const issue of issues) {
+    const source = sourceFor(issue);
+    const group = groups.get(source.slug) ?? { ...source, issues: [] };
+    group.issues.push(issue);
+    groups.set(source.slug, group);
+  }
+  const cards = [...groups.values()].map((group) => {
+    const latest = newestFirst(group.issues)[0];
+    return `<a class="book" href="sources/${group.slug}/"><span class="spine">${escapeHtml(group.name)}</span><strong>${escapeHtml(group.name)}</strong><small>${group.issues.length} edition${group.issues.length === 1 ? "" : "s"}</small><em>Latest: ${escapeHtml(latest.date)}</em></a>`;
+  }).join("\n") || "<p>No sources have published an edition yet.</p>";
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>AI Newspaper</title><style>
+    body{background:#d4d1ca;color:#171717;font:16px/1.45 Georgia,serif;margin:0}main{max-width:1100px;margin:0 auto;padding:42px 28px}h1{font-size:clamp(3rem,9vw,7rem);letter-spacing:-.08em;line-height:.82;margin:0}.deck{font-style:italic;margin:14px 0 34px}.shelf{display:grid;gap:28px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}.book{background:linear-gradient(105deg,#24221e,#454039 75%,#292723);box-shadow:8px 10px 16px #2225;color:#eee8d8;display:grid;min-height:300px;padding:26px;text-decoration:none}.book:hover{transform:translateY(-4px)}.book strong{font-size:2rem;line-height:1}.book small{font:700 .75rem Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase}.book em{align-self:end}.spine{font:700 .7rem Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase}@media(max-width:600px){main{padding:30px 18px}}
+  </style></head><body><main><h1>AI Newspaper</h1><p class="deck">Choose a source to browse its editions.</p><section class="shelf" aria-label="Newspaper sources">${cards}</section></main></body></html>`;
 }
 
-export function renderCollection(issues, { page = 1, pageSize = 12 } = {}) {
-  const sorted = [...issues].sort((left, right) =>
-    String(right.date).localeCompare(String(left.date)) || String(right.id).localeCompare(String(left.id))
-  );
-  const totalPages = Math.max(1, Math.ceil(sorted.length / pageSize));
-  const currentPage = Math.min(Math.max(page, 1), totalPages);
-  const editions = sorted.slice((currentPage - 1) * pageSize, currentPage * pageSize);
-  const navigation = totalPages > 1
-    ? `<nav class="pagination" aria-label="Edition pages">${Array.from({ length: totalPages }, (_, index) => index + 1)
-      .map((number) => number === currentPage
-        ? `<span aria-current="page">${number}</span>`
-        : `<a href="${pageHref(number, currentPage)}">${number}</a>`)
-      .join(" ")}</nav>`
-    : "";
-  const cards = editions.length
-    ? editions.map((issue) => `<article class="edition-card">
-      <p class="edition-date">${escapeHtml(issue.date)} · ${escapeHtml(editionSources(issue) || "Independent edition")}</p>
-      <h2><a href="${editionHref(issue, currentPage)}">${escapeHtml(issue.editionTitle)}</a></h2>
-      <p>${escapeHtml(issue.editorNote)}</p>
-      <a class="read-edition" href="${editionHref(issue, currentPage)}">Read edition →</a>
-    </article>`).join("\n")
-    : "<p class=\"empty\">No editions have been published yet.</p>";
-
-  return `<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AI Newspaper</title>
-  <style>
-    :root { --ink: #191919; --paper: #e4e2dc; --rule: #302f2c; }
-    * { box-sizing: border-box; }
-    body { background: #bdbbb4; color: var(--ink); font: 16px/1.5 Georgia, serif; margin: 0; }
-    main { background: var(--paper); box-shadow: 0 2px 18px #1114; margin: 28px auto; max-width: 920px; padding: 26px 30px 38px; }
-    header { border-bottom: 5px double var(--rule); text-align: center; }
-    h1 { font-size: clamp(3rem, 10vw, 6.5rem); letter-spacing: -.075em; line-height: .82; margin: 0 0 12px; text-transform: uppercase; }
-    .deck { font-style: italic; margin: 10px 0 16px; }
-    .collection { display: grid; gap: 0; }
-    .edition-card { border-bottom: 1px solid #77746d; padding: 20px 0; }
-    .edition-date { font: 700 .72rem/1.2 Arial, sans-serif; letter-spacing: .09em; margin: 0 0 7px; text-transform: uppercase; }
-    h2 { font-size: clamp(1.7rem, 4vw, 2.7rem); letter-spacing: -.04em; line-height: 1; margin: 0; }
-    a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
-    .read-edition { font: 700 .75rem/1 Arial, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
-    .pagination { display: flex; gap: 8px; justify-content: center; margin-top: 26px; }
-    .pagination a, .pagination span { border: 1px solid var(--rule); font: 700 .78rem/1 Arial, sans-serif; min-width: 30px; padding: 8px; text-align: center; }
-    .pagination span { background: var(--ink); color: var(--paper); }
-    .empty { font-style: italic; }
-    @media (max-width: 640px) { main { margin: 0; min-height: 100vh; padding: 22px 18px; } }
-  </style>
-</head>
-<body>
-  <main>
-    <header><h1>AI Newspaper</h1><p class="deck">A collection of attributable daily editions.</p></header>
-    <section class="collection" aria-label="Published editions">${cards}</section>
-    ${navigation}
-  </main>
-</body>
-</html>`;
+export function renderSourceTimeline(source, issues) {
+  const editions = newestFirst(issues).map((issue) => `<li><a href="../../editions/${encodeURIComponent(issue.id)}/"><time>${escapeHtml(issue.date)}</time><strong>${escapeHtml(issue.editionTitle)}</strong><span>${escapeHtml(issue.editorNote)}</span></a></li>`).join("\n");
+  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${escapeHtml(source.name)} · AI Newspaper</title><style>body{background:#e3e1dc;color:#171717;font:16px/1.5 Georgia,serif;margin:0}main{margin:auto;max-width:900px;padding:38px 24px}a{color:inherit}h1{font-size:clamp(3rem,8vw,6rem);letter-spacing:-.07em;line-height:.85}ol{border-left:2px solid #222;list-style:none;margin:34px 0;padding-left:28px}li{margin:0 0 26px;position:relative}li:before{background:#222;border-radius:50%;content:"";height:12px;left:-35px;position:absolute;top:8px;width:12px}li a{display:grid;gap:5px;text-decoration:none}time{font:700 .75rem Arial,sans-serif;letter-spacing:.1em}strong{font-size:1.7rem;line-height:1}</style></head><body><main><a href="../../">← All sources</a><h1>${escapeHtml(source.name)}</h1><p>Select an edition from the timeline.</p><ol>${editions}</ol></main></body></html>`;
 }
