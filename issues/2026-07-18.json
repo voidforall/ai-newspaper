@@ -1,0 +1,209 @@
+{
+  "date": "2026-07-18",
+  "editionTitle": "The Daily Signal",
+  "template": "classic",
+  "editorNote": "Today’s Hacker News reads as a survey of systems under pressure: researchers report a new atmospheric detection beyond our solar system; open-model advocates argue for local control; and working engineers, nurses, regulators, and manufacturers confront the operational consequences of technology.",
+  "generatedAt": "2026-07-18T03:01:23Z",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-48947560"
+      ],
+      "headline": "Atmosphere detected around rocky planet in a habitable zone",
+      "summary": "Researchers report detecting helium in the atmosphere of LHS 1140 b, a rocky planet 48 light-years away that orbits in its star’s habitable zone. The report says helium alone cannot support life, while other gases may be present lower in the atmosphere.",
+      "category": "Ideas",
+      "importance": 383,
+      "whyItMatters": "The finding adds atmospheric evidence to the search for potentially life-supporting worlds beyond the solar system.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48947560"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.bbc.com/news/articles/cy4kdd1e0ejo"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48947825"
+      ],
+      "headline": "Open-source AI report argues control has shifted to deployment",
+      "summary": "A report from the open-source AI group describes language, medical, agriculture, and public-sector model projects built and run by their users. It argues that open-weight models have narrowed the capability gap in some uses while closed models still lead in reasoning.",
+      "category": "Technology",
+      "importance": 382,
+      "whyItMatters": "The report frames model ownership, interoperability, and local operation as the next competitive questions for AI adoption.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48947825"
+        },
+        {
+          "name": "Original source",
+          "url": "https://stateofopensource.ai/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48952880"
+      ],
+      "headline": "Kaiser nurses raise concerns over AI monitoring",
+      "summary": "Current and former Kaiser Permanente advice nurses told CalMatters that call length affects performance scoring and that software predicts whether they are unproductive or slow to answer. They also said AI systems have been used to assess empathy and tone of voice.",
+      "category": "Business",
+      "importance": 322,
+      "whyItMatters": "The accounts place automated performance measurement at the center of a workplace and patient-care dispute ahead of contract negotiations.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48952880"
+        },
+        {
+          "name": "Original source",
+          "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48947717"
+      ],
+      "headline": "Kimi K3 launch prompts a closer look at model costs",
+      "summary": "Moonshot AI announced Kimi K3, a 2.8-trillion-parameter model available through its website and API, with an open-weight release promised by July 27. Simon Willison examines the announcement’s reported benchmarks, pricing, token use, and an SVG-generation test.",
+      "category": "Technology",
+      "importance": 281,
+      "whyItMatters": "The launch highlights how scale, reported benchmark performance, and inference cost remain intertwined in model comparisons.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48947717"
+        },
+        {
+          "name": "Original source",
+          "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48947490"
+      ],
+      "headline": "A framework for the ways organizations avoid solving problems",
+      "summary": "A consultant’s essay distinguishes solving a problem from pushing it elsewhere, preserving it, or promoting new ones. It argues that local improvements can shift costs and that incentives and system views deserve attention.",
+      "category": "Ideas",
+      "importance": 204,
+      "whyItMatters": "The framework offers a way to examine whether a proposed fix changes a system or merely relocates its burden.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48947490"
+        },
+        {
+          "name": "Original source",
+          "url": "https://improvesomething.today/responses-to-problems/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48950122"
+      ],
+      "headline": "Running SQLite reveals the importance of operational basics",
+      "summary": "While operating a Django site backed by SQLite, one developer found an FTS5 query on a 4,000-row table took about five seconds until running ANALYZE reduced it to roughly 0.05 seconds. The post also describes cleanup operations colliding with other writers and timeouts.",
+      "category": "Technology",
+      "importance": 178,
+      "whyItMatters": "The account shows that a small-site database choice still requires attention to query planning, locks, and maintenance work.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48950122"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jvns.ca/blog/2026/07/17/learning-about-running-sqlite/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48951461"
+      ],
+      "headline": "The Zilog Z80 turns 50",
+      "summary": "Launched in July 1976, the Z80 became widely used in 8-bit microcomputers and embedded and industrial applications. Its binary compatibility with the 8080 and 8085 supported CP/M and Microsoft BASIC, and its derivatives included the Game Boy’s Sharp LR35902.",
+      "category": "Technology",
+      "importance": 172,
+      "whyItMatters": "The processor’s long afterlife illustrates how compatibility and widespread deployment can turn a chip family into enduring infrastructure.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48951461"
+        },
+        {
+          "name": "Original source",
+          "url": "https://goliath32.com/blog/z80.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48952939"
+      ],
+      "headline": "Texas obtains order suspending a domain over age-verification law",
+      "summary": "Texas Attorney General Ken Paxton announced a court order directing Verisign to suspend a domain after its owner, Kick Online Entertainment, did not comply with an injunction requiring age-verification measures. The state says the order follows a lawsuit over access by minors to harmful sexual material.",
+      "category": "Ideas",
+      "importance": 149,
+      "whyItMatters": "The action establishes a new enforcement step in Texas’s effort to apply its age-verification law to an operator outside the state.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48952939"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-secures-landmark-legal-victory-lock-pornographic-website-domain-and"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48947548"
+      ],
+      "headline": "A live SSH honeypot makes bot traffic visible",
+      "summary": "A live dashboard presents telemetry from an SSH honeypot for security research, threat intelligence, and education. Its notice says that observed IP addresses, commands, credentials, and other metadata are attacker-supplied and should not be treated as verified attribution or safe-to-run code.",
+      "category": "Technology",
+      "importance": 144,
+      "whyItMatters": "The project makes automated attack traffic observable while explicitly setting limits on how its untrusted data should be interpreted.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48947548"
+        },
+        {
+          "name": "Original source",
+          "url": "https://honeypotlive.cc/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48952439"
+      ],
+      "headline": "FAA returns 737 Max and 787 certification authority to Boeing",
+      "summary": "The FAA said Boeing can again issue airworthiness certificates for its 737 Max and 787 aircraft after alternating certification work with the agency for eight months. The authority had been removed after the fatal 737 Max crashes in 2018 and 2019.",
+      "category": "Business",
+      "importance": 129,
+      "whyItMatters": "The decision changes Boeing’s role in aircraft delivery while leaving the company under FAA oversight.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48952439"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.cnbc.com/2026/07/17/faa-boeing-737-max-787.html"
+        }
+      ]
+    }
+  ]
+}

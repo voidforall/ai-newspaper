@@ -6,9 +6,14 @@ on:
   schedule:
     - cron: "0 7 * * *"
   workflow_dispatch:
+    inputs:
+      edition:
+        description: "Optional edition slug, for example hacker-news or research"
+        required: false
+        type: string
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -28,11 +33,27 @@ jobs:
           node-version: 20
       - name: Test
         run: npm test
-      - name: Generate today's edition
-        run: npm run generate
+      - name: Generate a scheduled or manual edition
+        if: github.event_name != 'push'
+        run: |
+          if [ -n "${{ inputs.edition }}" ]; then
+            npm run generate -- --edition="${{ inputs.edition }}"
+          else
+            npm run generate
+          fi
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+      - name: Preserve generated edition data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add issues
+          git diff --cached --quiet || git commit -m "chore: archive daily edition"
+          git push
+      - name: Build edition collection
+        run: npm run build
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:

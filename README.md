@@ -25,7 +25,9 @@ The classic template uses a warm paper texture, a traditional masthead, and mult
 
 ## Daily GitHub Pages publishing
 
-The `Publish daily newspaper` workflow builds and deploys `public/` to GitHub Pages whenever `main` changes, every day at 07:00 UTC, or when manually run from the Actions tab. In the repository's **Settings → Pages**, select **GitHub Actions** as the publishing source.
+The `Publish daily newspaper` workflow builds and deploys `public/` to GitHub Pages whenever `main` changes, every day at 07:00 UTC, or when manually run from the Actions tab. Scheduled and manual runs archive their generated issue JSON in `issues/`, so the entry page can retain every edition. In the repository's **Settings → Pages**, select **GitHub Actions** as the publishing source.
+
+Use the optional `edition` input when manually running the workflow to publish a separate same-day edition, such as `research`; editions are saved and published under a date-and-slug identifier.
 
 The workflow works without credentials using deterministic selection and copy. To enable AI selection and editing, add the `OPENAI_API_KEY` and `OPENAI_MODEL` repository secrets.
 

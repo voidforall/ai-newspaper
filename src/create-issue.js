@@ -26,11 +26,12 @@ function storyFrom(article) {
   };
 }
 
-export function createIssue({ date, articles, editionTitle = "The Daily Signal" }) {
+export function createIssue({ date, articles, editionTitle = "The Daily Signal", id = date }) {
   const selected = uniqueByUrl(articles)
     .slice(0, 10);
 
   return {
+    id,
     date,
     editionTitle,
     editorNote: selected.length

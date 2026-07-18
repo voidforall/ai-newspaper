@@ -9,9 +9,9 @@ Act as the human editor for the current session. Preserve attribution, write onl
 
 ## Workflow
 
-1. Run `npm run research` from the repository root. It writes `research/YYYY-MM-DD.json`, containing the selected stories and their investigated original-article text.
+1. Run `npm run research` from the repository root. It writes `research/YYYY-MM-DD-<edition>.json`, containing the selected stories and their investigated original-article text. Use `-- --edition=<slug>` to create a distinct same-day edition.
 2. Read that day's research file. Use each article's `content` when its investigation status is `complete`; otherwise use its title and `rawSummary` only. Never fill gaps with inference or outside facts.
-3. Create or replace `issues/YYYY-MM-DD.json` for the same date. Retain, for every selected story:
+3. Create or replace `issues/YYYY-MM-DD-<edition>.json` for the same date. Set its `id` to the filename without `.json`, and retain, for every selected story:
    - `articleIds`: an array containing the research article's `id`
    - `importance`: the research article's `score`
    - `sourceLinks`: the research article's `sourceLinks`, unchanged
@@ -22,7 +22,7 @@ Act as the human editor for the current session. Preserve attribution, write onl
    - `whyItMatters`: one sentence describing the material consequence, not a prediction.
    - `category`: exactly `Technology`, `Business`, or `Ideas`.
    - Keep at most ten stories and use `editionTitle: "The Daily Signal"` unless the user asks otherwise. Include `date` and an ISO-8601 `generatedAt` timestamp.
-5. Inspect the JSON for factual support, valid JSON, preserved links, and matching article IDs. Then run `npm run build` to publish `public/YYYY-MM-DD/index.html` and refresh `public/index.html`.
+5. Inspect the JSON for factual support, valid JSON, preserved links, and matching article IDs. Then run `npm run build` to publish the edition at `public/editions/<id>/index.html` and refresh the paginated collection at `public/index.html`.
 
 ## Guardrails
 
