@@ -5,10 +5,9 @@ const adapters = {
 };
 
 export async function fetchConfiguredArticles(sources, options = {}) {
-  const activeSources = sources.filter((source) => source.enabled);
-  return (await Promise.all(activeSources.map((source) => {
-    const adapter = adapters[source.id];
+  return (await Promise.all(sources.map((source) => {
+    const adapter = adapters[source.adapter ?? source.id];
     if (!adapter) throw new Error(`No adapter is registered for source: ${source.id}`);
-    return adapter(options);
+    return adapter({ ...options, source });
   }))).flat();
 }

@@ -1,0 +1,48 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import { mkdtemp, rm, writeFile } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
+import { loadEditionRecipe } from "../src/edition-recipes.js";
+
+test("loads a recipe with its selected catalog sources", async (t) => {
+  const directory = await mkdtemp(join(tmpdir(), "ai-newspaper-recipes-"));
+  t.after(() => rm(directory, { recursive: true, force: true }));
+  const catalogPath = join(directory, "source-catalog.json");
+  const recipesPath = join(directory, "edition-recipes.json");
+  await writeFile(catalogPath, JSON.stringify({ sources: [
+    { id: "hacker-news", name: "Hacker News", type: "api", adapter: "hacker-news" },
+    { id: "papers", name: "Papers", type: "rss", adapter: "rss" }
+  ] }));
+  await writeFile(recipesPath, JSON.stringify({ recipes: [
+    { id: "ai-daily", name: "AI Daily", sources: ["hacker-news", "papers"], maxStories: 10 }
+  ] }));
+
+  const loaded = await loadEditionRecipe("ai-daily", { catalogPath, recipesPath });
+
+  assert.deepEqual(loaded, {
+    recipe: { id: "ai-daily", name: "AI Daily", sources: ["hacker-news", "papers"], maxStories: 10 },
+    sources: [
+      { id: "hacker-news", name: "Hacker News", type: "api", adapter: "hacker-news" },
+      { id: "papers", name: "Papers", type: "rss", adapter: "rss" }
+    ]
+  });
+});
+
+test("rejects a recipe with an invalid global story limit", async (t) => {
+  const directory = await mkdtemp(join(tmpdir(), "ai-newspaper-recipes-"));
+  t.after(() => rm(directory, { recursive: true, force: true }));
+  const catalogPath = join(directory, "source-catalog.json");
+  const recipesPath = join(directory, "edition-recipes.json");
+  await writeFile(catalogPath, JSON.stringify({ sources: [
+    { id: "hacker-news", name: "Hacker News", type: "api", adapter: "hacker-news" }
+  ] }));
+  await writeFile(recipesPath, JSON.stringify({ defaultRecipeId: "daily", recipes: [
+    { id: "daily", name: "Daily", sources: ["hacker-news"], maxStories: 0 }
+  ] }));
+
+  await assert.rejects(
+    loadEditionRecipe(undefined, { catalogPath, recipesPath }),
+    /Recipe daily must define a positive maxStories value\./
+  );
+});

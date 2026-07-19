@@ -3,6 +3,7 @@ function escapeHtml(value) {
 }
 
 export function sourceFor(issue) {
+  if (issue.recipe?.id && issue.recipe?.name) return { name: issue.recipe.name, slug: issue.recipe.id };
   const source = issue.stories.flatMap((story) => story.sourceLinks ?? []).find((link) => link.name !== "Original source");
   const name = source?.name ?? "Independent edition";
   return { name, slug: name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "edition" };

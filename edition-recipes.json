@@ -1,0 +1,11 @@
+{
+  "defaultRecipeId": "hacker-news",
+  "recipes": [
+    {
+      "id": "hacker-news",
+      "name": "Hacker News",
+      "sources": ["hacker-news"],
+      "maxStories": 10
+    }
+  ]
+}

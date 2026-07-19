@@ -33,14 +33,14 @@ export function createEditorialBrief(issue, articles = []) {
   }));
 }
 
-export async function selectArticlesWithAi(articles, environment = process.env) {
-  const fallback = [...articles].sort((left, right) => right.score - left.score).slice(0, 10);
+export async function selectArticlesWithAi(articles, environment = process.env, maxStories = 10) {
+  const fallback = [...articles].sort((left, right) => right.score - left.score).slice(0, maxStories);
   if (!environment.OPENAI_API_KEY || !environment.OPENAI_MODEL || articles.length === 0) return fallback;
   const candidates = articles.map((article) => ({ id: article.id, title: article.title, summary: article.rawSummary, score: article.score }));
-  const prompt = `You are selecting a balanced daily newspaper. Return JSON only: {"articleIds":["id"]}. Select at most ten IDs from the supplied candidates, ordered by editorial importance. Do not invent IDs.\n${JSON.stringify(candidates)}`;
+  const prompt = `You are selecting a balanced daily newspaper. Return JSON only: {"articleIds":["id"]}. Select at most ${maxStories} IDs from the supplied candidates, ordered by editorial importance. Do not invent IDs.\n${JSON.stringify(candidates)}`;
   try {
     const selectedIds = (await requestAiJson(prompt, environment)).articleIds;
-    if (!Array.isArray(selectedIds) || selectedIds.length === 0 || selectedIds.length > 10) return fallback;
+    if (!Array.isArray(selectedIds) || selectedIds.length === 0 || selectedIds.length > maxStories) return fallback;
     const byId = new Map(articles.map((article) => [article.id, article]));
     const selected = selectedIds.map((id) => byId.get(id));
     if (new Set(selectedIds).size !== selectedIds.length || selected.some((article) => !article)) return fallback;

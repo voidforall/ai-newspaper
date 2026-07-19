@@ -2,6 +2,7 @@ import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { createIssue } from "./create-issue.js";
 import { fetchConfiguredArticles } from "./source-adapters.js";
+import { loadEditionRecipe } from "./edition-recipes.js";
 import { editIssueWithAi, selectArticlesWithAi } from "./edit-issue.js";
 import { investigateArticles } from "./investigate-content.js";
 import { renderIssue } from "./render-issue.js";
@@ -30,12 +31,12 @@ function issueDate() {
   return date;
 }
 
-function editionSlug(sources) {
-  return argumentValue("edition") ?? (sources.filter((source) => source.enabled).map((source) => source.id).join("-") || "edition");
+function editionSlug(recipe) {
+  return argumentValue("edition") ?? recipe.id;
 }
 
-function editionId(date, sources) {
-  return `${date}-${editionSlug(sources)}`;
+function editionId(date, recipe) {
+  return `${date}-${editionSlug(recipe)}`;
 }
 
 async function writeEdition(issue, { persist = true, navigation } = {}) {
@@ -81,26 +82,26 @@ async function writeCollection(issues) {
 }
 
 async function generate() {
-  const sources = JSON.parse(await readFile("sources.json", "utf8"));
+  const { recipe, sources } = await loadEditionRecipe(argumentValue("recipe"));
   const date = issueDate();
   const articles = await fetchConfiguredArticles(sources, { date: argumentValue("date") });
-  const selectedArticles = await selectArticlesWithAi(articles);
+  const selectedArticles = await selectArticlesWithAi(articles, process.env, recipe.maxStories);
   const investigatedArticles = await investigateArticles(selectedArticles);
-  const issue = await editIssueWithAi(createIssue({ date, id: editionId(date, sources), articles: investigatedArticles }), investigatedArticles);
+  const issue = await editIssueWithAi(createIssue({ date, id: editionId(date, recipe), articles: investigatedArticles, maxStories: recipe.maxStories, recipe, sources }), investigatedArticles);
   assertValidIssue(issue);
   await writeEdition(issue);
   await build();
 }
 
 async function research() {
-  const sources = JSON.parse(await readFile("sources.json", "utf8"));
+  const { recipe, sources } = await loadEditionRecipe(argumentValue("recipe"));
   const date = issueDate();
   const articles = await fetchConfiguredArticles(sources, { date: argumentValue("date") });
-  const selectedArticles = await selectArticlesWithAi(articles);
+  const selectedArticles = await selectArticlesWithAi(articles, process.env, recipe.maxStories);
   const investigatedArticles = await investigateArticles(selectedArticles);
-  const path = join(researchDirectory, `${editionId(date, sources)}.json`);
+  const path = join(researchDirectory, `${editionId(date, recipe)}.json`);
   await mkdir(dirname(path), { recursive: true });
-  await writeFile(path, `${JSON.stringify({ date: today(), articles: investigatedArticles }, null, 2)}\n`);
+  await writeFile(path, `${JSON.stringify({ date, recipe: { id: recipe.id, name: recipe.name }, sources: sources.map(({ id, name, type }) => ({ id, name, type })), articles: investigatedArticles }, null, 2)}\n`);
   console.log(`Saved research ${path}`);
 }
 
@@ -133,4 +134,4 @@ const command = process.argv[2];
 if (command === "generate") await generate();
 else if (command === "research") await research();
 else if (command === "build") await build();
-else throw new Error("Usage: node src/cli.js <generate|research|build> [--date=YYYY-MM-DD] [--edition=slug] [--template=standard|classic]");
+else throw new Error("Usage: node src/cli.js <generate|research|build> [--recipe=id] [--date=YYYY-MM-DD] [--edition=slug] [--template=standard|classic]");

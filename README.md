@@ -31,7 +31,11 @@ Use the optional `edition` input when manually running the workflow to publish a
 
 The workflow works without credentials using deterministic selection and copy. To enable AI selection and editing, add the `OPENAI_API_KEY` and `OPENAI_MODEL` repository secrets.
 
-`npm run generate` reads `sources.json`, fetches its enabled sources, retains HN items from the last 24 hours, deduplicates original URLs, then investigates each selected original article before publishing:
+`npm run generate` loads the default edition recipe from `edition-recipes.json`, fetches its selected sources from `source-catalog.json`, deduplicates original URLs, then investigates each selected original article before publishing. Select a different configured recipe with `--recipe`:
+
+```sh
+npm run generate -- --recipe=hacker-news
+```
 
 - `issues/YYYY-MM-DD.json` — durable editorial data
 - `public/YYYY-MM-DD/index.html` — dated edition
@@ -49,6 +53,7 @@ When credentials are present, AI first selects and orders up to ten candidate st
 
 ## Extend
 
-- Add a new source adapter in `src/source-adapters.js`, then enable it in `sources.json`. Its normalized articles must carry `sourceLinks`, so attribution is never guessed downstream.
+- Add a new source definition to `source-catalog.json`, then add it to an edition recipe in `edition-recipes.json`. A recipe combines one or more source IDs and controls its story limit; the default recipe is selected by `defaultRecipeId`.
+- Add its adapter in `src/source-adapters.js`. Normalized articles must carry `sourceLinks`, so attribution is never guessed downstream.
 - Replace the fallback categorizer with a richer editor prompt or a review queue.
 - Deploy `public/` through any static host and schedule `npm run generate` daily.

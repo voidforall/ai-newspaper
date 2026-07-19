@@ -26,9 +26,9 @@ function storyFrom(article) {
   };
 }
 
-export function createIssue({ date, articles, editionTitle = "The Daily Signal", id = date }) {
+export function createIssue({ date, articles, editionTitle = "The Daily Signal", id = date, maxStories = 10, recipe, sources }) {
   const selected = uniqueByUrl(articles)
-    .slice(0, 10);
+    .slice(0, maxStories);
 
   return {
     id,
@@ -38,6 +38,8 @@ export function createIssue({ date, articles, editionTitle = "The Daily Signal",
       ? `A curated view of ${selected.length} stories shaping today's Hacker News conversation.`
       : "No qualifying stories were available for this edition.",
     stories: selected.map(storyFrom),
-    generatedAt: new Date().toISOString()
+    generatedAt: new Date().toISOString(),
+    ...(recipe ? { recipe: { id: recipe.id, name: recipe.name } } : {}),
+    ...(sources ? { sources: sources.map(({ id, name, type }) => ({ id, name, type })) } : {})
   };
 }

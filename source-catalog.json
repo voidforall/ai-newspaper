@@ -1,0 +1,10 @@
+{
+  "sources": [
+    {
+      "id": "hacker-news",
+      "name": "Hacker News",
+      "type": "api",
+      "adapter": "hacker-news"
+    }
+  ]
+}

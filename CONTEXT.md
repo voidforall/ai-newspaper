@@ -6,8 +6,8 @@ AI Newspaper turns configured news sources into dated, attributable static newsp
 
 ## Current product shape
 
-- The home page is a source bookshelf: each source opens its own edition collection.
-- A source page presents its available dates as a chronological reading list.
+- The home page is a recipe bookshelf: each recipe opens its own edition collection.
+- A recipe page presents its available dates as a chronological reading list.
 - An edition is a responsive newspaper page with source attribution, digest, editorial context, and links to original reporting.
 - The reader can move between adjacent editions without returning to the collection:
   - desktop: semi-transparent left/right arrows sit in the outer page margins;
@@ -18,11 +18,11 @@ AI Newspaper turns configured news sources into dated, attributable static newsp
 ## Editorial pipeline
 
 ```text
-configured source → normalized articles → selection → original-article investigation
-                  → editorial digest → issue JSON → static HTML collection
+edition recipe → configured sources → normalized articles → selection
+               → original-article investigation → editorial digest → issue JSON → static HTML collection
 ```
 
-- `npm run research [-- --date=YYYY-MM-DD]` fetches, selects, and investigates material into `research/` for an editor session.
+- `npm run research [-- --recipe=id --date=YYYY-MM-DD]` fetches, selects, and investigates material into `research/` for an editor session.
 - `$ai-newspaper-editor` is the intended Codex workflow for turning that research into a reviewed issue JSON.
 - `npm run build [-- --template=standard|classic]` renders all saved issues, source collections, and in-edition navigation.
 - `npm run generate` runs the whole automated path. With `OPENAI_API_KEY` and `OPENAI_MODEL` it uses AI selection/editing; otherwise it uses deterministic fallback behavior.
@@ -33,13 +33,15 @@ configured source → normalized articles → selection → original-article inv
 | --- | --- |
 | `src/cli.js` | Commands, issue IDs, rendering, collection generation, edition navigation data |
 | `src/hacker-news.js` | Hacker News fetching and normalization |
-| `src/source-adapters.js` | Registry for enabled source adapters |
+| `src/source-adapters.js` | Registry for source adapters |
+| `src/edition-recipes.js` | Loads and validates the selected recipe and catalog sources |
 | `src/investigate-content.js` | Original-article extraction with safety checks |
 | `src/edit-issue.js` | AI and deterministic editorial output |
 | `src/render-issue.js` | Newspaper templates and reader controls |
 | `src/render-collection.js` | Source bookshelf and source timeline pages |
 | `issues/` | Durable edition data; preserve as the publication archive |
-| `sources.json` | Enabled source configuration |
+| `source-catalog.json` | Available source definitions and adapter configuration |
+| `edition-recipes.json` | User-selectable combinations of catalog sources |
 | `.github/workflows/publish-pages.yml` | Daily generation and GitHub Pages deployment |
 
 ## Deployment and operations
@@ -51,7 +53,7 @@ configured source → normalized articles → selection → original-article inv
 
 ## Current MVP boundaries
 
-- Only Hacker News is implemented as a source adapter.
+- Only Hacker News is implemented as a source adapter and the default recipe.
 - The site is static: no accounts, saved reading state, search, or server database.
 - The chronology is date/edition-ID based. Multiple same-day editions are supported through `--edition`, but collection labels and editorial controls remain intentionally simple.
 - Browser presentation is the current output target; there is no PDF/print production path yet.
@@ -68,8 +70,8 @@ configured source → normalized articles → selection → original-article inv
 ### 2. Add a second source
 
 1. Choose a source with a stable public feed/API and clear licensing/attribution expectations.
-2. Implement it behind `src/source-adapters.js`, normalize it to the existing article shape, and add fixture-driven tests.
-3. Validate that the bookshelf, source timeline, timeline navigation, and mixed-source issue IDs all work without source-specific UI code.
+2. Implement it behind `src/source-adapters.js`, add it to `source-catalog.json`, normalize it to the existing article shape, and add fixture-driven tests.
+3. Create a mixed-source edition recipe and validate its collection, timeline navigation, and attribution without source-specific UI code.
 
 ### 3. Make the reader feel more like a publication
 

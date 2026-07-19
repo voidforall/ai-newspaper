@@ -1,8 +1,0 @@
-[
-  {
-    "id": "hacker-news",
-    "name": "Hacker News",
-    "type": "api",
-    "enabled": true
-  }
-]
