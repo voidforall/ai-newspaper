@@ -21,7 +21,7 @@ test("renders a source bookshelf that links to each source timeline", () => {
   assert.match(html, /Hacker News/);
   assert.match(html, /2 editions/);
   assert.match(html, /sources\/hacker-news\//);
-  assert.match(html, /Compose an edition/);
+  assert.match(html, /File a new brief/);
   assert.match(html, /Prepare recipe/);
   assert.match(html, /Download JSON/);
   assert.match(html, /Copy CLI command/);
