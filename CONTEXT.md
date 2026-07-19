@@ -33,6 +33,8 @@ edition recipe → configured sources → normalized articles → selection
 | --- | --- |
 | `src/cli.js` | Commands, issue IDs, rendering, collection generation, edition navigation data |
 | `src/hacker-news.js` | Hacker News fetching and normalization |
+| `src/rss.js` | RSS/Atom fetching and normalization |
+| `src/github-releases.js` | Public GitHub release fetching and normalization |
 | `src/source-adapters.js` | Registry for source adapters |
 | `src/edition-recipes.js` | Loads and validates the selected recipe and catalog sources |
 | `src/investigate-content.js` | Original-article extraction with safety checks |
@@ -53,7 +55,7 @@ edition recipe → configured sources → normalized articles → selection
 
 ## Current MVP boundaries
 
-- Only Hacker News is implemented as a source adapter and the default recipe.
+- Hacker News, RSS/Atom feeds, and public GitHub Releases are implemented source adapters. Hacker News remains the default recipe; `ai-briefing` demonstrates mixed-source composition.
 - The site is static: no accounts, saved reading state, search, or server database.
 - The chronology is date/edition-ID based. Multiple same-day editions are supported through `--edition`, but collection labels and editorial controls remain intentionally simple.
 - Browser presentation is the current output target; there is no PDF/print production path yet.
@@ -69,9 +71,9 @@ edition recipe → configured sources → normalized articles → selection
 
 ### 2. Add a second source
 
-1. Choose a source with a stable public feed/API and clear licensing/attribution expectations.
-2. Implement it behind `src/source-adapters.js`, add it to `source-catalog.json`, normalize it to the existing article shape, and add fixture-driven tests.
-3. Create a mixed-source edition recipe and validate its collection, timeline navigation, and attribution without source-specific UI code.
+1. Add fixture-driven tests for each new source adapter and retain explicit source attribution.
+2. Prefer stable public feeds/APIs with clear licensing and rate-limit expectations.
+3. Create a recipe for each meaningful editorial combination and validate its collection, timeline navigation, and attribution without source-specific UI code.
 
 ### 3. Make the reader feel more like a publication
 

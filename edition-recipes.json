@@ -6,6 +6,12 @@
       "name": "Hacker News",
       "sources": ["hacker-news"],
       "maxStories": 10
+    },
+    {
+      "id": "ai-briefing",
+      "name": "AI Briefing",
+      "sources": ["hacker-news", "simon-willison", "transformers-releases"],
+      "maxStories": 10
     }
   ]
 }

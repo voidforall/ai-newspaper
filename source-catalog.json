@@ -5,6 +5,20 @@
       "name": "Hacker News",
       "type": "api",
       "adapter": "hacker-news"
+    },
+    {
+      "id": "simon-willison",
+      "name": "Simon Willison",
+      "type": "rss",
+      "adapter": "rss",
+      "feedUrl": "https://simonwillison.net/atom/everything/"
+    },
+    {
+      "id": "transformers-releases",
+      "name": "Transformers releases",
+      "type": "api",
+      "adapter": "github-releases",
+      "repository": "huggingface/transformers"
     }
   ]
 }

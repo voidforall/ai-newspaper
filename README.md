@@ -37,6 +37,12 @@ The workflow works without credentials using deterministic selection and copy. T
 npm run generate -- --recipe=hacker-news
 ```
 
+The included `ai-briefing` recipe combines Hacker News, an Atom feed, and GitHub Releases:
+
+```sh
+npm run generate -- --recipe=ai-briefing
+```
+
 - `issues/YYYY-MM-DD.json` — durable editorial data
 - `public/YYYY-MM-DD/index.html` — dated edition
 - `public/index.html` — newest edition
@@ -54,6 +60,7 @@ When credentials are present, AI first selects and orders up to ten candidate st
 ## Extend
 
 - Add a new source definition to `source-catalog.json`, then add it to an edition recipe in `edition-recipes.json`. A recipe combines one or more source IDs and controls its story limit; the default recipe is selected by `defaultRecipeId`.
-- Add its adapter in `src/source-adapters.js`. Normalized articles must carry `sourceLinks`, so attribution is never guessed downstream.
+- RSS/Atom sources use `"adapter": "rss"` and an HTTP(S) `feedUrl`. GitHub release sources use `"adapter": "github-releases"` and an `owner/repository` value. Both normalize to attributable articles.
+- Add any other adapter in `src/source-adapters.js`. Normalized articles must carry `sourceLinks`, so attribution is never guessed downstream.
 - Replace the fallback categorizer with a richer editor prompt or a review queue.
 - Deploy `public/` through any static host and schedule `npm run generate` daily.

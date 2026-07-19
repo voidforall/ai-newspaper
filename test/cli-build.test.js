@@ -31,7 +31,7 @@ test("build stops before publishing an invalid saved issue", async (t) => {
   );
 });
 
-test("build groups an archived recipe into its own collection", async (t) => {
+test("build archives a mixed-source recipe in its own collection", async (t) => {
   const directory = await mkdtemp(join(tmpdir(), "ai-newspaper-build-"));
   t.after(() => rm(directory, { recursive: true, force: true }));
   await mkdir(join(directory, "issues"));
@@ -41,13 +41,23 @@ test("build groups an archived recipe into its own collection", async (t) => {
     editionTitle: "The Daily Signal",
     editorNote: "A recipe-backed edition.",
     recipe: { id: "ai-daily", name: "AI Daily" },
-    sources: [{ id: "hacker-news", name: "Hacker News", type: "api" }],
+    sources: [
+      { id: "hacker-news", name: "Hacker News", type: "api" },
+      { id: "example-feed", name: "Example Feed", type: "rss" },
+      { id: "example-releases", name: "Example releases", type: "api" }
+    ],
     stories: [{
       headline: "An attributable story",
       summary: "This complete, sufficiently detailed summary can be published safely.",
       category: "Technology",
       whyItMatters: "It demonstrates that a recipe can own an edition collection.",
       sourceLinks: [{ name: "Hacker News", url: "https://news.ycombinator.com/item?id=1" }]
+    }, {
+      headline: "A feed story",
+      summary: "This separate source also provides a complete publishable summary.",
+      category: "Ideas",
+      whyItMatters: "It proves that one recipe can retain another source's attribution.",
+      sourceLinks: [{ name: "Example Feed", url: "https://example.com/feed.xml" }, { name: "Original source", url: "https://example.com/posts/story" }]
     }]
   }));
 
@@ -55,4 +65,6 @@ test("build groups an archived recipe into its own collection", async (t) => {
 
   const collection = await readFile(join(directory, "public", "sources", "ai-daily", "index.html"), "utf8");
   assert.match(collection, /AI Daily/);
+  const edition = await readFile(join(directory, "public", "editions", "2026-07-19-ai-daily", "index.html"), "utf8");
+  assert.match(edition, /https:\/\/example\.com\/feed\.xml/);
 });

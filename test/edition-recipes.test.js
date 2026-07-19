@@ -46,3 +46,10 @@ test("rejects a recipe with an invalid global story limit", async (t) => {
     /Recipe daily must define a positive maxStories value\./
   );
 });
+
+test("loads the configured mixed-source AI briefing recipe", async () => {
+  const { recipe, sources } = await loadEditionRecipe("ai-briefing");
+
+  assert.equal(recipe.name, "AI Briefing");
+  assert.deepEqual(sources.map((source) => source.adapter), ["hacker-news", "rss", "github-releases"]);
+});
