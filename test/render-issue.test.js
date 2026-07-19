@@ -67,3 +67,26 @@ test("renders the classic template with a paper texture and traditional columns"
   assert.doesNotMatch(html, /template-classic \.lead-story \{ display: block;/);
   assert.doesNotMatch(html, /template-classic \.news-section \{ break-inside: avoid;/);
 });
+
+test("renders in-edition source navigation, adjacent editions, and a date timeline", () => {
+  const html = renderIssue({
+    date: "2026-07-18", editionTitle: "The Daily Signal", editorNote: "A navigable edition.", stories: []
+  }, {
+    navigation: {
+      source: { name: "Hacker News", href: "../../sources/hacker-news/" },
+      newer: { date: "2026-07-19", href: "../2026-07-19-hacker-news/" },
+      older: { date: "2026-07-17", href: "../2026-07-17-hacker-news/" },
+      timeline: [
+        { date: "2026-07-19", href: "../2026-07-19-hacker-news/" },
+        { date: "2026-07-18", href: "./", current: true },
+        { date: "2026-07-17", href: "../2026-07-17-hacker-news/" }
+      ]
+    }
+  });
+
+  assert.match(html, /Back to Hacker News/);
+  assert.match(html, /Newer edition/);
+  assert.match(html, /Older edition/);
+  assert.match(html, /Edition timeline/);
+  assert.match(html, /aria-current="page">2026-07-18/);
+});

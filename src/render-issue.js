@@ -65,7 +65,25 @@ function resolveTemplate(template) {
   throw new Error(`Unknown render template: ${template}`);
 }
 
-export function renderIssue(issue, { template = issue.template ?? "standard" } = {}) {
+function renderEditionNavigation(navigation) {
+  if (!navigation) return "";
+  const previous = navigation.newer
+    ? `<a href="${escapeHtml(navigation.newer.href)}">← Newer edition · ${escapeHtml(navigation.newer.date)}</a>`
+    : "<span></span>";
+  const next = navigation.older
+    ? `<a href="${escapeHtml(navigation.older.href)}">Older edition · ${escapeHtml(navigation.older.date)} →</a>`
+    : "<span></span>";
+  const timeline = navigation.timeline.map((edition) => edition.current
+    ? `<span aria-current="page">${escapeHtml(edition.date)}</span>`
+    : `<a href="${escapeHtml(edition.href)}">${escapeHtml(edition.date)}</a>`).join("");
+  return `<nav class="edition-navigation" aria-label="Edition navigation">
+    <a class="source-link" href="${escapeHtml(navigation.source.href)}">← Back to ${escapeHtml(navigation.source.name)}</a>
+    <div class="edition-turns">${previous}${next}</div>
+    <details><summary>Edition timeline</summary><div class="timeline">${timeline}</div></details>
+  </nav>`;
+}
+
+export function renderIssue(issue, { template = issue.template ?? "standard", navigation } = {}) {
   const selectedTemplate = resolveTemplate(template);
   const [lead, ...remainingStories] = issue.stories;
   const masthead = issue.editionTitle.toUpperCase();
@@ -109,6 +127,14 @@ export function renderIssue(issue, { template = issue.template ?? "standard" } =
     .story .why, .story .sources { margin-bottom: 0; }
     .footer { border-top: 3px double var(--rule); font: .68rem/1.25 Arial, sans-serif; letter-spacing: .04em; margin-top: 26px; padding-top: 9px; text-align: center; text-transform: uppercase; }
     .empty-edition { font-style: italic; }
+    .edition-navigation { border-bottom: 1px solid var(--rule); font: .78rem/1.35 Arial, sans-serif; margin: 0 0 18px; padding: 0 0 12px; }
+    .source-link { display: inline-block; font-weight: 700; margin-bottom: 12px; }
+    .edition-turns { display: flex; justify-content: space-between; gap: 12px; }
+    .edition-turns a { font-weight: 700; }
+    details { margin-top: 13px; } summary { cursor: pointer; font-weight: 700; }
+    .timeline { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 9px; }
+    .timeline a, .timeline span { border: 1px solid var(--rule); padding: 5px 7px; text-decoration: none; }
+    .timeline span { background: var(--ink); color: var(--paper); }
     .template-classic { --ink: #171717; --paper: #e3e1dc; --rule: #292929; --accent: #171717; background-color: var(--paper); background-image: repeating-linear-gradient(0deg, #ffffff20 0, #ffffff20 1px, #1a1a1a0a 1px, #1a1a1a0a 3px), repeating-linear-gradient(90deg, transparent 0, transparent 8px, #1a1a1a08 9px); box-shadow: 0 1px 18px #1111114a; max-width: 1180px; padding: 18px 24px 36px; }
     .template-classic .edition-line { font-family: "Courier New", monospace; }
     .template-classic .masthead { border-bottom-width: 6px; padding: 6px 0 8px; }
@@ -134,6 +160,7 @@ export function renderIssue(issue, { template = issue.template ?? "standard" } =
 </head>
 <body>
   <main class="newspaper template-${selectedTemplate}">
+    ${renderEditionNavigation(navigation)}
     <div class="edition-line"><span>${escapeHtml(issue.date)}</span><span>Daily Edition</span><span>Independent Daily Edition</span></div>
     <header class="masthead"><h1>${escapeHtml(masthead)}</h1></header>
     <p class="deck"><strong>TODAY&#039;S EDITION</strong> — ${escapeHtml(issue.editorNote)}</p>

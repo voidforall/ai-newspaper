@@ -37,12 +37,12 @@ function editionId(date, sources) {
   return `${date}-${editionSlug(sources)}`;
 }
 
-async function writeEdition(issue, { persist = true } = {}) {
+async function writeEdition(issue, { persist = true, navigation } = {}) {
   const id = issue.id ?? issue.date;
   const jsonPath = join(issueDirectory, `${id}.json`);
   const htmlPath = join(outputDirectory, "editions", id, "index.html");
   await Promise.all([mkdir(dirname(htmlPath), { recursive: true }), persist ? mkdir(dirname(jsonPath), { recursive: true }) : Promise.resolve()]);
-  const renderedIssue = renderIssue(issue, { template: templateArgument() ?? issue.template ?? "standard" });
+  const renderedIssue = renderIssue(issue, { template: templateArgument() ?? issue.template ?? "standard", navigation });
   const outputs = [writeFile(htmlPath, renderedIssue)];
   if (persist) outputs.push(writeFile(jsonPath, `${JSON.stringify(issue, null, 2)}\n`));
   await Promise.all(outputs);
@@ -104,7 +104,25 @@ async function research() {
 
 async function build() {
   const issues = await readIssues();
-  await Promise.all(issues.map((issue) => writeEdition(issue, { persist: false })));
+  const groups = new Map();
+  for (const issue of issues) {
+    const source = sourceFor(issue);
+    const group = groups.get(source.slug) ?? { source, issues: [] };
+    group.issues.push(issue);
+    groups.set(source.slug, group);
+  }
+  await Promise.all([...groups.values()].flatMap(({ source, issues: sourceIssues }) => {
+    const ordered = [...sourceIssues].sort((left, right) => String(right.date).localeCompare(String(left.date)) || String(right.id).localeCompare(String(left.id)));
+    return ordered.map((issue, index) => writeEdition(issue, {
+      persist: false,
+      navigation: {
+        source: { name: source.name, href: `../../sources/${source.slug}/` },
+        newer: ordered[index - 1] ? { date: ordered[index - 1].date, href: `../${ordered[index - 1].id}/` } : undefined,
+        older: ordered[index + 1] ? { date: ordered[index + 1].date, href: `../${ordered[index + 1].id}/` } : undefined,
+        timeline: ordered.map((edition) => ({ date: edition.date, href: edition.id === issue.id ? "./" : `../${edition.id}/`, current: edition.id === issue.id }))
+      }
+    }));
+  }));
   await writeCollection(issues);
 }
 
