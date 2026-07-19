@@ -53,3 +53,8 @@ test("loads the configured mixed-source AI briefing recipe", async () => {
   assert.equal(recipe.name, "AI Briefing");
   assert.deepEqual(sources.map((source) => source.adapter), ["hacker-news", "rss", "github-releases"]);
 });
+
+test("loads the configured agent-research policy recipe", async () => {
+  const { sources } = await loadEditionRecipe("ai-policy-watch");
+  assert.deepEqual(sources.map((source) => source.adapter), ["hacker-news", "agent-research"]);
+});

@@ -43,6 +43,8 @@ The included `ai-briefing` recipe combines Hacker News, an Atom feed, and GitHub
 npm run generate -- --recipe=ai-briefing
 ```
 
+`ai-policy-watch` combines Hacker News with a constrained web-research source. Its research configuration limits the topic, allowed domains, candidate count, tool calls, and output-token budget; without OpenAI credentials it logs a warning and the other recipe sources still run.
+
 - `issues/YYYY-MM-DD.json` — durable editorial data
 - `public/YYYY-MM-DD/index.html` — dated edition
 - `public/index.html` — newest edition

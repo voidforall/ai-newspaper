@@ -19,6 +19,17 @@
       "type": "api",
       "adapter": "github-releases",
       "repository": "huggingface/transformers"
+    },
+    {
+      "id": "ai-policy-research",
+      "name": "AI Policy Watch",
+      "type": "agent-research",
+      "adapter": "agent-research",
+      "topic": "AI policy and regulation",
+      "allowedDomains": ["gov.uk", "ec.europa.eu"],
+      "maxCandidates": 4,
+      "maxSearches": 1,
+      "maxOutputTokens": 900
     }
   ]
 }

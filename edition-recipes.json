@@ -12,6 +12,12 @@
       "name": "AI Briefing",
       "sources": ["hacker-news", "simon-willison", "transformers-releases"],
       "maxStories": 10
+    },
+    {
+      "id": "ai-policy-watch",
+      "name": "AI Policy Watch",
+      "sources": ["hacker-news", "ai-policy-research"],
+      "maxStories": 10
     }
   ]
 }

@@ -1,8 +1,10 @@
 import { fetchTopStories } from "./hacker-news.js";
+import { fetchAgentResearch } from "./agent-research.js";
 import { fetchGitHubReleases } from "./github-releases.js";
 import { fetchRssFeed } from "./rss.js";
 
 const adapters = {
+  "agent-research": fetchAgentResearch,
   "hacker-news": fetchTopStories,
   "github-releases": fetchGitHubReleases,
   rss: fetchRssFeed
