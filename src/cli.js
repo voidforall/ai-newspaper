@@ -105,6 +105,23 @@ async function research() {
   console.log(`Saved research ${path}`);
 }
 
+async function validateRecipe() {
+  const { recipe, sources } = await loadEditionRecipe(argumentValue("recipe"), { recipeFile: argumentValue("recipe-file") });
+  console.log(`Valid recipe ${recipe.id}: ${sources.map((source) => `${source.id} (${source.type})`).join(", ")}; maxStories=${recipe.maxStories}`);
+}
+
+async function preview() {
+  const { recipe, sources } = await loadEditionRecipe(argumentValue("recipe"), { recipeFile: argumentValue("recipe-file") });
+  const date = issueDate();
+  const articles = await fetchConfiguredArticles(sources, { date: argumentValue("date") });
+  const selectedArticles = await selectArticlesWithAi(articles, process.env, recipe.maxStories);
+  const path = join(researchDirectory, `${editionId(date, recipe)}-preview.json`);
+  await mkdir(dirname(path), { recursive: true });
+  const report = sources.map((source) => ({ id: source.id, type: source.type, candidates: articles.filter((article) => article.sourceId === source.id).length, selected: selectedArticles.filter((article) => article.sourceId === source.id).length }));
+  await writeFile(path, `${JSON.stringify({ date, recipe: { id: recipe.id, name: recipe.name }, sourceRunReport: report, articles: selectedArticles }, null, 2)}\n`);
+  console.log(`Saved preview ${path}`);
+}
+
 async function build() {
   const issues = await readIssues();
   issues.forEach(assertValidIssue);
@@ -133,5 +150,7 @@ async function build() {
 const command = process.argv[2];
 if (command === "generate") await generate();
 else if (command === "research") await research();
+else if (command === "validate-recipe") await validateRecipe();
+else if (command === "preview") await preview();
 else if (command === "build") await build();
 else throw new Error("Usage: node src/cli.js <generate|research|build> [--recipe=id|--recipe-file=path] [--date=YYYY-MM-DD] [--edition=slug] [--template=standard|classic]");
