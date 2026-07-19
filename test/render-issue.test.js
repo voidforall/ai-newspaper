@@ -88,5 +88,12 @@ test("renders in-edition source navigation, adjacent editions, and a date timeli
   assert.match(html, /Newer edition/);
   assert.match(html, /Older edition/);
   assert.match(html, /Edition timeline/);
+  assert.match(html, /class="page-turn page-turn-left"/);
+  assert.match(html, /class="page-turn page-turn-right"/);
+  assert.match(html, /class="edition-timeline"/);
   assert.match(html, /aria-current="page">2026-07-18/);
+  assert.ok(
+    html.lastIndexOf('<nav class="edition-navigation"') > html.indexOf('<div class="newspaper-grid"'),
+    "edition navigation should follow the newspaper content"
+  );
 });

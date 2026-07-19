@@ -68,18 +68,17 @@ function resolveTemplate(template) {
 function renderEditionNavigation(navigation) {
   if (!navigation) return "";
   const previous = navigation.newer
-    ? `<a href="${escapeHtml(navigation.newer.href)}">← Newer edition · ${escapeHtml(navigation.newer.date)}</a>`
-    : "<span></span>";
+    ? `<a class="page-turn page-turn-left" href="${escapeHtml(navigation.newer.href)}" aria-label="Newer edition, ${escapeHtml(navigation.newer.date)}"><span>‹</span><small>Newer edition</small></a>`
+    : "";
   const next = navigation.older
-    ? `<a href="${escapeHtml(navigation.older.href)}">Older edition · ${escapeHtml(navigation.older.date)} →</a>`
-    : "<span></span>";
+    ? `<a class="page-turn page-turn-right" href="${escapeHtml(navigation.older.href)}" aria-label="Older edition, ${escapeHtml(navigation.older.date)}"><span>›</span><small>Older edition</small></a>`
+    : "";
   const timeline = navigation.timeline.map((edition) => edition.current
     ? `<span aria-current="page">${escapeHtml(edition.date)}</span>`
     : `<a href="${escapeHtml(edition.href)}">${escapeHtml(edition.date)}</a>`).join("");
-  return `<nav class="edition-navigation" aria-label="Edition navigation">
+  return `${previous}${next}<nav class="edition-navigation" aria-label="Edition navigation">
     <a class="source-link" href="${escapeHtml(navigation.source.href)}">← Back to ${escapeHtml(navigation.source.name)}</a>
-    <div class="edition-turns">${previous}${next}</div>
-    <details><summary>Edition timeline</summary><div class="timeline">${timeline}</div></details>
+    <div class="edition-timeline"><span class="timeline-label">Edition timeline</span><div class="timeline">${timeline}</div></div>
   </nav>`;
 }
 
@@ -127,14 +126,19 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
     .story .why, .story .sources { margin-bottom: 0; }
     .footer { border-top: 3px double var(--rule); font: .68rem/1.25 Arial, sans-serif; letter-spacing: .04em; margin-top: 26px; padding-top: 9px; text-align: center; text-transform: uppercase; }
     .empty-edition { font-style: italic; }
-    .edition-navigation { border-bottom: 1px solid var(--rule); font: .78rem/1.35 Arial, sans-serif; margin: 0 0 18px; padding: 0 0 12px; }
-    .source-link { display: inline-block; font-weight: 700; margin-bottom: 12px; }
-    .edition-turns { display: flex; justify-content: space-between; gap: 12px; }
-    .edition-turns a { font-weight: 700; }
-    details { margin-top: 13px; } summary { cursor: pointer; font-weight: 700; }
-    .timeline { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 9px; }
+    .edition-navigation { border-top: 1px solid var(--rule); font: .78rem/1.35 Arial, sans-serif; margin: 28px 0 0; padding: 14px 0 0; }
+    .source-link { display: inline-block; font-weight: 700; margin-bottom: 13px; }
+    .edition-timeline { display: grid; gap: 8px; }
+    .timeline-label { font: 800 .67rem/1 Arial, sans-serif; letter-spacing: .1em; text-transform: uppercase; }
+    .timeline { display: flex; flex-wrap: wrap; gap: 7px; }
     .timeline a, .timeline span { border: 1px solid var(--rule); padding: 5px 7px; text-decoration: none; }
     .timeline span { background: var(--ink); color: var(--paper); }
+    .page-turn { align-items: center; color: #2020205c; display: flex; flex-direction: column; font-family: Arial, sans-serif; gap: 5px; position: fixed; text-decoration: none; top: 45%; transition: color .15s ease, transform .15s ease; z-index: 2; }
+    .page-turn:hover { color: #202020; transform: scale(1.08); }
+    .page-turn span { font: 7rem/.65 Georgia, serif; }
+    .page-turn small { font-size: .58rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    .page-turn-left { left: max(18px, calc(50% - 720px)); }
+    .page-turn-right { right: max(18px, calc(50% - 720px)); }
     .template-classic { --ink: #171717; --paper: #e3e1dc; --rule: #292929; --accent: #171717; background-color: var(--paper); background-image: repeating-linear-gradient(0deg, #ffffff20 0, #ffffff20 1px, #1a1a1a0a 1px, #1a1a1a0a 3px), repeating-linear-gradient(90deg, transparent 0, transparent 8px, #1a1a1a08 9px); box-shadow: 0 1px 18px #1111114a; max-width: 1180px; padding: 18px 24px 36px; }
     .template-classic .edition-line { font-family: "Courier New", monospace; }
     .template-classic .masthead { border-bottom-width: 6px; padding: 6px 0 8px; }
@@ -155,17 +159,21 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
       .news-section { border-bottom: 2px solid var(--rule); border-left: 0; padding: 20px 0; }
       .news-section:last-child { border-bottom: 0; }
       .template-classic .newspaper-grid { column-count: 1; }
+      .page-turn { background: var(--paper); border: 1px solid var(--rule); bottom: 15px; flex-direction: row; padding: 6px 9px; position: fixed; top: auto; }
+      .page-turn span { font-size: 2rem; }
+      .page-turn small { display: none; }
+      .page-turn-left { left: 12px; } .page-turn-right { right: 12px; }
     }
   </style>
 </head>
 <body>
   <main class="newspaper template-${selectedTemplate}">
-    ${renderEditionNavigation(navigation)}
     <div class="edition-line"><span>${escapeHtml(issue.date)}</span><span>Daily Edition</span><span>Independent Daily Edition</span></div>
     <header class="masthead"><h1>${escapeHtml(masthead)}</h1></header>
     <p class="deck"><strong>TODAY&#039;S EDITION</strong> — ${escapeHtml(issue.editorNote)}</p>
     <section class="front-page" aria-label="Lead story">${leadMarkup}</section>
     <div class="newspaper-grid">${sections}</div>
+    ${renderEditionNavigation(navigation)}
     <footer class="footer">Generated from attributable sources · ${escapeHtml(issue.generatedAt ?? issue.date)}</footer>
   </main>
 </body>
