@@ -82,7 +82,7 @@ async function writeCollection(issues) {
 }
 
 async function generate() {
-  const { recipe, sources } = await loadEditionRecipe(argumentValue("recipe"));
+  const { recipe, sources } = await loadEditionRecipe(argumentValue("recipe"), { recipeFile: argumentValue("recipe-file") });
   const date = issueDate();
   const articles = await fetchConfiguredArticles(sources, { date: argumentValue("date") });
   const selectedArticles = await selectArticlesWithAi(articles, process.env, recipe.maxStories);
@@ -94,7 +94,7 @@ async function generate() {
 }
 
 async function research() {
-  const { recipe, sources } = await loadEditionRecipe(argumentValue("recipe"));
+  const { recipe, sources } = await loadEditionRecipe(argumentValue("recipe"), { recipeFile: argumentValue("recipe-file") });
   const date = issueDate();
   const articles = await fetchConfiguredArticles(sources, { date: argumentValue("date") });
   const selectedArticles = await selectArticlesWithAi(articles, process.env, recipe.maxStories);
@@ -134,4 +134,4 @@ const command = process.argv[2];
 if (command === "generate") await generate();
 else if (command === "research") await research();
 else if (command === "build") await build();
-else throw new Error("Usage: node src/cli.js <generate|research|build> [--recipe=id] [--date=YYYY-MM-DD] [--edition=slug] [--template=standard|classic]");
+else throw new Error("Usage: node src/cli.js <generate|research|build> [--recipe=id|--recipe-file=path] [--date=YYYY-MM-DD] [--edition=slug] [--template=standard|classic]");

@@ -58,3 +58,11 @@ test("loads the configured agent-research policy recipe", async () => {
   const { sources } = await loadEditionRecipe("ai-policy-watch");
   assert.deepEqual(sources.map((source) => source.adapter), ["hacker-news", "agent-research"]);
 });
+
+test("loads a shareable recipe file with custom sources", async (t) => {
+  const directory = await mkdtemp(join(tmpdir(), "ai-newspaper-recipes-")); t.after(() => rm(directory, { recursive: true, force: true }));
+  const recipeFile = join(directory, "recipe.json");
+  await writeFile(recipeFile, JSON.stringify({ recipe: { id: "custom", name: "Custom", sources: ["custom-rss"] }, sources: [{ id: "custom-rss", name: "Custom RSS", type: "rss", adapter: "rss", feedUrl: "https://example.com/feed.xml" }] }));
+  const { recipe, sources } = await loadEditionRecipe(undefined, { recipeFile });
+  assert.equal(recipe.id, "custom"); assert.equal(sources[0].feedUrl, "https://example.com/feed.xml");
+});

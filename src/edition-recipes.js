@@ -33,7 +33,19 @@ function assertRecipe(recipe) {
   }
 }
 
-export async function loadEditionRecipe(recipeId, { catalogPath = "source-catalog.json", recipesPath = "edition-recipes.json" } = {}) {
+export async function loadEditionRecipe(recipeId, { catalogPath = "source-catalog.json", recipesPath = "edition-recipes.json", recipeFile } = {}) {
+  if (recipeFile) {
+    const custom = await readJson(recipeFile);
+    assertRecipe(custom?.recipe);
+    assertCatalog({ sources: custom.sources ?? [] });
+    const sourcesById = new Map(custom.sources.map((source) => [source.id, source]));
+    const sources = custom.recipe.sources.map((id) => {
+      const source = sourcesById.get(id);
+      if (!source) throw new Error(`Recipe ${custom.recipe.id} references an unknown source: ${id}`);
+      return source;
+    });
+    return { recipe: { ...custom.recipe, maxStories: custom.recipe.maxStories ?? defaultMaxStories }, sources };
+  }
   const [catalog, recipeConfig] = await Promise.all([readJson(catalogPath), readJson(recipesPath)]);
   assertCatalog(catalog);
   if (!Array.isArray(recipeConfig?.recipes)) throw new Error("Edition recipes must contain a recipes array.");
