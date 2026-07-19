@@ -6,6 +6,7 @@ import { editIssueWithAi, selectArticlesWithAi } from "./edit-issue.js";
 import { investigateArticles } from "./investigate-content.js";
 import { renderIssue } from "./render-issue.js";
 import { renderCollection, renderSourceTimeline, sourceFor } from "./render-collection.js";
+import { assertValidIssue, isValidIssueDate } from "./validate-issue.js";
 
 const outputDirectory = "public";
 const issueDirectory = "issues";
@@ -23,7 +24,7 @@ function templateArgument() {
 
 function issueDate() {
   const date = argumentValue("date") ?? today();
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || Number.isNaN(Date.parse(`${date}T00:00:00.000Z`))) {
+  if (!isValidIssueDate(date)) {
     throw new Error(`Invalid --date value: ${date}`);
   }
   return date;
@@ -86,6 +87,7 @@ async function generate() {
   const selectedArticles = await selectArticlesWithAi(articles);
   const investigatedArticles = await investigateArticles(selectedArticles);
   const issue = await editIssueWithAi(createIssue({ date, id: editionId(date, sources), articles: investigatedArticles }), investigatedArticles);
+  assertValidIssue(issue);
   await writeEdition(issue);
   await build();
 }
@@ -104,6 +106,7 @@ async function research() {
 
 async function build() {
   const issues = await readIssues();
+  issues.forEach(assertValidIssue);
   const groups = new Map();
   for (const issue of issues) {
     const source = sourceFor(issue);
