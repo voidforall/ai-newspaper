@@ -115,7 +115,7 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
     .why span { font: 800 .65rem/1 Arial, sans-serif; letter-spacing: .09em; margin-right: 8px; text-transform: uppercase; }
     .sources { font: .72rem/1.3 Arial, sans-serif; grid-column: 1 / -1; margin: 9px 0 0; }
     a { color: inherit; text-decoration-color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
-    .newspaper-grid { column-gap: 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); padding-top: 22px; }
+    .newspaper-grid { column-gap: 24px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); padding-top: 22px; }
     .news-section { border-left: 1px solid var(--rule); padding-left: 20px; }
     .news-section:first-child { border-left: 0; padding-left: 0; }
     .section-title { border-bottom: 3px solid var(--rule); font: 800 1rem/1 Arial, sans-serif; letter-spacing: .08em; margin: 0; padding: 0 0 6px; text-transform: uppercase; }
@@ -151,6 +151,11 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
     .template-classic .story { break-inside: avoid; }
     .template-classic .story h2 { font-family: "Bodoni 72", Didot, Georgia, serif; font-size: 1.55rem; }
     .template-classic .kicker { color: var(--ink); font-family: "Courier New", monospace; }
+    @media (max-width: 900px) and (min-width: 721px) {
+      .newspaper-grid { grid-template-columns: 1fr; }
+      .news-section { border-bottom: 2px solid var(--rule); border-left: 0; padding: 20px 0; }
+      .news-section:last-child { border-bottom: 0; }
+    }
     @media (max-width: 720px) {
       .newspaper { margin: 0; padding: 14px 16px 30px; }
       .masthead h1 { letter-spacing: -.055em; }

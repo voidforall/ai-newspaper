@@ -35,6 +35,9 @@ test("renders a daily issue with editorial context and attributable stories", ()
   assert.match(html, /class="lead-story"/);
   assert.match(html, /TODAY&#039;S EDITION/);
   assert.match(html, /class="newspaper-grid"/);
+  assert.match(html, /grid-template-columns: repeat\(3, minmax\(0, 1fr\)\)/);
+  assert.match(html, /@media \(max-width: 900px\) and \(min-width: 721px\)/);
+  assert.match(html, /\.newspaper-grid \{ grid-template-columns: 1fr; \}/);
   assert.match(html, /The Daily Signal/);
   assert.match(html, /AI infrastructure dominated today&#039;s discussion\./);
   assert.match(html, /A useful launch/);
