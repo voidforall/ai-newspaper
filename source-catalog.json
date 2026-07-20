@@ -14,6 +14,13 @@
       "feedUrl": "https://simonwillison.net/atom/everything/"
     },
     {
+      "id": "techmeme",
+      "name": "Techmeme",
+      "type": "rss",
+      "adapter": "rss",
+      "feedUrl": "https://www.techmeme.com/feed.xml"
+    },
+    {
       "id": "transformers-releases",
       "name": "Transformers releases",
       "type": "api",

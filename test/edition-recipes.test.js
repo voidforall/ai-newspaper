@@ -59,12 +59,14 @@ test("loads the configured agent-research policy recipe", async () => {
   assert.deepEqual(sources.map((source) => source.adapter), ["hacker-news", "agent-research"]);
 });
 
-test("loads the configured research-paper and SDK-release recipes", async () => {
+test("loads the configured research-paper, SDK-release, and technology-brief recipes", async () => {
   const papers = await loadEditionRecipe("research-papers");
   const releases = await loadEditionRecipe("sdk-releases");
+  const techBrief = await loadEditionRecipe("developer-brief");
 
   assert.deepEqual(papers.sources.map((source) => source.adapter), ["rss"]);
   assert.deepEqual(releases.sources.map((source) => source.repository), ["huggingface/transformers"]);
+  assert.deepEqual(techBrief.sources.map((source) => source.id), ["techmeme"]);
 });
 
 test("loads a shareable recipe file with custom sources", async (t) => {
