@@ -13,10 +13,10 @@ function pageHead(title) {
   return `<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#dfc986">
+    <meta name="theme-color" content="#f2e8cf">
     <title>${escapeHtml(title === "AI Newspaper" ? title : `${title} · AI Newspaper`)}</title>
     <style>
-      :root { --paper:#dfc986; --ink:#28251f; --soft-ink:#67593e; --rule:#907a4c; --accent:#2e4765; --night:#2c2b27; --cream:#f6e9bd; --signal:#cda63a; }
+      :root { --paper:#f2e8cf; --ink:#28251f; --soft-ink:#67593e; --rule:#aa9364; --accent:#2e4765; --night:#2c2b27; --cream:#fff7df; --signal:#dfc36d; }
       * { box-sizing:border-box; }
       body { background:var(--paper); color:var(--ink); font:16px/1.45 Georgia, 'Times New Roman', serif; margin:0; }
       a { color:inherit; }
@@ -32,7 +32,7 @@ function pageHead(title) {
       .shelf { display:grid; gap:12px; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); }
       .book { background:var(--cream); border:1px solid var(--ink); border-left:10px solid var(--accent); color:var(--ink); display:flex; flex-direction:column; justify-content:space-between; min-height:230px; padding:18px; position:relative; text-decoration:none; transition:background 130ms ease, transform 130ms ease; }
       .book::before { color:var(--soft-ink); content:'SOURCE EDITIONS'; font:700 .58rem/1 Arial, sans-serif; letter-spacing:.1em; position:absolute; right:18px; top:20px; }
-      .book:hover { background:#fff1c5; box-shadow:5px 5px 0 rgba(101,79,35,.22); transform:translate(-2px,-2px); }
+      .book:hover { background:#fffaf0; box-shadow:5px 5px 0 rgba(101,79,35,.16); transform:translate(-2px,-2px); }
       .book:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline:3px solid var(--accent); outline-offset:3px; }
       .book__type { color:var(--soft-ink); font:700 .66rem/1 Arial, sans-serif; letter-spacing:.09em; text-transform:uppercase; }
       .book strong { font-family:'Palatino Linotype', 'Book Antiqua', Georgia, serif; font-size:clamp(2rem, 3vw, 3rem); letter-spacing:-.06em; line-height:.88; max-width:80%; }
