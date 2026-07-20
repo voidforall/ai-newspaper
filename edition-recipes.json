@@ -18,6 +18,24 @@
       "name": "AI Policy Watch",
       "sources": ["hacker-news", "ai-policy-research"],
       "maxStories": 10
+    },
+    {
+      "id": "research-papers",
+      "name": "AI Research Papers",
+      "sources": ["arxiv-ai"],
+      "maxStories": 8
+    },
+    {
+      "id": "sdk-releases",
+      "name": "AI SDK Releases",
+      "sources": ["transformers-releases", "openai-python-releases"],
+      "maxStories": 8
+    },
+    {
+      "id": "developer-brief",
+      "name": "AI Developer Brief",
+      "sources": ["simon-willison", "transformers-releases", "openai-python-releases"],
+      "maxStories": 10
     }
   ]
 }
