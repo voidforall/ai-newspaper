@@ -28,13 +28,6 @@
       "feedUrl": "https://rss.arxiv.org/rss/cs.AI"
     },
     {
-      "id": "openai-python-releases",
-      "name": "OpenAI Python releases",
-      "type": "api",
-      "adapter": "github-releases",
-      "repository": "openai/openai-python"
-    },
-    {
       "id": "ai-policy-research",
       "name": "AI Policy Watch",
       "type": "agent-research",
