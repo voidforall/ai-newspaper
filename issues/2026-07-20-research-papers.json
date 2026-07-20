@@ -1,0 +1,180 @@
+{
+  "id": "2026-07-20-research-papers",
+  "date": "2026-07-20",
+  "editionTitle": "GraphDx — The Research Desk",
+  "editorNote": "A curated view of 8 stories from AI Research Papers.",
+  "stories": [
+    {
+      "articleIds": [
+        "arxiv-ai-https-arxiv-org-abs-2607-15280"
+      ],
+      "headline": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
+      "summary": "Computer Science > Artificial Intelligence arXiv:2607. 15280 (cs) [Submitted on 8 Apr 2026] Title: GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis Authors: Shaoting Tan , Ning Liu , Yuntao Du , Shuyue Wei , Wu Shuai , Qian Li , Yanyu Xu , Wei Zhang , Lizhen Cui , Haitao Yuan View a PDF of the paper titled GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis, by Shaoting Tan and 9 other authors View PDF HTML (experimental) Abstract: Sequential diagnosis requires balancing diagnostic accuracy against resource costs through iterative information gathering.",
+      "category": "Technology",
+      "importance": 30,
+      "whyItMatters": "It adds a current research result to the edition.",
+      "sourceLinks": [
+        {
+          "name": "arXiv · Artificial Intelligence",
+          "url": "https://rss.arxiv.org/rss/cs.AI"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arxiv.org/abs/2607.15280"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "arxiv-ai-https-arxiv-org-abs-2607-15281"
+      ],
+      "headline": "Causal-Audit: Explicit and Auditable Graph-based Reasoning via Target-Aware Causal Chain Construction",
+      "summary": "Computer Science > Artificial Intelligence arXiv:2607. 15281 (cs) [Submitted on 22 Apr 2026] Title: Causal-Audit: Explicit and Auditable Graph-based Reasoning via Target-Aware Causal Chain Construction Authors: Su Lan , Xuefei Yin , Yanming Zhu , Alan Wee-Chung Liew View a PDF of the paper titled Causal-Audit: Explicit and Auditable Graph-based Reasoning via Target-Aware Causal Chain Construction, by Su Lan and 3 other authors View PDF HTML (experimental) Abstract: Causal and intervention-based question answering is fundamental to advancing large language models (LLMs) toward reasoning beyond surface-level correlations and understanding underlying causal mechanisms.",
+      "category": "Technology",
+      "importance": 29,
+      "whyItMatters": "It adds a current research result to the edition.",
+      "sourceLinks": [
+        {
+          "name": "arXiv · Artificial Intelligence",
+          "url": "https://rss.arxiv.org/rss/cs.AI"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arxiv.org/abs/2607.15281"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "arxiv-ai-https-arxiv-org-abs-2607-15314"
+      ],
+      "headline": "Cura 1T: Specialized Model for Agentic Healthcare",
+      "summary": "Computer Science > Artificial Intelligence arXiv:2607. 15314 (cs) [Submitted on 15 Jul 2026] Title: Cura 1T: Specialized Model for Agentic Healthcare Authors: actAVA AI : Haolin Chen , Leon Qi , Steve Brown , Deon Metelski , Tao Xia , Joonyul Lee , Qixuan Wang , Kevin Riley , Frank Wang , Weiran Yao View a PDF of the paper titled Cura 1T: Specialized Model for Agentic Healthcare, by actAVA AI: Haolin Chen and 9 other authors View PDF HTML (experimental) Abstract: Healthcare spans high-stakes communication, expert reasoning, and workflow execution, yet specialized LLMs that cover these use cases together remain limited.",
+      "category": "Technology",
+      "importance": 28,
+      "whyItMatters": "It adds a current research result to the edition.",
+      "sourceLinks": [
+        {
+          "name": "arXiv · Artificial Intelligence",
+          "url": "https://rss.arxiv.org/rss/cs.AI"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arxiv.org/abs/2607.15314"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "arxiv-ai-https-arxiv-org-abs-2607-15367"
+      ],
+      "headline": "AnovaX: A Local, Multi-Agent Voice Assistant with LLM Planning, Typed Executors, and Adaptive Recovery",
+      "summary": "Computer Science > Artificial Intelligence arXiv:2607. 15367 (cs) [Submitted on 16 Jul 2026] Title: AnovaX: A Local, Multi-Agent Voice Assistant with LLM Planning, Typed Executors, and Adaptive Recovery Authors: Raunak B Sinha View a PDF of the paper titled AnovaX: A Local, Multi-Agent Voice Assistant with LLM Planning, Typed Executors, and Adaptive Recovery, by Raunak B Sinha View PDF HTML (experimental) Abstract: Desktop voice assistants are still dominated by cloud pipelines that ship raw audio off the machine and expose a fixed set of skills.",
+      "category": "Technology",
+      "importance": 27,
+      "whyItMatters": "It adds a current research result to the edition.",
+      "sourceLinks": [
+        {
+          "name": "arXiv · Artificial Intelligence",
+          "url": "https://rss.arxiv.org/rss/cs.AI"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arxiv.org/abs/2607.15367"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "arxiv-ai-https-arxiv-org-abs-2607-15388"
+      ],
+      "headline": "Precise but Uncoupled: Reviewer Precision Does Not Guarantee Critique Uptake in Multi-Agent Math Reasoning",
+      "summary": "Computer Science > Artificial Intelligence arXiv:2607. 15388 (cs) [Submitted on 16 Jul 2026] Title: Precise but Uncoupled: Reviewer Precision Does Not Guarantee Critique Uptake in Multi-Agent Math Reasoning Authors: Chih-Hsuan Yang , Jingyan Jiang , Vikram Vasudevan , Cheng-Hau Yang , Huihuo Zheng , Le Chen , Eliu A.",
+      "category": "Technology",
+      "importance": 26,
+      "whyItMatters": "It adds a current research result to the edition.",
+      "sourceLinks": [
+        {
+          "name": "arXiv · Artificial Intelligence",
+          "url": "https://rss.arxiv.org/rss/cs.AI"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arxiv.org/abs/2607.15388"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "arxiv-ai-https-arxiv-org-abs-2607-15418"
+      ],
+      "headline": "DrawingVQA: A Real-World Benchmark for Multi-Depth Visual-Textual Reasoning on Construction Drawings",
+      "summary": "Computer Science > Artificial Intelligence arXiv:2607. 15418 (cs) [Submitted on 16 Jul 2026] Title: DrawingVQA: A Real-World Benchmark for Multi-Depth Visual-Textual Reasoning on Construction Drawings Authors: Yoonhwa Jung , Junryu Fu , Mani Golparvar-Fard View a PDF of the paper titled DrawingVQA: A Real-World Benchmark for Multi-Depth Visual-Textual Reasoning on Construction Drawings, by Yoonhwa Jung and 2 other authors View PDF HTML (experimental) Abstract: We introduce DrawingVQA, the first benchmark designed to evaluate multimodal large language models (MLLMs) on real-world construction drawings -- a core media in architecture, civil, and many other engineering practices.",
+      "category": "Technology",
+      "importance": 25,
+      "whyItMatters": "It adds a current research result to the edition.",
+      "sourceLinks": [
+        {
+          "name": "arXiv · Artificial Intelligence",
+          "url": "https://rss.arxiv.org/rss/cs.AI"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arxiv.org/abs/2607.15418"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "arxiv-ai-https-arxiv-org-abs-2607-15439"
+      ],
+      "headline": "Do Coding Agents Need Executable World Models, Simplification, and Verification to Solve ARC-AGI-3?",
+      "summary": "Computer Science > Artificial Intelligence arXiv:2607. 15439 (cs) [Submitted on 16 Jul 2026] Title: Do Coding Agents Need Executable World Models, Simplification, and Verification to Solve ARC-AGI-3?",
+      "category": "Technology",
+      "importance": 24,
+      "whyItMatters": "It adds a current research result to the edition.",
+      "sourceLinks": [
+        {
+          "name": "arXiv · Artificial Intelligence",
+          "url": "https://rss.arxiv.org/rss/cs.AI"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arxiv.org/abs/2607.15439"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "arxiv-ai-https-arxiv-org-abs-2607-15442"
+      ],
+      "headline": "Beyond a Joke: Multi-Angle Reasoning for Detecting and Explaining Harmful Humor in Memes",
+      "summary": "Computer Science > Artificial Intelligence arXiv:2607. 15442 (cs) [Submitted on 16 Jul 2026] Title: Beyond a Joke: Multi-Angle Reasoning for Detecting and Explaining Harmful Humor in Memes Authors: Shanhong Liu , Pai Chet Ng , De Wen Soh , Malika Meghjani , Konstantinos N.",
+      "category": "Technology",
+      "importance": 23,
+      "whyItMatters": "It adds a current research result to the edition.",
+      "sourceLinks": [
+        {
+          "name": "arXiv · Artificial Intelligence",
+          "url": "https://rss.arxiv.org/rss/cs.AI"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arxiv.org/abs/2607.15442"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-20T16:28:51.933Z",
+  "recipe": {
+    "id": "research-papers",
+    "name": "AI Research Papers"
+  },
+  "sources": [
+    {
+      "id": "arxiv-ai",
+      "name": "arXiv · Artificial Intelligence",
+      "type": "rss"
+    }
+  ]
+}

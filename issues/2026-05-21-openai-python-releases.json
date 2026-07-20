@@ -1,0 +1,40 @@
+{
+  "id": "2026-05-21-openai-python-releases",
+  "date": "2026-05-21",
+  "editionTitle": "v2.38.0 — The Release Desk",
+  "editorNote": "A curated view of 1 story from OpenAI Python Releases.",
+  "stories": [
+    {
+      "articleIds": [
+        "github-release-327302145"
+      ],
+      "headline": "v2.38.0",
+      "summary": "Uh oh!  There was an error while loading.",
+      "category": "Ideas",
+      "importance": 30,
+      "whyItMatters": "It records a versioned change that developers can inspect directly.",
+      "sourceLinks": [
+        {
+          "name": "OpenAI Python releases",
+          "url": "https://github.com/openai/openai-python/releases"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/openai/openai-python/releases/tag/v2.38.0"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-20T16:28:55.021Z",
+  "recipe": {
+    "id": "openai-python-releases",
+    "name": "OpenAI Python Releases"
+  },
+  "sources": [
+    {
+      "id": "openai-python-releases",
+      "name": "OpenAI Python releases",
+      "type": "api"
+    }
+  ]
+}

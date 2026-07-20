@@ -1,0 +1,50 @@
+{
+  "id": "2026-07-20-developer-brief",
+  "date": "2026-07-20",
+  "editionTitle": "Quoting Sam Altman — The Ideas Desk",
+  "editorNote": "A curated view of 1 story from AI Developer Brief.",
+  "stories": [
+    {
+      "articleIds": [
+        "simon-willison-https-simonwillison-net-2026-jul-20-sam-altman-atom-everything"
+      ],
+      "headline": "Quoting Sam Altman",
+      "summary": "Simon Willison’s Weblog Subscribe Sponsored by: Atlassian &mdash; Give your agents a plan.  Not a prompt.",
+      "category": "Ideas",
+      "importance": 30,
+      "whyItMatters": "It adds a direct record from Simon Willison to the edition.",
+      "sourceLinks": [
+        {
+          "name": "Simon Willison",
+          "url": "https://simonwillison.net/atom/everything/"
+        },
+        {
+          "name": "Original source",
+          "url": "https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-20T16:28:52.953Z",
+  "recipe": {
+    "id": "developer-brief",
+    "name": "AI Developer Brief"
+  },
+  "sources": [
+    {
+      "id": "simon-willison",
+      "name": "Simon Willison",
+      "type": "rss"
+    },
+    {
+      "id": "transformers-releases",
+      "name": "Transformers releases",
+      "type": "api"
+    },
+    {
+      "id": "openai-python-releases",
+      "name": "OpenAI Python releases",
+      "type": "api"
+    }
+  ]
+}

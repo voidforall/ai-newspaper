@@ -1,0 +1,225 @@
+{
+  "id": "2026-07-20-ai-policy-watch",
+  "date": "2026-07-20",
+  "editionTitle": "Claude Fable produced a counterexample to… — The Ideas Desk",
+  "editorNote": "A curated view of 10 stories from AI Policy Watch.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-48973869"
+      ],
+      "headline": "Claude Fable produced a counterexample to the Jacobian Conjecture",
+      "summary": "levent @__alpoge__ 14h hello there the jacobian conjecture is false thanx to my close friend akhil for asking about it and my other close friend fable for working during the world cup final ((1+xy)^3 z + y^2 (1+xy) (4+3xy), y + 3 x (1+xy)^2 z + 3 x y^2 (4+3xy), 2 x - 3 x^2 y - x^3 z): \\C^3\\to \\C^3, has jacobian determinant -2, and sends (0, 0, -1/4), (1, -3/2, 13/2), and (-1, 3/2, 13/2) to (-1/4, 0, 0) Jul 20, 2026 · 2:19 AM UTC 1,022 2,608 19,646 9,776,861 levent @__alpoge__ 14h wolframalpha. com/input?",
+      "category": "Ideas",
+      "importance": 591,
+      "whyItMatters": "The Hacker News community gave this story 591 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48973869"
+        },
+        {
+          "name": "Original source",
+          "url": "https://xcancel.com/__alpoge__/status/2079028340955197566"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48974454"
+      ],
+      "headline": "Xiaomi-Robotics-1",
+      "summary": "Breaking the data barrier.  Scaling robot policy models with embodiment-free pre-training.",
+      "category": "Technology",
+      "importance": 384,
+      "whyItMatters": "The Hacker News community gave this story 384 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48974454"
+        },
+        {
+          "name": "Original source",
+          "url": "https://robotics.xiaomi.com/xiaomi-robotics-1.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48976846"
+      ],
+      "headline": "Airport Simulator",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 356,
+      "whyItMatters": "The Hacker News community gave this story 356 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48976846"
+        },
+        {
+          "name": "Original source",
+          "url": "https://airport.apunen.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48975665"
+      ],
+      "headline": "Exploit brokers pay $500k for WordPress RCEs. I found one with GPT5.6 and $25",
+      "summary": "July 20, 2026 Security research Adam Kues Exploit brokers pay $500,000 for a WordPress RCE.  I found one with GPT5.",
+      "category": "Technology",
+      "importance": 311,
+      "whyItMatters": "The Hacker News community gave this story 311 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48975665"
+        },
+        {
+          "name": "Original source",
+          "url": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48977711"
+      ],
+      "headline": "The EU is about to sell our most sensitive data to the US for visa-free travel",
+      "summary": "The EU is about to sell our most sensitive data to the US for visa-free travel The European Commission is currently finalising negotiations with the Trump administration to conclude an “Enhanced Border Security Partnership” (EBSP) Framework Agreement allowing border control authorities to screen travellers against biometric databases and profile them for security concerns.  The leaked draft text suggests that the Commission significantly caved in to US’s excessive demands for unfettered information access, exacerbating travel surveillance and putting our fundamental rights at risk.",
+      "category": "Technology",
+      "importance": 311,
+      "whyItMatters": "The Hacker News community gave this story 311 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48977711"
+        },
+        {
+          "name": "Original source",
+          "url": "https://edri.org/our-work/the-eu-is-about-to-sell-our-most-sensitive-data-to-the-us-for-visa-free-travel/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48972970"
+      ],
+      "headline": "Moonshine: Lets you stream games from your PC to any device running Moonlight",
+      "summary": "hgaiser / moonshine Public Notifications You must be signed in to change notification settings Fork 47 Star 723 main Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 564 Commits 564 Commits . github .",
+      "category": "Technology",
+      "importance": 303,
+      "whyItMatters": "The Hacker News community gave this story 303 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48972970"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/hgaiser/moonshine"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48978112"
+      ],
+      "headline": "Annoying and alarming things about OpenCode",
+      "summary": "If you don’t know what OpenCode is, imagine a boot stamping on a human face forever.  The boot is made of TypeScript and the face is everything we have learned about security and systems software since the invention of the electronic computer in the 1940s.",
+      "category": "Technology",
+      "importance": 289,
+      "whyItMatters": "The Hacker News community gave this story 289 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48978112"
+        },
+        {
+          "name": "Original source",
+          "url": "https://wren.wtf/shower-thoughts/stop-using-opencode/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48978605"
+      ],
+      "headline": "Hacker wipes Romania's land registry database",
+      "summary": "This newsletter is brought to you by Thinkst , the makers of the much-loved Thinkst Canary .  You can subscribe to an audio version of this newsletter as a podcast by searching for \"Risky Business\" in your podcatcher or subscribing via this RSS feed .",
+      "category": "Technology",
+      "importance": 283,
+      "whyItMatters": "The Hacker News community gave this story 283 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48978605"
+        },
+        {
+          "name": "Original source",
+          "url": "https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48976682"
+      ],
+      "headline": "Airbus Takes Flight from AWS",
+      "summary": "columnists Airbus takes flight from AWS.  What happens next is critical Which way to the Land of the Free again?",
+      "category": "Technology",
+      "importance": 172,
+      "whyItMatters": "The Hacker News community gave this story 172 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48976682"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48974292"
+      ],
+      "headline": "When can a power company take your land for data center infrastructure?",
+      "summary": "Meeting data center power demands will mean building more transmission lines and acquiring more land to put them on.  These lines are in California.",
+      "category": "Business",
+      "importance": 151,
+      "whyItMatters": "The Hacker News community gave this story 151 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48974292"
+        },
+        {
+          "name": "Original source",
+          "url": "https://theconversation.com/when-can-a-power-company-take-your-land-for-data-center-infrastructure-284061"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-20T16:28:54.340Z",
+  "recipe": {
+    "id": "ai-policy-watch",
+    "name": "AI Policy Watch"
+  },
+  "sources": [
+    {
+      "id": "hacker-news",
+      "name": "Hacker News",
+      "type": "api"
+    },
+    {
+      "id": "ai-policy-research",
+      "name": "AI Policy Watch",
+      "type": "agent-research"
+    }
+  ]
+}

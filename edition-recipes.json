@@ -32,6 +32,12 @@
       "maxStories": 8
     },
     {
+      "id": "openai-python-releases",
+      "name": "OpenAI Python Releases",
+      "sources": ["openai-python-releases"],
+      "maxStories": 8
+    },
+    {
       "id": "developer-brief",
       "name": "AI Developer Brief",
       "sources": ["simon-willison", "transformers-releases", "openai-python-releases"],

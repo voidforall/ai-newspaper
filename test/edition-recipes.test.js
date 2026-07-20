@@ -62,9 +62,11 @@ test("loads the configured agent-research policy recipe", async () => {
 test("loads the configured research-paper and SDK-release recipes", async () => {
   const papers = await loadEditionRecipe("research-papers");
   const releases = await loadEditionRecipe("sdk-releases");
+  const openAiReleases = await loadEditionRecipe("openai-python-releases");
 
   assert.deepEqual(papers.sources.map((source) => source.adapter), ["rss"]);
   assert.deepEqual(releases.sources.map((source) => source.repository), ["huggingface/transformers", "openai/openai-python"]);
+  assert.deepEqual(openAiReleases.sources.map((source) => source.repository), ["openai/openai-python"]);
 });
 
 test("loads a shareable recipe file with custom sources", async (t) => {
