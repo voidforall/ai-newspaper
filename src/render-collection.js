@@ -13,41 +13,41 @@ function pageHead(title) {
   return `<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#eeeae0">
+    <meta name="theme-color" content="#dfc986">
     <title>${escapeHtml(title === "AI Newspaper" ? title : `${title} · AI Newspaper`)}</title>
     <style>
-      :root { --paper:#cbd5d6; --ink:#14282d; --soft-ink:#4d6267; --rule:#789095; --accent:#e8602d; --night:#193b46; --cream:#e9efed; --signal:#f5d94e; }
+      :root { --paper:#dfc986; --ink:#28251f; --soft-ink:#67593e; --rule:#907a4c; --accent:#2e4765; --night:#2c2b27; --cream:#f6e9bd; --signal:#cda63a; }
       * { box-sizing:border-box; }
       body { background:var(--paper); color:var(--ink); font:16px/1.45 Georgia, 'Times New Roman', serif; margin:0; }
       a { color:inherit; }
       .page { margin:0 auto; max-width:1240px; padding:26px clamp(20px, 5vw, 64px) 72px; }
-      .masthead { align-items:stretch; border-bottom:1px solid var(--ink); display:grid; gap:0; grid-template-columns:minmax(0, 1fr) 275px; }
-      .masthead__title { align-items:end; background:var(--night); color:var(--cream); display:flex; font-family:'Arial Narrow', 'Helvetica Neue', Arial, sans-serif; font-size:clamp(3.1rem, 8vw, 7.3rem); font-stretch:condensed; font-weight:900; letter-spacing:-.09em; line-height:.74; margin:0; padding:24px 25px 18px; text-transform:uppercase; }
-      .masthead__note { align-self:stretch; border-left:1px solid var(--ink); color:var(--ink); font-size:1rem; margin:0; padding:24px 22px; }
+      .masthead { align-items:end; border-bottom:4px double var(--ink); display:grid; gap:22px; grid-template-columns:minmax(0, 1fr) 275px; padding:8px 0 17px; }
+      .masthead__title { color:var(--ink); font-family:'Palatino Linotype', 'Book Antiqua', Georgia, serif; font-size:clamp(3.3rem, 8vw, 7.1rem); font-weight:700; letter-spacing:-.075em; line-height:.78; margin:0; }
+      .masthead__note { border-left:1px solid var(--rule); color:var(--soft-ink); font-size:1rem; font-style:italic; margin:0; padding:4px 0 4px 20px; }
       .masthead__note .kicker { display:block; }
-      .kicker { color:var(--accent); font:700 .69rem/1.2 'Courier New', monospace; letter-spacing:.11em; margin:0 0 8px; text-transform:uppercase; }
+      .kicker { color:var(--accent); font:700 .68rem/1.2 Arial, sans-serif; letter-spacing:.12em; margin:0 0 8px; text-transform:uppercase; }
       .section-header { align-items:baseline; border-bottom:1px solid var(--ink); display:flex; justify-content:space-between; margin:46px 0 13px; padding-bottom:8px; }
-      .section-header h2 { font-family:'Arial Narrow', Arial, sans-serif; font-size:1.15rem; font-stretch:condensed; letter-spacing:.02em; margin:0; text-transform:uppercase; }
-      .section-header span { background:var(--signal); font:700 .66rem/1 'Courier New', monospace; letter-spacing:.07em; padding:5px 7px; text-transform:uppercase; }
+      .section-header h2 { font-family:'Palatino Linotype', 'Book Antiqua', Georgia, serif; font-size:1.45rem; letter-spacing:-.04em; margin:0; }
+      .section-header span { color:var(--soft-ink); font:700 .66rem/1 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; }
       .shelf { display:grid; gap:12px; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); }
-      .book { background:var(--cream); border:1px solid var(--ink); color:var(--ink); display:flex; flex-direction:column; justify-content:space-between; min-height:230px; padding:18px; position:relative; text-decoration:none; transition:background 130ms ease, transform 130ms ease; }
-      .book::before { background:var(--accent); clip-path:polygon(0 0,100% 0,76% 100%,0 100%); color:var(--ink); content:'FILE'; font:700 .59rem/1 'Courier New', monospace; letter-spacing:.12em; padding:7px 25px 7px 8px; position:absolute; right:-1px; top:-1px; }
-      .book:hover { background:#f8f8f1; transform:translateY(-3px); }
+      .book { background:var(--cream); border:1px solid var(--ink); border-left:10px solid var(--accent); color:var(--ink); display:flex; flex-direction:column; justify-content:space-between; min-height:230px; padding:18px; position:relative; text-decoration:none; transition:background 130ms ease, transform 130ms ease; }
+      .book::before { color:var(--soft-ink); content:'SOURCE EDITIONS'; font:700 .58rem/1 Arial, sans-serif; letter-spacing:.1em; position:absolute; right:18px; top:20px; }
+      .book:hover { background:#fff1c5; box-shadow:5px 5px 0 rgba(101,79,35,.22); transform:translate(-2px,-2px); }
       .book:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible { outline:3px solid var(--accent); outline-offset:3px; }
-      .book__type { color:var(--soft-ink); font:700 .66rem/1 'Courier New', monospace; letter-spacing:.09em; text-transform:uppercase; }
-      .book strong { font-family:'Arial Narrow', Arial, sans-serif; font-size:clamp(1.9rem, 3vw, 2.8rem); font-stretch:condensed; letter-spacing:-.06em; line-height:.84; max-width:80%; text-transform:uppercase; }
-      .book__meta { border-top:1px solid var(--rule); color:var(--soft-ink); display:flex; font:700 .66rem/1.35 'Courier New', monospace; justify-content:space-between; padding-top:9px; text-transform:uppercase; }
+      .book__type { color:var(--soft-ink); font:700 .66rem/1 Arial, sans-serif; letter-spacing:.09em; text-transform:uppercase; }
+      .book strong { font-family:'Palatino Linotype', 'Book Antiqua', Georgia, serif; font-size:clamp(2rem, 3vw, 3rem); letter-spacing:-.06em; line-height:.88; max-width:80%; }
+      .book__meta { border-top:1px solid var(--rule); color:var(--soft-ink); display:flex; font:700 .66rem/1.35 Arial, sans-serif; justify-content:space-between; padding-top:9px; text-transform:uppercase; }
       .empty { border:1px dashed var(--rule); color:var(--soft-ink); margin:0; padding:22px; }
-      .return { color:var(--accent); font:700 .75rem/1 'Courier New', monospace; letter-spacing:.07em; text-decoration:none; text-transform:uppercase; }
-      .timeline-title { font-family:'Arial Narrow', Arial, sans-serif; font-size:clamp(3.2rem, 9vw, 7rem); font-stretch:condensed; letter-spacing:-.08em; line-height:.8; margin:28px 0 38px; text-transform:uppercase; }
+      .return { color:var(--accent); font:700 .75rem/1 Arial, sans-serif; letter-spacing:.07em; text-decoration:none; text-transform:uppercase; }
+      .timeline-title { font-family:'Palatino Linotype', 'Book Antiqua', Georgia, serif; font-size:clamp(3.2rem, 9vw, 7rem); letter-spacing:-.08em; line-height:.8; margin:28px 0 38px; }
       .timeline { list-style:none; margin:0; padding:0; }
       .timeline li { border-top:1px solid var(--rule); }
       .timeline a { display:grid; gap:12px; grid-template-columns:130px minmax(0, 1fr) minmax(180px, .9fr); padding:19px 0; text-decoration:none; }
       .timeline a:hover strong { color:var(--accent); }
-      .timeline time { color:var(--soft-ink); font:700 .68rem/1.25 'Courier New', monospace; letter-spacing:.04em; padding-top:4px; }
-      .timeline strong { font-family:'Arial Narrow', Arial, sans-serif; font-size:1.55rem; font-stretch:condensed; letter-spacing:-.035em; line-height:.95; text-transform:uppercase; transition:color 150ms ease; }
+      .timeline time { color:var(--soft-ink); font:700 .68rem/1.25 Arial, sans-serif; letter-spacing:.06em; padding-top:4px; }
+      .timeline strong { font-family:'Palatino Linotype', 'Book Antiqua', Georgia, serif; font-size:1.6rem; letter-spacing:-.04em; line-height:.95; transition:color 150ms ease; }
       .timeline span { color:var(--soft-ink); font-size:.9rem; }
-      @media (max-width:650px) { .masthead { grid-template-columns:1fr; } .masthead__title { min-height:150px; } .masthead__note { border-left:0; border-top:1px solid var(--ink); } .book__meta { flex-direction:column; gap:5px; } .timeline a { grid-template-columns:1fr; gap:6px; } .timeline-title { margin-bottom:28px; } }
+      @media (max-width:650px) { .masthead { align-items:start; gap:16px; grid-template-columns:1fr; } .masthead__note { border-left:0; border-top:1px solid var(--rule); padding:14px 0 0; } .book__meta { flex-direction:column; gap:5px; } .timeline a { grid-template-columns:1fr; gap:6px; } .timeline-title { margin-bottom:28px; } }
     </style>
   </head>`;
 }
