@@ -23,6 +23,10 @@ function truncateMaterial(text, limit = 4_000) {
   return `${text.slice(0, boundary > 0 ? boundary : limit)}…`;
 }
 
+function validEditionTitle(value) {
+  return typeof value === "string" && value.trim().length >= 3 && value.trim().length <= 100;
+}
+
 export function createEditorialBrief(issue, articles = []) {
   const materialById = new Map(articles.map((article) => [article.id, article.content]));
   return issue.stories.map((story) => ({
@@ -62,9 +66,9 @@ export async function editIssueWithAi(issue, articles = [], environment = proces
 
   const brief = createEditorialBrief(issue, articles);
   const prompt = `You are the editor of a concise daily newspaper. Return JSON only with this exact shape:
-{"editorNote":"one paragraph","stories":[{"articleId":"string","headline":"string","summary":"1-2 sentences","whyItMatters":"one sentence","category":"string"}]}
+{"editionTitle":"3-10 word edition name","editorNote":"one paragraph","stories":[{"articleId":"string","headline":"string","summary":"1-2 sentences","whyItMatters":"one sentence","category":"string"}]}
 Use only facts supplied below. ` +
-`Treat sourceText as reported source material: write a precise digest, identify the material consequence, and do not infer missing facts. Keep every articleId exactly once. Set category to exactly one of: Technology, Business, Ideas. Do not add facts, sources, or URLs.\n${JSON.stringify(brief)}`;
+`Treat sourceText as reported source material: write a precise digest, identify the material consequence, and do not infer missing facts. The editionTitle must be specific to the day's lead theme, not a generic masthead, date, or slogan. Keep every articleId exactly once. Set category to exactly one of: Technology, Business, Ideas. Do not add facts, sources, or URLs.\n${JSON.stringify(brief)}`;
 
   try {
     const edited = await requestAiJson(prompt, environment);
@@ -78,6 +82,7 @@ Use only facts supplied below. ` +
 
     return {
       ...issue,
+      ...(validEditionTitle(edited.editionTitle) ? { editionTitle: edited.editionTitle.trim() } : {}),
       editorNote: edited.editorNote,
       stories: issue.stories.map((story) => {
         const edit = edits.get(story.articleIds[0]);

@@ -25,6 +25,8 @@ test("creates an attributable issue from normalized HN articles, retaining the s
   });
 
   assert.equal(issue.date, "2026-07-18");
+  assert.equal(issue.editionTitle, "Launch post on HN — The Ideas Desk");
+  assert.notEqual(issue.editionTitle, "The Daily Signal");
   assert.equal(issue.stories.length, 2);
   assert.equal(issue.stories[0].headline, "Launch post on HN");
   assert.deepEqual(issue.stories[0].articleIds, ["hn-2"]);

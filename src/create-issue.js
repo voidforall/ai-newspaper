@@ -26,14 +26,35 @@ function storyFrom(article) {
   };
 }
 
-export function createIssue({ date, articles, editionTitle = "The Daily Signal", id = date, maxStories = 10, recipe, sources }) {
+function shortenHeadline(value, limit = 56) {
+  const headline = value.replace(/\s+/g, " ").replace(/[.!?]+$/, "").trim();
+  if (headline.length <= limit) return headline;
+  const boundary = headline.lastIndexOf(" ", limit);
+  return `${headline.slice(0, boundary > 20 ? boundary : limit).trim()}…`;
+}
+
+function deskFor(article) {
+  return {
+    Technology: "The Build Desk",
+    Business: "The Market Desk",
+    Ideas: "The Ideas Desk"
+  }[categoryFor(article)];
+}
+
+export function editionTitleFor(articles) {
+  const lead = articles[0];
+  if (!lead?.title) return "The Open Edition";
+  return `${shortenHeadline(lead.title)} — ${deskFor(lead)}`;
+}
+
+export function createIssue({ date, articles, editionTitle, id = date, maxStories = 10, recipe, sources }) {
   const selected = uniqueByUrl(articles)
     .slice(0, maxStories);
 
   return {
     id,
     date,
-    editionTitle,
+    editionTitle: editionTitle?.trim() || editionTitleFor(selected),
     editorNote: selected.length
       ? `A curated view of ${selected.length} stories shaping today's Hacker News conversation.`
       : "No qualifying stories were available for this edition.",
