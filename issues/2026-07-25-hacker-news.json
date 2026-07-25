@@ -1,0 +1,209 @@
+{
+  "id": "2026-07-25-hacker-news",
+  "date": "2026-07-25",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49038433"
+      ],
+      "headline": "Claude Opus 5",
+      "summary": "Product Announcements Introducing Claude Opus 5 Jul 24, 2026 Claude Opus 5 is available today.  It’s a thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price.",
+      "category": "Technology",
+      "importance": 1533,
+      "whyItMatters": "The Hacker News community gave this story 1533 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49038433"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.anthropic.com/news/claude-opus-5"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49035303"
+      ],
+      "headline": "Nvidia, Microsoft, Meta warn against overregulating open-weight models",
+      "summary": "Skip Navigation Markets Business Investing Tech Politics Video Watchlist Investing Club PRO Livestream Menu Key Points A group of 25 tech companies released a letter urging policymakers to avoid \"premature restrictions\" on open-weight AI models.  Chinese open-weight models are gaining steam against leading offerings from American companies, which has sparked a debate about whether they should be restricted.",
+      "category": "Technology",
+      "importance": 600,
+      "whyItMatters": "The Hacker News community gave this story 600 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49035303"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49034292"
+      ],
+      "headline": "My security camera shipped a GitHub admin token in its login page",
+      "summary": "i have been thinking a bit more about security cameras again, because of AXIS starting to push more for every one of their cameras to be able to easily run linux applications on them , they're far more serious targets in an enterprise environment and need to be managed as such for vulnerabilities and credential management etc.  someone brought up to me a company that sounded new to me, Hanwha (Vision.",
+      "category": "Technology",
+      "importance": 586,
+      "whyItMatters": "The Hacker News community gave this story 586 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49034292"
+        },
+        {
+          "name": "Original source",
+          "url": "https://hhh.hn/hanwha-github-token/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49034868"
+      ],
+      "headline": "Half-Life 2 running natively on HaikuOS",
+      "summary": "Haiku ❤ Nvidia (porting Nvidia driver for Turing+ GPUs) Software Proprietary & Other zantak June 14, 2026, 12:03am 348 Hope eventually will came out!!  loll June 20, 2026, 10:32pm 349 ohhh 1325 fps… 1 Like Tofu July 12, 2026, 11:47pm 350 I’ve done testing on an RTX 5090.",
+      "category": "Technology",
+      "importance": 299,
+      "whyItMatters": "The Hacker News community gave this story 299 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49034868"
+        },
+        {
+          "name": "Original source",
+          "url": "https://discuss.haiku-os.org/t/haiku-nvidia-porting-nvidia-driver-for-turing-gpus/16520?page=18"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49040296"
+      ],
+      "headline": "Postgres LISTEN/NOTIFY actually scales",
+      "summary": "Postgres LISTEN/NOTIFY has a bad reputation thanks in part to a popular blog post asserting it does not scale .  If that were true, it would be a shame, because LISTEN/NOTIFY is a powerful tool, allowing you to use your Postgres database for low-latency durable notifications, streams, and pub/sub.",
+      "category": "Technology",
+      "importance": 298,
+      "whyItMatters": "The Hacker News community gave this story 298 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49040296"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.dbos.dev/blog/postgres-listen-notify-scalability"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49033240"
+      ],
+      "headline": "IRGC claims it destroyed Amazon's Bahrain data center",
+      "summary": "IRGC claims cruise missile strike destroyed AWS Bahrain data center in Wave 24, citing Darkhovin nuclear plant as casus belli.  Third strike on same facility since March.",
+      "category": "Technology",
+      "importance": 291,
+      "whyItMatters": "The Hacker News community gave this story 291 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49033240"
+        },
+        {
+          "name": "Original source",
+          "url": "https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49040741"
+      ],
+      "headline": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard",
+      "summary": "Artificial Analysis K Comparison of Models: Intelligence, Performance & Price Analysis Microevals Playground Comparison and analysis of AI models across key performance metrics including quality, price, output speed, latency, context window & others.  Click on any model to see detailed metrics.",
+      "category": "Technology",
+      "importance": 284,
+      "whyItMatters": "The Hacker News community gave this story 284 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49040741"
+        },
+        {
+          "name": "Original source",
+          "url": "https://artificialanalysis.ai/models"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49033099"
+      ],
+      "headline": "Buz – A fork of Bun using modern Zig, with sub-1s incremental builds",
+      "summary": "Buz - A drop-in replacement for Bun using modern Zig, with sub-1s incremental builds Showcase llm-deps , llm , zig-master jazzzooo July 24, 2026, 5:58am 1 Buz This is my WIP fork of Bun, based on the last commit before their Rust rewrite.  It is still very early in its development and is nowhere near ready for production.",
+      "category": "Ideas",
+      "importance": 277,
+      "whyItMatters": "The Hacker News community gave this story 277 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49033099"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ziggit.dev/t/buz-a-drop-in-replacement-for-bun-using-modern-zig-with-sub-1s-incremental-builds/16891"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49044074"
+      ],
+      "headline": "Taylor Farms Called White House to Try to Delay Cyclospora Recall",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 207,
+      "whyItMatters": "The Hacker News community gave this story 207 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49044074"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.wsj.com/health/taylor-farms-cyclospora-recall-delay-call-41fef0bc"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49033110"
+      ],
+      "headline": "Future euro banknote design proposals",
+      "summary": "All design proposals The euro banknotes are being redesigned to reflect Europe’s shared identity and values.  The design proposals presented below were selected by the Jury.",
+      "category": "Ideas",
+      "importance": 187,
+      "whyItMatters": "The Hacker News community gave this story 187 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49033110"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/all-design-proposals.en.html"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-25T09:01:44.172Z"
+}
