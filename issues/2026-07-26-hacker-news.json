@@ -1,0 +1,209 @@
+{
+  "id": "2026-07-26-hacker-news",
+  "date": "2026-07-26",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49051361"
+      ],
+      "headline": "The new rules of context engineering for Claude 5 generation models",
+      "summary": "The new rules of context engineering for Claude 5 generation models We removed over 80% of Claude Code's system prompt for more advanced models.  How to apply the lessons we learned to your own context engineering in Claude Code and with your own agents.",
+      "category": "Technology",
+      "importance": 316,
+      "whyItMatters": "The Hacker News community gave this story 316 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49051361"
+        },
+        {
+          "name": "Original source",
+          "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49051369"
+      ],
+      "headline": "Turn And Face The Strange",
+      "summary": "Author Name Kurt Mackey @mrkurt @mrkurt Image by Annie Ruygt We’re Fly. io, a public cloud platform that is both our favorite way to put an app on the Internet and our favorite way to safely let a frontier agent coding harness cook.",
+      "category": "Ideas",
+      "importance": 200,
+      "whyItMatters": "The Hacker News community gave this story 200 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49051369"
+        },
+        {
+          "name": "Original source",
+          "url": "https://fly.io/blog/kurt-scott-money-sprites/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49054224"
+      ],
+      "headline": "JetZero",
+      "summary": "THE FUTURE TAKES SHAPE 250 seats | International range | Superior aerodynamics Alaska Airlines invests in JetZero Alaska Star Ventures investment includes options for future airplane orders.  Press release JetZero Raises $175M in Series B JetZero announces it has raised approximately $175 million in its Series B financing, led by B Capital, a global multi-stage investment firm.",
+      "category": "Technology",
+      "importance": 193,
+      "whyItMatters": "The Hacker News community gave this story 193 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49054224"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.jetzero.aero"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49049693"
+      ],
+      "headline": "Show HN: Brolly, a plain-text weather forecast site",
+      "summary": "brolly. sh plain text weather forecast ☂ York, York, England, United Kingdom Sun 26/07 10:00 change location ============================================= Now overcast temperature 18.",
+      "category": "Technology",
+      "importance": 187,
+      "whyItMatters": "The Hacker News community gave this story 187 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49049693"
+        },
+        {
+          "name": "Original source",
+          "url": "https://brolly.sh/forecast/RWFP2qW8"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49050512"
+      ],
+      "headline": "Running a 28.9M parameter LLM on an $8 microcontroller",
+      "summary": "slvDev / esp32-ai Public Notifications You must be signed in to change notification settings Fork 111 Star 1k main Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 31 Commits 31 Commits data data experiments experiments firmware firmware media media src src . gitignore .",
+      "category": "Technology",
+      "importance": 181,
+      "whyItMatters": "The Hacker News community gave this story 181 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49050512"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/slvDev/esp32-ai"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49051947"
+      ],
+      "headline": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
+      "summary": "Energy News Sodium-Ion Batteries Get Another Shot at Success in the U. S.",
+      "category": "Ideas",
+      "importance": 174,
+      "whyItMatters": "The Hacker News community gave this story 174 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49051947"
+        },
+        {
+          "name": "Original source",
+          "url": "https://spectrum.ieee.org/sodium-ion-battery-peak-energy"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49047453"
+      ],
+      "headline": "A shell colon does nothing. Use it anyway",
+      "summary": "A shell colon does nothing.  Use it anyway.",
+      "category": "Ideas",
+      "importance": 159,
+      "whyItMatters": "The Hacker News community gave this story 159 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49047453"
+        },
+        {
+          "name": "Original source",
+          "url": "https://refp.se/articles/your-shell-and-the-magic-colon"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49050859"
+      ],
+      "headline": "LLM Usage in Debian: Three Proposals",
+      "summary": "Skip Quicknav Blog Micronews Planet Wiki Debian Voting Information / 2026 / General Resolution: LLM usage in Debian Home Home Vote Page How To Submit a Proposal Amend a Proposal Follow a Proposal In Discussion General Resolution: LLM usage in Debian Decided Debian Project Leader Elections 2026 Debian Project Leader Elections 2025 Debian Project Leader Elections 2024 General Resolution: Statement about the EU Legislation \"Cyber Resilience Act and Product Liability Directive\" Debian Project Leader Elections 2023 General Resolution: non-free firmware Debian Project Leader Elections 2022 General Resolution: Voting secrecy General Resolution: Change the resolution process General Resolution:…",
+      "category": "Ideas",
+      "importance": 150,
+      "whyItMatters": "The Hacker News community gave this story 150 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49050859"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.debian.org/vote/2026/vote_002"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49052912"
+      ],
+      "headline": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 144,
+      "whyItMatters": "The Hacker News community gave this story 144 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49052912"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49054107"
+      ],
+      "headline": "An ESP32 based plane radar for my desk",
+      "summary": "This project made for a perfect lazy Saturday unwind, after a busy week giving a talk at Devrelcon in NYC .  Makerworld had this thing as one of their featured models about a week or two ago, and the parts came in while I was away.",
+      "category": "Technology",
+      "importance": 136,
+      "whyItMatters": "The Hacker News community gave this story 136 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49054107"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.ktz.me/esp32-plane-radar/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-26T09:14:39.715Z"
+}
