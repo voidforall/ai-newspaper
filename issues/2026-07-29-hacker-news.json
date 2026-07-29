@@ -1,0 +1,209 @@
+{
+  "id": "2026-07-29-hacker-news",
+  "date": "2026-07-29",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49086788"
+      ],
+      "headline": "Substack writers, you need a website",
+      "summary": "Photo by Leslie del Moral on Pexels. com \" data-large-file=\"https://elizabethtai.",
+      "category": "Technology",
+      "importance": 537,
+      "whyItMatters": "The Hacker News community gave this story 537 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49086788"
+        },
+        {
+          "name": "Original source",
+          "url": "https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49089755"
+      ],
+      "headline": "Codex Security",
+      "summary": "Uh oh!  There was an error while loading.",
+      "category": "Technology",
+      "importance": 497,
+      "whyItMatters": "The Hacker News community gave this story 497 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49089755"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/openai/codex-security"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49085698"
+      ],
+      "headline": "Kimi K3 Architecture Overview and Notes",
+      "summary": "The Kimi K3 architecture figure for yesterday’s big open-weight model release, along with some observations and thoughts.  Yes, it looks relatively complicated, but it’s essentially a scaled-up production version of their Kimi Linear model they released last year (scaled up from 48B -> 2.",
+      "category": "Technology",
+      "importance": 419,
+      "whyItMatters": "The Hacker News community gave this story 419 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49085698"
+        },
+        {
+          "name": "Original source",
+          "url": "https://sebastianraschka.com/blog/2026/kimi-k3-architecture-notes.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49090607"
+      ],
+      "headline": "Show HN: I was tired of opening 2 tabs for every HN link, so I made a userscript",
+      "summary": "twalichiewicz / HNewhere Public Notifications You must be signed in to change notification settings Fork 4 Star 101 main Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 24 Commits 24 Commits HNewhere. user.",
+      "category": "Technology",
+      "importance": 312,
+      "whyItMatters": "The Hacker News community gave this story 312 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49090607"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/twalichiewicz/HNewhere"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49085731"
+      ],
+      "headline": "Delayed Gratification – Proud to Be 'Last to Breaking News'",
+      "summary": "Your browser is out of date.  Some of the content on this site will not work properly as a result.",
+      "category": "Ideas",
+      "importance": 295,
+      "whyItMatters": "The Hacker News community gave this story 295 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49085731"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.slow-journalism.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49085666"
+      ],
+      "headline": "Zig's Incremental Compilation Internals",
+      "summary": "As a member of the Zig core team, one of the most impactful projects I’ve been involved with is the implementation of incremental compilation into the Zig compiler.  This feature allows the compiler to detect which individual functions and declarations have changed since a project was last built, recompile only that code, and directly patch the resulting bytes into the output binary, making the rebuild extremely fast.",
+      "category": "Ideas",
+      "importance": 243,
+      "whyItMatters": "The Hacker News community gave this story 243 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49085666"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mlugg.co.uk/posts/incremental-compilation-internals/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49089814"
+      ],
+      "headline": "Half-Life ported to Mac OS 9",
+      "summary": "Mac Classic News Home News Articles Spotlight Downloads Links General News Website Updates Half-Life ported to Mac OS 9 Half-Life has finally landed for PowerPC based Macintosh computers 28 years after it's original release!  Half-Life is a story driven first-person shooter, that follows scientist Gordon Freeman, who is a theoretical physicist trying to survive and escape the Black Mesa Research Facility after a failed experiment opens a portal to an alien dimension.",
+      "category": "Technology",
+      "importance": 239,
+      "whyItMatters": "The Hacker News community gave this story 239 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49089814"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mac-classic.com/news/half-life-ported-to-mac-os-9/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49086971"
+      ],
+      "headline": "Steel Bank Common Lisp version 2.6.7",
+      "summary": "All News - Steel Bank Common Lisp Steel Bank Common Lisp About News Download Getting Started History and Copyright Porting Maintainer public keys Manual Project Page Bug Database Links All News New SBCL versions are usually released at the end of each month: check the Sourceforge File List to see the current version.  The new features of all SBCL releases are listed below.",
+      "category": "Technology",
+      "importance": 231,
+      "whyItMatters": "The Hacker News community gave this story 231 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49086971"
+        },
+        {
+          "name": "Original source",
+          "url": "https://sbcl.org/all-news.html?2.6.7"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49084813"
+      ],
+      "headline": "Una GPS smart watch – Repairable, USB-C charging, developer-friendly",
+      "summary": "THE GPS WATCH BUILT FOR LIFE.  Repairable • Upgradeable • Sustainable ORDER NOW ORDER NOW 6-axis Accelerometer Dual Frequency GPS Always ON HR Monitoring USB-C Charging Fully modular 10-day battery life open sdk barometric altimeter 6-axis Accelerometer Dual Frequency GPS Always ON HR Monitoring USB-C Charging Fully modular 10-day battery life open sdk barometric altimeter WHY UNA EXISTS When one part fails, the whole watch shouldn't.",
+      "category": "Technology",
+      "importance": 213,
+      "whyItMatters": "The Hacker News community gave this story 213 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49084813"
+        },
+        {
+          "name": "Original source",
+          "url": "https://unawatch.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49093434"
+      ],
+      "headline": "User Interfaces of the Demo Scene",
+      "summary": "{ datagubbe } datagubbe. se &raquo; user interfaces of the demo scene User Interfaces of the Demo Scene Exploring the tools of the trade July 2026 Ahh, the demo scene - a digital art subculture, a motley gang of creative nerds, and a favourite pastime of mine.",
+      "category": "Ideas",
+      "importance": 180,
+      "whyItMatters": "The Hacker News community gave this story 180 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49093434"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.datagubbe.se/scenegui/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-29T09:39:12.185Z"
+}
