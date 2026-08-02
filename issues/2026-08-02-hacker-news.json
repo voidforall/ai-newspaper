@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-02-hacker-news",
+  "date": "2026-08-02",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49136821"
+      ],
+      "headline": "How Google helped destroy adoption of RSS feeds (2023)",
+      "summary": "Although RSS feeds are alive and still heavily used today, their level of adoption has suffered because of how difficult a handful of popular technology companies have made it to use them.  Google, especially, has relied on the open web RSS protocol to gain so much market share and influence, but continues to engage in behavior that exploits the open web at the expense of its users.",
+      "category": "Technology",
+      "importance": 518,
+      "whyItMatters": "The Hacker News community gave this story 518 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49136821"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49138188"
+      ],
+      "headline": "Diátaxis",
+      "summary": "Diátaxis ¶ A systematic approach to technical documentation authoring.  Diátaxis is a way of thinking about and doing documentation.",
+      "category": "Ideas",
+      "importance": 338,
+      "whyItMatters": "The Hacker News community gave this story 338 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49138188"
+        },
+        {
+          "name": "Original source",
+          "url": "https://diataxis.fr/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49138302"
+      ],
+      "headline": "Seedance 2.5",
+      "summary": "One-take Creation, Flexible Referencing: Introducing Seedance 2. 5 One-take Creation, Flexible Referencing: Introducing Seedance 2.",
+      "category": "Ideas",
+      "importance": 327,
+      "whyItMatters": "The Hacker News community gave this story 327 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49138302"
+        },
+        {
+          "name": "Original source",
+          "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49139102"
+      ],
+      "headline": "AI financial advice is surprisingly good, especially if you ask right questions",
+      "summary": "People are increasingly turning to artificial intelligence for financial advice, but will following it improve their financial standing?  “ Half of Americans say they are using AI to get financial advice, but we know very little about what kind of advice they’re getting and whether they’re acting on it,” said Taha Choukhmane , an assistant professor of finance at the MIT Sloan School of Management and co-author of a new paper that measures and analyzes the quality of financial advice given by large language models.",
+      "category": "Technology",
+      "importance": 294,
+      "whyItMatters": "The Hacker News community gave this story 294 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49139102"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49136736"
+      ],
+      "headline": "NetBSD 11.0",
+      "summary": "&raquo; The Guide | Manual pages | Mailing lists and Archives | CVS repository | Report or query a bug | Software Packages Home | RSS | Release engineering | Development | The NetBSD Foundation | Networking | General | Ports | Security | Events | Packages | Login Bookmarks The NetBSD Project NetBSD Wiki Feeds All /Release engineering /Development /The NetBSD Foundation /Networking /General /Ports /Security /Events /Packages Comments NetBSD 11. 0 released!",
+      "category": "Technology",
+      "importance": 276,
+      "whyItMatters": "The Hacker News community gave this story 276 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49136736"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49140218"
+      ],
+      "headline": "Go 1.27 Interactive Tour",
+      "summary": "Blog / Go 1. 27 interactive tour",
+      "category": "Ideas",
+      "importance": 198,
+      "whyItMatters": "The Hacker News community gave this story 198 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49140218"
+        },
+        {
+          "name": "Original source",
+          "url": "https://victoriametrics.com/blog/go-1-27/index.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49140396"
+      ],
+      "headline": "Show HN: I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built",
+      "summary": "tom-ilan / cycloidal_gearbox Public Notifications You must be signed in to change notification settings Fork 0 Star 20 main Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 44 Commits 44 Commits cad_models cad_models cycloidal_generator cycloidal_generator media media . gitignore .",
+      "category": "Technology",
+      "importance": 150,
+      "whyItMatters": "The Hacker News community gave this story 150 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49140396"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/tom-ilan/cycloidal_gearbox"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49137060"
+      ],
+      "headline": "Postmortem for Kernel Soundness Bug #14576",
+      "summary": "Postmortem for Kernel Soundness Bug #14576 2026-08-01 A soundness bug in the Lean kernel ( #14576 ) was reported and fixed during the week of July 27.  It has had visibility on Zulip and social media (e.",
+      "category": "Ideas",
+      "importance": 146,
+      "whyItMatters": "The Hacker News community gave this story 146 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49137060"
+        },
+        {
+          "name": "Original source",
+          "url": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49135426"
+      ],
+      "headline": "Kenji/Serious Eats – 30-Min Pressure Cooker Pho Ga",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 141,
+      "whyItMatters": "The Hacker News community gave this story 141 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49135426"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.seriouseats.com/30-minute-pressure-cooker-pho-ga-recipe"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49141073"
+      ],
+      "headline": "Running Kimi K3 on MI355X at Better Performance per Dollar Than B300",
+      "summary": "Over the past several months, we’ve seen an explosion in the capabilities of open source models.  With DeepSeek V4-Pro and GLM5.",
+      "category": "Technology",
+      "importance": 121,
+      "whyItMatters": "The Hacker News community gave this story 121 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49141073"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.wafer.ai/blog/kimi-k3-mi355x"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-02T09:10:39.291Z"
+}
