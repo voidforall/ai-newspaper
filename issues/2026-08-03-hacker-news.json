@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-03-hacker-news",
+  "date": "2026-08-03",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49151933"
+      ],
+      "headline": "Don't be a meat proxy",
+      "summary": "Don't be a meat proxy Aug 03, 2026 Too often I ask a question in Slack or leave feedback under a merge/pull request or argue with friends in a WhatsApp group and get back: Claude said: [giant response verbatim] Please don't do this.  I mean, I've done this.",
+      "category": "Technology",
+      "importance": 638,
+      "whyItMatters": "The Hacker News community gave this story 638 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49151933"
+        },
+        {
+          "name": "Original source",
+          "url": "https://gruhn.me/blog/2026-08-03/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49150470"
+      ],
+      "headline": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 600,
+      "whyItMatters": "The Hacker News community gave this story 600 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49150470"
+        },
+        {
+          "name": "Original source",
+          "url": "https://qwen.ai/blog?id=qwen3.8"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49149966"
+      ],
+      "headline": "Show HN: Isopolis – Isometric pixel map of SF",
+      "summary": "loading… © OpenStreetMap contributors © CARTO · neighborhoods: DataSF",
+      "category": "Ideas",
+      "importance": 226,
+      "whyItMatters": "The Hacker News community gave this story 226 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49149966"
+        },
+        {
+          "name": "Original source",
+          "url": "https://sf.isopolis.city/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49145937"
+      ],
+      "headline": "Show HN: Kakehashi – Experimental userspace to run macOS binaries on Linux ARM",
+      "summary": "Uh oh!  There was an error while loading.",
+      "category": "Ideas",
+      "importance": 222,
+      "whyItMatters": "The Hacker News community gave this story 222 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49145937"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/wie-project/kakehashi"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49147263"
+      ],
+      "headline": "SwiftUI After 7 Years",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 200,
+      "whyItMatters": "The Hacker News community gave this story 200 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49147263"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ykvm.com/2026/07/swiftui-a-story-of-mediocrity/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49149805"
+      ],
+      "headline": "Show HN: ssh ssh.place",
+      "summary": "Draw on it: ssh ssh. place Any SSH key works.",
+      "category": "Ideas",
+      "importance": 119,
+      "whyItMatters": "The Hacker News community gave this story 119 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49149805"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ssh.place"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49149746"
+      ],
+      "headline": "Why Book Corners won't sync contributions back to OpenStreetMap",
+      "summary": "Why Book Corners won't sync contributions back to OpenStreetMap I wanted Book Corners to contribute newly submitted public bookcases back to OpenStreetMap.  After researching the operational and community requirements, I decided not to implement it.",
+      "category": "Ideas",
+      "importance": 103,
+      "whyItMatters": "The Hacker News community gave this story 103 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49149746"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.andreagrandi.it/posts/why-book-corners-wont-sync-contributions-back-to-openstreetmap/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49146960"
+      ],
+      "headline": "The myth of Snow Leopard",
+      "summary": "The myth of Snow Leopard Sunday 02 August 2026 Snow Leopard was a version of Mac OS X released in 2010.  It was billed by Apple as having &ldquo;0 new features&rdquo;, with a focus on refining the system, improving efficiency, and fixing bugs.",
+      "category": "Ideas",
+      "importance": 100,
+      "whyItMatters": "The Hacker News community gave this story 100 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49146960"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.rubenerd.au/the-myth-of-snow-leopard/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49152023"
+      ],
+      "headline": "Rust project goals: Immobile types and guaranteed destructors",
+      "summary": "Uh oh!  There was an error while loading.",
+      "category": "Ideas",
+      "importance": 82,
+      "whyItMatters": "The Hacker News community gave this story 82 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49152023"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/rust-lang/rust-project-goals/blob/main/src/2026/move-trait.md"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49149898"
+      ],
+      "headline": "CP/M-386 – CP/M for 386 protected mode, derived from CP/M‑68K",
+      "summary": "johnsonjh / cpm386 Public Notifications You must be signed in to change notification settings Fork 0 Star 31 master Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 391 Commits 391 Commits LICENSES LICENSES . gitignore .",
+      "category": "Ideas",
+      "importance": 70,
+      "whyItMatters": "The Hacker News community gave this story 70 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49149898"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/johnsonjh/cpm386"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-03T10:44:43.462Z"
+}
