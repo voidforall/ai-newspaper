@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-05-hacker-news",
+  "date": "2026-08-05",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49173165"
+      ],
+      "headline": "In Memory of My Wife, Elise Cawley, with Thanks for 36 Wonderful Years",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 1347,
+      "whyItMatters": "The Hacker News community gave this story 1347 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49173165"
+        },
+        {
+          "name": "Original source",
+          "url": "https://writings.stephenwolfram.com/2026/08/in-memory-of-my-wife-elise-cawley-1961-2026-with-thanks-for-36-wonderful-years/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49167448"
+      ],
+      "headline": "Xbox goes down. You can't play games you own on disc",
+      "summary": "Jay Peters: Xbox’s huge outage even blocked games on disc An extended Xbox outage that began Sunday evening hasn’t just caused issues for people trying to play digital games — it blocked people from playing their disc-based games, too.  When Sony announced that they were discontinuing physical discs for PlayStation, I was less outraged than many.",
+      "category": "Ideas",
+      "importance": 650,
+      "whyItMatters": "The Hacker News community gave this story 650 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49167448"
+        },
+        {
+          "name": "Original source",
+          "url": "https://birchtree.me/blog/xbox-goes-down-you-cant-play-games-you-own-on-disc/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49170165"
+      ],
+      "headline": "Show HN: Simple algorithm and color space to generate diverse skin tones",
+      "summary": "What Colors Are We?  Constructing A Good Enough Color Space For Skin Tones If you're just looking for the results, below is a custom color picker based on the color space written in Javascript and a sample procedural generation algorithm in Python (Javascript equivalents are in the page source) - feel free to take this math and go have fun depicting our diverse world!",
+      "category": "Ideas",
+      "importance": 530,
+      "whyItMatters": "The Hacker News community gave this story 530 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49170165"
+        },
+        {
+          "name": "Original source",
+          "url": "https://toneyalexander.github.io/inclusive-color-space/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49171268"
+      ],
+      "headline": "Mistral's Shieldstral: 3B open-weights model for multimodal moderation",
+      "summary": "Solutions Introducing Shieldstral.  August 4, 2026 By Mistral Back to Blog 5 min read Share this post Copy url to clipboard Copied Thinking Summary Shieldstral introduces a 3B open-weights multimodal safety classifier that outperforms models up to 7x its size by framing content moderation as a policy-adaptive question-answering task.",
+      "category": "Technology",
+      "importance": 413,
+      "whyItMatters": "The Hacker News community gave this story 413 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49171268"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mistral.ai/news/shieldstral/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49176038"
+      ],
+      "headline": "Pi's Minimalism Is Its Advantage",
+      "summary": "Pi, Minimal and Performant Date: Tue, 04 Aug 2026 From: Earendil rfc@earendil. com > To: You Subject: Pi, Minimal and Performant Pi’s Minimalism Is Its Advantage AI has made code cheap, and as a result many companies are building bigger tools in pursuit of better performance.",
+      "category": "Technology",
+      "importance": 359,
+      "whyItMatters": "The Hacker News community gave this story 359 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49176038"
+        },
+        {
+          "name": "Original source",
+          "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49172836"
+      ],
+      "headline": "Waymo in Dallas",
+      "summary": "From the road — August 4, 2026 Back to blog Starting today, anyone in Dallas can download the Waymo app and hail a fully autonomous ride.  Since opening our service in February, we’ve welcomed nearly 150,000 riders in Dallas from our interest list to experience the safety, reliability, and magic of Waymo, and now we’re offering our service to everyone.",
+      "category": "Technology",
+      "importance": 291,
+      "whyItMatters": "The Hacker News community gave this story 291 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49172836"
+        },
+        {
+          "name": "Original source",
+          "url": "https://waymo.com/blog/shorts/dallas-open-to-all/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49176606"
+      ],
+      "headline": "libexpat now funded by the City of Munich for up to 6 months",
+      "summary": "libexpat now funded by the City of Munich for up to 6 months 2026-08-04 20:04 For readers new to Expat: libexpat is a fast streaming XML parser.  Alongside libxml2, Expat is one of the most widely used software libre XML parsers written in C, specifically C99.",
+      "category": "Technology",
+      "importance": 273,
+      "whyItMatters": "The Hacker News community gave this story 273 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49176606"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.hartwork.org/posts/libexpat-city-of-munich-open-source-sabbatical/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49175826"
+      ],
+      "headline": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
+      "summary": "<a href=\"https:&#x2F;&#x2F;www.interpol.int&#x2F;Media&#x2F;Documents&#x2F;Publications&#x2F;Cybercrime&#x2F;African-Cyberthreat-Assessment-Report-2026\" rel=\"nofollow\">https:&#x2F;&#x2F;www.interpol.int&#x2F;Media&#x2F;Documents&#x2F;Publications&#x2F;Cyberc...</a>",
+      "category": "Technology",
+      "importance": 239,
+      "whyItMatters": "The Hacker News community gave this story 239 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49175826"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49176830"
+      ],
+      "headline": "Eight Myths on Software Engineering and GenAI",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 209,
+      "whyItMatters": "The Hacker News community gave this story 209 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49176830"
+        },
+        {
+          "name": "Original source",
+          "url": "https://queue.acm.org/detail.cfm?id=3807963"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49176055"
+      ],
+      "headline": "We finally learned to center a div, then browsers added sidebars",
+      "summary": "Centering a div used to require this little ritual: .  thing { position : absolute ; top : 50%; left : 50%; transform : translate (-50%, -50%); } These days, it is almost disappointingly easy: body { display : grid ; min-height : 100dvh; place-items : center ; } I used that for the .",
+      "category": "Ideas",
+      "importance": 132,
+      "whyItMatters": "The Hacker News community gave this story 132 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49176055"
+        },
+        {
+          "name": "Original source",
+          "url": "https://seg6.space/posts/center-div/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-05T09:38:16.888Z"
+}
