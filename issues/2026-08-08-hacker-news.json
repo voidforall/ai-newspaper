@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-08-hacker-news",
+  "date": "2026-08-08",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49214008"
+      ],
+      "headline": "DeepSeek V4 Flash 0731",
+      "summary": "DeepSeek V4 Flash 0731 DeepSeek · Jul 31, 2026 · 3 reasoning variants Paper ↗ Model ↗ At max effort, DeepSeek V4 Flash 0731 scores 89. 0% on ARC-AGI-1 Semi-Private at $0.",
+      "category": "Technology",
+      "importance": 588,
+      "whyItMatters": "The Hacker News community gave this story 588 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49214008"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arcprize.org/results/deepseek-v4-flash-0731"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49209539"
+      ],
+      "headline": "What happens if an entire class of workers loses faith in their careers",
+      "summary": "Why Is Everyone In Tech So Sad?  A lot of people seem to be realizing that knowledge work is mostly pointless.",
+      "category": "Technology",
+      "importance": 584,
+      "whyItMatters": "The Hacker News community gave this story 584 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49209539"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.noemamag.com/why-is-everyone-in-tech-so-sad/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49213754"
+      ],
+      "headline": "Oracle bans AI-generated code from OpenJDK",
+      "summary": "Back to feed Oracle bans AI-generated code from OpenJDK despite Ellison's claim 'Oracle isn't writing' its own code ● 5 days ago Oracle has banned AI-generated code from OpenJDK contributions, citing safety, security, and intellectual property risks.  The open-source Java project steward said developers can use LLMs privately for debugging and reviewing code but cannot submit AI-generated material to repositories, pull requests, or other project channels.",
+      "category": "Technology",
+      "importance": 450,
+      "whyItMatters": "The Hacker News community gave this story 450 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49213754"
+        },
+        {
+          "name": "Original source",
+          "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49207236"
+      ],
+      "headline": "2027 memory capacity is reportedly sold out",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 335,
+      "whyItMatters": "The Hacker News community gave this story 335 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49207236"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49214098"
+      ],
+      "headline": "Assembly Hall of Shame",
+      "summary": "xoreaxeaxeax / asm-hall-of-shame Public Notifications You must be signed in to change notification settings Fork 2 Star 374 main Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 1 Commit 1 Commit artifacts artifacts clflush clflush cpuid cpuid denormal denormal enter enter fdiv fdiv fldl fldl fsin fsin fxrstor64 fxrstor64 fyl2x fyl2x idiv idiv in in lock_hammer_fxrstor64 lock_hammer_fxrstor64 lock_hammer_mmio lock_hammer_mmio mfence mfence mov mov mov_cr3 mov_cr3 mov_rax mov_rax nop nop nop16 nop16 out out rdmsr rdmsr rdrand rdrand rdseed rdseed rdtsc rdtsc split_lock split_lock split_lock_hammer…",
+      "category": "Technology",
+      "importance": 323,
+      "whyItMatters": "The Hacker News community gave this story 323 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49214098"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49208535"
+      ],
+      "headline": "Making Postgres 300x faster for analytics: batching, operator fusion, and SIMD",
+      "summary": "Home » pgrust » Rebuilding Postgres for 300x faster analytics: batching, operator fusion, and SIMD Last week we released version 0. 2 of pgrust .",
+      "category": "Ideas",
+      "importance": 275,
+      "whyItMatters": "The Hacker News community gave this story 275 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49208535"
+        },
+        {
+          "name": "Original source",
+          "url": "https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49217993"
+      ],
+      "headline": "The Nixpkgs core team has disbanded",
+      "summary": "The Nixpkgs core team has disbanded Announcements Nixpkgs Core Team qyliss August 7, 2026, 9:39pm 1 The Nixpkgs core team has unfortunately decided to disband .  We’re proud to have had the opportunity to lead by example in bottom‐up, consensus‐focused governance for Nixpkgs, and of our achievements over the past 10 months , including reforming the committer delegation process and onboarding 19 new committers , empowering maintainers by extending the merge bot , re‐establishing contact with GitHub and securing the sponsored Enterprise Cloud upgrade , helping triage GHSA-67f2-674w-6g63 and track the GitHub security risks exposed by that incident , and establishing an initial automation/AI…",
+      "category": "Technology",
+      "importance": 272,
+      "whyItMatters": "The Hacker News community gave this story 272 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49217993"
+        },
+        {
+          "name": "Original source",
+          "url": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49214468"
+      ],
+      "headline": "Managing AI Coding Costs at Scale",
+      "summary": "Skip to main content AI coding tools deliver immense value: at Databricks, agentic coding has measurably improved every velocity metric we track and, in some teams, driven an order-of-magnitude gains in output.  But nearly every company deploying AI tools at scale has hit the same wall: exponentially growing costs .",
+      "category": "Technology",
+      "importance": 221,
+      "whyItMatters": "The Hacker News community gave this story 221 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49214468"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.databricks.com/blog/managing-ai-coding-costs-scale"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49216946"
+      ],
+      "headline": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 209,
+      "whyItMatters": "The Hacker News community gave this story 209 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49216946"
+        },
+        {
+          "name": "Original source",
+          "url": "https://genesisopenmodels.anl.gov/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49218179"
+      ],
+      "headline": "NASA figured out how to keep its Voyager 2 probe running for another year",
+      "summary": "Click for next article An artist's depiction of NASA's Voyager 2 probe.  (Image credit: NASA/JPL-Caltech) {alert('Link copied')}).",
+      "category": "Ideas",
+      "importance": 207,
+      "whyItMatters": "The Hacker News community gave this story 207 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49218179"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.space.com/space-exploration/voyager/nasa-figured-out-how-to-keep-its-48-year-old-voyager-2-probe-running-for-yet-another-year"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-08T07:51:25.633Z"
+}
