@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-10-hacker-news",
+  "date": "2026-08-10",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49234675"
+      ],
+      "headline": "How I use LLMs to learn complex topics",
+      "summary": "Many engineers I know use generative AI for many functions, like building PoCs, internal tools or dashboards, or even learning new stuff.  I personally find the style used by LLMs to explain things difficult to follow.",
+      "category": "Technology",
+      "importance": 613,
+      "whyItMatters": "The Hacker News community gave this story 613 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49234675"
+        },
+        {
+          "name": "Original source",
+          "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49232138"
+      ],
+      "headline": "Windows 11's built-in Weather app wastes more than 1 GB of RAM",
+      "summary": "Microsoft has been working to make Windows 11 more efficient on PCs with limited RAM, but one of its own built-in applications appears to be working against that goal.  According to tests published by Windows Latest, the operating system's Weather app can consume more than 1 GB of memory despite performing a relatively simple task.",
+      "category": "Technology",
+      "importance": 512,
+      "whyItMatters": "The Hacker News community gave this story 512 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49232138"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.notebookcheck.net/Windows-11-s-built-in-Weather-app-wastes-more-than-1-GB-of-RAM.1364205.0.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49230477"
+      ],
+      "headline": "Everything you do is being recorded",
+      "summary": "Listen − 1. 0 x + Seek 0:00 10:02 Anthony “Bingy” Arillotta waited years to become a made man in the Genovese crime family, and when at last the call came in August 2003, he followed directions to the letter.",
+      "category": "Technology",
+      "importance": 288,
+      "whyItMatters": "The Hacker News community gave this story 288 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49230477"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.theatlantic.com/technology/2026/05/ai-wearable-surveillance-countermeasures/687203/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49232253"
+      ],
+      "headline": "Taxi drivers rarely die of Alzheimer's",
+      "summary": "Figuring out a circuitous route between point A to point B can strengthen your brain.  justhavealook/iStock via Getty Images Plus Taxi and ambulance drivers are less likely than workers in almost any other job to die of Alzheimer’s disease .",
+      "category": "Technology",
+      "importance": 276,
+      "whyItMatters": "The Hacker News community gave this story 276 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49232253"
+        },
+        {
+          "name": "Original source",
+          "url": "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49231809"
+      ],
+      "headline": "Cool URIs Don't Change (1998)",
+      "summary": "Cool URIs don't change What makes a cool URI?  A cool URI is one which does not change.",
+      "category": "Ideas",
+      "importance": 232,
+      "whyItMatters": "The Hacker News community gave this story 232 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49231809"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.w3.org/Provider/Style/URI"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49238561"
+      ],
+      "headline": "What Happened to HackerOne?",
+      "summary": "Table of Contents Table of Contents So&hellip;what&rsquo;s going on at HackerOne lately?  It might be time for a wellness check.",
+      "category": "Ideas",
+      "importance": 197,
+      "whyItMatters": "The Hacker News community gave this story 197 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49238561"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49239021"
+      ],
+      "headline": "Auto mode is now the default in Claude Code",
+      "summary": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans Claude Code will soon run auto mode by default for Pro, Max, and Team plans, enabling longer-running autonomous work, and catching more dangerous commands than manual review in our testing.  Category Claude Code Product Claude Code Date August 7, 2026 Reading time 5 min Share Copy link https://claude.",
+      "category": "Ideas",
+      "importance": 178,
+      "whyItMatters": "The Hacker News community gave this story 178 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49239021"
+        },
+        {
+          "name": "Original source",
+          "url": "https://claude.com/blog/auto-mode-default-in-claude-code"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49233448"
+      ],
+      "headline": "OpenChamber: An Agentic Development Environment",
+      "summary": "Artwork by Halyna An agentic development environment.  Download What you can do with OpenChamber.",
+      "category": "Ideas",
+      "importance": 136,
+      "whyItMatters": "The Hacker News community gave this story 136 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49233448"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openchamber.dev/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49239751"
+      ],
+      "headline": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+      "summary": "Docker Sandboxes Run AI agents safely in local sandboxes.  Disposable, isolated sandboxes for AI agents like Claude Code, Gemini CLI, Copilot CLI, Codex, OpenCode, and Kiro that need safe, unattended execution.",
+      "category": "Technology",
+      "importance": 135,
+      "whyItMatters": "The Hacker News community gave this story 135 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49239751"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.docker.com/products/docker-sandboxes/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49234271"
+      ],
+      "headline": "I made tinnitus my friend, then it disappeared [video]",
+      "summary": "Main Front Page Full Index Photos Blog Vlog FAQ Account Donate as much as you like, and receive a Donate\");'>lifetime privileged access to this website.  Donate Log In Your Favorites Become a patron and access your favorite soundscapes from this section.",
+      "category": "Technology",
+      "importance": 124,
+      "whyItMatters": "The Hacker News community gave this story 124 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49234271"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mynoise.net/vlog.php?ep=20260803"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-10T08:28:03.079Z"
+}
