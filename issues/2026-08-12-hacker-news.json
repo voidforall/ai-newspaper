@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-12-hacker-news",
+  "date": "2026-08-12",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49257876"
+      ],
+      "headline": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "summary": "Source model trace \"model\" : \"claude-opus-4-8\" , \"messages\" : [ { \"role\" : \"user\", \"content\" : \"What is the largest prime divisor of 8139881? \" }, { \"role\" : \"assistant\", \"content\" : [ { \"type\" : \"thinking\", \"thinking\" : \"Factoring 8139881 by testing divisibility against small primes: 3, 7, 11, 13, 17 [···] \" \"signature\": \"EvjTAQqJAQgPGAIqQC…36180 chars\" }, { \"type\" : \"text\", \"text\" : \"# Factoring\\n\\nTesting divisors, 8139881 = 1627 * 5003, both of which are prime.",
+      "category": "Technology",
+      "importance": 606,
+      "whyItMatters": "The Hacker News community gave this story 606 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49257876"
+        },
+        {
+          "name": "Original source",
+          "url": "https://stolen-thoughts.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49257377"
+      ],
+      "headline": "England set to be one of the first countries to eliminate hepatitis C",
+      "summary": "England set to be one of the first countries to eliminate hepatitis C 23 hours ago Share Save Add as preferred on Google Michelle Roberts Digital health editor Getty Images England is on track to become one of the first countries in the world to eliminate hepatitis C, a dangerous virus that attacks the liver, figures show.  The target of treating 80% of all known cases has already been met, and deaths from the virus have fallen by 36% in the last decade, just short of what is needed by 2030.",
+      "category": "Ideas",
+      "importance": 531,
+      "whyItMatters": "The Hacker News community gave this story 531 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49257377"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.bbc.com/news/articles/c75gk620r22o"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49263497"
+      ],
+      "headline": "Compression is prediction",
+      "summary": "Search… Control ⌃ K Newsletter RSS Related posts Quantization from the ground up A complete guide to what quantization is, how it works, and how it's used to compress large language models",
+      "category": "Technology",
+      "importance": 490,
+      "whyItMatters": "The Hacker News community gave this story 490 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49263497"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ngrok.com/blog/compression-is-prediction"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49257160"
+      ],
+      "headline": "OpenAI’s head of ethics leaves less than a year after joining",
+      "summary": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;W48UV\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;W48UV</a><p><a href=\"https:&#x2F;&#x2F;aimagazine.com&#x2F;news&#x2F;why-did-openai-head-of-ethics-chloe-bakalar-leave\" rel=\"nofollow\">https:&#x2F;&#x2F;aimagazine.com&#x2F;news&#x2F;why-did-openai-head-of-ethics-ch...</a>",
+      "category": "Technology",
+      "importance": 410,
+      "whyItMatters": "The Hacker News community gave this story 410 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49257160"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.ft.com/content/e49dfb75-f841-4466-a577-f7aaff8779a0"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49261128"
+      ],
+      "headline": "Mojo 1.0",
+      "summary": "August 11, 2026 Modular 26. 5: Mojo 1.",
+      "category": "Ideas",
+      "importance": 374,
+      "whyItMatters": "The Hacker News community gave this story 374 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49261128"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49261133"
+      ],
+      "headline": "Go is an ideal language for AI-assisted software engineering",
+      "summary": "Why Go is an Ideal Language for AI-Assisted Software Engineering AUG.  11, 2026 Cameron Balahan Group Product Manager Go Richard Seroter Chief Evangelist Google Cloud Share Facebook Twitter LinkedIn Mail For a while now, software engineering has undergone a profound, fundamental shift: Where we once wrote most lines of code by hand, we now ask AI coding assistants and agents to generate large swaths of code for us.",
+      "category": "Technology",
+      "importance": 357,
+      "whyItMatters": "The Hacker News community gave this story 357 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49261133"
+        },
+        {
+          "name": "Original source",
+          "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49255496"
+      ],
+      "headline": "London Underground begins scanning passengers' faces",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 314,
+      "whyItMatters": "The Hacker News community gave this story 314 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49255496"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.btp.police.uk/news/btp/news/england/btp-expands-live-facial-recognition-lfr-trial-into-london-underground-stations/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49261514"
+      ],
+      "headline": "Grok Bot",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 267,
+      "whyItMatters": "The Hacker News community gave this story 267 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49261514"
+        },
+        {
+          "name": "Original source",
+          "url": "https://x.ai/bot"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49263340"
+      ],
+      "headline": "Nvidia Nemotron 3.5 Lightning and NeMo Switchyard",
+      "summary": "As AI shifts from chatbots to autonomous agents, open models are serving market demands for full control over where AI runs and how it’s deployed and evolves.  Today, NVIDIA is expanding its Nemotron 3 model family with Nemotron 3.",
+      "category": "Technology",
+      "importance": 221,
+      "whyItMatters": "The Hacker News community gave this story 221 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49263340"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49265051"
+      ],
+      "headline": "WorldClaw Agentic 3D open-world generation at scale",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 212,
+      "whyItMatters": "The Hacker News community gave this story 212 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49265051"
+        },
+        {
+          "name": "Original source",
+          "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-12T08:19:27.008Z"
+}
