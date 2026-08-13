@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-13-hacker-news",
+  "date": "2026-08-13",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49272832"
+      ],
+      "headline": "We tracked down the 16-year-old WAL-reset SQLite bug",
+      "summary": "Blog | insights August 12, 2026 How we tracked down a 16-year-old SQLite bug At the end of last year, our uptime was pretty shaky .  You can see this trend on our status page , and that instability continued into the new year.",
+      "category": "Ideas",
+      "importance": 1007,
+      "whyItMatters": "The Hacker News community gave this story 1007 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49272832"
+        },
+        {
+          "name": "Original source",
+          "url": "https://tailscale.com/blog/sqlite-wal-reset-bug"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49274600"
+      ],
+      "headline": "DeepSeek V4 Pro 0813",
+      "summary": "<a href=\"https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;api-docs.deepseek.com&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;deepseek-v4-pro\" rel=\"nofollow\">https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;models&#x2F;deepseek-v4-pro</a><p><a href=\"https:&#x2F;&#x2F;twitter.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024\" rel=\"nofollow\">https:&#x2F;&#x2F;twitter.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024</a>, <a href=\"https:&#x2F;&#x2F;xcancel.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024\" rel=\"nofollow\">https:&#x2F;&#x2F;xcancel.com&#x2F;ChrisGPT&#x2F;status&#x2F;2087572834650407024</a>",
+      "category": "Technology",
+      "importance": 897,
+      "whyItMatters": "The Hacker News community gave this story 897 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49274600"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49271994"
+      ],
+      "headline": "AI is removing the middle class of software engineering?",
+      "summary": "It's 2020.  You're the most senior person on your team, in charge of code quality and architecture.",
+      "category": "Technology",
+      "importance": 859,
+      "whyItMatters": "The Hacker News community gave this story 859 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49271994"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49273478"
+      ],
+      "headline": "Qwen3.8-2.4T",
+      "summary": "system\\\\n' }}\\n {%- if reasoning_instructions %}\\n {{- reasoning_instructions + '\\\\n\\\\n' }}\\n {%- endif %}\\n {{- \\\"# Tools\\\\n\\\\nYou have access to the following functions:\\\\n\\\\n \\\" }}\\n {%- for tool in tools %}\\n {{- \\\"\\\\n\\\" }}\\n {{- tool | tojson }}\\n {%- endfor %}\\n {{- \\\"\\\\n \\\" }}\\n {{- '\\\\n\\\\nIf you choose to call a function ONLY reply in the following format with NO suffix:\\\\n\\\\n \\\\n \\\\n \\\\nvalue_1\\\\n \\\\n \\\\nThis is the value for the second parameter\\\\nthat can span\\\\nmultiple lines\\\\n \\\\n \\\\n \\\\n\\\\n \\\\nReminder:\\\\n- Function calls MUST follow the specified format: an inner block must be nested within XML tags\\\\n- Required parameters MUST be specified\\\\n- You may provide optional…",
+      "category": "Ideas",
+      "importance": 601,
+      "whyItMatters": "The Hacker News community gave this story 601 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49273478"
+        },
+        {
+          "name": "Original source",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49276574"
+      ],
+      "headline": "Delta",
+      "summary": "Today we're introducing Delta , a multiplayer environment for coding with agents and reviewing what they build, and we're inviting the first users into our private beta.  Delta keeps code and conversations connected, so developers and agents can work together with the full context of how the code came to be.",
+      "category": "Ideas",
+      "importance": 530,
+      "whyItMatters": "The Hacker News community gave this story 530 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49276574"
+        },
+        {
+          "name": "Original source",
+          "url": "https://zed.dev/blog/introducing-delta"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49274027"
+      ],
+      "headline": "Grok 4.6",
+      "summary": "Back to news Aug 12, 2026 Introducing Grok 4. 6 Grok 4.",
+      "category": "Ideas",
+      "importance": 526,
+      "whyItMatters": "The Hacker News community gave this story 526 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49274027"
+        },
+        {
+          "name": "Original source",
+          "url": "https://x.ai/news/grok-4-6"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49270953"
+      ],
+      "headline": "2026 Eclipse Webcams",
+      "summary": "🌑 Totality begins in … 📹 Reaches first webcam in … made by jonty",
+      "category": "Ideas",
+      "importance": 478,
+      "whyItMatters": "The Hacker News community gave this story 478 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49270953"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jonty.github.io/2026_eclipse_webcams/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49270726"
+      ],
+      "headline": "uBlock Origin Is Giving Up the Fight to Keep Ads Off Facebook",
+      "summary": "<a href=\"https:&#x2F;&#x2F;reddit.com&#x2F;r&#x2F;uBlockOrigin&#x2F;comments&#x2F;1vgcjg5&#x2F;about_disgusting_facebook_devs&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;reddit.com&#x2F;r&#x2F;uBlockOrigin&#x2F;comments&#x2F;1vgcjg5&#x2F;about_dis...</a><p><a href=\"https:&#x2F;&#x2F;www.neowin.net&#x2F;news&#x2F;facebook-ads-are-so-hard-to-block-that-ublock-origin-stopped-filtering-them&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.neowin.net&#x2F;news&#x2F;facebook-ads-are-so-hard-to-bloc...</a>",
+      "category": "Ideas",
+      "importance": 456,
+      "whyItMatters": "The Hacker News community gave this story 456 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49270726"
+        },
+        {
+          "name": "Original source",
+          "url": "https://digitalescapetools.com/2026/08/ublock-origin-stops-chasing-facebook-ads.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49272549"
+      ],
+      "headline": "Why tiny JPEGs look different in Chrome",
+      "summary": "Monday, August 3, 2026 Why Tiny JPEGs Look Different in Chrome What looked like a rendering bug turned out to be a clever JPEG decoding optimization in Chrome.  This icon looks better on my colleague’s computer A while back, when chatting with a colleague over their computer, I noticed that a logo did not look exactly the same as it did on mine.",
+      "category": "Technology",
+      "importance": 296,
+      "whyItMatters": "The Hacker News community gave this story 296 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49272549"
+        },
+        {
+          "name": "Original source",
+          "url": "https://guillaumetech.github.io/posts/jpg-scaling-chrome/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49272569"
+      ],
+      "headline": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+      "summary": "The Agentic Web Index The internet is rapidly evolving from an environment built primarily for humans, into one increasingly used by machines.  See how AI agents, crawlers, scrapers, and other bots are reshaping the way information is discovered, accessed, and used across the web.",
+      "category": "Technology",
+      "importance": 270,
+      "whyItMatters": "The Hacker News community gave this story 270 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49272569"
+        },
+        {
+          "name": "Original source",
+          "url": "https://knownagents.com/insights"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-13T08:22:38.625Z"
+}
