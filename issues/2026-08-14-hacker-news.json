@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-14-hacker-news",
+  "date": "2026-08-14",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49289112"
+      ],
+      "headline": "Gemini 3.7 Flash",
+      "summary": "Introducing Gemini 3. 7 Flash Aug 13, 2026 | x.",
+      "category": "Ideas",
+      "importance": 794,
+      "whyItMatters": "The Hacker News community gave this story 794 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49289112"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49285244"
+      ],
+      "headline": "DeepSeek Harness developer preview",
+      "summary": "DeepSeek Harness developer preview Everything is a plugin DeepSeek Harness is now in developer preview for agent harness developers worldwide — source code included.  Every capability is a plugin that can be swapped or recomposed: models, tools, skills, sessions, sandboxes, storage, loops, scheduling, and the UI.",
+      "category": "Technology",
+      "importance": 641,
+      "whyItMatters": "The Hacker News community gave this story 641 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49285244"
+        },
+        {
+          "name": "Original source",
+          "url": "https://deepseek.com/harness/en/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49286341"
+      ],
+      "headline": "Spaghettifying DRAM",
+      "summary": "xoreaxeaxeax / skitter-creek-bath-salts Public Notifications You must be signed in to change notification settings Fork 112 Star 1. 2k main Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 2 Commits 2 Commits analysis analysis data data examples examples kernel kernel userspace userspace .",
+      "category": "Technology",
+      "importance": 599,
+      "whyItMatters": "The Hacker News community gave this story 599 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49286341"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49289844"
+      ],
+      "headline": "Accelerating GPT-5.6 Sol Ultrafast",
+      "summary": "Aug 13 2026 Accelerating GPT-5. 6 Sol Ultrafast Joyce Er *:first-child]:mt-0 [&>*:last-child]:mb-0\"> Today, Cerebras and OpenAI are sharing an early look at Ultrafast Mode , a new service tier launching first in the OpenAI API and powered by Cerebras.",
+      "category": "Technology",
+      "importance": 560,
+      "whyItMatters": "The Hacker News community gave this story 560 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49289844"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49294997"
+      ],
+      "headline": "GLM-5.3: Frontier coding with emergent cyber capabilities",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 340,
+      "whyItMatters": "The Hacker News community gave this story 340 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49294997"
+        },
+        {
+          "name": "Original source",
+          "url": "https://z.ai/blog/glm-5.3"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49289512"
+      ],
+      "headline": "Choose Boring Technology (2015)",
+      "summary": "Probably the single best thing to happen to me in my career was having had Kellan placed in charge of me.  I stuck around long enough to see Kellan’s technical decisionmaking start to bear fruit.",
+      "category": "Ideas",
+      "importance": 327,
+      "whyItMatters": "The Hacker News community gave this story 327 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49289512"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mcfunley.com/choose-boring-technology"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49288889"
+      ],
+      "headline": "Mistral OCR 4.1",
+      "summary": "svg]:px-2. 5 text-xs rounded [&_svg:not([class*=size-])]:size-3 max-lg:hidden\"> Try in playground ↗ summary_+_*]:mt-6 [&_details_summary]:cursor-default prose-code:text-[0.",
+      "category": "Technology",
+      "importance": 323,
+      "whyItMatters": "The Hacker News community gave this story 323 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49288889"
+        },
+        {
+          "name": "Original source",
+          "url": "https://docs.mistral.ai/models/ocr-4-1"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49290299"
+      ],
+      "headline": "Understanding is the new bottleneck",
+      "summary": "July 2026 Understanding is the new bottleneck This is a written version of a talk I gave at the AI Engineer conference in July 2026, also shared as a tweet thread.  Hot take: I think it's still important to understand the code that our agents write!",
+      "category": "Technology",
+      "importance": 300,
+      "whyItMatters": "The Hacker News community gave this story 300 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49290299"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49285418"
+      ],
+      "headline": "Nine PBS sues Iron Mountain over blocked access to archival data",
+      "summary": "I hope PBS prevails, but What an incredible example of how dangerous it is to only have one copy.",
+      "category": "Technology",
+      "importance": 300,
+      "whyItMatters": "The Hacker News community gave this story 300 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49285418"
+        },
+        {
+          "name": "Original source",
+          "url": "https://current.org/2026/08/nine-pbs-sues-iron-mountain-over-blocked-access-to-archival-data/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49285770"
+      ],
+      "headline": "Ordinary Abundance",
+      "summary": "Ordinary Abundance Edward Bellamy once imagined that music on demand would be \"the limit of human felicity. \" A modern apartment is full of things that once drew the same kind of awe.",
+      "category": "Ideas",
+      "importance": 293,
+      "whyItMatters": "The Hacker News community gave this story 293 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49285770"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ordinaryabundance.com/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-14T08:17:30.040Z"
+}
