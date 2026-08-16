@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-16-hacker-news",
+  "date": "2026-08-16",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49312845"
+      ],
+      "headline": "AI has access to a vastly larger working memory than the human brain",
+      "summary": "AI Isn’t Outthinking Mathematicians.  It’s Out-Remembering Them.",
+      "category": "Technology",
+      "importance": 476,
+      "whyItMatters": "The Hacker News community gave this story 476 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49312845"
+        },
+        {
+          "name": "Original source",
+          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49311651"
+      ],
+      "headline": "Semaglutide linked to lower predicted dementia risk",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 411,
+      "whyItMatters": "The Hacker News community gave this story 411 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49311651"
+        },
+        {
+          "name": "Original source",
+          "url": "https://alz-journals.onlinelibrary.wiley.com/doi/10.1002/dad2.70432"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49310682"
+      ],
+      "headline": "At-home test for infected ticks could improve Lyme Disease diagnosis",
+      "summary": "Of the estimated 899 species of ticks worldwide, about 90 are found in the continental U. S.",
+      "category": "Ideas",
+      "importance": 252,
+      "whyItMatters": "The Hacker News community gave this story 252 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49310682"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.smithsonianmag.com/innovation/the-first-at-home-test-for-infected-ticks-could-improve-lyme-disease-diagnosis-180989235/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49314403"
+      ],
+      "headline": "Abdominal fat predicts heart disease risk better than BMI",
+      "summary": "Aug 11, 2026 Print Font Size A A A You must be logged in as a member to save to your library.  Close",
+      "category": "Ideas",
+      "importance": 235,
+      "whyItMatters": "The Hacker News community gave this story 235 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49314403"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49310926"
+      ],
+      "headline": "A spectre is haunting Unicode",
+      "summary": "A Spectre is Haunting Unicode This post is part of collections on Code and Computers and Japanese Language Technology .  In 1978 Japan's Ministry of Economy, Trade and Industry established the encoding that would later be known as JIS X 0208, which still serves as an important reference for all Japanese encodings.",
+      "category": "Technology",
+      "importance": 211,
+      "whyItMatters": "The Hacker News community gave this story 211 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49310926"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.dampfkraft.com/ghost-characters.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49313428"
+      ],
+      "headline": "Super El Niño Keeps Growing as New Forecasts Reach Record Territory Ahead Winter",
+      "summary": "Super El Ni&ntilde;o continues to strengthen rapidly across the tropical Pacific, with new ocean and atmospheric data showing another acceleration in its development.  The latest long-range forecasts have raised the projected peak again, pushing the 2026 event deeper into historic territory later this year.",
+      "category": "Technology",
+      "importance": 196,
+      "whyItMatters": "The Hacker News community gave this story 196 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49313428"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.severe-weather.eu/long-range-2/super-el-nino-growth-accelerating-to-record-strength-fall-winter-2026-2027-forecast-impact-united-states-canada-europe-fa/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49314235"
+      ],
+      "headline": "Cultivating a state of mind where new ideas are born (2023)",
+      "summary": "Cultivating a state of mind where new ideas are born Henrik Karlsson and Johanna Karlsson Jul 26, 2023 73 716 Share Article voiceover 0:00 -30:33 Audio playback is not supported on your browser.  Please upgrade.",
+      "category": "Ideas",
+      "importance": 150,
+      "whyItMatters": "The Hacker News community gave this story 150 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49314235"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.henrikkarlsson.xyz/p/good-ideas"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49313367"
+      ],
+      "headline": "AI in drug discovery – what it is, where we stand and the path forward",
+      "summary": "<a href=\"https:&#x2F;&#x2F;www.nature.com&#x2F;articles&#x2F;s41573-026-01496-2\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nature.com&#x2F;articles&#x2F;s41573-026-01496-2</a>",
+      "category": "Technology",
+      "importance": 132,
+      "whyItMatters": "The Hacker News community gave this story 132 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49313367"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49314902"
+      ],
+      "headline": "Software Engineering fundamentals matter more",
+      "summary": "The manifestation of my imposter syndrome, for me and today, is what does it mean to be a software engineer.  There’s a lot more noise than signal on the Internet about agentic engineering, what can be accomplished, and its implications for the future.",
+      "category": "Technology",
+      "importance": 99,
+      "whyItMatters": "The Hacker News community gave this story 99 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49314902"
+        },
+        {
+          "name": "Original source",
+          "url": "https://rhonabwy.com/2026/08/15/software-engineering-fundamentals-matter-more-than-ever/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49313068"
+      ],
+      "headline": "Tess's Android Wayland Compositor",
+      "summary": "wmww / tawc Public Notifications You must be signed in to change notification settings Fork 1 Star 168 main Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 770 Commits 770 Commits . claude/ agents .",
+      "category": "Technology",
+      "importance": 64,
+      "whyItMatters": "The Hacker News community gave this story 64 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49313068"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/wmww/tawc"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-16T07:32:27.636Z"
+}
