@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-18-hacker-news",
+  "date": "2026-08-18",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49336573"
+      ],
+      "headline": "AI;DR (AI; Didn't Read)",
+      "summary": "AI;DR (AI; Didn’t Read) I'm about as pro-AI as you can be, but this is becoming a pet peeve of mine (and I'm not alone).  That's why I love the AI;DR acronym as my new solution for ignoring the walls of slop.",
+      "category": "Technology",
+      "importance": 816,
+      "whyItMatters": "The Hacker News community gave this story 816 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49336573"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49330781"
+      ],
+      "headline": "A Preview of DuckDB v2.0",
+      "summary": "A Preview of DuckDB v2. 0 Mark Raasveldt and Hannes Mühleisen 2026-08-17 | 15 min TL;DR: DuckDB v2.",
+      "category": "Ideas",
+      "importance": 612,
+      "whyItMatters": "The Hacker News community gave this story 612 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49330781"
+        },
+        {
+          "name": "Original source",
+          "url": "https://duckdb.org/2026/08/17/duckdb-20-highlights"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49338459"
+      ],
+      "headline": "How Bluesky draws its logo on screenshots",
+      "summary": "How Bluesky draws its logo on screenshots Sometimes I take a screenshot of a post I like, either to send it to friends/meme channel or to save a “durable” copy.  Like this one (I’ve cropped out the rest of the interface): Original , if you want to reskeet it I noticed the Bluesky logo in the right corner and thought that it was weird that the logo doesn’t bother me when I use the app.",
+      "category": "Ideas",
+      "importance": 429,
+      "whyItMatters": "The Hacker News community gave this story 429 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49338459"
+        },
+        {
+          "name": "Original source",
+          "url": "https://timmarinin.net/2026/bluesky-screenshots/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49337392"
+      ],
+      "headline": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 388,
+      "whyItMatters": "The Hacker News community gave this story 388 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49337392"
+        },
+        {
+          "name": "Original source",
+          "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49337602"
+      ],
+      "headline": "GPT-5.6 Sol Pricing Cut by 50%",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 378,
+      "whyItMatters": "The Hacker News community gave this story 378 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49337602"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openrouter.ai/openai/gpt-5.6-sol"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49331423"
+      ],
+      "headline": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+      "summary": "*:not([data-layout=\"full-bleed\"])]:col-start-2\"> Wiz Pricing Get a demo Get a demo *:not([data-layout=\"full-bleed\"])]:col-start-2 lg:hidden\"> *:not([data-layout=\"full-bleed\"])]:col-start-2\"> :first-child]:text-primary-blue group-data-[theme=brand]:prose-blockquote:border-white group-data-[theme=brand]:prose-blockquote:text-white group-data-[theme=brand]:[&_cite]:text-secondary-blue-medium group-data-[theme=brand]:[&_cite>:first-child]:text-secondary-blue-light prose-code:rounded-md prose-code:bg-secondary-blue-medium/10 prose-code:p-1 prose-code:font-mono prose-code:font-normal prose-code:break-all prose-code:text-primary-blue prose-code:before:hidden prose-code:after:hidden…",
+      "category": "Technology",
+      "importance": 358,
+      "whyItMatters": "The Hacker News community gave this story 358 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49331423"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49329575"
+      ],
+      "headline": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+      "summary": "Blog GPT 5. 6 Sol is the best \"vision\" model OpenAI ever released Piotr Skalski Published Jul 16, 2026 • 6 min read Last week, OpenAI announced the GPT-5.",
+      "category": "Technology",
+      "importance": 332,
+      "whyItMatters": "The Hacker News community gave this story 332 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49329575"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.roboflow.com/openai-gpt-5-6/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49338328"
+      ],
+      "headline": "Quake Shareware, a CD-ROM just a little too full",
+      "summary": "Quake Shareware, a CD-ROM just a little too full Fabien Sanglard - WEBSITE Aug 17, 2026 Quake Shareware, a CD-ROM just a little too full In the mid-90s the coolest thing to buy for a PC, besides the incredibly expensive Intel Pentium , was a CD-ROM drive .  With their capacity of 640 MiB (three times the storage of PC HDD at the time), CDs allowed enthusiasts to step into a world of multimedia, made of high-resolution 640x480 256 colors palette-indexed photos [1] , VOC soundtracks, and play with Video For Windows butter-smooth 12 fps 240x179 videos [2] [3] lasting up to several seconds.",
+      "category": "Ideas",
+      "importance": 298,
+      "whyItMatters": "The Hacker News community gave this story 298 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49338328"
+        },
+        {
+          "name": "Original source",
+          "url": "https://fabiensanglard.net/quake_shareware_cd/index.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49331220"
+      ],
+      "headline": "How to disable or avoid intrusive AI",
+      "summary": "[ Put on your own oxygen mask first!  Image from San Diego Air and Space Museum Archives ] One of the biggest questions I get at Drop-In Time at the library (besides “what is taking up all my cloud storage?",
+      "category": "Technology",
+      "importance": 289,
+      "whyItMatters": "The Hacker News community gave this story 289 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49331220"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.librarian.net/notoai/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49333824"
+      ],
+      "headline": "Sun Clock",
+      "summary": "Sun Clock Getting date… Getting location… show all times Sun Calendar About Sun Clock is a 24-hour clock that displays the position of the sun, and times of sunrise , solar noon , sunset , golden hour , and twilight for your current location.  It also shows the position and phase of the moon, and its rising and setting times.",
+      "category": "Ideas",
+      "importance": 217,
+      "whyItMatters": "The Hacker News community gave this story 217 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49333824"
+        },
+        {
+          "name": "Original source",
+          "url": "https://sunclock.net/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-18T07:39:39.885Z"
+}
