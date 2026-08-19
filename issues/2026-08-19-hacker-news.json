@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-19-hacker-news",
+  "date": "2026-08-19",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49345263"
+      ],
+      "headline": "The Amazon tax",
+      "summary": "You have unread updates 0 Search Or try my new AI-powered search bot Subscribe Email Terms & Privacy Get the weekly digest Learn Which workshop?  The LinkedIn Learning Courses Udemy Courses The Akimbo Podcast Connect News and updates Social Media Best of the blog Story of the Week Seth’s Top 100 Popular Posts Archive More Seth Books, videos, and speaking (oh my!",
+      "category": "Technology",
+      "importance": 1130,
+      "whyItMatters": "The Hacker News community gave this story 1130 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49345263"
+        },
+        {
+          "name": "Original source",
+          "url": "https://seths.blog/2026/08/the-amazon-tax/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49355606"
+      ],
+      "headline": "OpenLogi",
+      "summary": "HID++ over Bolt, Unifying, Bluetooth & wired · macOS · Linux · Windows Your Logitech mouse, finally local.  A native, local-first alternative to Logitech Options+, written in Rust 🦀 .",
+      "category": "Ideas",
+      "importance": 424,
+      "whyItMatters": "The Hacker News community gave this story 424 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49355606"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openlogi.org/en"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49355142"
+      ],
+      "headline": "Sticky wage norms and the real wage cost of unexpected inflation",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 352,
+      "whyItMatters": "The Hacker News community gave this story 352 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49355142"
+        },
+        {
+          "name": "Original source",
+          "url": "https://bfi.uchicago.edu/wp-content/uploads/2026/08/BFI_WP_2026-108-1.pdf"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49349984"
+      ],
+      "headline": "How does IKEA come up with names for its products?",
+      "summary": "How does IKEA come up with names for its products?  The product names of IKEA may sound strange even to us Swedish speakers.",
+      "category": "Ideas",
+      "importance": 323,
+      "whyItMatters": "The Hacker News community gave this story 323 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49349984"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.ikea.com/se/en/customer-service/knowledge/articles/6f564c4d-2ccc-46de-b643-545a3948dc79.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49348912"
+      ],
+      "headline": "And then the men with guns tell you to do it anyway",
+      "summary": "In early February 2011 Egypt was in the middle of a political revolution .  One morning, everyone's phones suddenly pinged with an alert.",
+      "category": "Ideas",
+      "importance": 288,
+      "whyItMatters": "The Hacker News community gave this story 288 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49348912"
+        },
+        {
+          "name": "Original source",
+          "url": "https://shkspr.mobi/blog/2026/08/and-then-the-men-with-guns-tell-you-to-do-it-anyway/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49353221"
+      ],
+      "headline": "A 3D fruit fly on macOS desktop powered by the real FlyWire connectome",
+      "summary": "DenisSergeevitch / desktop-fly Public Notifications You must be signed in to change notification settings Fork 19 Star 296 master Branches Tags Go to file Code Open more actions menu Latest commit History 2 Commits 2 Commits Folders and files Name Name Last commit message Last commit date assets assets data data . gitignore .",
+      "category": "Ideas",
+      "importance": 250,
+      "whyItMatters": "The Hacker News community gave this story 250 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49353221"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/DenisSergeevitch/desktop-fly"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49349898"
+      ],
+      "headline": "Turbovec – Google's TurboQuant for vector search in Rust",
+      "summary": "RyanCodrai / turbovec Public Notifications You must be signed in to change notification settings Fork 1. 4k Star 15.",
+      "category": "Technology",
+      "importance": 238,
+      "whyItMatters": "The Hacker News community gave this story 238 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49349898"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/RyanCodrai/turbovec"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49354949"
+      ],
+      "headline": "Cerebras CS-4",
+      "summary": "The Fastest AI Just Got Faster.  Introducing the all new Cerebras CS-4, a revolutionary rack-scale solution that delivers up to 30x faster inference compared to GPUs, enhanced economics, and a simple path to deploy hyperscale capacity.",
+      "category": "Technology",
+      "importance": 237,
+      "whyItMatters": "The Hacker News community gave this story 237 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49354949"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.cerebras.ai/cs4"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49355825"
+      ],
+      "headline": "Meta's blockbuster trial draws parallels to big tobacco",
+      "summary": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;a3165\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;a3165</a>",
+      "category": "Ideas",
+      "importance": 206,
+      "whyItMatters": "The Hacker News community gave this story 206 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49355825"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.economist.com/business/2026/08/18/metas-blockbuster-trial-draws-parallels-to-big-tobacco"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49355105"
+      ],
+      "headline": "Scientists stunned by children's lung recovery in ultra low emission zone",
+      "summary": "Scientists stunned by children's lung recovery in ultra low emission zone 8 hours ago Share Save Add as preferred on Google Smitha Mundasad Health reporter BBC Children had lung function tests every year Scientists say they have been \"stunned\" by how quickly young children's lungs began to recover and grow after pollution restrictions were brought in where they lived.  Researchers found that children in London whose lung growth had been stunted by pollution showed impressive improvements after the introduction of an Ultra Low Emission Zone (Ulez) in 2019 reduced emissions.",
+      "category": "Ideas",
+      "importance": 187,
+      "whyItMatters": "The Hacker News community gave this story 187 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49355105"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.bbc.com/news/articles/c1l1r1zne1ro"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-19T07:39:43.476Z"
+}
