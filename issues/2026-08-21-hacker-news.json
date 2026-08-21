@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-21-hacker-news",
+  "date": "2026-08-21",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49372583"
+      ],
+      "headline": "AliExpress runs silent WebAudio fingerprinting that breaks Bluetooth multipoint",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 951,
+      "whyItMatters": "The Hacker News community gave this story 951 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49372583"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49378957"
+      ],
+      "headline": "The August 17 outage",
+      "summary": "Vlad Fedorov · @v-fedorov-gh August 20, 2026 | 4 minutes Share: On August 17, GitHub experienced an outage that lasted 7 hours and 47 minutes.  It disrupted github.",
+      "category": "Ideas",
+      "importance": 478,
+      "whyItMatters": "The Hacker News community gave this story 478 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49378957"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49374269"
+      ],
+      "headline": "Malicious Rust crate Arrayref runs a build-time payload",
+      "summary": "Back to Blog Malicious Rust Crate arrayref Runs a Build-Time Payload Malware Security SafeDep Team • Aug 20, 2026 • 7 min read On this page 6 sections On this page Summary On August 20, 2026, a compromised release of the popular Rust crate arrayref appeared on crates. io.",
+      "category": "Technology",
+      "importance": 477,
+      "whyItMatters": "The Hacker News community gave this story 477 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49374269"
+        },
+        {
+          "name": "Original source",
+          "url": "https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49378768"
+      ],
+      "headline": "Show HN: Huzzah – a novel approach to coding with AI",
+      "summary": "If you’re a software engineer like me, the first few months of 2026 were incredible.  Coding agents suddenly became good enough that we no longer needed to manually write code.",
+      "category": "Technology",
+      "importance": 288,
+      "whyItMatters": "The Hacker News community gave this story 288 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49378768"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.danielvaughn.dev/posts/huzzah/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49383026"
+      ],
+      "headline": "AI companies destroy physical books – let's scan rare books before it's too late",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 285,
+      "whyItMatters": "The Hacker News community gave this story 285 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49383026"
+        },
+        {
+          "name": "Original source",
+          "url": "https://annas-archive.gl/blog/physical-destruction.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49377853"
+      ],
+      "headline": "I should have loved biology (2020)",
+      "summary": "I should have loved biology By James Somers I should have loved biology but I found it to be a lifeless recitation of names: the Golgi apparatus and the Krebs cycle; mitosis, meiosis; DNA, RNA, mRNA, tRNA.  In the textbooks, astonishing facts were presented without astonishment.",
+      "category": "Ideas",
+      "importance": 257,
+      "whyItMatters": "The Hacker News community gave this story 257 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49377853"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jsomers.net/i-should-have-loved-biology/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49376265"
+      ],
+      "headline": "Linux 7.2",
+      "summary": "\"Second busiest cycle ever, kernel 7. 2 brings great advances on both CPU and GPU scheduling\" Aug 19, 2026 Linux 7.",
+      "category": "Ideas",
+      "importance": 242,
+      "whyItMatters": "The Hacker News community gave this story 242 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49376265"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.igalia.com/2026/08/19/Linux-72-Released.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49375996"
+      ],
+      "headline": "Vomit: Clean up Claude 5's token output with a separate LLM",
+      "summary": "zachahn / vomit Public Notifications You must be signed in to change notification settings Fork 2 Star 87 main Branches Tags Go to file Code Open more actions menu Latest commit History 31 Commits 31 Commits Folders and files Name Name Last commit message Last commit date cmd/ decomment cmd/ decomment internal internal . gitignore .",
+      "category": "Technology",
+      "importance": 240,
+      "whyItMatters": "The Hacker News community gave this story 240 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49375996"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/zachahn/vomit"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49378446"
+      ],
+      "headline": "Why aren't smart people happier? (2022)",
+      "summary": "Why aren't smart people happier?  A new way to think about brainpower.",
+      "category": "Technology",
+      "importance": 157,
+      "whyItMatters": "The Hacker News community gave this story 157 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49378446"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.experimental-history.com/p/why-arent-smart-people-happier"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49375719"
+      ],
+      "headline": "Anti-AI fonts are useless and harmful",
+      "summary": "Anti-AI fonts are useless and harmful 11 Aug, 2026 Making “anti-ai” fonts that obfuscate or scramble text is a fools errand.  For fonts that scramble text, it's an accessibility problem, since the scrambled text is what screen readers and other accessibility tools will parse.",
+      "category": "Technology",
+      "importance": 151,
+      "whyItMatters": "The Hacker News community gave this story 151 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49375719"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-21T07:44:41.005Z"
+}
