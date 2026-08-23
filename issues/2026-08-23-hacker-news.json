@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-23-hacker-news",
+  "date": "2026-08-23",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49400408"
+      ],
+      "headline": "ElevenLabs, TwelveLabs, ThirteenLabs",
+      "summary": "ElevenLabs, TwelveLabs, ThirteenLabs, … ElevenLabs, TwelveLabs, ThirteenLabs, … You may have heard of the speech synthesis company ElevenLabs.  Recently a friend mentioned they knew someone who worked at a company called Twelve Labs that does AI for video (it feels like it must have been intended to play on the fact that ElevenLabs does audio, but I don't know for sure).",
+      "category": "Technology",
+      "importance": 374,
+      "whyItMatters": "The Hacker News community gave this story 374 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49400408"
+        },
+        {
+          "name": "Original source",
+          "url": "https://quantumi.sh/public/labs.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49402189"
+      ],
+      "headline": "Scrap (2006)",
+      "summary": "Post Log in Sign up Post Moxie Marlinspike on X: \"I found some old journal entries.  This one is probably circa ~2006, just titled \"Scrap:\" I moved to Pittsburgh at the right time in my life, but at the wrong time of year.",
+      "category": "Ideas",
+      "importance": 365,
+      "whyItMatters": "The Hacker News community gave this story 365 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49402189"
+        },
+        {
+          "name": "Original source",
+          "url": "https://twitter.com/moxie/status/2091218652133732491"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49402232"
+      ],
+      "headline": "Why your local LLM feels dumber than it is",
+      "summary": "Return to Level1Techs. com Why your local LLM feels dumber than it is High-Performance Computing Machine Learning, LLMs, & AI ai thr3e August 16, 2026, 1:51am 1 Quick Introduction We have all been on forums, chats, reddit, discord, youtube, or somewhere and heard “Oh!",
+      "category": "Technology",
+      "importance": 293,
+      "whyItMatters": "The Hacker News community gave this story 293 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49402232"
+        },
+        {
+          "name": "Original source",
+          "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49398152"
+      ],
+      "headline": "Munder Difflin – Agent harness to run an office of your clones",
+      "summary": "HOW IT WORKS Three steps to a second you.  1 Install your harness One download.",
+      "category": "Ideas",
+      "importance": 276,
+      "whyItMatters": "The Hacker News community gave this story 276 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49398152"
+        },
+        {
+          "name": "Original source",
+          "url": "https://munderdiffl.in/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49399898"
+      ],
+      "headline": "A Friendly Introduction to Racket",
+      "summary": "A Friendly Introduction to Racket 11 Aug, 2026 \"Lisp is worth learning for the profound enlightenment experience you will have when you finally get it. \" — Eric S.",
+      "category": "Ideas",
+      "importance": 223,
+      "whyItMatters": "The Hacker News community gave this story 223 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49399898"
+        },
+        {
+          "name": "Original source",
+          "url": "https://geometridae.bearblog.dev/a-friendly-introduction-to-racket/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49399591"
+      ],
+      "headline": "New MCP Roadmap",
+      "summary": "Table of Contents Priority areas Agentic messaging primitives HTTP-native transport unification and hardening Agent identity and enterprise-ready security Improved primitives Improved SDK developer experience Proposal prioritization Get involved Today we&rsquo;re excited to publish an updated roadmap for the Model Context Protocol (MCP), covering the next specification release and beyond.  It sets the direction for protocol work over the coming months and was developed by the Core Maintainers together with our community of maintainers and Working Groups.",
+      "category": "Technology",
+      "importance": 196,
+      "whyItMatters": "The Hacker News community gave this story 196 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49399591"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49402202"
+      ],
+      "headline": "Thinking in Python",
+      "summary": "Bruce Eckel Thinking in Python Insights, Idioms and Patterns 01 Introduction Part I &middot; Foundations 02 Tour 03 Containers 04 Control Flow 05 Functions 06 Modules and Packages 07 Classes 08 Static Typing 09 Class Attributes 10 Cleanup Part II &middot; Techniques 11 Testing 12 Data Classes as Types 13 Pattern Matching 14 Decorators 15 Context Managers 16 Comprehensions 17 Metaprogramming 18 Performance 19 Concurrency Part III &middot; Patterns 20 Rethinking Objects 21 The Pattern Concept 22 Data Transfer Objects 23 Iterators 24 Singleton 25 Template Method 26 Surrogate 27 Factory 28 Function Objects 29 Changing the Interface 30 Observer 31 State Machines 32 Multiple Dispatching 33 Visitor…",
+      "category": "Technology",
+      "importance": 139,
+      "whyItMatters": "The Hacker News community gave this story 139 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49402202"
+        },
+        {
+          "name": "Original source",
+          "url": "https://thinkinginpython.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49398158"
+      ],
+      "headline": "Z80 – The 1970s Microprocessor Still Alive (2021)",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 134,
+      "whyItMatters": "The Hacker News community gave this story 134 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49398158"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.computer.org/csdl/magazine/mi/2021/06/09623402/1yJTvlRLmhi"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49402781"
+      ],
+      "headline": "NetBSD and my life (2005)",
+      "summary": "Subject: NetBSD and my life...  To: None From: gary rolland List: netbsd-advocacy Date: 09/10/2005 16:40:17 Hello NetBSD Team, I have been using NetBSD for about two years on my laptop and never had any problems.",
+      "category": "Ideas",
+      "importance": 118,
+      "whyItMatters": "The Hacker News community gave this story 118 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49402781"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mail-index.netbsd.org/netbsd-advocacy/2005/09/10/0000.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49402213"
+      ],
+      "headline": "Figmimic – A bookmarklet to copy any webpage into Figma as editable layers",
+      "summary": "What is it?  Figmimic is a bookmarklet that captures the current web page and copies it to your clipboard as Figma frames.",
+      "category": "Ideas",
+      "importance": 88,
+      "whyItMatters": "The Hacker News community gave this story 88 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49402213"
+        },
+        {
+          "name": "Original source",
+          "url": "https://marcua.net/minitools/figmimic/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-23T07:34:36.825Z"
+}
