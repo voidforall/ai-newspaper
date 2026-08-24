@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-24-hacker-news",
+  "date": "2026-08-24",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49413320"
+      ],
+      "headline": "Everything I own, owned",
+      "summary": "Everything I own, owned August 23, 2026 Over the past couple weeks I&rsquo;ve been doing agent-driven reverse engineering of peripherals that happen to be within arm&rsquo;s reach.  From those devices, I&rsquo;ve come away with a full plaintext command shell inside my microphone, a webcam whose activity LED I can switch off while it records, and a key light that hands out memory writes to anyone on the WiFi.",
+      "category": "Technology",
+      "importance": 754,
+      "whyItMatters": "The Hacker News community gave this story 754 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49413320"
+        },
+        {
+          "name": "Original source",
+          "url": "https://schlarp.com/posts/everything-i-own-owned/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49411102"
+      ],
+      "headline": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 468,
+      "whyItMatters": "The Hacker News community gave this story 468 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49411102"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49409092"
+      ],
+      "headline": "What Is a Harness?",
+      "summary": "What is a Harness?  Date: Thu, 20 Aug 2026 From: Earendil Product rfc@earendil.",
+      "category": "Ideas",
+      "importance": 426,
+      "whyItMatters": "The Hacker News community gave this story 426 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49409092"
+        },
+        {
+          "name": "Original source",
+          "url": "https://earendil.com/posts/what-is-a-harness/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49411643"
+      ],
+      "headline": "How I find problems to solve as a staff engineer",
+      "summary": "Discussed on lobste. rs .",
+      "category": "Ideas",
+      "importance": 391,
+      "whyItMatters": "The Hacker News community gave this story 391 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49411643"
+        },
+        {
+          "name": "Original source",
+          "url": "https://lalitm.com/post/find-problems-staff-engineer/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49410362"
+      ],
+      "headline": "A website for debloated open source alternatives",
+      "summary": "de bl o at replace the junk home new top rated requests publish sign in Categories Peripherals (38) Laptops & desktops (25) Audio (21) Networking (20) Smart home (20) NAS & storage (19) Printers & scanners (18) Phone & sync (17) Cameras & webcams (13) TV & media (12) ★ Featured logiops GPL-3. 0 ★★★ (1) replaces Logitech Options+ (gestures, buttons, SmartShift) HID++ daemon for remapping buttons and gestures on Logitech devices.",
+      "category": "Ideas",
+      "importance": 319,
+      "whyItMatters": "The Hacker News community gave this story 319 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49410362"
+        },
+        {
+          "name": "Original source",
+          "url": "https://debloat.dev/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49409473"
+      ],
+      "headline": "How Complex Systems Fail (1998)",
+      "summary": "Complex systems are intrinsically hazardous systems.  All of the interesting systems (e.",
+      "category": "Technology",
+      "importance": 305,
+      "whyItMatters": "The Hacker News community gave this story 305 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49409473"
+        },
+        {
+          "name": "Original source",
+          "url": "https://how.complexsystems.fail/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49410932"
+      ],
+      "headline": "My agent.md to improve LLM-assisted code quality",
+      "summary": "My agent. md to improve LLM-assisted code quality Fabien Sanglard - WEBSITE Aug 21, 2026 My agent.",
+      "category": "Ideas",
+      "importance": 294,
+      "whyItMatters": "The Hacker News community gave this story 294 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49410932"
+        },
+        {
+          "name": "Original source",
+          "url": "https://fabiensanglard.net/agent.md/index.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49411717"
+      ],
+      "headline": "Google Workspace thinks my domain is an email provider (2025)",
+      "summary": "Google Workspace thinks my domain is an email provider Published Oct 7, 2025 | Updated Aug 23, 2026 Read by ...  Update: As of August 2026, this issue is still present.",
+      "category": "Technology",
+      "importance": 280,
+      "whyItMatters": "The Hacker News community gave this story 280 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49411717"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.elis.cc/articles/google-workspace-thinks-my-domain-is-an-email-provider/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49408550"
+      ],
+      "headline": "Malware infects Android-based automotive head unit firmware",
+      "summary": "Table of Contents Head unit firmware overview The TWCore app Stage 1: the JarService dropper Stage 2: the loader Stage 3: clicker / reverse proxy loader Attribution Conclusion Indicators of compromise Stage 1: JarService Stage 2: loader Stage 3: loader/clicker zhima module Domains and IP addresses Addresses used to download JarService Hashes of TWCore (the legitimate software used to distribute JarService) Authors Dmitry Kalinin While monitoring Android threats in June 2026, we discovered a new piece of Android malware.  What struck us as unusual was that it installed like an ordinary user app yet made no attempt to disguise itself as legitimate software: it had no user interface at all.",
+      "category": "Technology",
+      "importance": 234,
+      "whyItMatters": "The Hacker News community gave this story 234 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49408550"
+        },
+        {
+          "name": "Original source",
+          "url": "https://securelist.com/android-head-unit-malware/121106/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49408858"
+      ],
+      "headline": "My favorite nonfiction books about cults, scams, and schemes",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 224,
+      "whyItMatters": "The Hacker News community gave this story 224 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49408858"
+        },
+        {
+          "name": "Original source",
+          "url": "https://bookdna.com/best-books/nonfiction-about-cults-scams-and-schemes"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-24T07:58:47.217Z"
+}
