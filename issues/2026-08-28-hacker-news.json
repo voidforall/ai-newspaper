@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-28-hacker-news",
+  "date": "2026-08-28",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49477600"
+      ],
+      "headline": "“It works better in the app”",
+      "summary": "The monkey-punchers at Google never quite seem to finish any of their apps.  There's always some useful bit of work left undone, or showstopping bug which remains unfixed, a thousand jagged edges as yet unsolved by the greatest minds of their generation.",
+      "category": "Technology",
+      "importance": 588,
+      "whyItMatters": "The Hacker News community gave this story 588 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49477600"
+        },
+        {
+          "name": "Original source",
+          "url": "https://shkspr.mobi/blog/2026/08/it-works-better-in-the-app/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49478340"
+      ],
+      "headline": "Get your Windows license refund",
+      "summary": "Get your Windows license refund now!  We all know the joy of acquiring a new laptop and the excitement of exploring its features and functionalities.",
+      "category": "Ideas",
+      "importance": 537,
+      "whyItMatters": "The Hacker News community gave this story 537 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49478340"
+        },
+        {
+          "name": "Original source",
+          "url": "https://en.refund4freedom.org/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49473522"
+      ],
+      "headline": "Judge rules Trump administration’s blacklisting of Anthropic was illegal",
+      "summary": "Advertisement SKIP ADVERTISEMENT The Trump administration acted illegally when it labeled the artificial intelligence start-up Anthropic a security risk and barred the company from working with the U. S.",
+      "category": "Technology",
+      "importance": 363,
+      "whyItMatters": "The Hacker News community gave this story 363 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49473522"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49479878"
+      ],
+      "headline": "GLM-5.3 is now open-weight",
+      "summary": "\",\"pad_token\":\" \"},\"chat_template_jinja\":\"[gMASK] \\n{%- set effective_reasoning_effort = reasoning_effort if reasoning_effort is defined and reasoning_effort in ['low', 'high'] else 'max' -%}\\n{%- if effective_reasoning_effort is not none -%} Reasoning Effort: {{ effective_reasoning_effort | capitalize }}{%- endif -%}\\n{%- set clear_thinking = clear_thinking if clear_thinking is defined else false -%}\\n{%- if tools -%}\\n{%- macro tool_to_json(tool) -%}\\n {%- set ns_tool = namespace(first=true) -%}\\n {{ '{' -}}\\n {%- for k, v in tool. items() -%}\\n {%- if k !",
+      "category": "Ideas",
+      "importance": 357,
+      "whyItMatters": "The Hacker News community gave this story 357 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49479878"
+        },
+        {
+          "name": "Original source",
+          "url": "https://huggingface.co/zai-org/GLM-5.3"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49475079"
+      ],
+      "headline": "Luanti removed from Google Play due to baseless AI copyright notice",
+      "summary": "Luanti’s Android app is currently not available on the Google Play Store due to a baseless DMCA notice filed on behalf of Microsoft by Tracer. AI, alleging that Luanti infringes Minecraft’s copyright.",
+      "category": "Technology",
+      "importance": 319,
+      "whyItMatters": "The Hacker News community gave this story 319 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49475079"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49477854"
+      ],
+      "headline": "U.S. sanctions against the A/I Collective",
+      "summary": "Welcome to A/I U. S.",
+      "category": "Technology",
+      "importance": 311,
+      "whyItMatters": "The Hacker News community gave this story 311 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49477854"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.inventati.org/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49477564"
+      ],
+      "headline": "Inception-style curved map for turn-by-turn directions",
+      "summary": "Start navigation Patent pending · PCT/EP2026/058725 Navigation Reimagined.  Preparing Demo 2 - v72… 0% Loading Orbify scene Loading… Demo 2 - v72 · © 2026 Orbify · Patent Pending · PCT/EP2026/058725",
+      "category": "Ideas",
+      "importance": 302,
+      "whyItMatters": "The Hacker News community gave this story 302 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49477564"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.orbify.eu/demo/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49478178"
+      ],
+      "headline": "Htmx 4.0",
+      "summary": "On this page htmx 4. 0.",
+      "category": "Ideas",
+      "importance": 271,
+      "whyItMatters": "The Hacker News community gave this story 271 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49478178"
+        },
+        {
+          "name": "Original source",
+          "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49479837"
+      ],
+      "headline": "GUIs should be fully keyboard-driven",
+      "summary": "2026-08-28 on Charalampos Kardaris' blog , view comments This post has made it to the Hacker News front page.  See the discussion .",
+      "category": "Ideas",
+      "importance": 227,
+      "whyItMatters": "The Hacker News community gave this story 227 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49479837"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49476143"
+      ],
+      "headline": "Hilariously fast volume computation with the divergence theorem (2018)",
+      "summary": "(No, there won’t be jokes. ) The following presents a fast algorithm for volume computation of a simple, closed, triangulated 3D mesh.",
+      "category": "Ideas",
+      "importance": 216,
+      "whyItMatters": "The Hacker News community gave this story 216 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49476143"
+        },
+        {
+          "name": "Original source",
+          "url": "https://alyssarosenzweig.ca/blog/hilariously-fast-volume-computation-with-the-divergence-theorem.html"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-28T19:18:21.671Z"
+}
