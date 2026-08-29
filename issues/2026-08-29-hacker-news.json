@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-29-hacker-news",
+  "date": "2026-08-29",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49479837"
+      ],
+      "headline": "GUIs should be fully keyboard-driven",
+      "summary": "2026-08-28 on Charalampos Kardaris' blog , view comments This post has made it to the Hacker News front page.  See the discussion .",
+      "category": "Ideas",
+      "importance": 873,
+      "whyItMatters": "The Hacker News community gave this story 873 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49479837"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49479878"
+      ],
+      "headline": "GLM-5.3 is now open-weight",
+      "summary": "\",\"pad_token\":\" \"},\"chat_template_jinja\":\"[gMASK] \\n{%- set effective_reasoning_effort = reasoning_effort if reasoning_effort is defined and reasoning_effort in ['low', 'high'] else 'max' -%}\\n{%- if effective_reasoning_effort is not none -%} Reasoning Effort: {{ effective_reasoning_effort | capitalize }}{%- endif -%}\\n{%- set clear_thinking = clear_thinking if clear_thinking is defined else false -%}\\n{%- if tools -%}\\n{%- macro tool_to_json(tool) -%}\\n {%- set ns_tool = namespace(first=true) -%}\\n {{ '{' -}}\\n {%- for k, v in tool. items() -%}\\n {%- if k !",
+      "category": "Ideas",
+      "importance": 724,
+      "whyItMatters": "The Hacker News community gave this story 724 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49479878"
+        },
+        {
+          "name": "Original source",
+          "url": "https://huggingface.co/zai-org/GLM-5.3"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49478178"
+      ],
+      "headline": "Htmx 4.0",
+      "summary": "On this page htmx 4. 0.",
+      "category": "Ideas",
+      "importance": 704,
+      "whyItMatters": "The Hacker News community gave this story 704 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49478178"
+        },
+        {
+          "name": "Original source",
+          "url": "https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49486172"
+      ],
+      "headline": "Our decision on Cursor following its acquisition by SpaceX",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 608,
+      "whyItMatters": "The Hacker News community gave this story 608 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49486172"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49480466"
+      ],
+      "headline": "Just the rumour of a bug is enough to find an exploit these days",
+      "summary": "Anil Madhavapeddy I released a security fix for OCaml's cohttp 6. 3.",
+      "category": "Technology",
+      "importance": 343,
+      "whyItMatters": "The Hacker News community gave this story 343 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49480466"
+        },
+        {
+          "name": "Original source",
+          "url": "https://anil.recoil.org/notes/rumour-is-the-exploit"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49485267"
+      ],
+      "headline": "Boot a Virtual iPhone via Apple's Virtualization.framework",
+      "summary": "Lakr233 / vphone-cli Public Notifications You must be signed in to change notification settings Fork 1. 3k Star 9k main Branches Tags Go to file Code Open more actions menu Latest commit History 369 Commits 369 Commits Folders and files Name Name Last commit message Last commit date .",
+      "category": "Technology",
+      "importance": 306,
+      "whyItMatters": "The Hacker News community gave this story 306 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49485267"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/Lakr233/vphone-cli"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49485416"
+      ],
+      "headline": "I accidentally turned LLM memory into program analysis",
+      "summary": "I accidentally turned LLM memory into program analysis [ 28 Aug 2026 ] // JORDY ZOMER // 19 MIN READ Over the past few months I have been playing around quite a bit with LLM agents, particularly for vulnerability research.  They are becoming surprisingly good at navigating large codebases, explaining unfamiliar subsystems and helping explore potential attack surfaces.",
+      "category": "Technology",
+      "importance": 180,
+      "whyItMatters": "The Hacker News community gave this story 180 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49485416"
+        },
+        {
+          "name": "Original source",
+          "url": "https://pwning.systems/posts/llm-memory-program-analysis/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49479924"
+      ],
+      "headline": "EasyEffects can improve laptop speaker sound quality",
+      "summary": "Home > Multimedia, AV > EasyEffects should be part of every Linux distribution and desktop environment to massively improve laptop speaker sound quality Virtually all laptop speakers suck.  It’s the one area where even really expensive laptops tend to fall on their ass, leaving users with a tinny, harsh, and hollow sound experience.",
+      "category": "Ideas",
+      "importance": 170,
+      "whyItMatters": "The Hacker News community gave this story 170 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49479924"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.osnews.com/story/145883/easyeffects-should-be-part-of-every-linux-distribution-and-desktop-environment-to-massively-improve-laptop-speaker-sound-quality/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49479072"
+      ],
+      "headline": "Verschlimmbesserung: The Word Your Software Updates Need",
+      "summary": "The German language has a word for what your last software update did.  It is called Verschlimmbesserung : an attempted improvement that only makes things worse.",
+      "category": "Technology",
+      "importance": 151,
+      "whyItMatters": "The Hacker News community gave this story 151 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49479072"
+        },
+        {
+          "name": "Original source",
+          "url": "https://geekyschmidt.com/post/2026-08-25-verschlimmbesserung/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49485452"
+      ],
+      "headline": "9th Circuit sides with states in Kalshi gambling fight",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 142,
+      "whyItMatters": "The Hacker News community gave this story 142 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49485452"
+        },
+        {
+          "name": "Original source",
+          "url": "https://azmirror.com/2026/08/28/9th-circuit-sides-with-states-in-kalshi-gambling-fight-potentially-reviving-arizonas-prosecution/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-29T13:01:02.244Z"
+}
