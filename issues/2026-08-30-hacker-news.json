@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-30-hacker-news",
+  "date": "2026-08-30",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49495372"
+      ],
+      "headline": "California lawmakers unanimously pass Linux exemption from age-verification law",
+      "summary": "(Image credit: Getty Images) {alert('Link copied')}). catch(err => {console.",
+      "category": "Ideas",
+      "importance": 383,
+      "whyItMatters": "The Hacker News community gave this story 383 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49495372"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49492632"
+      ],
+      "headline": "Hy4 preview",
+      "summary": "Ranked among the top tier of open-source models, Hy4 preview is built for real-world productivity tasks, delivering outstanding performance across coding, office work, and scientific research Tencent has released and open-sourced Tencent Hy4 preview, a next-generation large language model with 770B total parameters and 49B active parameters, and a context window exceeding 1M tokens.  It demonstrates outstanding capabilities on real-world productivity tasks spanning coding, office work, and scientific research.",
+      "category": "Technology",
+      "importance": 335,
+      "whyItMatters": "The Hacker News community gave this story 335 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49492632"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49494182"
+      ],
+      "headline": "Lawmakers added $1 to car insurance policies. That money paid for Flock cameras",
+      "summary": "A Flock camera records drivers on Allen Parkway near downtown Houston on Monday, Aug.  24, 2026.",
+      "category": "Technology",
+      "importance": 329,
+      "whyItMatters": "The Hacker News community gave this story 329 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49494182"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.texastribune.org/2026/08/28/texas-flock-cameras-auto-insurance-fee-mvcpa-grants/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49494520"
+      ],
+      "headline": "Bug Blindness",
+      "summary": "I used to wonder why I see so many more bugs than most people.  I easily observe hundreds to thousands of bugs per week and nothing seems to work , but most people I talk to don't see anything like this .",
+      "category": "Ideas",
+      "importance": 296,
+      "whyItMatters": "The Hacker News community gave this story 296 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49494520"
+        },
+        {
+          "name": "Original source",
+          "url": "https://danluu.com/bug-blind/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49490870"
+      ],
+      "headline": "Nancy Grace Roman Space Telescope",
+      "summary": "Roman Nancy Grace Roman Space Telescope The Nancy Grace Roman Space Telescope will settle essential questions in the areas of dark energy, exoplanets, and astrophysics.  Future Mission NEWS Get the Latest Updates from the Roman Blog!",
+      "category": "Ideas",
+      "importance": 224,
+      "whyItMatters": "The Hacker News community gave this story 224 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49490870"
+        },
+        {
+          "name": "Original source",
+          "url": "https://science.nasa.gov/mission/roman-space-telescope/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49497063"
+      ],
+      "headline": "Brits would quite like their private messages to stay private",
+      "summary": "security Turns out Brits would quite like their private messages to stay private Polling finds two-thirds don't trust this government, or any future one, with access to their encrypted chats Carly Page Carly Page Published sun 30 Aug 2026 // 09:34 UTC MOST POPULAR security Researcher shows how Claude Code can be tricked simply by asking it to summarize a website Legal Nuisance-call blocker fined £190k for being a nuisance caller science German-Japanese researchers invent electricity-free tech that could cool datacenters security Security vets rally around $4 paper password books for sale in Australia personal tech On Call: Exec couldn’t identify a photocopier, which made for a fax-inating…",
+      "category": "Technology",
+      "importance": 144,
+      "whyItMatters": "The Hacker News community gave this story 144 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49497063"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49494856"
+      ],
+      "headline": "FreeCORE TrueNAS Core – Continued",
+      "summary": "Free CORE TrueNAS® CORE — continued.  Train 13.",
+      "category": "Technology",
+      "importance": 125,
+      "whyItMatters": "The Hacker News community gave this story 125 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49494856"
+        },
+        {
+          "name": "Original source",
+          "url": "https://freecore.org/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49496782"
+      ],
+      "headline": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
+      "summary": "Mathematics > History and Overview arXiv:1804. 07389 (math) [Submitted on 9 Apr 2018 ( v1 ), last revised 2 Jul 2018 (this version, v4)] Title: Longest Straight Line Paths on Water or Land on the Earth Authors: Rohan Chabukswar , Kushal Mukherjee View a PDF of the paper titled Longest Straight Line Paths on Water or Land on the Earth, by Rohan Chabukswar and Kushal Mukherjee View PDF HTML (experimental) Abstract: There has been some interest recently in determining the longest distance one can sail for on the earth without hitting land, as well as in the converse problem of determining the longest distance one could drive for on the earth without encountering a major body of water.",
+      "category": "Technology",
+      "importance": 103,
+      "whyItMatters": "The Hacker News community gave this story 103 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49496782"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arxiv.org/abs/1804.07389"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49492368"
+      ],
+      "headline": "Functional State Machines in Rust: Typestate and Newtype Patterns",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 98,
+      "whyItMatters": "The Hacker News community gave this story 98 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49492368"
+        },
+        {
+          "name": "Original source",
+          "url": "https://dl.acm.org/doi/10.1145/3830438.3830958"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49494751"
+      ],
+      "headline": "Benjamin Franklin's Alter Egos Gave Him the Most Freedom",
+      "summary": "America at 250: The Revolutionary Spark A Smithsonian magazine special report Victoria Maxfield Benjamin Franklin’s fertile mind constantly spun off inventive and useful ideas.  His lightning rod saved buildings and lives.",
+      "category": "Ideas",
+      "importance": 79,
+      "whyItMatters": "The Hacker News community gave this story 79 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49494751"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.smithsonianmag.com/history/among-all-great-things-benjamin-franklin-invented-discovered-alter-egos-gave-him-most-freedom-180988824/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-30T12:39:20.310Z"
+}
