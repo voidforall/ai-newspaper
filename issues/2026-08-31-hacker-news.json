@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-31-hacker-news",
+  "date": "2026-08-31",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49503601"
+      ],
+      "headline": "“I just chose words carefully”",
+      "summary": "I don’t think anyone particularly enjoys typesetting in monospace.  Regular text is okay – at least as okay as it can be: = 2x) and (width >= 700px)\" srcset=\"_media/i-just-chose-words-carefully/1.",
+      "category": "Ideas",
+      "importance": 1056,
+      "whyItMatters": "The Hacker News community gave this story 1056 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49503601"
+        },
+        {
+          "name": "Original source",
+          "url": "https://unsung.aresluna.org/i-just-chose-words-carefully/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49507822"
+      ],
+      "headline": "OpenShot 4.0: Record, Edit, and Color Like Never Before",
+      "summary": "30 Aug",
+      "category": "Ideas",
+      "importance": 332,
+      "whyItMatters": "The Hacker News community gave this story 332 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49507822"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49506182"
+      ],
+      "headline": "A 12TB Steam \"teraleak\" spills more than a decade of lost PC gaming history",
+      "summary": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav Here at Ars, we’re intimately familiar with data leaks surrounding Valve’s games , hardware , and the workings of Steam itself .  But nothing could have prepared us for this weekend’s “terarelease” encompassing more than 12TB of content related to seemingly every title available on Steam between 2003 and 2013.",
+      "category": "Technology",
+      "importance": 274,
+      "whyItMatters": "The Hacker News community gave this story 274 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49506182"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arstechnica.com/gaming/2026/08/a-12tb-steam-teraleak-spills-more-than-a-decade-of-lost-pc-gaming-history/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49504625"
+      ],
+      "headline": "Understanding ChatGPT Work",
+      "summary": "Simon Willison’s Weblog Subscribe Sponsored by: Greptile &mdash; The Al code reviewer that runs your code.  Catch bugs that only show up at runtime.",
+      "category": "Ideas",
+      "importance": 266,
+      "whyItMatters": "The Hacker News community gave this story 266 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49504625"
+        },
+        {
+          "name": "Original source",
+          "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49506819"
+      ],
+      "headline": "Breaking Claude Code Opus 5 Auto Mode",
+      "summary": "In this post, we explore how a simple website summary request hijacks Claude Code Opus 5 in Auto Mode and achieves code execution with 60-80% attack success rate using a small sample size.  This is interesting because a third-party evaluation commissioned by Anthropic showed a 0.",
+      "category": "Ideas",
+      "importance": 226,
+      "whyItMatters": "The Hacker News community gave this story 226 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49506819"
+        },
+        {
+          "name": "Original source",
+          "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49505219"
+      ],
+      "headline": "P99 0 ms* autocomplete for 240M domain names",
+      "summary": "We&rsquo;ll get to the asterisk.  I run Wirewiki.",
+      "category": "Technology",
+      "importance": 188,
+      "whyItMatters": "The Hacker News community gave this story 188 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49505219"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49503934"
+      ],
+      "headline": "Matrox: Graphics for Professionals",
+      "summary": "Matrox Graphics for Professionals Jul 24, 2026 17 1 Share Lorne Trottier was born on the 15th of June in 1948 in Montréal.  Trottier describes himself as a space and science geek, and he’s had a lifelong interest and passion in both space and electronics.",
+      "category": "Ideas",
+      "importance": 157,
+      "whyItMatters": "The Hacker News community gave this story 157 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49503934"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.abortretry.fail/p/matrox"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49503956"
+      ],
+      "headline": "How to build a diffusion language model",
+      "summary": "How to Build a Diffusion Language Model An introduction to diffusion language models and the research advances that underlie today's diffusion LLMs.  We describe the building blocks of recent open-source models, starting from simple masking diffusion, and including techniques for iterative refinement, post-training, and variable-length generation.",
+      "category": "Technology",
+      "importance": 144,
+      "whyItMatters": "The Hacker News community gave this story 144 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49503956"
+        },
+        {
+          "name": "Original source",
+          "url": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49506142"
+      ],
+      "headline": "uv: Deduplicate all files in the wheel cache",
+      "summary": "Uh oh!  There was an error while loading.",
+      "category": "Ideas",
+      "importance": 141,
+      "whyItMatters": "The Hacker News community gave this story 141 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49506142"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/astral-sh/uv/pull/21327"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49508290"
+      ],
+      "headline": "A CVE Dispute",
+      "summary": "A few years years ago the curl project signed up and became a CNA .  This means that we are masters of and can allocate our own CVE identifiers.",
+      "category": "Ideas",
+      "importance": 124,
+      "whyItMatters": "The Hacker News community gave this story 124 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49508290"
+        },
+        {
+          "name": "Original source",
+          "url": "https://daniel.haxx.se/blog/2026/06/24/a-cve-dispute/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-31T14:55:04.064Z"
+}
