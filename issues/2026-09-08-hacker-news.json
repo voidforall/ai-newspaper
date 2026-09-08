@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-08-hacker-news",
+  "date": "2026-09-08",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49605767"
+      ],
+      "headline": "Mistral raises €3B",
+      "summary": "Company Mistral raises €3B to make sovereign, open-weight AI the technology frontier Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion, the largest equity fundraising round ever completed by a European technology company, three years after the company's launch.  Samsung Electronics led the round, joined by co-leads Scaleup Europe Fund, managed by EQT, and existing investor PSG Equity.",
+      "category": "Technology",
+      "importance": 553,
+      "whyItMatters": "The Hacker News community gave this story 553 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49605767"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49604861"
+      ],
+      "headline": "Jellyfin 12.0",
+      "summary": "We are pleased to bring you Jellyfin 12. 0, our new stable release.",
+      "category": "Ideas",
+      "importance": 423,
+      "whyItMatters": "The Hacker News community gave this story 423 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49604861"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jellyfin.org/posts/jellyfin-release-12.0/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49604637"
+      ],
+      "headline": "I've factored the RSA keys of a Certificate Authority from the 90s",
+      "summary": "Home | About Matthew McPherrin 2026-09-07 I’ve factored the RSA keys of a Certificate Authority...  … from the 90s.",
+      "category": "Ideas",
+      "importance": 367,
+      "whyItMatters": "The Hacker News community gave this story 367 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49604637"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mcpherrin.ca/2026/09/07/rsa.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49601655"
+      ],
+      "headline": "Watch Los Angeles get built, one building at a time (1880–2026)",
+      "summary": "Parcelscope Los Angeles County City of LA only → Decade built Height 1 story median 16 ft tallest drag to pan · right-drag or ⌃-drag to tilt Every building in LA County One box per building standing today, appearing in the year it was built.  What was torn down along the way isn't here, so this is the surviving county, not the county as it was.",
+      "category": "Ideas",
+      "importance": 303,
+      "whyItMatters": "The Hacker News community gave this story 303 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49601655"
+        },
+        {
+          "name": "Original source",
+          "url": "https://lax-skyline.parcelscope.net/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49605691"
+      ],
+      "headline": "We have a year to fix security everywhere",
+      "summary": "Table of contents GLM Flash Frontier This Is Bad What do we do?  Governments and regulatory agencies Companies and open source foundations Summary GLM 5.",
+      "category": "Technology",
+      "importance": 261,
+      "whyItMatters": "The Hacker News community gave this story 261 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49605691"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jyn.dev/a-year-to-fix-security/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49604150"
+      ],
+      "headline": "TALA Is Open-Source",
+      "summary": "Following up on the announcement here , TALA (Terrastruct's AutoLayout Algorithm) is now open-source under the same license as D2 (MPL-2. 0).",
+      "category": "Ideas",
+      "importance": 246,
+      "whyItMatters": "The Hacker News community gave this story 246 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49604150"
+        },
+        {
+          "name": "Original source",
+          "url": "https://d2lang.com/blog/tala-is-open-source/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49604870"
+      ],
+      "headline": "There's a new \"Google Jail\" for independent wikis",
+      "summary": "← Blog There's a new \"Google Jail\" for independent wikis 17 August 2026 · cookmeplox Big week!  We just finished moving the Overwatch and Fortnite wikis off of Fandom.",
+      "category": "Technology",
+      "importance": 226,
+      "whyItMatters": "The Hacker News community gave this story 226 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49604870"
+        },
+        {
+          "name": "Original source",
+          "url": "https://weirdgloop.org/blog/google-jail"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49602699"
+      ],
+      "headline": "Leaving VMware just got harder after Broadcom pulled VDDK downloads",
+      "summary": "September 7, 2026 September 7, 2026 by Brandon Lee Just when we thought that Broadcom wouldn’t be able to slow down customers moving off of vSphere to another platform.  They may just now have done something that will have that net effect.",
+      "category": "Ideas",
+      "importance": 211,
+      "whyItMatters": "The Hacker News community gave this story 211 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49602699"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.virtualizationhowto.com/2026/09/leaving-vmware-just-got-harder-after-broadcom-pulled-vddk-downloads/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49607443"
+      ],
+      "headline": "Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare",
+      "summary": "analysis Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare 8 September 2026 &middot; 8 min read &middot; By Chris McCabe A content delivery network sits in front of a website.  Requests hit the CDN's edge servers first, which serve cached content, terminate TLS, filter traffic, and pass the rest back to the origin.",
+      "category": "Ideas",
+      "importance": 180,
+      "whyItMatters": "The Hacker News community gave this story 180 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49607443"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49605782"
+      ],
+      "headline": "My Feed, My Way",
+      "summary": "Listen The Albanese Government is taking the next step following its world leading social media age ban to ensure Australians have more choice online, with draft legislation for the Digital Duty of Care released today for targeted consultation.  These new laws will put the onus on digital service providers to provide a safe online environment, setting minimum standards for the features and tools they use.",
+      "category": "Ideas",
+      "importance": 135,
+      "whyItMatters": "The Hacker News community gave this story 135 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49605782"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.pm.gov.au/media/my-feed-my-way"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-08T12:01:19.985Z"
+}
