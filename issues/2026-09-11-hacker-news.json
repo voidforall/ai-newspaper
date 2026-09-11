@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-11-hacker-news",
+  "date": "2026-09-11",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49643982"
+      ],
+      "headline": "Shopify is moving from React Native back to Swift and Kotlin",
+      "summary": "blog | Mobile Native is now the future of mobile at Shopify Coding agents changed what it costs to build mobile apps twice.  Here’s why Shopify is moving from React Native back to Swift and Kotlin.",
+      "category": "Ideas",
+      "importance": 1109,
+      "whyItMatters": "The Hacker News community gave this story 1109 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49643982"
+        },
+        {
+          "name": "Original source",
+          "url": "https://shopify.engineering/back-to-native"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49643546"
+      ],
+      "headline": "Rust is tier-1 language at Microsoft",
+      "summary": "By visiting our site, you agree to our privacy policy regarding cookies, tracking statistics, etc.  Under GDPR, necessary cookies are exempt from consent as they are essential for a site to function.",
+      "category": "Ideas",
+      "importance": 691,
+      "whyItMatters": "The Hacker News community gave this story 691 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49643546"
+        },
+        {
+          "name": "Original source",
+          "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49645393"
+      ],
+      "headline": "Don't let anyone take away your big box of cables",
+      "summary": "Speaking of being on the internet and finding things that make you go, “Hey!  It’s not just me!",
+      "category": "Ideas",
+      "importance": 584,
+      "whyItMatters": "The Hacker News community gave this story 584 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49645393"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.jim-nielsen.com/2026/hands-off-my-cables/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49645443"
+      ],
+      "headline": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+      "summary": "Menu Close Today we’re introducing SWE-2, our most advanced coding model yet.  It pushes the Pareto frontier of capability and cost, achieving 50.",
+      "category": "Technology",
+      "importance": 425,
+      "whyItMatters": "The Hacker News community gave this story 425 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49645443"
+        },
+        {
+          "name": "Original source",
+          "url": "https://cognition.com/blog/swe-2"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49645437"
+      ],
+      "headline": "Technique for Manipulating Satellite Photos Now Reveals Ancient Images (2025)",
+      "summary": "menu Search search Advanced Search Technique for Manipulating Satellite Photos Now Reveals Ancient Images Subheadline Algorithm NASA first applied to satellite imagery is now used to peer into antiquity Originally published 12/31/2025 Body On the walls of a chamber near the top of the central tower in the ancient Cambodian temple Angkor Wat, paintings depict horseback riders and a traditional musical ensemble.  Every day, thousands of visitors pass these images without noticing, because they’re faded to the point of invisibility.",
+      "category": "Technology",
+      "importance": 345,
+      "whyItMatters": "The Hacker News community gave this story 345 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49645437"
+        },
+        {
+          "name": "Original source",
+          "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49649213"
+      ],
+      "headline": "OpenAI Agents API",
+      "summary": "Copy Page The Agents API gives your application access to the Codex harness through an OpenAI-managed API.  OpenAI manages sessions, orchestration, context compaction, and recovery while your application provides tools and chooses its execution environment.",
+      "category": "Technology",
+      "importance": 277,
+      "whyItMatters": "The Hacker News community gave this story 277 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49649213"
+        },
+        {
+          "name": "Original source",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/overview"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49652237"
+      ],
+      "headline": "Mexican student creates an acoustic fire extinguisher to put out fire in seconds",
+      "summary": "16-year-old Mexican student creates an acoustic fire extinguisher that uses sound waves to put out fires in seconds Por Carlos Valencia 7 September, 2026 Ángela Karime Venegas Hernández is 16 years old and has an idea no one else had.  She studies at CETIS 78 in Altamira, Tamaulipas, and one day decided to put out a candle without blowing, without water, without anything but sound.",
+      "category": "Ideas",
+      "importance": 253,
+      "whyItMatters": "The Hacker News community gave this story 253 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49652237"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.upsocl.com/en/16-year-old-mexican-student-creates-an-acoustic-fire-extinguisher-that-uses-sound-waves-to-put-out-fires-in-seconds/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49645686"
+      ],
+      "headline": "Neki – Sharded Postgres",
+      "summary": "Blog | Product | Neki Table of contents « Close » Introducing Neki Nick Van Wiggeren [ @ NickVanWig ] | September 10, 2026 Neki is now available in platform preview.  Neki is built from lessons we’ve learned over eight years of running some of the largest sharded MySQL clusters in the world.",
+      "category": "Technology",
+      "importance": 251,
+      "whyItMatters": "The Hacker News community gave this story 251 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49645686"
+        },
+        {
+          "name": "Original source",
+          "url": "https://planetscale.com/blog/introducing-neki"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49647134"
+      ],
+      "headline": "Music Theory for the 21st-Century Classroom",
+      "summary": "🔗  Prev  Top Next ",
+      "category": "Ideas",
+      "importance": 245,
+      "whyItMatters": "The Hacker News community gave this story 245 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49647134"
+        },
+        {
+          "name": "Original source",
+          "url": "https://musictheory.pugetsound.edu/mt21c/MusicTheory.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49649124"
+      ],
+      "headline": "The Deathray: A simple way for an untrusted site to freeze a Mac",
+      "summary": "The Deathray A simple way for an untrusted site to freeze a Mac September 10th, 2026 TL;DR A WebGPU shader on an untrusted site can hang a Mac's graphics, making the desktop UI unusable until a restart is forced.  All the victim needs to do is click a link.",
+      "category": "Ideas",
+      "importance": 221,
+      "whyItMatters": "The Hacker News community gave this story 221 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49649124"
+        },
+        {
+          "name": "Original source",
+          "url": "https://auberon.xyz/blog/posts/deathray/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-11T12:04:27.585Z"
+}
