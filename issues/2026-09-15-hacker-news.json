@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-15-hacker-news",
+  "date": "2026-09-15",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49701004"
+      ],
+      "headline": "iOS 27, iPadOS 27, and macOS 27",
+      "summary": "opens in new window UPDATE September 14, 2026 Major updates for Apple’s software platforms are now available Siri AI, the next generation of Apple Intelligence, powerful parental controls, and an expansive set of software improvements start rolling out today across iOS 27, iPadOS 27, macOS 27, and other Apple platforms Available today, Apple’s latest software updates introduce Siri AI and deliver helpful new Apple Intelligence features that make the apps users interact with every day smarter and more useful.  Apple’s latest software updates introduce Siri AI, a more intelligent, knowledgeable, and capable version of Siri, and deliver helpful new Apple Intelligence features that make the apps…",
+      "category": "Technology",
+      "importance": 646,
+      "whyItMatters": "The Hacker News community gave this story 646 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49701004"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49695876"
+      ],
+      "headline": "OpenAI bots knew about the RubyGems caching vulnerability",
+      "summary": "What a time to be alive Sep 11, 2026 @ 5:02 pm Today Reuters and the Wall Street Journal both reported about rogue AI agents at OpenAI attacking RubyGems. org.",
+      "category": "Technology",
+      "importance": 477,
+      "whyItMatters": "The Hacker News community gave this story 477 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49695876"
+        },
+        {
+          "name": "Original source",
+          "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49700477"
+      ],
+      "headline": "Pion, an agent designed to run any company autonomously",
+      "summary": "Blog post Why we built Pion Posted 9/14/2026 Today Andon is releasing Pion , an agent designed to run any company fully autonomously.  Pion grew out of a question we have been studying for almost two years: when will AI systems become capable of autonomously acquiring resources in the real world?",
+      "category": "Technology",
+      "importance": 430,
+      "whyItMatters": "The Hacker News community gave this story 430 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49700477"
+        },
+        {
+          "name": "Original source",
+          "url": "https://andonlabs.com/blog/why-we-built-pion"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49708431"
+      ],
+      "headline": "I can't stop thinking about Papua New Guinea",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 383,
+      "whyItMatters": "The Hacker News community gave this story 383 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49708431"
+        },
+        {
+          "name": "Original source",
+          "url": "https://notnottalmud.substack.com/p/why-i-cant-stop-thinking-about-papua"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49699158"
+      ],
+      "headline": "Distributed Systems Classics (2017)",
+      "summary": "A selected list of timeless and influential papers in distributed systems that shaped the research in the field.  Intended to serve as a good starting point for a better understanding of the problem space.",
+      "category": "Ideas",
+      "importance": 322,
+      "whyItMatters": "The Hacker News community gave this story 322 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49699158"
+        },
+        {
+          "name": "Original source",
+          "url": "https://nvartolomei.com/dist-sys-classics/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49704246"
+      ],
+      "headline": "Charts built for Chat",
+      "summary": "Blog · September 14, 2026 · Dave Fowler Charts built for Chat We&rsquo;re open sourcing dbt Charts , a declarative language for dashboards, so that even the dashboards you build by chatting with an agent can be governed.  AI for data is here, and the long-promised self-serve analytics is finally happening.",
+      "category": "Technology",
+      "importance": 249,
+      "whyItMatters": "The Hacker News community gave this story 249 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49704246"
+        },
+        {
+          "name": "Original source",
+          "url": "https://dbtcharts.com/blog/charts-built-for-chat/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49698699"
+      ],
+      "headline": "A beginning for mathematics",
+      "summary": "Betalog This essay also appears on Proofs and Prompts .  Three years ago, AI systems could not reliably add two numbers.",
+      "category": "Technology",
+      "importance": 245,
+      "whyItMatters": "The Hacker News community gave this story 245 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49698699"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.daniellitt.com/blog/2026/9/13/a-beginning-for-mathematics/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49707627"
+      ],
+      "headline": "Linux from Scratch",
+      "summary": "Patches Hints SLFS GLFS MLFS ALFS BLFS LFS Home News Support Advisories General FAQ Mailing Lists Wiki Search Credits Contribute Website Mirrors Site Map Welcome to Linux From Scratch!  Linux From Scratch (LFS) is a project that provides you with step-by-step instructions for building your own custom Linux system, entirely from source code.",
+      "category": "Technology",
+      "importance": 239,
+      "whyItMatters": "The Hacker News community gave this story 239 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49707627"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.linuxfromscratch.org/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49698607"
+      ],
+      "headline": "Principles for Fast Tokio Applications",
+      "summary": "Table of Contents General principles First, determine whether you have a problem Split for latency, batch for throughput Yield more frequently to optimize for latency Batch work to amortize overhead Beware global resources Be extremely careful with mutexes Constrain parallelism—usually Isolate Tokio workers from other threads Tricks for when you know better Blocking the executor can be fine—sometimes Use multiple runtimes to isolate workloads by priority Spin to keep control Appendix: A mental model for Tokio in four bullet points I'm on my way back from RustConf.  At the Unconf, we had a productive discussion about debugging and benchmarking async applications.",
+      "category": "Technology",
+      "importance": 227,
+      "whyItMatters": "The Hacker News community gave this story 227 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49698607"
+        },
+        {
+          "name": "Original source",
+          "url": "https://dial9-rs.github.io/blog/principles-for-fast-tokio-applications/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49696697"
+      ],
+      "headline": "Ubuntu 26.10 completes transition to Rust-based coreutils",
+      "summary": "Ubuntu 26. 10 completes the distro’s move to Rust-based core utilities, with the commands previously held back due to security issues now migrated to memory-safe versions.",
+      "category": "Technology",
+      "importance": 222,
+      "whyItMatters": "The Hacker News community gave this story 222 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49696697"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.omgubuntu.co.uk/2026/09/ubuntu-2610-rust-coreutils-complete"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-15T12:30:52.687Z"
+}
