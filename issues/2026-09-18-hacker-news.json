@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-18-hacker-news",
+  "date": "2026-09-18",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49743097"
+      ],
+      "headline": "Hister: A private search engine for the pages you visit and the files you keep",
+      "summary": "asciimoo / hister Public Uh oh!  There was an error while loading.",
+      "category": "Ideas",
+      "importance": 639,
+      "whyItMatters": "The Hacker News community gave this story 639 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49743097"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/asciimoo/hister"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49745940"
+      ],
+      "headline": "Astra for Law",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 513,
+      "whyItMatters": "The Hacker News community gave this story 513 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49745940"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openai.com/index/astra-for-law/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49746163"
+      ],
+      "headline": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "summary": "× 1.  Install curl -fsSL https://bend-lang.",
+      "category": "Technology",
+      "importance": 502,
+      "whyItMatters": "The Hacker News community gave this story 502 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49746163"
+        },
+        {
+          "name": "Original source",
+          "url": "https://bend-lang.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49746618"
+      ],
+      "headline": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+      "summary": "About Blog News Careers Docs LAUNCH 1001011100 11010 1 001 Back to all posts Introducing Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint September 17, 2026 • PrismML Two months ago, we released our first Bonsai 27B models and showed that a 27B-class multimodal model could be compressed enough to run efficiently on a local device.  Today, we’re releasing Ternary Bonsai 2 27B, our most capable model yet.",
+      "category": "Technology",
+      "importance": 475,
+      "whyItMatters": "The Hacker News community gave this story 475 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49746618"
+        },
+        {
+          "name": "Original source",
+          "url": "https://prismml.com/news/bonsai-2-27b"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49749656"
+      ],
+      "headline": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+      "summary": "Intro On July 25, 2026, we chained two critical vulnerabilities to compromise multiple OpenAI employees’ ChatGPT accounts.  With these accounts, we could then access internal OpenAI repositories, and potentially many other connectors.",
+      "category": "Technology",
+      "importance": 372,
+      "whyItMatters": "The Hacker News community gave this story 372 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49749656"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.hacktron.ai/blog/hacking-openai"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49747925"
+      ],
+      "headline": "Qwen 3.8 Omni Flash",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 255,
+      "whyItMatters": "The Hacker News community gave this story 255 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49747925"
+        },
+        {
+          "name": "Original source",
+          "url": "https://qwen.ai/blog?id=qwen3.8-omni-flash"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49752056"
+      ],
+      "headline": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
+      "summary": "New unredacted information in the copyright lawsuit The New York Times brought against OpenAI and Microsoft three years ago reveals an admission that AI scraping was tantamount to theft, and that AI products pose a major threat to publications.  Per the lawsuit, a top Microsoft executive privately described the companies’ AI training practices as “theft,” and OpenAI’s own leadership said its AI models posed an “existential threat” to the publishers and journalists whose work trained them.",
+      "category": "Technology",
+      "importance": 251,
+      "whyItMatters": "The Hacker News community gave this story 251 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49752056"
+        },
+        {
+          "name": "Original source",
+          "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49747070"
+      ],
+      "headline": "How to Write with an LLM",
+      "summary": "Two simple rules that let LLMs streamline and improve your writing without pasteurizing and jacking it with corn syrup.  It’s tricky to write about writing.",
+      "category": "Ideas",
+      "importance": 201,
+      "whyItMatters": "The Hacker News community gave this story 201 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49747070"
+        },
+        {
+          "name": "Original source",
+          "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49750152"
+      ],
+      "headline": "Jemalloc 5.4.0",
+      "summary": "jemalloc / jemalloc Public Notifications You must be signed in to change notification settings Fork 1. 6k Star 11.",
+      "category": "Ideas",
+      "importance": 194,
+      "whyItMatters": "The Hacker News community gave this story 194 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49750152"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49752041"
+      ],
+      "headline": "OpenJev",
+      "summary": "A live, local experiment Decision model in your browser.  A local model can either read probabilities for your allowed options without decoding them, or write the same kind of distribution token by token.",
+      "category": "Technology",
+      "importance": 178,
+      "whyItMatters": "The Hacker News community gave this story 178 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49752041"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openjev.com/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-18T12:07:02.260Z"
+}
