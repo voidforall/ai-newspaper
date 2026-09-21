@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-21-hacker-news",
+  "date": "2026-09-21",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49780797"
+      ],
+      "headline": "AX – Google’s Open Agentic Orchestrator",
+      "summary": "Declare an agentic task.  AX runs it at scale.",
+      "category": "Ideas",
+      "importance": 556,
+      "whyItMatters": "The Hacker News community gave this story 556 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49780797"
+        },
+        {
+          "name": "Original source",
+          "url": "https://agentexecutor.io"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49780820"
+      ],
+      "headline": "What happened to the Snowden archive",
+      "summary": "What happened to the Snowden archive Published on 20 Sept 2026 The last document from the Snowden archive was published on 29 May 2019.  The Guardian stopped publishing documents in February 2014, Der Spiegel in January 2015, and The New York Times and ProPublica in August 2015.",
+      "category": "Ideas",
+      "importance": 541,
+      "whyItMatters": "The Hacker News community gave this story 541 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49780820"
+        },
+        {
+          "name": "Original source",
+          "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49778029"
+      ],
+      "headline": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
+      "summary": "| Summary | Save A A A A shareholder photographs sixth-generation high-bandwidth memory (HBM4) and seventh-generation HBM4E chips with a smartphone camera at Samsung Electronics' 57th annual general meeting of shareholders, held in March at the Suwon Convention Center in Yeongtong-gu, Suwon, Gyeonggi Province.  Yonhap News Samsung Electronics (005930) is expected to more than double output of its HBM4 family of high-bandwidth memory chips next year, including sixth-generation HBM4 and seventh-generation HBM4E, as the company plans to raise demand for glass carriers by 2.",
+      "category": "Technology",
+      "importance": 510,
+      "whyItMatters": "The Hacker News community gave this story 510 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49778029"
+        },
+        {
+          "name": "Original source",
+          "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49785429"
+      ],
+      "headline": "ZuckOff Know when a camera is in the room",
+      "summary": "ZuckOff merch is here.  Tees, hoodies, hats and stickers.",
+      "category": "Ideas",
+      "importance": 450,
+      "whyItMatters": "The Hacker News community gave this story 450 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49785429"
+        },
+        {
+          "name": "Original source",
+          "url": "https://zuckoff.app/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49777467"
+      ],
+      "headline": "I am often wrong",
+      "summary": "I am often wrong September 19, 2026 [I shared this note with my team earlier this week, and am posting it here as well.  I hope it is interesting or helpful for others working on building product in the age of AI.",
+      "category": "Technology",
+      "importance": 273,
+      "whyItMatters": "The Hacker News community gave this story 273 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49777467"
+        },
+        {
+          "name": "Original source",
+          "url": "https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49776717"
+      ],
+      "headline": "Singapore’s National Library Board offers micropayments to build reading habits",
+      "summary": "Singapore Is Paying People to Put Down Their Phones and Read Books Singapore’s National Library Board offers micropayments via a five-year pilot to build daily reading habits among a phone-first population Read Next: iOS 27 Is Here: 10 Features Worth Trying Right Now Rex Edison Rex Edison X LinkedIn Facebook I reincarnated in Charleston, SC and currently live in Los Angeles, CA.  A sacred rebel at heart, I believe in cooperation over competition and speaking my truth even if it ruffles a few feathers.",
+      "category": "Technology",
+      "importance": 263,
+      "whyItMatters": "The Hacker News community gave this story 263 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49776717"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.gadgetreview.com/singapore-is-paying-people-to-put-down-their-phones-and-read-books"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49783495"
+      ],
+      "headline": "Grim Fandango Puzzle Document (1996) [pdf]",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 259,
+      "whyItMatters": "The Hacker News community gave this story 259 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49783495"
+        },
+        {
+          "name": "Original source",
+          "url": "http://gameshelf.jmac.org/2008/11/13/GrimPuzzleDoc_small.pdf"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49776627"
+      ],
+      "headline": "Sherline Tools Is Going Out of Business",
+      "summary": "ToolGuyd > CNC Machines > Sherline Tools is Going Out of Business If you buy something through our links, ToolGuyd might earn an affiliate commission.  Sherline Tools, a USA manufacturer known for precision lathes, mills, micro-machining accessories, and more recently small CNC machines, has announced that they are “winding down manufacturing operations.",
+      "category": "Business",
+      "importance": 238,
+      "whyItMatters": "The Hacker News community gave this story 238 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49776627"
+        },
+        {
+          "name": "Original source",
+          "url": "https://toolguyd.com/sherline-tools-shutting-down-usa-production/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49785397"
+      ],
+      "headline": "ZuckOff Is a Free App That Sees Meta Glasses Before They See You",
+      "summary": "ZuckOff , a free Bluetooth detection app built by 30-year-old Polish developer Pawel Szydlowski, will tell you whether there is a pair of smart glasses in the room with you.  In its launch month, it was reportedly downloaded by over 5,000 people on Apple’s App Store.",
+      "category": "Technology",
+      "importance": 230,
+      "whyItMatters": "The Hacker News community gave this story 230 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49785397"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49784336"
+      ],
+      "headline": "Disney+: New user agreement allows ads before movies in all subscriptions",
+      "summary": "From Consumer Rights Wiki ⚠️ This article has been marked as incomplete .  Sourcing or verifiability needs additional work.",
+      "category": "Ideas",
+      "importance": 221,
+      "whyItMatters": "The Hacker News community gave this story 221 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49784336"
+        },
+        {
+          "name": "Original source",
+          "url": "https://consumerrights.wiki/w/Disney%2B_ad_policy_change"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-21T13:43:16.016Z"
+}
