@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-24-hacker-news",
+  "date": "2026-09-24",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49820134"
+      ],
+      "headline": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "summary": "Science Claude discovers a novel enzyme system with CRISPR-like repeats Sep 23, 2026 We’re introducing a new life sciences research group and laboratory at Anthropic.  Our focus is on fundamental biology research using Claude: exploring datasets of DNA to identify uncharacterized protein families, generating hypotheses at scale, and testing them through experiments in the lab.",
+      "category": "Ideas",
+      "importance": 686,
+      "whyItMatters": "The Hacker News community gave this story 686 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49820134"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49823582"
+      ],
+      "headline": "Linux support is coming to Snapdragon X2 Series",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 473,
+      "whyItMatters": "The Hacker News community gave this story 473 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49823582"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49817469"
+      ],
+      "headline": "Fixing the Portobello Police Station Clock",
+      "summary": "Fixing the Portobello Police Station Clock Written on 11th April 2026 I got a message from a friend today which read along the lines of \"I know we were going to meet in Edinburgh today, but do you fancy meeting in Portobello instead and trying to fix the clock in the old police station with me? \" I don't know about you, but clambering around the dusty nineteenth century clock tower of an abandoned police station sounds an ideal way to spend a Saturday afternoon to me, so I jumped at the chance.",
+      "category": "Ideas",
+      "importance": 467,
+      "whyItMatters": "The Hacker News community gave this story 467 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49817469"
+        },
+        {
+          "name": "Original source",
+          "url": "https://pointinthecloud.com/2026-04-11-211700.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49824268"
+      ],
+      "headline": "Meta VR Glasses",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 435,
+      "whyItMatters": "The Hacker News community gave this story 435 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49824268"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.meta.com/vr-glasses/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49827794"
+      ],
+      "headline": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 275,
+      "whyItMatters": "The Hacker News community gave this story 275 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49827794"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49822555"
+      ],
+      "headline": "VSCode's SSH Agent Is Bananas (2025)",
+      "summary": "Author Name Thomas Ptacek @tqbf @tqbf We’re interested in getting integrated into the flow VSCode uses to do remote editing over SSH, because everybody is using VSCode now, and, in particular, they’re using forks of VSCode that generate code with LLMs.  ”hallucination” is what we call it when LLMs get code wrong; “engineering” is what we call it when people do.",
+      "category": "Ideas",
+      "importance": 255,
+      "whyItMatters": "The Hacker News community gave this story 255 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49822555"
+        },
+        {
+          "name": "Original source",
+          "url": "https://fly.io/blog/vscode-ssh-wtf/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49823664"
+      ],
+      "headline": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
+      "summary": "arXiv receives Multiyear Philanthropic Commitments to Support Its Launch as an Independent Nonprofit By Kat Boboris &middot; September 23 rd 2026 arXiv is pleased to announce that three leading philanthropic organizations have provided multimillion-dollar support for arXiv.  These new multiyear philanthropic commitments from Simons Foundation International, XTX Markets, and Siegel Family Endowment will support platform development, organizational capacity, and overall provide foundational support to arXiv’s establishment as an independent nonprofit.",
+      "category": "Business",
+      "importance": 210,
+      "whyItMatters": "The Hacker News community gave this story 210 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49823664"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49825642"
+      ],
+      "headline": "Ideas on modernizing the open-source desktop",
+      "summary": "Welcome to LWN. net The following subscription-only content has been made available to you by an LWN subscriber.",
+      "category": "Technology",
+      "importance": 198,
+      "whyItMatters": "The Hacker News community gave this story 198 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49825642"
+        },
+        {
+          "name": "Original source",
+          "url": "https://lwn.net/SubscriberLink/1095425/2d9f411252325784/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49819880"
+      ],
+      "headline": "Making Tailscale Faster",
+      "summary": "Blog | product September 22, 2026 We’re making Tailscale faster Authors Kabir Sikand Kevin Purdy Contributors Alex Valiushko Claus Lensbøl Michael J.  Fromberger Jordan Whited If you’ve been following Tailscale at all, you know we’re really just a bunch of geeks who care a lot about internet connectivity.",
+      "category": "Technology",
+      "importance": 188,
+      "whyItMatters": "The Hacker News community gave this story 188 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49819880"
+        },
+        {
+          "name": "Original source",
+          "url": "https://tailscale.com/blog/making-tailscale-faster"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49826565"
+      ],
+      "headline": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+      "summary": "Early rogue AI agent activity and attempts to hack found on urlquery. net Jack Cable * , 2 , Daniel Chiu * , Francisco Pernice * , 3 , Selena Zhang * , 1 , James Anthony 1 , Tetiana Bas 4 , Gary Shen 4 , Conrad Stosz 1 , Jacob Steinhardt 1 1 Transluce · 2 Corridor · 3 MIT · 4 AIUC · *Primary contributors, listed alphabetically Transluce | Published: September 23, 2026 We present evidence that AI agents used the web security service urlquery.",
+      "category": "Technology",
+      "importance": 161,
+      "whyItMatters": "The Hacker News community gave this story 161 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49826565"
+        },
+        {
+          "name": "Original source",
+          "url": "https://transluce.org/agent-activity"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-24T12:36:08.211Z"
+}
