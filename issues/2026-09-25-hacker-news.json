@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-25-hacker-news",
+  "date": "2026-09-25",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49831968"
+      ],
+      "headline": "F-Droid 2.0",
+      "summary": "After more than a year of hard work, we are thrilled to announce the launch of F-Droid 2. 0, a complete redesign of the official F-Droid app and the largest app update in 10 years.",
+      "category": "Ideas",
+      "importance": 1295,
+      "whyItMatters": "The Hacker News community gave this story 1295 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49831968"
+        },
+        {
+          "name": "Original source",
+          "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49832938"
+      ],
+      "headline": "Why is the liver so weirdly regenerative?",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 443,
+      "whyItMatters": "The Hacker News community gave this story 443 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49832938"
+        },
+        {
+          "name": "Original source",
+          "url": "https://dynomight.substack.com/p/liver"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49841563"
+      ],
+      "headline": "Dutch governments builds alternative for Microsoft based on NixOS",
+      "summary": "Working together on digital autonomy The DAWO community is an open community in which government, industry and society jointly build a digitally autonomous workplace for the Dutch government.  Discover DAWO Join the community What DAWO stands for DAWO brings public values and technology together.",
+      "category": "Ideas",
+      "importance": 418,
+      "whyItMatters": "The Hacker News community gave this story 418 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49841563"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.dawo.community/en/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49833867"
+      ],
+      "headline": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+      "summary": "devdotfast / whiteboard Public Notifications You must be signed in to change notification settings Fork 36 Star 949 main Branches Tags Go to file Code Open more actions menu Latest commit History 439 Commits 439 Commits Folders and files Name Name Last commit message Last commit date . agents/ plugins .",
+      "category": "Technology",
+      "importance": 335,
+      "whyItMatters": "The Hacker News community gave this story 335 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49833867"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/devdotfast/whiteboard"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49836374"
+      ],
+      "headline": "Opus 5.5 is good at explainer videos",
+      "summary": "examples Made by this page, untouched.  Each one is a single run: a URL or a prompt in, an MP4 out.",
+      "category": "Technology",
+      "importance": 300,
+      "whyItMatters": "The Hacker News community gave this story 300 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49836374"
+        },
+        {
+          "name": "Original source",
+          "url": "https://launchvideo.io"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49830606"
+      ],
+      "headline": "Google’s Project Suncatcher to put ML infrastructure in space",
+      "summary": "Behind Project Suncatcher, our moonshot to put AI in space Sep 24, 2026 | x. com Facebook LinkedIn Mail Copy link Learn about our early test to scale AI compute in space.",
+      "category": "Technology",
+      "importance": 199,
+      "whyItMatters": "The Hacker News community gave this story 199 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49830606"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49835531"
+      ],
+      "headline": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 143,
+      "whyItMatters": "The Hacker News community gave this story 143 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49835531"
+        },
+        {
+          "name": "Original source",
+          "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49841285"
+      ],
+      "headline": "Pentium II at 600Mhz with Voodoo 3 Emulated on 86Box with M6 Mac Mini",
+      "summary": "Why 86Box Cares About One Core 86Box emulates an old PC at the hardware level.  CPU timing, chipset behaviour, ISA and PCI buses, graphics chipsets, sound devices, and disk controllers all matter to getting period software to behave properly.",
+      "category": "Technology",
+      "importance": 109,
+      "whyItMatters": "The Hacker News community gave this story 109 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49841285"
+        },
+        {
+          "name": "Original source",
+          "url": "https://nyaa.sh/reviews/mac-mini-m6-emulation"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49839664"
+      ],
+      "headline": "What About Rails?",
+      "summary": "Ruby/Rails What About Rails?  By Jared Norman published September 24th, 2026 David Heinemeier Hansson is, for better or worse, still in charge of Ruby on Rails.",
+      "category": "Technology",
+      "importance": 105,
+      "whyItMatters": "The Hacker News community gave this story 105 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49839664"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jardo.dev/what-about-rails"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49842487"
+      ],
+      "headline": "The Mafia may be keeping fentanyl out of Italy",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 98,
+      "whyItMatters": "The Hacker News community gave this story 98 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49842487"
+        },
+        {
+          "name": "Original source",
+          "url": "https://economist.com/europe/2026/09/24/the-mafia-may-be-keeping-fentanyl-out-of-italy"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-25T12:37:28.647Z"
+}
