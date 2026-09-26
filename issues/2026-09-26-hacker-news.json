@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-26-hacker-news",
+  "date": "2026-09-26",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49849985"
+      ],
+      "headline": "Revealing the details of how OpenAI agents hacked Hugging Face",
+      "summary": "Intro When a swarm of 700 OpenAI agents hacked Hugging Face in July, they left behind a public trail of evidence.  Our investigation, based on public information, reveals a large number of previously unknown agent behaviors and exploits that were used in the attack.",
+      "category": "Technology",
+      "importance": 520,
+      "whyItMatters": "The Hacker News community gave this story 520 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49849985"
+        },
+        {
+          "name": "Original source",
+          "url": "https://swarmtraces.org/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49848269"
+      ],
+      "headline": "Ollaya – Ollama for open-source, Jev-style decision models",
+      "summary": "Run decision models locally.  Ask typed questions about any text or JSON and get calibrated answers in milliseconds.",
+      "category": "Technology",
+      "importance": 483,
+      "whyItMatters": "The Hacker News community gave this story 483 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49848269"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ollaya.dev/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49844736"
+      ],
+      "headline": "First Principles Thinking",
+      "summary": "Sunil Sadasivan First Principles Thinking September 23, 2026 (ai slop graphic...  I know.",
+      "category": "Technology",
+      "importance": 267,
+      "whyItMatters": "The Hacker News community gave this story 267 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49844736"
+        },
+        {
+          "name": "Original source",
+          "url": "https://sunilsadasivan.com/writing/first-principles-thinking/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49852302"
+      ],
+      "headline": "Jury finds Facebook liable for deceiving users in Cambridge Analytica case",
+      "summary": "A New Mexico jury on Friday found Facebook liable for deceiving users about privacy protections on the social media platform.  It is now up to the judge to determine how much the company would pay, with attorneys representing the state asking for the maximum $5,000 penalty per violation.",
+      "category": "Business",
+      "importance": 258,
+      "whyItMatters": "The Hacker News community gave this story 258 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49852302"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49845998"
+      ],
+      "headline": "Gravity seems holographic. What does that mean for reality?",
+      "summary": "Home Gravity Seems Holographic.  What Does That Mean for Reality?",
+      "category": "Ideas",
+      "importance": 216,
+      "whyItMatters": "The Hacker News community gave this story 216 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49845998"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49845172"
+      ],
+      "headline": "Show HN: Jev Plays Pokémon Red",
+      "summary": "JEV LIVE FEED JEV BOY STARTS MUTED.  UNMUTE FOR GAME AUDIO.",
+      "category": "Ideas",
+      "importance": 214,
+      "whyItMatters": "The Hacker News community gave this story 214 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49845172"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jev-pokemon.vercel.app/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49850305"
+      ],
+      "headline": "What even is an OS now?",
+      "summary": "Crazy as it sounds to say this, since it&rsquo;s all anybody&rsquo;s been able to talk about for over a year, but the impact of AI on computing hasn&rsquo;t yet sunk in.  Today I&rsquo;m parting company with Fly.",
+      "category": "Technology",
+      "importance": 212,
+      "whyItMatters": "The Hacker News community gave this story 212 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49850305"
+        },
+        {
+          "name": "Original source",
+          "url": "https://sockpuppet.org/blog/2026/09/25/what-even-is-an-os-now/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49849832"
+      ],
+      "headline": "Excel now supports multiple values in a single cell",
+      "summary": "Related: <a href=\"https:&#x2F;&#x2F;techcommunity.microsoft.com&#x2F;blog&#x2F;excelblog&#x2F;excel-now-supports-multiple-values-in-a-single-cell&#x2F;4549756\" rel=\"nofollow\">https:&#x2F;&#x2F;techcommunity.microsoft.com&#x2F;blog&#x2F;excelblog&#x2F;excel-now...</a>",
+      "category": "Ideas",
+      "importance": 201,
+      "whyItMatters": "The Hacker News community gave this story 201 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49849832"
+        },
+        {
+          "name": "Original source",
+          "url": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49852717"
+      ],
+      "headline": "We're gonna need a lot more mathematicians",
+      "summary": "What's new Updates on my research and expository papers, discussion of open problems, and other maths-related topics.  By Terence Tao Home About Career advice On writing Books Mastodon+ Applets Subscribe to feed We’re gonna need a lot more mathematicians 24 September, 2026 in guest blog , math.",
+      "category": "Ideas",
+      "importance": 174,
+      "whyItMatters": "The Hacker News community gave this story 174 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49852717"
+        },
+        {
+          "name": "Original source",
+          "url": "https://terrytao.wordpress.com/2026/09/24/were-gonna-need-a-lot-more-mathematicians/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49853175"
+      ],
+      "headline": "A single function Jev-like wrapper for LLMs, including vision models",
+      "summary": "skip to main | skip to sidebar Allan's Blog Allan Riordan Boll's blog Friday, September 25, 2026 A Jev-like wrapper for LLMs, including vision models I was intrigued by Jev and the self-hostable projects appearing around it, such as OpenJev and SemIf .  Reading about them introduced me to a neat trick: reading an LLM's token probabilities.",
+      "category": "Technology",
+      "importance": 97,
+      "whyItMatters": "The Hacker News community gave this story 97 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49853175"
+        },
+        {
+          "name": "Original source",
+          "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-26T12:06:04.364Z"
+}
