@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-27-hacker-news",
+  "date": "2026-09-27",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49858513"
+      ],
+      "headline": "Show HN: Reladraw – A diagram language where you decide where to place things",
+      "summary": "reladraw / reladraw Public Notifications You must be signed in to change notification settings Fork 10 Star 608 main Branches Tags Go to file Code Open more actions menu Latest commit History 70 Commits 70 Commits Folders and files Name Name Last commit message Last commit date . claude/ skills/ reladraw .",
+      "category": "Technology",
+      "importance": 333,
+      "whyItMatters": "The Hacker News community gave this story 333 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49858513"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/reladraw/reladraw"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49863864"
+      ],
+      "headline": "OpenAI Feared \"Optics\" of what might appear on Hacker News",
+      "summary": "All News Press Releases Unsealed Briefs in Authors’ Case v.  Microsoft/OpenAI: Top Execs Knew Their Mass Book Piracy Was Illegal And Would Put Authors Out of Work Added to last week’s revelations, new filings reveal OpenAI's lawless determination to do virtually anything to win the AI arms race, including using books from a “sketchy Russian website” and releasing products “that will make people unemployed” September 21, 2026 Share on Twitter (opens in a new tab) on Facebook (opens in a new tab) on Linkedin (opens in a new tab) via email (New York, September 21, 2026) Explosive new documents released last Thursday in Authors Guild v.",
+      "category": "Technology",
+      "importance": 331,
+      "whyItMatters": "The Hacker News community gave this story 331 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49863864"
+        },
+        {
+          "name": "Original source",
+          "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49859112"
+      ],
+      "headline": "DeepSeek Elastic Compute (DSec)",
+      "summary": "Computer Science > Distributed, Parallel, and Cluster Computing arXiv:2609. 22978 (cs) [Submitted on 19 Sep 2026] Title: DeepSeek Elastic Compute (DSec): A Sandbox Infrastructure for Effective Agentic Training at Scale Authors: Jialiang Huang , Hongxuan Tang , Jingchang Chen , Yuxuan Liu , Yixiao Chen , Yuan Cheng , Yi Tao , Jingli Zhou , Yupeng Chen , Haoyu Chen , Jiarui Wang , Shengkai Lin , Chuqi Zhang , Bryan Lee Teng , Lian Guo , Zhe Fu , Wenjun Gao , Yisong Wang , Liang Zhao , Zehao Wang , Ziwei Xie , Yongqiang Guo , Peixin Cong , Ziyi Gao , Shuiping Yu , Hanwei Xu , Zuofan Wu , Zhizhou Ren , Yuyang Zhou , Bowei Zhang , Zhihuan Huang , Qihao Zhu , Lei Wang , Tianle Lin , Han Yu ,…",
+      "category": "Technology",
+      "importance": 271,
+      "whyItMatters": "The Hacker News community gave this story 271 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49859112"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arxiv.org/abs/2609.22978"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49856988"
+      ],
+      "headline": "Go Concurrency Distilled",
+      "summary": "This mini-book provides a brief overview of many concurrency topics in Go.  Each topic comes with interactive examples — feel free to experiment with them by changing the code and clicking Run .",
+      "category": "Ideas",
+      "importance": 262,
+      "whyItMatters": "The Hacker News community gave this story 262 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49856988"
+        },
+        {
+          "name": "Original source",
+          "url": "https://antonz.org/go-concurrency-distilled/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49864642"
+      ],
+      "headline": "Meta Blocks President Lula's Facebook Page, Campaign Ads 2 Weeks from Election",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 255,
+      "whyItMatters": "The Hacker News community gave this story 255 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49864642"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49862809"
+      ],
+      "headline": "What is the size of Yemen? (2024)",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 197,
+      "whyItMatters": "The Hacker News community gave this story 197 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49862809"
+        },
+        {
+          "name": "Original source",
+          "url": "https://theborys.substack.com/p/what-is-the-size-of-yemen"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49857729"
+      ],
+      "headline": "Drawgent: Coding agent on a live Excalidraw canvas",
+      "summary": "yanndegat. tngl.",
+      "category": "Ideas",
+      "importance": 162,
+      "whyItMatters": "The Hacker News community gave this story 162 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49857729"
+        },
+        {
+          "name": "Original source",
+          "url": "https://tangled.org/yanndegat.tngl.sh/drawgent"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49857656"
+      ],
+      "headline": "Turning GLM-5.3-Flash into a Jev-like decision model",
+      "summary": "Log in Sign up Sep 24, 2026 h1]:gradient-text\"> Turn GLM-5. 3-Flash into a Jev-like System One model Typed decisions with a probability for every option, in a single forward pass: matching Jev's accuracy and speed with an LLM.",
+      "category": "Technology",
+      "importance": 105,
+      "whyItMatters": "The Hacker News community gave this story 105 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49857656"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49858676"
+      ],
+      "headline": "Reverse-engineering the Intel 8087's tangent algorithm: more than CORDIC",
+      "summary": "Reverse-engineering the vintage Intel 8087's tangent algorithm: more than CORDIC I hope you're not tired of the 8087, because I have another article about Intel's floating-point chip.  1 In 1980, Intel introduced the 8087, making floating-point operations much faster in the IBM PC and other systems.",
+      "category": "Ideas",
+      "importance": 88,
+      "whyItMatters": "The Hacker News community gave this story 88 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49858676"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.righto.com/2026/09/8087-tangent-cordic.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49865343"
+      ],
+      "headline": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+      "summary": "Computer Science > Machine Learning arXiv:2609. 25021 (cs) [Submitted on 9 Aug 2026] Title: \"As a Language Model...",
+      "category": "Technology",
+      "importance": 57,
+      "whyItMatters": "The Hacker News community gave this story 57 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49865343"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arxiv.org/abs/2609.25021"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-27T12:50:49.654Z"
+}
