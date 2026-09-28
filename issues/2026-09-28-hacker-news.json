@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-28-hacker-news",
+  "date": "2026-09-28",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49870367"
+      ],
+      "headline": "When did Google get so weird?",
+      "summary": "When did Google get so f-ing weird?  27 Sep, 2026 I recently had an experience while doing a simple Google search that was so profoundly weird that it stopped me in my tracks.",
+      "category": "Ideas",
+      "importance": 1551,
+      "whyItMatters": "The Hacker News community gave this story 1551 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49870367"
+        },
+        {
+          "name": "Original source",
+          "url": "https://sancho.bearblog.dev/google-weird/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49872723"
+      ],
+      "headline": "Owed a billion dollars in Nvidia stock",
+      "summary": "Early Days It is not widely known, but I was invited to join the Technical Advisory Board of NVIDIA in 1993 by Jensen (at that time, sans leather jacket) 1 .  In September 1993, I was granted 25,000 options, &ldquo;in a series of quarterly installments so that all shares shall vest upon the expiration of one year from Grant Date.",
+      "category": "Ideas",
+      "importance": 906,
+      "whyItMatters": "The Hacker News community gave this story 906 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49872723"
+        },
+        {
+          "name": "Original source",
+          "url": "https://colo.to/nvidia-stock-narrative.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49868830"
+      ],
+      "headline": "Ember-1",
+      "summary": "Join us for our inaugural conference, Forge 2026 Blog Ember 1 Introducing Ember-1 PUBLISHED 9/23/2026 Table of Contents Ember-1: half the tokens, same answers How Fireworks Research built Ember-1 The problem: thinking models think too much From an observation to a premium model The Specialized Intelligence Index: Ember-1 sets a Pareto frontier for Bedside Bench Evaluating Pareto across more industry benchmarks Customer validation: Live A/B tests Internal validation: Our own developers didn't notice What's next Table of Contents Ember-1: half the tokens, same answers Ember-1 is a new specialized model from Fireworks Research that delivers Kimi K3’s quality with 40% fewer tokens.  Built on…",
+      "category": "Technology",
+      "importance": 537,
+      "whyItMatters": "The Hacker News community gave this story 537 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49868830"
+        },
+        {
+          "name": "Original source",
+          "url": "https://fireworks.ai/blog/ember-1"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49870295"
+      ],
+      "headline": "Self-Hosting on the Dark Web",
+      "summary": "This site is now reachable over Tor as a hidden service, at a . onion address that resolves only inside the Tor network.",
+      "category": "Ideas",
+      "importance": 292,
+      "whyItMatters": "The Hacker News community gave this story 292 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49870295"
+        },
+        {
+          "name": "Original source",
+          "url": "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49869574"
+      ],
+      "headline": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+      "summary": "Your business here?  ↗ Live on Product Hunt ↗ Post a job for free ↗ City tour cities change on their own Off Every 5 min Every 10 min Every 15 min Every 30 min Follow the night the city closest to 1 am Weather on every city, sounds too City's own as the city was drawn Rain drops in the lamplight, the rain sound Snow flakes drifting down, a hush of wind Autumn leaves falling leaves, a warmer light Clear nothing falling, no rain sound Cities Up next pick a track to play it now Focus Sleep City sounds reset Together tuning in… tap the scene to send Release a lantern L Chat tuning in… Save this scene Save this frame PNG · 1920×1080 S Get this city's video loop 1080p60 · no audio · Gumroad Get…",
+      "category": "Technology",
+      "importance": 291,
+      "whyItMatters": "The Hacker News community gave this story 291 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49869574"
+        },
+        {
+          "name": "Original source",
+          "url": "https://loficities.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49868404"
+      ],
+      "headline": "Don't couple your Go code to GitHub",
+      "summary": "Don't couple your Go code to GitHub Sep 27, 2026 One of the good features of Go is that you namespace your code with the location to fetch the code.  This means if you host your Go code at http://github.",
+      "category": "Ideas",
+      "importance": 287,
+      "whyItMatters": "The Hacker News community gave this story 287 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49868404"
+        },
+        {
+          "name": "Original source",
+          "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49874728"
+      ],
+      "headline": "Prompting Claude Opus 5.5",
+      "summary": " Copy page [data-cds-seam-line]]:opacity-0 [&:has(+[data-cds-segment]:hover)>[data-cds-seam-line]]:opacity-0 [[data-cds-segment]:has([aria-haspopup][aria-expanded=true])+&>[data-cds-seam-line]]:opacity-0 [&:has(+[data-cds-segment]_[aria-haspopup][aria-expanded=true])>[data-cds-seam-line]]:opacity-0 [[data-cds-segment]:has([aria-pressed=true])+&>[data-cds-seam-line]]:opacity-0 [&:has(+[data-cds-segment]_[aria-pressed=true])>[data-cds-seam-line]]:opacity-0 \">  This guide covers the prompting patterns specific to Claude Opus 5. 5.",
+      "category": "Ideas",
+      "importance": 176,
+      "whyItMatters": "The Hacker News community gave this story 176 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49874728"
+        },
+        {
+          "name": "Original source",
+          "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49875913"
+      ],
+      "headline": "Parley: Federated, decentralised chat that speaks plain IRC",
+      "summary": "prologic / parley Fork 1 You've already forked parley Code Issues 4 Pull Requests Actions Releases 5 Wiki Activity 192 Commits 1 Branch 5 Tags main Go to file Add File New File Upload File Apply Patch Code Clone HTTPS Tea CLI Open with VS Code Open with VSCodium Open with Intellij IDEA Download ZIP Download TAR. GZ Download BUNDLE I am Fastidious 52118a9e24 All checks were successful 🚀 Publish / 🧪 Test and vet (push) Successful in 5m9s Details 🚀 Publish / publish (push) Successful in 13m27s Details 🚀 Publish / 🚢 Deploy (push) Successful in 2s Details chat: push a mention only to the person the sender meant ( #39 ) ...",
+      "category": "Technology",
+      "importance": 174,
+      "whyItMatters": "The Hacker News community gave this story 174 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49875913"
+        },
+        {
+          "name": "Original source",
+          "url": "https://git.mills.io/prologic/parley"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49870070"
+      ],
+      "headline": "Alan Kay's answer to “Did the ENIAC have a BIOS”?",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 166,
+      "whyItMatters": "The Hacker News community gave this story 166 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49870070"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49873241"
+      ],
+      "headline": "Thinking fast and slow in AI: The role of metacognition (2021)",
+      "summary": "Computer Science > Artificial Intelligence arXiv:2110. 01834 (cs) [Submitted on 5 Oct 2021] Title: Thinking Fast and Slow in AI: the Role of Metacognition Authors: Marianna Bergamaschi Ganapini , Murray Campbell , Francesco Fabiano , Lior Horesh , Jon Lenchner , Andrea Loreggia , Nicholas Mattei , Francesca Rossi , Biplav Srivastava , Kristen Brent Venable View a PDF of the paper titled Thinking Fast and Slow in AI: the Role of Metacognition, by Marianna Bergamaschi Ganapini and 8 other authors View PDF HTML (experimental) Abstract: AI systems have seen dramatic advancement in recent years, bringing many applications that pervade our everyday life.",
+      "category": "Technology",
+      "importance": 147,
+      "whyItMatters": "The Hacker News community gave this story 147 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49873241"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arxiv.org/abs/2110.01834"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-28T15:03:52.125Z"
+}
