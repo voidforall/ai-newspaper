@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-02-hacker-news",
+  "date": "2026-10-02",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49926069"
+      ],
+      "headline": "Pi 1.0",
+      "summary": "Pi 1. 0 Date: Thu, 01 Oct 2026 From: Earendil rfc@earendil.",
+      "category": "Ideas",
+      "importance": 1477,
+      "whyItMatters": "The Hacker News community gave this story 1477 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49926069"
+        },
+        {
+          "name": "Original source",
+          "url": "https://earendil.com/posts/pi-1-0/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49923692"
+      ],
+      "headline": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+      "summary": "Over the last few weeks, there has been lots of buzz around decision models such as Typesafe AI’s Jev System One model.  While classifier models have been around for some time, Jev introduces a new decision model concept into the world of AI — a model that produces bounded structured outputs cheaply, quickly and consistently that can be added into a workflow when a decision is required.",
+      "category": "Technology",
+      "importance": 551,
+      "whyItMatters": "The Hacker News community gave this story 551 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49923692"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.cloudflare.com/clef-decision-models/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49924179"
+      ],
+      "headline": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
+      "summary": "Today by Scott Chacon 17 min read git Git 3. 0's upcoming SHA-256 default will be a costly mistake Git 3.",
+      "category": "Ideas",
+      "importance": 449,
+      "whyItMatters": "The Hacker News community gave this story 449 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49924179"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.gitbutler.com/git-3-sha-256"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49925969"
+      ],
+      "headline": "Pi Durable",
+      "summary": "Pi Durable Date: Thu, 01 Oct 2026 From: Earendil Engineering rfc@earendil. com > To: You Subject: Pi Durable Today Earendil and the Pi community shipped Pi 1.",
+      "category": "Ideas",
+      "importance": 430,
+      "whyItMatters": "The Hacker News community gave this story 430 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49925969"
+        },
+        {
+          "name": "Original source",
+          "url": "https://earendil.com/posts/pi-durable/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49928121"
+      ],
+      "headline": "Several vulnerabilities have been discovered in the Linux kernel",
+      "summary": "From : Salvatore Bonaccorso To : debian-security-announce@lists. debian.",
+      "category": "Technology",
+      "importance": 404,
+      "whyItMatters": "The Hacker News community gave this story 404 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49928121"
+        },
+        {
+          "name": "Original source",
+          "url": "https://lwn.net/Articles/1097401/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49923466"
+      ],
+      "headline": "RIP, vector database",
+      "summary": "tpuf v3 is coming: follow along turbopuffer v3 is coming: follow our progress RIP, vector database September 30, 2026 • Dan Harrison (Engineer) We are changing turbopuffer's storage architecture to take search to the next level.  turbopuffer v3 changes how documents and indexes are laid out, written, compacted, and queried in turbopuffer.",
+      "category": "Technology",
+      "importance": 349,
+      "whyItMatters": "The Hacker News community gave this story 349 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49923466"
+        },
+        {
+          "name": "Original source",
+          "url": "https://turbopuffer.com/blog/rip-vector-database"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49926536"
+      ],
+      "headline": "SvelteKit 3",
+      "summary": "Version 3. 0 of SvelteKit, the official application framework for Svelte, is now available.",
+      "category": "Technology",
+      "importance": 335,
+      "whyItMatters": "The Hacker News community gave this story 335 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49926536"
+        },
+        {
+          "name": "Original source",
+          "url": "https://svelte.dev/blog/sveltekit-3-is-here"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49929489"
+      ],
+      "headline": "DeepSeek Harness Desktop for macOS and Windows",
+      "summary": "Preview DeepSeek Harness Ready to use .  Right now .",
+      "category": "Ideas",
+      "importance": 296,
+      "whyItMatters": "The Hacker News community gave this story 296 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49929489"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.deepseek.com/en/harness/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49927760"
+      ],
+      "headline": "Frog and Toad and the Increasingly Capable Machines",
+      "summary": "‹ ›",
+      "category": "Ideas",
+      "importance": 281,
+      "whyItMatters": "The Hacker News community gave this story 281 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49927760"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.frogandtoad.ai/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49921923"
+      ],
+      "headline": "Cloudflare K2: serverless event streams",
+      "summary": "With traditional Remote Procedure Call (RPC) architectures, there exists a core challenge: producers and consumers must align in scale and in time.  If your producers send too much data for your consumers to handle or if your consumers or downstream services become unavailable, events are dropped.",
+      "category": "Technology",
+      "importance": 255,
+      "whyItMatters": "The Hacker News community gave this story 255 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49921923"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.cloudflare.com/cloudflare-k2-streams/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-02T13:39:43.051Z"
+}
