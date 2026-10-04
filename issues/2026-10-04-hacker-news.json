@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-04-hacker-news",
+  "date": "2026-10-04",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49949235"
+      ],
+      "headline": "We're going to need default hard budget caps on pretty much everything",
+      "summary": "Simon Willison’s Weblog Subscribe Sponsored by: Deepgram &mdash; Flux TTS remembers the conversation, so your agent sounds right on reply 20.  Hear the demo We’re going to need default hard budget caps on pretty much everything 3rd October 2026 Here’s a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps .",
+      "category": "Ideas",
+      "importance": 491,
+      "whyItMatters": "The Hacker News community gave this story 491 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49949235"
+        },
+        {
+          "name": "Original source",
+          "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49946895"
+      ],
+      "headline": "The work by Valve's Timur Kristóf on improving old AMD GPUs on Linux",
+      "summary": "The Amazing Work By Valve's Timur Kristóf On Improving Old AMD GPUs On Linux Written by Michael Larabel in Radeon on 3 October 2026 at 02:56 PM EDT.  17 Comments Over the past year Timur Kristóf of Valve's Linux graphics driver team has made multiple very nice improvements to the AMDGPU kernel driver for enhancing support for old (GCN 1.",
+      "category": "Ideas",
+      "importance": 335,
+      "whyItMatters": "The Hacker News community gave this story 335 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49946895"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.phoronix.com/news/XDC-2026-Valve-Timur-AMDGPU"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49946393"
+      ],
+      "headline": "Hole Punch: Sling your spaceship around gravitational fields",
+      "summary": "Map",
+      "category": "Ideas",
+      "importance": 308,
+      "whyItMatters": "The Hacker News community gave this story 308 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49946393"
+        },
+        {
+          "name": "Original source",
+          "url": "https://notoriousbfg.com/hole-punch/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49944227"
+      ],
+      "headline": "I quit OpenAI because its culture is broken",
+      "summary": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;5GQx8\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;5GQx8</a><p><a href=\"https:&#x2F;&#x2F;www.theguardian.com&#x2F;technology&#x2F;2026&#x2F;oct&#x2F;03&#x2F;openai-safety-leader-quits-warning-ai-companys-culture-is-broken\" rel=\"nofollow\">https:&#x2F;&#x2F;www.theguardian.com&#x2F;technology&#x2F;2026&#x2F;oct&#x2F;03&#x2F;openai-sa...</a>",
+      "category": "Technology",
+      "importance": 295,
+      "whyItMatters": "The Hacker News community gave this story 295 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49944227"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49946355"
+      ],
+      "headline": "Treachery in the Rodin Museum 3D scan verdict",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 234,
+      "whyItMatters": "The Hacker News community gave this story 234 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49946355"
+        },
+        {
+          "name": "Original source",
+          "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49945933"
+      ],
+      "headline": "Agents don't need memory, they need documentation",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 226,
+      "whyItMatters": "The Hacker News community gave this story 226 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49945933"
+        },
+        {
+          "name": "Original source",
+          "url": "https://liao.gg/blog/agents-dont-need-memory"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49946228"
+      ],
+      "headline": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+      "summary": "Trending now 1 Google cofounder Sergey Brin has spent $102 million to fight California’s proposed billionaire tax—he could owe $13 billion if he loses 2 The 'golden passport': Argentina to offer citizenship for foreigners that make a $350,000 contribution to its treasury—or invest $800,000 in its bonds 3 Where Americans are moving by generation, according to U-Haul: Boomers pick the Carolinas, Gen Z picks Texas and California 1 Google cofounder Sergey Brin has spent $102 million to fight California’s proposed billionaire tax—he could owe $13 billion if he loses 2 The 'golden passport': Argentina to offer citizenship for foreigners that make a $350,000 contribution to its treasury—or invest…",
+      "category": "Technology",
+      "importance": 193,
+      "whyItMatters": "The Hacker News community gave this story 193 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49946228"
+        },
+        {
+          "name": "Original source",
+          "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49944912"
+      ],
+      "headline": "FTL: A new operating system for clouds",
+      "summary": "What's FTL?  You can build your own OS as a library .",
+      "category": "Ideas",
+      "importance": 184,
+      "whyItMatters": "The Hacker News community gave this story 184 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49944912"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ftl-os.org/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49950554"
+      ],
+      "headline": "Why don't more developers “use the platform”?",
+      "summary": "For years, advocates for web standards, performance, and accessibility have implored web developers to “use the platform” .  I’ve often been one of those advocates.",
+      "category": "Ideas",
+      "importance": 177,
+      "whyItMatters": "The Hacker News community gave this story 177 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49950554"
+        },
+        {
+          "name": "Original source",
+          "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49947631"
+      ],
+      "headline": "Reasons I didn't become an EMT, ranked",
+      "summary": "21 reasons I didn't become an EMT, ranked I’m an EMT (Emergency Medical Technician).  My main job is software engineering, but I’ve always been interested in medicine.",
+      "category": "Technology",
+      "importance": 174,
+      "whyItMatters": "The Hacker News community gave this story 174 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49947631"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ben.stolovitz.com/posts/reasons-not-emt-ranked/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-04T13:04:41.794Z"
+}
