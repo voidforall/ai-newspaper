@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-06-hacker-news",
+  "date": "2026-10-06",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49969183"
+      ],
+      "headline": "Beam: Reflection's 501B open-weight model",
+      "summary": "We are introducing Beam, Reflection’s first open-weight model.  Beam is a sparse Mixture-of-Experts model with 501 billion total parameters, 23 billion active, built for coding, reasoning, and agentic workloads.",
+      "category": "Technology",
+      "importance": 486,
+      "whyItMatters": "The Hacker News community gave this story 486 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49969183"
+        },
+        {
+          "name": "Original source",
+          "url": "https://reflection.ai/blog/introducing-beam"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49970667"
+      ],
+      "headline": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "summary": "Research Two Room-Temperature Antiferromagnetic Semiconductor Candidates We are sharing two candidate magnets for next-generation computer memory, found by a team of Claude Opus 5. 5 agents.",
+      "category": "Technology",
+      "importance": 408,
+      "whyItMatters": "The Hacker News community gave this story 408 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49970667"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49977979"
+      ],
+      "headline": "Mistral Large 4",
+      "summary": "svg]:px-2. 5 text-xs rounded [&_svg:not([class*=size-])]:size-3 max-lg:hidden\"> Try in playground ↗ summary_+_*]:mt-6 [&_details_summary]:cursor-default prose-code:text-[0.",
+      "category": "Technology",
+      "importance": 294,
+      "whyItMatters": "The Hacker News community gave this story 294 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49977979"
+        },
+        {
+          "name": "Original source",
+          "url": "https://docs.mistral.ai/models/mistral-large-4-0"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49971921"
+      ],
+      "headline": "Example.com just launched the biggest redesign in decades",
+      "summary": "example. com is a reserved domain name set aside by the Internet Assigned Numbers Authority (IANA) for documentation purposes.",
+      "category": "Technology",
+      "importance": 269,
+      "whyItMatters": "The Hacker News community gave this story 269 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49971921"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.debugbear.com/blog/example-dot-com-redesign-history"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49965152"
+      ],
+      "headline": "The lamps in my house",
+      "summary": "I have a thing for lamps.  Especially designer lamps from the past.",
+      "category": "Ideas",
+      "importance": 259,
+      "whyItMatters": "The Hacker News community gave this story 259 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49965152"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arslan.io/2026/10/05/the-lamps-in-my-house/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49971230"
+      ],
+      "headline": "Find the flattest route between any two points in SF",
+      "summary": "by Drew Edwards Flatten SF flat routes across San Francisco From ⇅ To Walk Bike Copy link Shortest Flattest distance climbing steepest How this works Routes are computed in your browser over 160,000 street segments, using USGS 1 m lidar elevation and the Overture / OpenStreetMap street graph.  The slider runs along the whole trade-off between distance and climbing: every route that nothing else beats on both counts, from the shortest path to the flattest one worth walking (where a foot of climb costs 200 ft of walking; beyond that the routes stop being routes).",
+      "category": "Ideas",
+      "importance": 244,
+      "whyItMatters": "The Hacker News community gave this story 244 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49971230"
+        },
+        {
+          "name": "Original source",
+          "url": "https://flattensf.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49976265"
+      ],
+      "headline": "Nobel Prize in Physics goes to Francis Halzen",
+      "summary": "Navigate to: Summary - Francis Halzen Press release Popular information Advanced information Ill.  Niklas Elmehed © Nobel Prize Outreach Francis Halzen Prize share: 1/1 The Nobel Prize in Physics 2026 was awarded to Francis Halzen \"for decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin.",
+      "category": "Ideas",
+      "importance": 243,
+      "whyItMatters": "The Hacker News community gave this story 243 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49976265"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.nobelprize.org/prizes/physics/2026/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49970871"
+      ],
+      "headline": "Dust: Pretraining Transformers Without Backpropagation",
+      "summary": "TL;DR We present the first zeroth-order method that is competitive with backprop at pretraining transformer language models.  Dust perturbs activations (node perturbation) independently at every token, so each token is a virtual population member and one forward pass evaluates them all in parallel.",
+      "category": "Technology",
+      "importance": 236,
+      "whyItMatters": "The Hacker News community gave this story 236 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49970871"
+        },
+        {
+          "name": "Original source",
+          "url": "https://qlabs.sh/research/dust"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49971719"
+      ],
+      "headline": "Friendship ended with Deno, now Node is my best friend",
+      "summary": "Friendship ended with Deno, now Node is my best friend Saturday 3 Oct 2026 It’s finally time I go crawling back to Node!  I’ve been using Node heavily this month on a SvelteKit client project.",
+      "category": "Ideas",
+      "importance": 234,
+      "whyItMatters": "The Hacker News community gave this story 234 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49971719"
+        },
+        {
+          "name": "Original source",
+          "url": "https://dbushell.com/2026/10/03/deno-to-node/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49977072"
+      ],
+      "headline": "JetBrains reported a net financial loss first time in its tracked history",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 209,
+      "whyItMatters": "The Hacker News community gave this story 209 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49977072"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.helgilibrary.com/companies/jetbrains"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-06T14:00:10.467Z"
+}
