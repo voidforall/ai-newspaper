@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-09-hacker-news",
+  "date": "2026-10-09",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-50008427"
+      ],
+      "headline": "Whistle: Speech to Text in 16.9 MB",
+      "summary": "Back to blog Models Research Whistle: Speech to Text in 16. 9 MB An open speech recognition model that runs on the same CPU engine as Needle.",
+      "category": "Technology",
+      "importance": 827,
+      "whyItMatters": "The Hacker News community gave this story 827 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50008427"
+        },
+        {
+          "name": "Original source",
+          "url": "https://cactuscompute.com/blog/whistle"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50009295"
+      ],
+      "headline": "Theranos.world",
+      "summary": "-Bo Finder File Edit View Go Mailbox Message Format Window Help 100% Wed 9:41 AM Documents Keynote Spreadsheets 100% 9:41 AM Elizabeth Holmes Log In ?  Click Log In or press Return or Space.",
+      "category": "Technology",
+      "importance": 495,
+      "whyItMatters": "The Hacker News community gave this story 495 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50009295"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.theranos.world/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50019911"
+      ],
+      "headline": "Deno Is Joining Cloudflare",
+      "summary": "Deno is joining Cloudflare October 9, 2026 Ryan Dahl Announcements Product Update For years, we’ve been working to make building server software simpler.  We questioned how modules could be distributed, what security guarantees a JavaScript runtime could provide, what belonged in a complete toolchain, and how easily an application could be distributed as a standalone executable.",
+      "category": "Technology",
+      "importance": 246,
+      "whyItMatters": "The Hacker News community gave this story 246 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50019911"
+        },
+        {
+          "name": "Original source",
+          "url": "https://deno.com/blog/cloudflare"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50015515"
+      ],
+      "headline": "Keyboard differences between Windows and Macs",
+      "summary": "Over the years, I learned about many gotchas and strange differences between keyboard handling on Mac and Windows – pertinent especially to web apps, which use the same codebase to cater to both.  I thought it might be helpful to someone if I compile them all in one place.",
+      "category": "Ideas",
+      "importance": 216,
+      "whyItMatters": "The Hacker News community gave this story 216 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50015515"
+        },
+        {
+          "name": "Original source",
+          "url": "https://unsung.aresluna.org/deeper-dive-keyboard-differences-between-windows-and-macs/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50018088"
+      ],
+      "headline": "I'm in a Meeting",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 202,
+      "whyItMatters": "The Hacker News community gave this story 202 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50018088"
+        },
+        {
+          "name": "Original source",
+          "url": "https://iminafleeting.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50018420"
+      ],
+      "headline": "Nobel Peace Prize for 2026 to Navanethem \"NAVI\" Pillay",
+      "summary": "Navigate to: Summary - Navi Pillay Prize announcement Press release English English (pdf) Norwegian Norwegian (pdf) Announcement, Nobel Peace Prize 2026 9 October 2026 The Nobel Peace Prize for 2026 goes to a person who with exceptional courage and integrity has led the way towards a more comprehensive global legal order.  This year’s laureate has been instrumental in ensuring that war crimes, crimes against humanity and genocide are prosecuted.",
+      "category": "Technology",
+      "importance": 198,
+      "whyItMatters": "The Hacker News community gave this story 198 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50018420"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.nobelprize.org/prizes/peace/2026/press-release/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50010470"
+      ],
+      "headline": "The value of not getting to the point (2015)",
+      "summary": "The Value of Not Getting to the Point by Ken Arneson 2015-11-06 9:42 I read somewhere recently, I forget where, that the purpose of people getting together for a conversation over a beer or coffee or lunch or dinner is that it the food and drink spare us from the burden of needing to have something to say throughout the whole conversation.  This was a revelation to me.",
+      "category": "Ideas",
+      "importance": 193,
+      "whyItMatters": "The Hacker News community gave this story 193 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50010470"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ken.arneson.name/2015/11/the-value-of-not-getting-to-the-point/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50008047"
+      ],
+      "headline": "Show HN: Making a flexible \"neon\" t-shirt with LED filaments",
+      "summary": "Making a flexible “neon” t-shirt with LED filaments October 08, 2026 Earlier this year I had the perfect excuse to experiment with some flexible LED filaments that had been sitting in my “interesting parts” bin for years -- the company I work for was putting on a neon-themed event, so obviously I had to custom-build some LED neon attire!  The only problem was this was announced less than a week in advance....",
+      "category": "Business",
+      "importance": 193,
+      "whyItMatters": "The Hacker News community gave this story 193 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50008047"
+        },
+        {
+          "name": "Original source",
+          "url": "http://scottbezek.blogspot.com/2026/10/making-flexible-neon-t-shirt-with-leds.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50018817"
+      ],
+      "headline": "Let your AI agents paint big arrows, boxes and text on your screen",
+      "summary": "main Branches Tags Go to file Code Open more actions menu Latest commit History 76 Commits 76 Commits Folders and files Name Name Last commit message Last commit date . github/ workflows .",
+      "category": "Technology",
+      "importance": 176,
+      "whyItMatters": "The Hacker News community gave this story 176 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50018817"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50013902"
+      ],
+      "headline": "OpenAI, the Partition Principle, and Mathematics",
+      "summary": "OpenAI, the Partition Principle, and mathematics There are no comments on this post.  Oct 08 2026, 10:25 By the time I got out of bed yesterday, I had three people ask me if I'd seen the OpenAI announcement that the Partition Principle does not imply the Axiom of Choice.",
+      "category": "Technology",
+      "importance": 152,
+      "whyItMatters": "The Hacker News community gave this story 152 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50013902"
+        },
+        {
+          "name": "Original source",
+          "url": "https://karagila.org/2026/openai-pp/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-09T14:12:46.938Z"
+}
