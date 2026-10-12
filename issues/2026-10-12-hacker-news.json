@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-12-hacker-news",
+  "date": "2026-10-12",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-50048312"
+      ],
+      "headline": "Passkeys are a trap",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 907,
+      "whyItMatters": "The Hacker News community gave this story 907 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50048312"
+        },
+        {
+          "name": "Original source",
+          "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50045984"
+      ],
+      "headline": "Total Annihilation, rebuilt for modern computers",
+      "summary": "Staged engine footage Modern GPU renderer · Silent Play video Nanolathe / Open-source 2. 5D RTS engine Total Annihilation, rebuilt for modern computers.",
+      "category": "Technology",
+      "importance": 622,
+      "whyItMatters": "The Hacker News community gave this story 622 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50045984"
+        },
+        {
+          "name": "Original source",
+          "url": "https://nanolathe.gg"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50047422"
+      ],
+      "headline": "The gap in shared understanding of LLM capability is widening",
+      "summary": "Post Log in Sign up Post Log in Sign up Andrej Karpathy on X: \"Dusting off this tweet from April because this gap in shared understanding of LLM capability is *widening*.  It's now less \"two groups of people speaking past each other\" and more a sharp funnel.",
+      "category": "Ideas",
+      "importance": 602,
+      "whyItMatters": "The Hacker News community gave this story 602 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50047422"
+        },
+        {
+          "name": "Original source",
+          "url": "https://twitter.com/karpathy/status/2109361546505966046"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50048642"
+      ],
+      "headline": "Fingerprints are the new cookies",
+      "summary": "From now on I’ll call you: … computing… Try refreshing the page.  Clear the cookies.",
+      "category": "Ideas",
+      "importance": 593,
+      "whyItMatters": "The Hacker News community gave this story 593 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50048642"
+        },
+        {
+          "name": "Original source",
+          "url": "https://royfish.dev/fingerprints-are-the-new-cookies"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50054207"
+      ],
+      "headline": "Deloitte falsified documents to evade tax on Abramovich's wealth",
+      "summary": "Documents falsified to evade tax on Abramovich's wealth, BBC finds 12 hours ago Share Save Add as preferred on Google James Oliver , Rory Tinman , BBC Panorama , Harriet Agerholm , BBC Verify and Simon Lock , the Bureau of Investigative Journalism Watch: The documents that were falsified to allow Roman Abramovich to evade tax The world's biggest accountancy firm helped in falsifying documents to hide Roman Abramovich's wealth and evade tax, BBC Panorama has found.  Accounts signed off by Deloitte in Cyprus meant assets such as superyachts, mansions and private jets worth $672m (£508m) vanished from Abramovich's company accounts.",
+      "category": "Business",
+      "importance": 531,
+      "whyItMatters": "The Hacker News community gave this story 531 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50054207"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.bbc.com/news/articles/c64g1l5389kvo"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50054751"
+      ],
+      "headline": "QGIS bans AI assisted contributions",
+      "summary": "Conversation nyalldawson commented Sep 24, 2026 Copy link Copy Markdown Contributor Followup discussion at https://lists. osgeo.",
+      "category": "Technology",
+      "importance": 312,
+      "whyItMatters": "The Hacker News community gave this story 312 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50054751"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50047091"
+      ],
+      "headline": "Cartographers of North Korea (2019)",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 303,
+      "whyItMatters": "The Hacker News community gave this story 303 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50047091"
+        },
+        {
+          "name": "Original source",
+          "url": "https://cartographers-nk.wonyoung.so/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50051573"
+      ],
+      "headline": "Type-safe HTML templating in Zig",
+      "summary": "Lukáš Lalinský 2026-10-11 Categories programming Tags zig networking web html templating I’ve done a lot of web development over the years.  I started around the year 2000, just after PHP 3.",
+      "category": "Technology",
+      "importance": 196,
+      "whyItMatters": "The Hacker News community gave this story 196 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50051573"
+        },
+        {
+          "name": "Original source",
+          "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50052251"
+      ],
+      "headline": "Show HN: PS2 games statically recompiled to WebAssembly",
+      "summary": "main Branches Tags Go to file Code Open more actions menu Latest commit History 126 Commits 126 Commits Folders and files Name Name Last commit message Last commit date cmake cmake docs/ media docs/ media host host recomp recomp runtime runtime scripts scripts web web . gitignore .",
+      "category": "Technology",
+      "importance": 181,
+      "whyItMatters": "The Hacker News community gave this story 181 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50052251"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/snuri00/ps2-web-recomp"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50049872"
+      ],
+      "headline": "Doory – Open-Source Canva",
+      "summary": "main Branches Tags Go to file Code Open more actions menu Latest commit History 6 Commits 6 Commits Folders and files Name Name Last commit message Last commit date . github .",
+      "category": "Technology",
+      "importance": 178,
+      "whyItMatters": "The Hacker News community gave this story 178 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50049872"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/shaongitbd/doory"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-12T16:34:06.183Z"
+}
