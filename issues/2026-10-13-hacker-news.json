@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-13-hacker-news",
+  "date": "2026-10-13",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-50058528"
+      ],
+      "headline": "A Modern Web App in C",
+      "summary": "## INTRO If you wanted a dynamic website in 1994, you wrote a C program, dropped it in a cgi-bin directory, and let Apache fork it per request.  Thirty-two years later, I shipped a commercial web product using fundamentally the same technology.",
+      "category": "Technology",
+      "importance": 650,
+      "whyItMatters": "The Hacker News community gave this story 650 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50058528"
+        },
+        {
+          "name": "Original source",
+          "url": "https://prophitt.me/writing/a-modern-web-app-in-c"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50058507"
+      ],
+      "headline": "GLM-Legal",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 631,
+      "whyItMatters": "The Hacker News community gave this story 631 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50058507"
+        },
+        {
+          "name": "Original source",
+          "url": "https://z.ai/blog/glm-legal"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50063427"
+      ],
+      "headline": "AI is a tool and using it well takes skill",
+      "summary": "In his October 11, 2026 article, \"'AI' is Not a Tool,\" Rich Hickey argues that LLMs are automation rather than tools because they cannot be wielded.  I agree that outsourcing work can cost us opportunities to learn.",
+      "category": "Technology",
+      "importance": 514,
+      "whyItMatters": "The Hacker News community gave this story 514 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50063427"
+        },
+        {
+          "name": "Original source",
+          "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50069499"
+      ],
+      "headline": "11 year old unsoundness bugs found in Rust borrow checker",
+      "summary": "struct's lifetime requirements can be bypassed via covariant field assignment #164250 New issue Copy link New issue Copy link Open Open struct's lifetime requirements can be bypassed via covariant field assignment #164250 Copy link Labels A-borrow-checker Area: The borrow checker Area: The borrow checker A-destructors Area: Destructors (`Drop`, …) Area: Destructors (`Drop`, …) A-lifetimes Area: Lifetimes / regions Area: Lifetimes / regions A-variance Area: Variance (https://doc. rust-lang.",
+      "category": "Ideas",
+      "importance": 420,
+      "whyItMatters": "The Hacker News community gave this story 420 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50069499"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/rust-lang/rust/issues/164250"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50069329"
+      ],
+      "headline": "CFTC Staff Were Told to Retract Analysis of Suspicious Oil Trades",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 288,
+      "whyItMatters": "The Hacker News community gave this story 288 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50069329"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.bloomberg.com/news/features/2026-10-13/cftc-staff-told-to-retract-analysis-of-suspicious-oil-trades-on-iran"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50063365"
+      ],
+      "headline": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 278,
+      "whyItMatters": "The Hacker News community gave this story 278 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50063365"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50061791"
+      ],
+      "headline": "Making big downloads resumable in Firefox",
+      "summary": "Making big downloads resumable in firefox Olivia Published on 2026-10-11 at 17:56:29+02:00 License: CC-by-SA 4. 0 (text), MIT (code) firefox For whatever reason, Firefox 28 and newer (i.",
+      "category": "Ideas",
+      "importance": 252,
+      "whyItMatters": "The Hacker News community gave this story 252 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50061791"
+        },
+        {
+          "name": "Original source",
+          "url": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50070302"
+      ],
+      "headline": "Mozilla Introduces Firefox Enterprise",
+      "summary": "‍ It takes a different kind of tech company to build a different kind of enterprise browser.  Firefox Enterprise puts customer privacy, independence and control first.",
+      "category": "Business",
+      "importance": 239,
+      "whyItMatters": "The Hacker News community gave this story 239 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50070302"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.firefox.com/en-US/enterprise/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50063138"
+      ],
+      "headline": "Who is vfmaddrnd231pd?",
+      "summary": "Who is vfmaddrnd231pd??  | purplesyringa's blog Who is vfmaddrnd231pd??",
+      "category": "Ideas",
+      "importance": 237,
+      "whyItMatters": "The Hacker News community gave this story 237 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50063138"
+        },
+        {
+          "name": "Original source",
+          "url": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50069971"
+      ],
+      "headline": "An hour of audio transcribed in about 13s on MacBook Air",
+      "summary": "Embedding Gemma Transcribe Google's EmbeddingGemma 2 is an embedding model.  We turned it into a speech-to-text model: an hour of audio in about 13 seconds on a base MacBook Air , entirely on device.",
+      "category": "Technology",
+      "importance": 231,
+      "whyItMatters": "The Hacker News community gave this story 231 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50069971"
+        },
+        {
+          "name": "Original source",
+          "url": "https://eg2.haku.sh/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-13T14:51:50.455Z"
+}
