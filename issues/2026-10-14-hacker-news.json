@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-14-hacker-news",
+  "date": "2026-10-14",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-50073879"
+      ],
+      "headline": "Gemini 4 Argon",
+      "summary": "Gemini 4 Argon Try in Gemini Try in Google AI Studio Try in Google Antigravity Gemini 4 Argon Our next era of frontier intelligence, built to solve your hardest problems Your browser does not support the video tag.  Your browser does not support the video tag.",
+      "category": "Technology",
+      "importance": 1351,
+      "whyItMatters": "The Hacker News community gave this story 1351 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50073879"
+        },
+        {
+          "name": "Original source",
+          "url": "https://deepmind.google/models/gemini/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50073633"
+      ],
+      "headline": "Redesigning source control at Anthropic",
+      "summary": "Engineering at Anthropic Redesigning source control at Anthropic Published Oct 13, 2026 As our merges per day grew more than tenfold, source control became our biggest development bottleneck.  Here, we share how we migrated to an in-house version control system in five months.",
+      "category": "Ideas",
+      "importance": 809,
+      "whyItMatters": "The Hacker News community gave this story 809 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50073633"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.anthropic.com/engineering/redesigning-source-control"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50077020"
+      ],
+      "headline": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
+      "summary": "Guitoro is a free browser guitar using recordings of real instruments. You can strum with your keyboard, mouse, or touchscreen, choose acoustic, classical, electric guitar or bass, and see chord fingering and each stroke. Song practice can be slowed to 20%, and there are free chord tools and tuners. No signup or download.<p>1 minute video demo: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;DtcluMLdSgs\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;DtcluMLdSgs</a><p>I would love feedback on how the strumming feels and sounds.",
+      "category": "Ideas",
+      "importance": 472,
+      "whyItMatters": "The Hacker News community gave this story 472 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50077020"
+        },
+        {
+          "name": "Original source",
+          "url": "https://guitoro.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50072994"
+      ],
+      "headline": "The United Kingdom generates less electricity per person than in the 1970s",
+      "summary": "Data Insights Electricity generation per person in the United Kingdom has fallen by a third from its early-2000s peak October 03, 2026 Electricity generation per person in the United Kingdom has fallen by a third from its early-2000s peak Hannah Ritchie Download Globally, electricity generation per person has grown by more than 50% this century.  In the United Kingdom, things have moved in the opposite direction.",
+      "category": "Ideas",
+      "importance": 343,
+      "whyItMatters": "The Hacker News community gave this story 343 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50072994"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ourworldindata.org/data-insights/electricity-generation-per-person-in-the-united-kingdom-has-fallen-by-a-third-from-its-early-2000s-peak"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50083130"
+      ],
+      "headline": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
+      "summary": "[BUG] bionic: wcscspn()/wcspbrk() treat every wchar_t >= 0x100 as a match (Android 17, CP3A. 260905.",
+      "category": "Ideas",
+      "importance": 330,
+      "whyItMatters": "The Hacker News community gave this story 330 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50083130"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/android/ndk/issues/2260"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50084240"
+      ],
+      "headline": "Iosevka is an open-source, sans-serif and slab-serif, monospace font",
+      "summary": "Iosevka 34. 9.",
+      "category": "Ideas",
+      "importance": 246,
+      "whyItMatters": "The Hacker News community gave this story 246 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50084240"
+        },
+        {
+          "name": "Original source",
+          "url": "https://typeof.net/Iosevka/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50079865"
+      ],
+      "headline": "Recreational Programming",
+      "summary": "Recreational Programming You guys are getting paid?  Show of hands: How many of you learned programming because it was fun?",
+      "category": "Technology",
+      "importance": 224,
+      "whyItMatters": "The Hacker News community gave this story 224 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50079865"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.cphiri.dev/presentations/recreational-programming"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50082470"
+      ],
+      "headline": "Felix Rieseberg Homepage",
+      "summary": "▶▶ LOADING CH 00 0% ENTER MUTED Enter the room with the sound off Felix Rieseberg Felix Rieseberg I work on Claude at Anthropic.  Electron co-maintainer.",
+      "category": "Technology",
+      "importance": 217,
+      "whyItMatters": "The Hacker News community gave this story 217 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50082470"
+        },
+        {
+          "name": "Original source",
+          "url": "https://felixrieseberg.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50074909"
+      ],
+      "headline": "Show HN: How random are you?",
+      "summary": "Loading the page…",
+      "category": "Ideas",
+      "importance": 164,
+      "whyItMatters": "The Hacker News community gave this story 164 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50074909"
+        },
+        {
+          "name": "Original source",
+          "url": "https://lab.specr.net/rigged-draw/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50084757"
+      ],
+      "headline": "Amazon pushes up prices across the Internet",
+      "summary": "Not-Ship turns one next week!!  To mark it, I'll be kicking off a campaign for new members.",
+      "category": "Technology",
+      "importance": 116,
+      "whyItMatters": "The Hacker News community gave this story 116 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50084757"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-14T12:42:11.557Z"
+}
