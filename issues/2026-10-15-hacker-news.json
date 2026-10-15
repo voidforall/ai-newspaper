@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-15-hacker-news",
+  "date": "2026-10-15",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-50093568"
+      ],
+      "headline": "Things to know when you get cancer",
+      "summary": "index Things to know if you get cancer (2026 Edition) 2026. 10.",
+      "category": "Ideas",
+      "importance": 1546,
+      "whyItMatters": "The Hacker News community gave this story 1546 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50093568"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50091788"
+      ],
+      "headline": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "summary": "by Cynthia Brumfield Contributing Writer AI agents aren’t ‘going rogue. ’ Frontier labs are skipping security basics.",
+      "category": "Technology",
+      "importance": 918,
+      "whyItMatters": "The Hacker News community gave this story 918 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50091788"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50094994"
+      ],
+      "headline": "OpenCode 2.0",
+      "summary": "OpenCode 2. 0 is a major over haul.",
+      "category": "Ideas",
+      "importance": 691,
+      "whyItMatters": "The Hacker News community gave this story 691 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50094994"
+        },
+        {
+          "name": "Original source",
+          "url": "https://anoma.ly/notes/opencode-2-0/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50096142"
+      ],
+      "headline": "Tiny Little Office",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 495,
+      "whyItMatters": "The Hacker News community gave this story 495 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50096142"
+        },
+        {
+          "name": "Original source",
+          "url": "https://tinylittleoffice.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50089921"
+      ],
+      "headline": "Americans' social activity has steeply declined in the past 30 years",
+      "summary": "Americans’ Social Activity Has Steeply Declined in the Past 30 Years In recent years, there has been extensive discussion of a social decline in the United States, including a U. S.",
+      "category": "Ideas",
+      "importance": 455,
+      "whyItMatters": "The Hacker News community gave this story 455 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50089921"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50095353"
+      ],
+      "headline": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
+      "summary": "TypeSafe AI Enterprise Thoughts Company Docs API console Contact us API console Docs Menu ∵ Back Company News Company News Jev: For the builders AND dreamers Oct 14, 2026 Oct 14, 2026 Oct 14, 2026 TL;DR: We're releasing an improved Jev 1. 14.",
+      "category": "Technology",
+      "importance": 314,
+      "whyItMatters": "The Hacker News community gave this story 314 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50095353"
+        },
+        {
+          "name": "Original source",
+          "url": "https://typesafe.ai/blog/jev-1-14"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50090369"
+      ],
+      "headline": "Better HTTP/1 connection reuse in Go 1.27",
+      "summary": "The Go Blog Better HTTP/1 connection reuse Nicholas Husin and Damien Neil 14 October 2026 Take a look at the following function: func getStatus(url string) (int, error) { resp, err := http. Get(url) if err !",
+      "category": "Ideas",
+      "importance": 270,
+      "whyItMatters": "The Hacker News community gave this story 270 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50090369"
+        },
+        {
+          "name": "Original source",
+          "url": "https://go.dev/blog/http-connection-reuse"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50097369"
+      ],
+      "headline": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "summary": "h2]:clear-both [&>h3]:clear-both [&_:not(pre)>code]:bg-accent-wash [&_:not(pre)>code]:text-link [&_:not(pre)>code]:rounded [&_:not(pre)>code]:px-[0. 4em] [&_:not(pre)>code]:py-[0.",
+      "category": "Ideas",
+      "importance": 241,
+      "whyItMatters": "The Hacker News community gave this story 241 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50097369"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50092470"
+      ],
+      "headline": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+      "summary": "Petal File Edit View Window Help Fri Jul 31 9:41 AM compositor. rs by Mira 41 /// Never show a black frame.",
+      "category": "Ideas",
+      "importance": 186,
+      "whyItMatters": "The Hacker News community gave this story 186 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50092470"
+        },
+        {
+          "name": "Original source",
+          "url": "https://petal.live/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50098274"
+      ],
+      "headline": "The Double Headed Stack Allocator",
+      "summary": "When programming high performance applications, such as video games, you learn neat tricks for writing fast code that makes the most of limited resources.  Memory allocation is a huge topic for performance critical code that needs a variable amount of memory.",
+      "category": "Technology",
+      "importance": 76,
+      "whyItMatters": "The Hacker News community gave this story 76 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50098274"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.demofox.org/2026/10/03/the-double-headed-stack-allocator/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-15T12:30:38.969Z"
+}
