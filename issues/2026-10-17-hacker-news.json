@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-17-hacker-news",
+  "date": "2026-10-17",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-50122800"
+      ],
+      "headline": "Claude reveals ECDSA curve origins",
+      "summary": "Frontier Red Team Claude reveals ECDSA curve origins Oct 16, 2026 “It’s just timestamps”: the decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.  We pursued this long-standing open question of the cryptographic community to settle concerns about ECDSA, which is one of our most widely used cryptographic standards.",
+      "category": "Technology",
+      "importance": 892,
+      "whyItMatters": "The Hacker News community gave this story 892 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50122800"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.anthropic.com/research/ecdsa-curve-origins"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50121179"
+      ],
+      "headline": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+      "summary": "Research Enterprise Experts Company A benchmark map of the US economy AI benchmarks have multiplied in recent years, but coverage of economically valuable work remains limited.  To measure this, we compiled relevant benchmarks to measure their coverage of American jobs.",
+      "category": "Technology",
+      "importance": 513,
+      "whyItMatters": "The Hacker News community gave this story 513 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50121179"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.mercor.com/research/labor-index/benchmark-map/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50122951"
+      ],
+      "headline": "How the Claude Code team does code review",
+      "summary": "Engineering How the Claude Code team does code review How do you review code at the volume agents produce it?  On the Claude Code team, once we had high coverage and deep reviews, we started optimizing for the minimum amount of human review time that doesn't raise reverts or incidents.",
+      "category": "Technology",
+      "importance": 361,
+      "whyItMatters": "The Hacker News community gave this story 361 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50122951"
+        },
+        {
+          "name": "Original source",
+          "url": "https://claude.dev/blog/solving-code-review-at-anthropic/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50118320"
+      ],
+      "headline": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+      "summary": "content type Featured highlight Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio October 15, 2026 MLX on Mac with Apple silicon lets AI researchers and developers experiment locally with the latest models and methods in a private environment.  The open-source array framework leverages the unified memory architecture of Apple silicon, enabling anyone to run new inference and fine-tuning methods on their own hardware and explore other AI techniques.",
+      "category": "Technology",
+      "importance": 324,
+      "whyItMatters": "The Hacker News community gave this story 324 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50118320"
+        },
+        {
+          "name": "Original source",
+          "url": "https://machinelearning.apple.com/research/mlx-distributed-inference"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50122878"
+      ],
+      "headline": "You could have invented transformers from memory",
+      "summary": "You could have invented transformers from memory Every layer is a memory store [code] [interactive app] Contents The outer-product store reaches its capacity at $M \\approx d_k = 64$.  The optimal store recalls exactly up to $M = d_k$.",
+      "category": "Ideas",
+      "importance": 317,
+      "whyItMatters": "The Hacker News community gave this story 317 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50122878"
+        },
+        {
+          "name": "Original source",
+          "url": "https://alexwang.ai/posts/associative-memory/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50122431"
+      ],
+      "headline": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "summary": "main Branches Tags Go to file Code Open more actions menu Latest commit History 80 Commits 80 Commits Folders and files Name Name Last commit message Last commit date docs docs patches patches probes probes ps5 ps5 scripts scripts site site third_party third_party . gitignore .",
+      "category": "Technology",
+      "importance": 299,
+      "whyItMatters": "The Hacker News community gave this story 299 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50122431"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/cobanov/PS5LM"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50120224"
+      ],
+      "headline": "JPEG XL vs. AVIF for web use-cases",
+      "summary": "JPEG XL vs AVIF for web use-cases Posted 15 October 2026 JPEG XL has now landed in all major browsers, so I figured I'd take a closer look at what it's good/bad at compared to other formats.  Conclusions I'll go into full detail, with examples and benchmarks, but for those of you who don't have the time, here are the headlines: For lossy photos on the web, AVIF almost always produces smaller files than JPEG XL.",
+      "category": "Technology",
+      "importance": 270,
+      "whyItMatters": "The Hacker News community gave this story 270 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50120224"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50127274"
+      ],
+      "headline": "Butlerian Jihad",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 247,
+      "whyItMatters": "The Hacker News community gave this story 247 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50127274"
+        },
+        {
+          "name": "Original source",
+          "url": "https://dune.fandom.com/wiki/Butlerian_Jihad"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50122034"
+      ],
+      "headline": "eBay Restricts Listings of Radio Equipment, but Exempts Ham-Band-Only Gear",
+      "summary": "The ARRL Letter for October 15, 2026 ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌ ͏ ‌…",
+      "category": "Ideas",
+      "importance": 229,
+      "whyItMatters": "The Hacker News community gave this story 229 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50122034"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.arrl.org/arrlletterissue?issue=2026-10-15#eBay-Restricts-Listings-of-Radio-Equipment_-But-Exempts-Ham-Band-Only-Gear"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50118688"
+      ],
+      "headline": "Show HN: Gemini 4 Argon plays StarCraft",
+      "summary": "TL;DR StarSkirmish is a benchmark where LLMs write bots for StarCraft: Brood War Each LLM gets one hour to write a Protoss bot in C++, which is then evaluated against other LLMs' bots and established human written bots StarSkirmish tests long horizon reasoning and agentic coding as LLMs must incorporate learnings from practice games to improve their StarCraft bot StarSkirmish Bench v0. 2 The StarSkirmish Bench evaluates how strong of a StarCraft bot can each LLM write given 1 hour of wall clock time.",
+      "category": "Technology",
+      "importance": 226,
+      "whyItMatters": "The Hacker News community gave this story 226 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50118688"
+        },
+        {
+          "name": "Original source",
+          "url": "https://starskirmish.com/bench/v0-2/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-17T11:28:13.101Z"
+}
