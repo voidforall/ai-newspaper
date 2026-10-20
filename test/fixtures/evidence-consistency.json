@@ -1,0 +1,14 @@
+{
+  "sourceText": "The release adds a batched API. No performance benchmark is supplied in these release notes.",
+  "rejectedDraft": {
+    "summary": "新接口将吞吐提高了两倍。",
+    "whyItMatters": "团队可以直接将生产容量翻倍。",
+    "caveat": "材料没有提供性能评测结果。"
+  },
+  "reviewedDraft": {
+    "summary": "维护者宣布增加批量接口。",
+    "whyItMatters": "团队可以评估批量操作是否适合现有调用流程。",
+    "caveat": "材料没有提供性能评测结果，不能据此判断吞吐提升。"
+  },
+  "reviewFinding": "摘要给出两倍吞吐，影响又承诺容量翻倍，但限制承认没有性能评测。删去未经材料支持的数值与容量承诺。引用完整性检查不能代替这次人工一致性审阅。"
+}

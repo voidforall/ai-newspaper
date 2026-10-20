@@ -1,3 +1,5 @@
+import { evidenceErrors } from "./story-evidence.js";
+
 const categories = new Set(["Technology", "Business", "Ideas"]);
 const originalSourceName = "Original source";
 
@@ -26,6 +28,7 @@ export function validateIssue(issue, { archive = false } = {}) {
   // Preserve already published, unversioned text when rebuilding the archive.
   // Generation and all versioned editions retain the publication minimum.
   const minimumSummaryLength = archive && issue?.schemaVersion === undefined ? 1 : 40;
+  if (issue?.evidenceVersion !== undefined && issue.evidenceVersion !== 1) errors.push("Unsupported evidence version.");
   if (issue?.schemaVersion !== undefined && issue.schemaVersion !== 1) errors.push("Unsupported issue schema version.");
   if (issue?.schemaVersion === 1) {
     if (!["draft", "published"].includes(issue.status)) errors.push("Versioned issue must declare draft or published status.");
@@ -46,6 +49,7 @@ export function validateIssue(issue, { archive = false } = {}) {
   const originalUrls = new Set();
   issue.stories.forEach((story, index) => {
     const label = `Story ${index + 1}`;
+    if (issue.evidenceVersion === 1) errors.push(...evidenceErrors(story).map((error) => `${label}: ${error}`));
     if (!isText(story?.headline)) errors.push(`${label} must have a headline.`);
     if (!isText(story?.summary) || story.summary.trim().length < minimumSummaryLength) {
       errors.push(`${label} summary must be at least ${minimumSummaryLength} characters.`);

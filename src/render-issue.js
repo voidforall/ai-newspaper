@@ -29,6 +29,22 @@ function displayCategory(category, language = "en") {
   return language === "zh-CN" ? { Technology: "技术与产品", Business: "产业动态", Ideas: "观点与实践" }[name] : name;
 }
 
+function renderEvidence(story, language) {
+  if (!story.evidence?.length || !story.attribution) return "";
+  const zh = language === "zh-CN";
+  const kinds = zh ? { "source-statement": "来源陈述", "vendor-claim": "厂商／作者主张", "community-report": "社区体验", "editorial-judgment": "编辑判断", unknown: "未知" }
+    : { "source-statement": "Source statement", "vendor-claim": "Vendor / author claim", "community-report": "Community report", "editorial-judgment": "Editorial judgment", unknown: "Unknown" };
+  const labels = zh ? { headline: "标题", summary: "摘要", whyItMatters: "开发者影响", caveat: "限制与未知" }
+    : { headline: "Headline", summary: "Summary", whyItMatters: "Impact", caveat: "Limits" };
+  const byId = new Map(story.evidence.map((item) => [item.id, item]));
+  const blocks = Object.entries(labels).filter(([field]) => story[field] && story.attribution[field]).map(([field, label]) => {
+    const attribution = story.attribution[field];
+    const excerpts = attribution.evidenceIds.map((id) => byId.get(id)).filter(Boolean).map((item) => `<figure><blockquote>${escapeHtml(item.quote)}</blockquote><figcaption>${isSafeUrl(item.url) ? `<a href="${escapeHtml(item.url)}">${zh ? "查看来源" : "View source"}</a>` : ""} · ${escapeHtml(item.method ?? "")} · ${zh ? "抓取于" : "Retrieved"} <time datetime="${escapeHtml(item.fetchedAt)}">${escapeHtml(item.fetchedAt)}</time> · ${zh ? "提取文本位置" : "Extracted text offsets"} ${item.location.start}–${item.location.end}</figcaption></figure>`).join("");
+    return `<section class="evidence-block"><h3>${label} <span>${escapeHtml(kinds[attribution.kind] ?? attribution.kind)}</span></h3><p>${escapeHtml(story[field])}</p>${excerpts || `<p class="material-note">${attribution.kind === "unknown" ? zh ? "提供的材料未说明此项。" : "Not established by the supplied material." : zh ? "这是编辑对材料的解读。" : "This is an editorial interpretation of the material."}</p>`}</section>`;
+  }).join("");
+  return `<details class="evidence"><summary>${zh ? "查看原文依据与编辑判断" : "Inspect source evidence and editorial judgment"}</summary><p class="material-note">${zh ? "摘录和引用关系经过程序检查；不代表独立事实核验。位置对应抓取时的提取文本，原页面可能变化。" : "Excerpt and reference integrity checked; this is not independent fact-checking. Offsets refer to extracted text at retrieval; the source page may change."}</p>${blocks}</details>`;
+}
+
 function renderStory(story, { lead = false, language = "en" } = {}) {
   const kind = lead ? "lead-story" : "story";
   const zh = language === "zh-CN";
@@ -40,6 +56,7 @@ function renderStory(story, { lead = false, language = "en" } = {}) {
     <p class="why"><span>${zh ? "开发者影响" : "Why it matters"}</span>${escapeHtml(story.whyItMatters)}</p>
     ${story.caveat ? `<p class="why"><span>${zh ? "限制与未知" : "Limits and unknowns"}</span>${escapeHtml(story.caveat)}</p>` : ""}
     <p class="sources">${renderSources(story, language)}</p>
+    ${renderEvidence(story, language)}
     ${story.sourceMaterial?.status === "fallback" ? `<p class="material-note">${zh ? "本条根据来源订阅摘要编写；未能获取原文。" : "Based on a feed summary · Original article unavailable."}</p>` : ""}
   </article>`;
 }
@@ -114,8 +131,17 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
     .masthead h1 { font: 900 clamp(2.6rem, 8vw, 6.7rem)/.82 Georgia, "Times New Roman", serif; letter-spacing: -.07em; margin: 0; text-transform: uppercase; }
     .deck { border-bottom: 1px solid var(--rule); font-size: clamp(1rem, 2vw, 1.35rem); font-style: italic; line-height: 1.25; margin: 0; padding: 9px 0 11px; text-align: center; }
     .publication-note { color: #655e53; font: .75rem/1.5 Arial, sans-serif; margin: 10px 0 0; text-align: center; }
-    html[lang="zh-CN"] .masthead h1 { line-height: 1.08; letter-spacing: -.035em; }
+    html[lang="zh-CN"] .masthead h1 { line-height: 1.08; letter-spacing: -.035em; text-wrap: balance; }
     html[lang="zh-CN"] .lead-story h2, html[lang="zh-CN"] .story h2 { line-height: 1.2; }
+    .evidence { grid-column: 1 / -1; min-width: 0; margin-top: 14px; border-top: 1px solid #918879; font: .88rem/1.6 Arial, sans-serif; overflow-wrap: anywhere; }
+    .evidence summary { cursor: pointer; padding: 12px 0; min-height: 44px; font-weight: 700; }
+    .evidence summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    .evidence-block { border-top: 1px solid #c7beaf; padding: 12px 0; }
+    .evidence h3 { font-size: .85rem; }
+    .evidence h3 span { color: #7d2720; font-size: .75rem; margin-left: 8px; }
+    .evidence figure { margin: 12px 0 0; }
+    .evidence blockquote { border-left: 2px solid var(--accent); margin: 0; padding: 4px 12px; white-space: pre-wrap; }
+    .evidence figcaption { color: #655e53; font-size: .7rem; margin: 6px 0 0; }
     .material-note { color: #655e53; font: .75rem/1.5 Arial, sans-serif; margin: 8px 0; }
     .front-page { border-bottom: 2px solid var(--rule); padding: 22px 0; }
     .lead-story { column-gap: 34px; display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(190px, .65fr); }

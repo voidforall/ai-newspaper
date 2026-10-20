@@ -1,3 +1,4 @@
+import { attachEvidence } from "./story-evidence.js";
 import { fetchWithRetry } from "./http.js";
 import { fallbackSelection, limitSelection, mergeDuplicateCandidates } from "./editorial-policy.js";
 
@@ -11,7 +12,7 @@ function extractOutputText(response) {
 }
 
 async function requestAiJson(prompt, environment, { run, stage } = {}) {
-  const call = { stage, promptVersion: `${stage}-v1`, status: "failed", model: environment.OPENAI_MODEL };
+  const call = { stage, promptVersion: stage === "editing" ? "editorial-v2" : `${stage}-v1`, status: "failed", model: environment.OPENAI_MODEL };
   run?.modelCalls.push(call);
   const started = Date.now();
   try {
@@ -115,8 +116,8 @@ export async function editIssueWithAi(issue, articles = [], environment = proces
     ? `Write for ${policy.audience} in ${policy.language === "zh-CN" ? "Simplified Chinese" : "English"}. Keep the whole edition within ${policy.maxCharacters ?? 2200} characters for a ${policy.readingMinutes ?? 5}-minute reading target. Prefer 5-8 useful stories when available, but never pad this selection. For a paper, state the reported result and evaluation setting; put its limits or missing independent validation in caveat. For a release, state what is actually available and its documented compatibility/migration constraints; explicitly say when these are unknown. For news, separate official claims from established facts and explain a concrete developer consequence. Write a specific caveat for every story. HN points and popularity do not explain impact. Keep summaries around 80-160 Chinese characters, and impact/caveat sentences short. Policy: ${JSON.stringify(policy)}.`
     : "Write a concise edition in English.";
   const prompt = `You are the editor of a concise daily newspaper. Return JSON only with this exact shape:
-{"editionTitle":"specific concise edition name","editorNote":"one paragraph","stories":[{"articleId":"string","headline":"string","summary":"1-2 sentences","whyItMatters":"one sentence","caveat":"documented limitation or explicit unknown","category":"string"}]}
-Use only facts supplied below. ` +
+{"editionTitle":"specific concise edition name","editorNote":"one paragraph","stories":[{"articleId":"string","headline":"string","summary":"1-2 sentences","whyItMatters":"one sentence","caveat":"documented limitation or explicit unknown","category":"string","evidence":[{"id":"e1","quote":"exact short substring of sourceText"}],"attribution":{"headline":{"kind":"vendor-claim","evidenceIds":["e1"]},"summary":{"kind":"vendor-claim","evidenceIds":["e1"]},"whyItMatters":{"kind":"editorial-judgment","evidenceIds":[]},"caveat":{"kind":"unknown","evidenceIds":[]}}}]}
+Use only facts supplied below. Each story must have 1-6 verbatim sourceText excerpts, each 20-240 characters and at most 480 characters combined. Never invent, translate or normalize a quotation. Reference only its own evidence IDs. Attribute every headline, summary, impact and caveat block: source-statement (reported source facts), vendor-claim (vendor/authors claiming their own result, including papers), community-report (community experience), editorial-judgment (your interpretation), or unknown (information absent from supplied material). Headline and summary require source evidence; all factual blocks require evidence. Unknown has no evidence. Use only excerpts actually referenced. For feed-summary, quote that feed and do not imply original-source inspection. Check consistency across all blocks: a limitation may not say a figure/feature is unknown when another block states it as known. Remove unsupported conclusions. ` +
 `${treatment}\n` +
 `Treat sourceText as reported source material: write a precise digest, identify the material consequence, and do not infer missing facts. sourceMaterial declares where the text came from: if it is a feed-summary fallback, do not imply you inspected the original or invent details omitted from the feed. If truncated, do not imply the entire source was reviewed. The editionTitle must be specific to the day's lead theme, not a generic masthead, date, or slogan. Keep every articleId exactly once. Set category to exactly one of: Technology, Business, Ideas. Do not add facts, sources, or URLs.\n${JSON.stringify(brief)}`;
 
@@ -141,15 +142,24 @@ Use only facts supplied below. ` +
       if (missingCaveat || wrongLanguage || text.join("").length > (policy.maxCharacters ?? 2200)) return fallback("failed", "editorial-policy-not-met");
     }
 
+    const materialById = new Map(brief.map((material) => [material.articleId, material]));
+    const evidenceById = new Map();
+    try {
+      for (const edit of edited.stories) evidenceById.set(edit.articleId, attachEvidence(edit, materialById.get(edit.articleId)));
+    } catch {
+      return fallback("failed", "invalid-evidence");
+    }
+
     return {
       ...issue,
+      evidenceVersion: 1,
       status: "draft",
-      editorial: { method: "ai", status: "complete", model, editedAt: new Date().toISOString(), promptVersion: "editorial-v1", ...(policy ? { policyVersion: policy.version } : {}) },
+      editorial: { method: "ai", status: "complete", model, editedAt: new Date().toISOString(), promptVersion: "editorial-v2", ...(policy ? { policyVersion: policy.version } : {}) },
       ...(validEditionTitle(edited.editionTitle) ? { editionTitle: edited.editionTitle.trim() } : {}),
       editorNote: edited.editorNote,
       stories: issue.stories.map((story) => {
         const edit = edits.get(story.articleIds[0]);
-        return edit ? { ...story, headline: edit.headline, summary: edit.summary, whyItMatters: edit.whyItMatters, category: edit.category, ...(typeof edit.caveat === "string" ? { caveat: edit.caveat } : {}) } : story;
+        return edit ? { ...story, ...evidenceById.get(edit.articleId), headline: edit.headline, summary: edit.summary, whyItMatters: edit.whyItMatters, category: edit.category, ...(typeof edit.caveat === "string" ? { caveat: edit.caveat } : {}) } : story;
       })
     };
   } catch (error) {

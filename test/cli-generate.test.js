@@ -60,6 +60,18 @@ async function newsroom(t, mode = "completed") {
           if (${JSON.stringify(mode)} === 'mixed-language') data.stories[0].summary = 'The maintainers released a stable SDK supporting batched operations. Existing applications need to inspect their deployed version before migrating. 中文';
           if (${JSON.stringify(mode)} === 'oversized') data.stories[0].summary = '这是过长的实现说明，不能作为五分钟日报。'.repeat(200);
         }
+        if (!selection) {
+          const feedOnly = ${JSON.stringify(mode)} === 'feed-fallback';
+          data.stories[0].evidence = [{id:'e1',quote:feedOnly ? 'The official release introduces a stable API for batched operations.' : 'The new API supports batched operations; existing users must check their deployed version before migrating.'}];
+          data.stories[0].attribution = {
+            headline:{kind:'vendor-claim',evidenceIds:['e1']},
+            summary:{kind:'vendor-claim',evidenceIds:['e1']},
+            whyItMatters:{kind:'editorial-judgment',evidenceIds:[]},
+            ...(data.stories[0].caveat ? {caveat:{kind:'unknown',evidenceIds:[]}} : {})
+          };
+          if (${JSON.stringify(mode)} === 'fabricated-quote') data.stories[0].evidence[0].quote = 'The SDK doubles throughput in every deployed production application.';
+          if (${JSON.stringify(mode)} === 'missing-evidence-id') data.stories[0].attribution.summary.evidenceIds = ['e9'];
+        }
         if (${JSON.stringify(mode)} === 'invalid-edit' && !selection) data.stories.push({...data.stories[0]});
         return new Response(JSON.stringify({status:'completed',model:'fixture-model',output:[{type:'message',content:[{type:'output_text',text:JSON.stringify(data)}]}],usage:{input_tokens:120,output_tokens:80,total_tokens:200}}));
       }
@@ -98,6 +110,10 @@ test("completed AI editing publishes once, records usage, and cannot overwrite i
   assert.equal(issue.editorial.method, "ai");
   assert.equal(issue.editorial.status, "complete");
   assert.equal(issue.editorial.model, "fixture-model");
+  assert.equal(issue.evidenceVersion, 1);
+  assert.equal(issue.stories[0].evidence[0].url, "https://example.com/launch");
+  assert.ok(issue.stories[0].evidence[0].location.start >= 0);
+  assert.equal(issue.stories[0].attribution.summary.kind, "vendor-claim");
   assert.equal(issue.stories[0].sourceMaterial.publishedAt, "2026-10-19T08:00:00.000Z");
   assert.ok(issue.stories[0].sourceMaterial.fetchedAt);
   assert.match(await readFile(join(directory, "public", "editions", issue.id, "index.html"), "utf8"), /A documented SDK arrives/);
@@ -194,5 +210,16 @@ test("wrong-language, missing-caveat and over-budget AI output remain drafts", a
     assert.deepEqual(await readdir(join(directory, "issues")), ["2026-10-18-ai-builder.json"]);
     const draft = JSON.parse(await readFile(join(directory, "drafts", "2026-10-19-ai-builder.json")));
     assert.equal(draft.editorial.reason, "editorial-policy-not-met");
+  }
+});
+
+
+test("fabricated excerpts and nonexistent evidence IDs block publication through the real CLI", async (t) => {
+  for (const mode of ["fabricated-quote", "missing-evidence-id"]) {
+    const { directory, args, environment } = await newsroom(t, mode);
+    await assert.rejects(run(process.execPath, args, { cwd: directory, env: { ...environment, OPENAI_API_KEY: "fixture-key", OPENAI_MODEL: "fixture-model" } }), (error) => error.code === 2);
+    assert.deepEqual(await readdir(join(directory, "issues")), ["2026-10-18-ai-builder.json"]);
+    const draft = JSON.parse(await readFile(join(directory, "drafts", "2026-10-19-ai-builder.json")));
+    assert.equal(draft.editorial.reason, "invalid-evidence");
   }
 });
