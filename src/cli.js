@@ -42,6 +42,11 @@ function editionId(date, recipe) {
   return `${date}-${editionSlug(recipe)}`;
 }
 
+function sourceWindow() {
+  const date = argumentValue("date");
+  return date ? { date } : { since: new Date(Date.now() - 86_400_000).toISOString(), until: new Date().toISOString() };
+}
+
 async function writeEdition(issue, { navigation, output = outputDirectory } = {}) {
   const id = issue.id ?? issue.date;
   const htmlPath = join(output, "editions", id, "index.html");
@@ -100,15 +105,18 @@ async function generate() {
     } catch (error) {
       if (error.code !== "ENOENT") throw error;
     }
-    const articles = await fetchConfiguredArticles(sources, { date: argumentValue("date"), sourceReport: report.sources, run: report });
-    const selectedArticles = await selectArticlesWithAi(articles, process.env, recipe.maxStories, { run: report });
+    const timeWindow = sourceWindow();
+    report.timeWindow = timeWindow;
+    const articles = await fetchConfiguredArticles(sources, { ...timeWindow, sourceReport: report.sources, run: report });
+    report.policyVersion = recipe.editorialPolicy?.version;
+    const selectedArticles = await selectArticlesWithAi(articles, process.env, recipe.maxStories, { run: report, policy: recipe.editorialPolicy });
     const investigatedArticles = await investigateArticles(selectedArticles);
     report.selected = selectedArticles.length;
     report.extracted = investigatedArticles.filter((article) => article.investigation?.status === "complete").length;
     const usableArticles = investigatedArticles.filter(hasEditorialMaterial);
     report.materials = investigatedArticles.map(({ id: articleId, investigation, publishedAt, fetchedAt }) => ({ articleId, ...investigation, publishedAt, fetchedAt }));
     report.usable = usableArticles.length;
-    issue = await editIssueWithAi(createIssue({ date, id, articles: usableArticles, maxStories: recipe.maxStories, recipe, sources }), usableArticles, process.env, { run: report });
+    issue = await editIssueWithAi(createIssue({ date, id, articles: usableArticles, maxStories: recipe.maxStories, recipe, sources }), usableArticles, process.env, { run: report, policy: recipe.editorialPolicy });
     const errors = validateIssue(issue);
     const missingRequired = sources.some((source) => source.required && !report.sources.some((entry) => entry.id === source.id && entry.status === "success"));
     if (issue.editorial.status !== "complete" || errors.length || missingRequired) {
@@ -158,8 +166,8 @@ async function saveJson(path, value, { exclusive = false } = {}) {
 async function research() {
   const { recipe, sources } = await loadEditionRecipe(argumentValue("recipe"), { recipeFile: argumentValue("recipe-file") });
   const date = issueDate();
-  const articles = await fetchConfiguredArticles(sources, { date: argumentValue("date") });
-  const selectedArticles = await selectArticlesWithAi(articles, process.env, recipe.maxStories);
+  const articles = await fetchConfiguredArticles(sources, sourceWindow());
+  const selectedArticles = await selectArticlesWithAi(articles, process.env, recipe.maxStories, { policy: recipe.editorialPolicy });
   const investigatedArticles = await investigateArticles(selectedArticles);
   const path = join(researchDirectory, `${editionId(date, recipe)}.json`);
   await mkdir(dirname(path), { recursive: true });
@@ -175,8 +183,8 @@ async function validateRecipe() {
 async function preview() {
   const { recipe, sources } = await loadEditionRecipe(argumentValue("recipe"), { recipeFile: argumentValue("recipe-file") });
   const date = issueDate();
-  const articles = await fetchConfiguredArticles(sources, { date: argumentValue("date") });
-  const selectedArticles = await selectArticlesWithAi(articles, process.env, recipe.maxStories);
+  const articles = await fetchConfiguredArticles(sources, sourceWindow());
+  const selectedArticles = await selectArticlesWithAi(articles, process.env, recipe.maxStories, { policy: recipe.editorialPolicy });
   const path = join(researchDirectory, `${editionId(date, recipe)}-preview.json`);
   await mkdir(dirname(path), { recursive: true });
   const report = sources.map((source) => ({ id: source.id, type: source.type, candidates: articles.filter((article) => article.sourceId === source.id).length, selected: selectedArticles.filter((article) => article.sourceId === source.id).length }));

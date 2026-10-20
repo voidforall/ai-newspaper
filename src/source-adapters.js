@@ -18,9 +18,15 @@ export async function fetchConfiguredArticles(sources, options = {}) {
     options.sourceReport?.push(report);
     try {
       const articles = await adapter({ ...options, source, sourceResult: report });
-      if (report.status === "pending") report.status = articles.length ? "success" : "empty";
-      report.candidates = articles.length;
-      return articles;
+      const eligible = articles.filter((article) => {
+        if (!article.publishedAt || (!options.since && !options.until)) return true;
+        const timestamp = Date.parse(article.publishedAt);
+        return Number.isFinite(timestamp) && (!options.since || timestamp >= Date.parse(options.since)) && (!options.until || timestamp <= Date.parse(options.until));
+      });
+      if (report.status === "pending") report.status = eligible.length ? "success" : "empty";
+      report.fetched = articles.length;
+      report.candidates = eligible.length;
+      return eligible.map((article) => ({ ...article, sourceRole: source.role ?? "unknown", ...(source.kind ? { kind: source.kind } : {}) }));
     } catch {
       report.status = "failed";
       report.reason = "source-request-failed";

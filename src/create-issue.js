@@ -1,3 +1,5 @@
+import { mergeDuplicateCandidates } from "./editorial-policy.js";
+
 function categoryFor(article) {
   const text = `${article.title} ${article.rawSummary ?? ""}`.toLowerCase();
   if (/ai|model|software|database|program|computer|security/.test(text)) return "Technology";
@@ -7,15 +9,6 @@ function categoryFor(article) {
 
 function sourceNameFor(article) {
   return article.sourceLinks?.find((link) => link.name !== "Original source")?.name ?? "the source desk";
-}
-
-function uniqueByUrl(articles) {
-  const highestScored = new Map();
-  for (const article of articles) {
-    const existing = highestScored.get(article.url);
-    if (!existing || article.score > existing.score) highestScored.set(article.url, article);
-  }
-  return [...highestScored.values()];
 }
 
 function storyFrom(article) {
@@ -29,7 +22,9 @@ function storyFrom(article) {
         ? "It records a versioned change that developers can inspect directly."
         : `It adds a direct record from ${sourceName} to the edition.`;
   return {
-    articleIds: [article.id],
+    articleIds: article.articleIds ?? [article.id],
+    kind: article.kind ?? "news",
+    ...(article.topic ? { topic: article.topic } : {}),
     headline: article.title,
     summary: article.rawSummary || "Read the discussion and original source.",
     category: categoryFor(article),
@@ -85,7 +80,7 @@ function editorNoteFor(selected, recipe) {
 }
 
 export function createIssue({ date, articles, editionTitle, id = date, maxStories = 10, recipe, sources }) {
-  const selected = uniqueByUrl(articles)
+  const selected = mergeDuplicateCandidates(articles)
     .slice(0, maxStories);
 
   return {
@@ -94,6 +89,7 @@ export function createIssue({ date, articles, editionTitle, id = date, maxStorie
     editorial: { method: "fallback", status: "unavailable", reason: "not-edited" },
     id,
     date,
+    ...(recipe?.editorialPolicy ? { language: recipe.editorialPolicy.language, policyVersion: recipe.editorialPolicy.version } : {}),
     editionTitle: editionTitle?.trim() || editionTitleFor(selected),
     editorNote: editorNoteFor(selected, recipe),
     stories: selected.map(storyFrom),

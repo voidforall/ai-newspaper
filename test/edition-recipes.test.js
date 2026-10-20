@@ -54,6 +54,17 @@ test("loads the configured mixed-source AI briefing recipe", async () => {
   assert.deepEqual(sources.map((source) => source.adapter), ["hacker-news", "rss", "github-releases"]);
 });
 
+test("the default desk is the bounded Chinese AI Builder edition with primary and technical sources", async () => {
+  const { recipe, sources } = await loadEditionRecipe();
+  assert.equal(recipe.id, "ai-builder");
+  assert.equal(recipe.maxStories, 8);
+  assert.equal(recipe.editorialPolicy.language, "zh-CN");
+  assert.equal(recipe.editorialPolicy.readingMinutes, 5);
+  assert.ok(sources.some((source) => source.role === "primary" && source.kind === "release"));
+  assert.ok(sources.some((source) => source.role === "primary" && source.kind === "paper"));
+  assert.ok(sources.some((source) => source.role === "analysis"));
+});
+
 test("loads the configured agent-research policy recipe", async () => {
   const { sources } = await loadEditionRecipe("ai-policy-watch");
   assert.deepEqual(sources.map((source) => source.adapter), ["hacker-news", "agent-research"]);

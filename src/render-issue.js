@@ -7,10 +7,10 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
-function renderSources(story) {
+function renderSources(story, language) {
   return story.sourceLinks
     .map((source) => isSafeUrl(source.url)
-      ? `<a href="${escapeHtml(source.url)}">${escapeHtml(source.name)}</a>`
+      ? `<a href="${escapeHtml(source.url)}">${escapeHtml(language === "zh-CN" && source.name === "Original source" ? "原文" : source.name)}</a>`
       : `<span>${escapeHtml(source.name)}</span>`)
     .join(" · ");
 }
@@ -23,40 +23,42 @@ function isSafeUrl(value) {
   }
 }
 
-function displayCategory(category) {
+function displayCategory(category, language = "en") {
   const normalized = String(category).toLowerCase();
-  if (/tech|ai|software|security|science/.test(normalized)) return "Technology";
-  if (/business|market|economy|company|finance/.test(normalized)) return "Business";
-  return "Ideas";
+  const name = /tech|ai|software|security|science/.test(normalized) ? "Technology" : /business|market|economy|company|finance/.test(normalized) ? "Business" : "Ideas";
+  return language === "zh-CN" ? { Technology: "技术与产品", Business: "产业动态", Ideas: "观点与实践" }[name] : name;
 }
 
-function renderStory(story, { lead = false } = {}) {
+function renderStory(story, { lead = false, language = "en" } = {}) {
   const kind = lead ? "lead-story" : "story";
+  const zh = language === "zh-CN";
+  const kicker = zh ? { paper: "研究", release: "版本更新", news: "动态" }[story.kind] ?? displayCategory(story.category, language) : displayCategory(story.category);
   return `<article class="${kind}">
-    <p class="kicker">${escapeHtml(displayCategory(story.category))}</p>
+    <p class="kicker">${escapeHtml(kicker)}</p>
     <h2>${escapeHtml(story.headline)}</h2>
     <p class="summary">${escapeHtml(story.summary)}</p>
-    <p class="why"><span>Why it matters</span>${escapeHtml(story.whyItMatters)}</p>
-    <p class="sources">${renderSources(story)}</p>
-    ${story.sourceMaterial?.status === "fallback" ? '<p class="material-note">Based on a feed summary · Original article unavailable.</p>' : ""}
+    <p class="why"><span>${zh ? "开发者影响" : "Why it matters"}</span>${escapeHtml(story.whyItMatters)}</p>
+    ${story.caveat ? `<p class="why"><span>${zh ? "限制与未知" : "Limits and unknowns"}</span>${escapeHtml(story.caveat)}</p>` : ""}
+    <p class="sources">${renderSources(story, language)}</p>
+    ${story.sourceMaterial?.status === "fallback" ? `<p class="material-note">${zh ? "本条根据来源订阅摘要编写；未能获取原文。" : "Based on a feed summary · Original article unavailable."}</p>` : ""}
   </article>`;
 }
 
-function groupStories(stories) {
+function groupStories(stories, language) {
   return stories.reduce((groups, story) => {
-    const category = displayCategory(story.category);
+    const category = displayCategory(story.category, language);
     const group = groups.get(category) ?? [];
     group.push(story);
-    groups.set(story.category, group);
+    groups.set(category, group);
     return groups;
   }, new Map());
 }
 
-function renderSections(stories) {
-  return [...groupStories(stories).entries()]
+function renderSections(stories, language) {
+  return [...groupStories(stories, language).entries()]
     .map(([category, categoryStories]) => `<section class="news-section">
       <h2 class="section-title">${escapeHtml(category)}</h2>
-      ${categoryStories.map((story) => renderStory(story)).join("\n")}
+      ${categoryStories.map((story) => renderStory(story, { language })).join("\n")}
     </section>`)
     .join("\n");
 }
@@ -85,17 +87,19 @@ function renderEditionNavigation(navigation) {
 
 export function renderIssue(issue, { template = issue.template ?? "standard", navigation } = {}) {
   const selectedTemplate = resolveTemplate(template);
+  const language = issue.language ?? "en";
+  const zh = language === "zh-CN";
   const [lead, ...remainingStories] = issue.stories;
   const masthead = issue.editionTitle.toUpperCase();
-  const leadMarkup = lead ? renderStory(lead, { lead: true }) : "<p class=\"empty-edition\">No stories made this edition.</p>";
-  const sections = renderSections(remainingStories);
+  const leadMarkup = lead ? renderStory(lead, { lead: true, language }) : `<p class="empty-edition">${zh ? "本期暂无符合标准的新闻。" : "No stories made this edition."}</p>`;
+  const sections = renderSections(remainingStories, language);
   const publicationNote = issue.schemaVersion === undefined
     ? "Archived edition · Editorial review was not tracked for this issue."
-    : issue.status === "draft" ? "Draft · Not published."
-      : issue.editorial?.method === "manual" ? "Editor-reviewed edition." : "AI-edited edition.";
+    : issue.status === "draft" ? zh ? "草稿 · 尚未发布" : "Draft · Not published."
+      : issue.editorial?.method === "manual" ? zh ? "编辑审阅版" : "Editor-reviewed edition." : zh ? "AI 编辑版" : "AI-edited edition.";
 
   return `<!doctype html>
-<html lang="en">
+<html lang="${escapeHtml(language)}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -110,6 +114,8 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
     .masthead h1 { font: 900 clamp(2.6rem, 8vw, 6.7rem)/.82 Georgia, "Times New Roman", serif; letter-spacing: -.07em; margin: 0; text-transform: uppercase; }
     .deck { border-bottom: 1px solid var(--rule); font-size: clamp(1rem, 2vw, 1.35rem); font-style: italic; line-height: 1.25; margin: 0; padding: 9px 0 11px; text-align: center; }
     .publication-note { color: #655e53; font: .75rem/1.5 Arial, sans-serif; margin: 10px 0 0; text-align: center; }
+    html[lang="zh-CN"] .masthead h1 { line-height: 1.08; letter-spacing: -.035em; }
+    html[lang="zh-CN"] .lead-story h2, html[lang="zh-CN"] .story h2 { line-height: 1.2; }
     .material-note { color: #655e53; font: .75rem/1.5 Arial, sans-serif; margin: 8px 0; }
     .front-page { border-bottom: 2px solid var(--rule); padding: 22px 0; }
     .lead-story { column-gap: 34px; display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(190px, .65fr); }
@@ -180,9 +186,9 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
 </head>
 <body>
   <main class="newspaper template-${selectedTemplate}">
-    <div class="edition-line"><span>${escapeHtml(issue.date)}</span><span>Daily Edition</span><span>Independent Daily Edition</span></div>
+    <div class="edition-line"><span>${escapeHtml(issue.date)}</span><span>${zh ? "每日刊" : "Daily Edition"}</span><span>${zh ? "独立日报" : "Independent Daily Edition"}</span></div>
     <header class="masthead"><h1>${escapeHtml(masthead)}</h1></header>
-    <p class="deck"><strong>TODAY&#039;S EDITION</strong> — ${escapeHtml(issue.editorNote)}</p>
+    <p class="deck"><strong>${zh ? "本期导读" : "TODAY&#039;S EDITION"}</strong> — ${escapeHtml(issue.editorNote)}</p>
     <p class="publication-note">${escapeHtml(publicationNote)}</p>
     <section class="front-page" aria-label="Lead story">${leadMarkup}</section>
     <div class="newspaper-grid">${sections}</div>

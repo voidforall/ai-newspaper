@@ -18,6 +18,8 @@ function assertCatalog(catalog) {
       throw new Error("Each catalog source must define id, name, type, and adapter.");
     }
     if (sourceIds.has(source.id)) throw new Error(`Source catalog contains a duplicate source id: ${source.id}`);
+    if (source.role !== undefined && !["primary", "analysis", "community", "unknown"].includes(source.role)) throw new Error(`Source ${source.id} has an unsupported editorial role.`);
+    if (source.kind !== undefined && !["paper", "release", "news"].includes(source.kind)) throw new Error(`Source ${source.id} has an unsupported content kind.`);
     sourceIds.add(source.id);
   }
 }
@@ -30,6 +32,13 @@ function assertRecipe(recipe) {
   if (new Set(recipe.sources).size !== recipe.sources.length) throw new Error(`Recipe ${recipe.id} contains duplicate source ids.`);
   if (recipe.maxStories !== undefined && (!Number.isSafeInteger(recipe.maxStories) || recipe.maxStories < 1)) {
     throw new Error(`Recipe ${recipe.id} must define a positive maxStories value.`);
+  }
+  const policy = recipe.editorialPolicy;
+  if (policy !== undefined) {
+    if (!isNonEmptyString(policy?.version) || !isNonEmptyString(policy?.audience) || !["en", "zh-CN"].includes(policy?.language)) throw new Error(`Recipe ${recipe.id} needs a version, audience and supported editorial language.`);
+    const maximum = recipe.maxStories ?? defaultMaxStories;
+    if (maximum > 8 || ![policy.maxPerSource, policy.maxPerTopic].every((limit) => Number.isSafeInteger(limit) && limit > 0 && limit <= maximum)) throw new Error(`Recipe ${recipe.id} needs an eight-story maximum and valid source/topic caps.`);
+    if ([policy.readingMinutes, policy.maxCharacters].some((value) => value !== undefined && (!Number.isSafeInteger(value) || value <= 0))) throw new Error(`Recipe ${recipe.id} needs positive editorial reading and character budgets.`);
   }
 }
 

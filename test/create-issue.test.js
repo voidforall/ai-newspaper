@@ -31,9 +31,10 @@ test("creates an attributable issue from normalized HN articles, retaining the s
   assert.equal(issue.stories[0].whyItMatters, "The Hacker News community gave this story 121 points.");
   assert.equal(issue.stories.length, 2);
   assert.equal(issue.stories[0].headline, "Launch post on HN");
-  assert.deepEqual(issue.stories[0].articleIds, ["hn-2"]);
+  assert.deepEqual(issue.stories[0].articleIds, ["hn-2", "hn-1"]);
   assert.deepEqual(issue.stories[0].sourceLinks, [
     { name: "Hacker News", url: "https://news.ycombinator.com/item?id=2" },
-    { name: "Original source", url: "https://example.com/launch" }
+    { name: "Original source", url: "https://example.com/launch" },
+    { name: "Hacker News", url: "https://news.ycombinator.com/item?id=1" }
   ]);
 });

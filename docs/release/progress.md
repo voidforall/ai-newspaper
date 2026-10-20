@@ -59,3 +59,11 @@ The pre-change extractor was replayed against original URLs from the October 19 
 ## Implementation frontier
 
 Ticket #1 is complete. Ticket #2 has its code and deterministic fault checks complete but remains open for actual configured-model acceptance. Ticket #3 is implemented and verified locally. Next: #4 AI Builder editorial policy and #6 direct reader experience, then evidence and distribution. No deployment, real API run or seven-day candidate acceptance is being implied by these local checks.
+
+## AI Builder editorial policy — ticket #4
+
+- The default recipe now targets Chinese-speaking AI application builders, with a maximum of eight stories, three per source and three per topic, and a 2,200-character/five-minute editorial budget. Primary release/research sources are distinguished from analysis and community discovery.
+- Canonical URLs merge before selection while retaining meaningful query parameters and all attribution links. Non-AI selection round-robins sources and compares scores only within each source. Both paths enforce source/topic limits and may select fewer than five stories or none.
+- Source retrieval respects either the explicit edition date or a rolling 24-hour window. The real October 20 preview selected five items (one release, three papers and one AI tooling story); irrelevant generic software was excluded after inspecting the initial preview. This is a source-selection check, not a model-quality claim.
+- Editing instructions distinguish paper results/settings, release availability/compatibility, and news consequences. Every policy story requires a caveat; English output, token Chinese suffixes, untranslated headlines, omitted caveats and oversized editions remain drafts. Reader labels and article kinds are localized.
+- Standards and Spec follow-up reviews found no remaining blocking findings. Full suite: 52/52 pass; all 97 published editions rebuild; git diff whitespace check passes. Real-provider wording and seven-day quality review remain open in #2/#9.

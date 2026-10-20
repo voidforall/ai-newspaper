@@ -1,6 +1,21 @@
 {
-  "defaultRecipeId": "hacker-news",
+  "defaultRecipeId": "ai-builder",
   "recipes": [
+    {
+      "id": "ai-builder",
+      "name": "AI Builder 日报",
+      "sources": ["transformers-releases", "arxiv-ai", "simon-willison", "hacker-news"],
+      "maxStories": 8,
+      "editorialPolicy": {
+        "version": "ai-builder-v1",
+        "language": "zh-CN",
+        "audience": "正在构建和维护 AI 应用的开发者",
+        "maxPerSource": 3,
+        "maxPerTopic": 3,
+        "readingMinutes": 5,
+        "maxCharacters": 2200
+      }
+    },
     {
       "id": "hacker-news",
       "name": "Hacker News",

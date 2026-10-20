@@ -11,6 +11,7 @@ const run = promisify(execFile);
 const cli = join(dirname(fileURLToPath(import.meta.url)), "..", "src", "cli.js");
 
 async function newsroom(t, mode = "completed") {
+  const policyMode = ["ai-builder", "wrong-language", "untranslated-title", "mixed-language", "missing-caveat", "oversized"].includes(mode);
   const directory = await mkdtemp(join(tmpdir(), "ai-newspaper-generation-"));
   t.after(() => rm(directory, { recursive: true, force: true }));
   await mkdir(join(directory, "issues"));
@@ -24,8 +25,9 @@ async function newsroom(t, mode = "completed") {
   };
   await writeFile(join(directory, "issues", `${oldIssue.id}.json`), JSON.stringify(oldIssue));
   await writeFile(join(directory, "recipe.json"), JSON.stringify({
-    recipe: { id: "ai-builder", name: "AI Builder", sources: ["launches"], maxStories: 8 },
-    sources: [{ id: "launches", name: "Official launches", type: "rss", adapter: "rss", feedUrl: "https://example.com/feed.xml" }]
+    recipe: { id: "ai-builder", name: "AI Builder", sources: ["launches"], maxStories: 8,
+      ...(policyMode ? { editorialPolicy: { version: "ai-builder-v1", language: "zh-CN", audience: "AI 应用开发者", maxPerSource: 3, maxPerTopic: 3, maxCharacters: 2200, readingMinutes: 5 } } : {}) },
+    sources: [{ id: "launches", name: "Official launches", type: "rss", adapter: "rss", feedUrl: "https://example.com/feed.xml", ...(policyMode ? { role: "primary", kind: "release" } : {}) }]
   }));
   // Drive the actual CLI with deterministic external HTTP responses, not mocked pipeline internals.
   const preload = join(directory, "http-fixture.mjs");
@@ -42,10 +44,22 @@ async function newsroom(t, mode = "completed") {
         const selection = request.input.includes('articleIds');
         if (!selection) await (await import('node:fs/promises')).writeFile('editorial-input.json', request.input);
         const articleId = 'launches-https-example-com-launch';
-        const data = selection ? {articleIds:[articleId]} : {
+        const data = selection ? {articleIds:[articleId],topics:{[articleId]:'SDK'}} : {
           editionTitle:'A documented SDK arrives', editorNote:'A small release with specific migration implications.',
           stories:[{articleId,headline:'A documented SDK arrives',summary:'The SDK adds a stable API for batched operations. Existing users should check compatibility before migrating.',whyItMatters:'Teams can evaluate the new API against their deployed SDK version.',category:'Technology'}]
         };
+        if (!selection && ${JSON.stringify(policyMode)}) {
+          data.stories[0].caveat = 'Independent evaluation is not supplied.';
+          if (${JSON.stringify(mode)} !== 'wrong-language') {
+            data.editionTitle = '批量接口进入稳定版本';
+            data.editorNote = '本期关注一个已经开放的开发接口，以及迁移前需要核对的兼容条件。';
+            Object.assign(data.stories[0], {headline:'SDK 开放稳定批量接口',summary:'维护者发布了带兼容说明的稳定开发接口，支持批量操作。已有应用在迁移前应先核对当前部署的 SDK 版本，再评估是否采用新接口。',whyItMatters:'团队可以开始验证新接口与现有部署的兼容性。',caveat:'现有材料没有提供独立性能评测。'});
+          }
+          if (${JSON.stringify(mode)} === 'missing-caveat') delete data.stories[0].caveat;
+          if (${JSON.stringify(mode)} === 'untranslated-title') data.stories[0].headline = 'A stable SDK now supports batching';
+          if (${JSON.stringify(mode)} === 'mixed-language') data.stories[0].summary = 'The maintainers released a stable SDK supporting batched operations. Existing applications need to inspect their deployed version before migrating. 中文';
+          if (${JSON.stringify(mode)} === 'oversized') data.stories[0].summary = '这是过长的实现说明，不能作为五分钟日报。'.repeat(200);
+        }
         if (${JSON.stringify(mode)} === 'invalid-edit' && !selection) data.stories.push({...data.stories[0]});
         return new Response(JSON.stringify({status:'completed',model:'fixture-model',output:[{type:'message',content:[{type:'output_text',text:JSON.stringify(data)}]}],usage:{input_tokens:120,output_tokens:80,total_tokens:200}}));
       }
@@ -156,4 +170,29 @@ test("feed-only fallback provenance survives extraction, AI input, publication, 
   assert.match(input, /https:\/\/example.com\/feed.xml/);
   const html = await readFile(join(directory, "public", "editions", issue.id, "index.html"), "utf8");
   assert.match(html, /Based on a feed summary · Original article unavailable/);
+});
+
+test("the Chinese AI Builder edition may publish one useful story with its source and explicit caveat", async (t) => {
+  const { directory, args, environment } = await newsroom(t, "ai-builder");
+  await run(process.execPath, args, { cwd: directory, env: { ...environment, OPENAI_API_KEY: "fixture-key", OPENAI_MODEL: "fixture-model" } });
+  const issue = JSON.parse(await readFile(join(directory, "issues", "2026-10-19-ai-builder.json")));
+  assert.equal(issue.language, "zh-CN");
+  assert.equal(issue.policyVersion, "ai-builder-v1");
+  assert.equal(issue.stories.length, 1);
+  assert.equal(issue.stories[0].kind, "release");
+  assert.match(issue.stories[0].caveat, /没有提供独立性能评测/);
+  const html = await readFile(join(directory, "public", "editions", issue.id, "index.html"), "utf8");
+  assert.match(html, /lang="zh-CN"/);
+  assert.match(html, /限制与未知/);
+  assert.match(html, /SDK 开放稳定批量接口/);
+});
+
+test("wrong-language, missing-caveat and over-budget AI output remain drafts", async (t) => {
+  for (const mode of ["wrong-language", "untranslated-title", "mixed-language", "missing-caveat", "oversized"]) {
+    const { directory, args, environment } = await newsroom(t, mode);
+    await assert.rejects(run(process.execPath, args, { cwd: directory, env: { ...environment, OPENAI_API_KEY: "fixture-key", OPENAI_MODEL: "fixture-model" } }), (error) => error.code === 2);
+    assert.deepEqual(await readdir(join(directory, "issues")), ["2026-10-18-ai-builder.json"]);
+    const draft = JSON.parse(await readFile(join(directory, "drafts", "2026-10-19-ai-builder.json")));
+    assert.equal(draft.editorial.reason, "editorial-policy-not-met");
+  }
 });

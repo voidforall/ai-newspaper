@@ -4,35 +4,42 @@
       "id": "hacker-news",
       "name": "Hacker News",
       "type": "api",
-      "adapter": "hacker-news"
+      "adapter": "hacker-news",
+      "role": "community"
     },
     {
       "id": "simon-willison",
       "name": "Simon Willison",
       "type": "rss",
       "adapter": "rss",
-      "feedUrl": "https://simonwillison.net/atom/everything/"
+      "feedUrl": "https://simonwillison.net/atom/everything/",
+      "role": "analysis"
     },
     {
       "id": "techmeme",
       "name": "Techmeme",
       "type": "rss",
       "adapter": "rss",
-      "feedUrl": "https://www.techmeme.com/feed.xml"
+      "feedUrl": "https://www.techmeme.com/feed.xml",
+      "role": "community"
     },
     {
       "id": "transformers-releases",
       "name": "Transformers releases",
       "type": "api",
       "adapter": "github-releases",
-      "repository": "huggingface/transformers"
+      "repository": "huggingface/transformers",
+      "role": "primary",
+      "kind": "release"
     },
     {
       "id": "arxiv-ai",
       "name": "arXiv · Artificial Intelligence",
       "type": "rss",
       "adapter": "rss",
-      "feedUrl": "https://rss.arxiv.org/rss/cs.AI"
+      "feedUrl": "https://rss.arxiv.org/rss/cs.AI",
+      "role": "primary",
+      "kind": "paper"
     },
     {
       "id": "ai-policy-research",
