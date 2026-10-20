@@ -38,6 +38,7 @@ function renderStory(story, { lead = false } = {}) {
     <p class="summary">${escapeHtml(story.summary)}</p>
     <p class="why"><span>Why it matters</span>${escapeHtml(story.whyItMatters)}</p>
     <p class="sources">${renderSources(story)}</p>
+    ${story.sourceMaterial?.status === "fallback" ? '<p class="material-note">Based on a feed summary · Original article unavailable.</p>' : ""}
   </article>`;
 }
 
@@ -109,6 +110,7 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
     .masthead h1 { font: 900 clamp(2.6rem, 8vw, 6.7rem)/.82 Georgia, "Times New Roman", serif; letter-spacing: -.07em; margin: 0; text-transform: uppercase; }
     .deck { border-bottom: 1px solid var(--rule); font-size: clamp(1rem, 2vw, 1.35rem); font-style: italic; line-height: 1.25; margin: 0; padding: 9px 0 11px; text-align: center; }
     .publication-note { color: #655e53; font: .75rem/1.5 Arial, sans-serif; margin: 10px 0 0; text-align: center; }
+    .material-note { color: #655e53; font: .75rem/1.5 Arial, sans-serif; margin: 8px 0; }
     .front-page { border-bottom: 2px solid var(--rule); padding: 22px 0; }
     .lead-story { column-gap: 34px; display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(190px, .65fr); }
     .lead-story .kicker { grid-column: 1 / -1; }

@@ -28,6 +28,7 @@ test("normalizes attributable Atom feed entries", async () => {
     url: "https://example.com/posts/model",
     publishedAt: "2026-07-19T08:00:00.000Z",
     rawSummary: "A detailed update & practical guide.",
+    material: { kind: "feed-summary", text: "A detailed update & practical guide.", url: "https://example.com/feed.xml" },
     score: 1,
     sourceLinks: [
       { name: "Example Feed", url: "https://example.com/feed.xml" },

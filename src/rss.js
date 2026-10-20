@@ -63,13 +63,15 @@ export async function fetchRssFeed({ source, date, limit = 30, fetchImpl = fetch
     const publishedAt = entryDate(entry);
     const entryId = contentFor(entry, "id") || url;
     if (!title || !url || !publishedAt || !entryId) return undefined;
+    const rawSummary = contentFor(entry, "summary") || contentFor(entry, "description") || contentFor(entry, "content");
     return {
       id: `${source.id}-${identifier(entryId)}`,
       sourceId: source.id,
       title,
       url,
       publishedAt,
-      rawSummary: contentFor(entry, "summary") || contentFor(entry, "description") || contentFor(entry, "content"),
+      rawSummary,
+      material: { kind: "feed-summary", text: rawSummary, url: feedUrl },
       score: Math.max(1, limit - index),
       sourceLinks: [
         { name: source.name, url: feedUrl },

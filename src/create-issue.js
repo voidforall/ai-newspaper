@@ -35,7 +35,15 @@ function storyFrom(article) {
     category: categoryFor(article),
     importance: article.score,
     whyItMatters,
-    sourceLinks: article.sourceLinks
+    sourceLinks: article.sourceLinks,
+    ...(article.investigation ? { sourceMaterial: {
+      status: article.investigation.status,
+      method: article.investigation.method,
+      url: article.investigation.sourceUrl,
+      publishedAt: article.publishedAt,
+      fetchedAt: article.fetchedAt,
+      truncated: article.investigation.truncated ?? false
+    } } : {})
   };
 }
 

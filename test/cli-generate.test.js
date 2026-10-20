@@ -32,13 +32,15 @@ async function newsroom(t, mode = "completed") {
   await writeFile(preload, `
     let calls = 0;
     globalThis.fetch = async (url, options = {}) => {
-      if (String(url) === 'https://example.com/feed.xml') return new Response('<rss><channel><item><title>A useful developer release</title><link>https://example.com/launch</link><pubDate>Mon, 19 Oct 2026 08:00:00 GMT</pubDate><description>A documented developer release with clear limitations.</description></item></channel></rss>');
-      if (String(url) === 'https://example.com/launch') return new Response('<html><body><main><p>The maintainers released a documented SDK with compatibility notes and a stable public API. The new API supports batched operations; existing users must check their deployed version before migrating.</p></main></body></html>', {headers:{'content-type':'text/html'}});
+      if (String(url) === 'https://example.com/feed.xml') return new Response('<rss><channel><item><title>A useful developer release</title><link>https://example.com/launch</link><pubDate>Mon, 19 Oct 2026 08:00:00 GMT</pubDate><description>' + (${JSON.stringify(mode)} === 'feed-fallback' ? 'The official release introduces a stable API for batched operations. The maintainers document a version requirement that existing users must check before migrating.' : 'A documented developer release with clear limitations.') + '</description></item></channel></rss>');
+      if (String(url) === 'https://example.com/launch' && ${JSON.stringify(mode)} === 'feed-fallback') return new Response('unavailable', {status:503});
+      if (String(url) === 'https://example.com/launch') return new Response(${JSON.stringify(mode)} === 'no-material' ? '<html><body><form>Sign in to continue reading. Save your edits before closing the window. Download the application to sign in and subscribe.</form></body></html>' : '<html><body><main><div class="advertisement">Advertisement. Subscribe to everything.</div><div role="dialog">Save your edits? Sign in to continue.</div><p>The maintainers released a documented SDK with compatibility notes and a stable public API. The new API supports batched operations; existing users must check their deployed version before migrating.</p></main></body></html>', {headers:{'content-type':'text/html'}});
       if (String(url) === 'https://api.openai.com/v1/responses') {
         calls++;
         if (${JSON.stringify(mode)} === 'http-failure') return new Response('secret echo must never be logged', {status:503});
         const request = JSON.parse(options.body);
         const selection = request.input.includes('articleIds');
+        if (!selection) await (await import('node:fs/promises')).writeFile('editorial-input.json', request.input);
         const articleId = 'launches-https-example-com-launch';
         const data = selection ? {articleIds:[articleId]} : {
           editionTitle:'A documented SDK arrives', editorNote:'A small release with specific migration implications.',
@@ -82,12 +84,19 @@ test("completed AI editing publishes once, records usage, and cannot overwrite i
   assert.equal(issue.editorial.method, "ai");
   assert.equal(issue.editorial.status, "complete");
   assert.equal(issue.editorial.model, "fixture-model");
+  assert.equal(issue.stories[0].sourceMaterial.publishedAt, "2026-10-19T08:00:00.000Z");
+  assert.ok(issue.stories[0].sourceMaterial.fetchedAt);
   assert.match(await readFile(join(directory, "public", "editions", issue.id, "index.html"), "utf8"), /A documented SDK arrives/);
+  const editorialInput = await readFile(join(directory, "editorial-input.json"), "utf8");
+  assert.doesNotMatch(editorialInput, /Advertisement|Save your edits|Subscribe to everything/);
+  assert.match(editorialInput, /existing users must check their deployed version/);
   const reports = await readdir(join(directory, "runs"));
   assert.equal(reports.length, 1);
   const report = JSON.parse(await readFile(join(directory, "runs", reports[0])));
   assert.equal(report.outcome, "published");
   assert.equal(report.sources[0].status, "success");
+  assert.equal(report.materials[0].publishedAt, "2026-10-19T08:00:00.000Z");
+  assert.ok(report.materials[0].fetchedAt);
   assert.equal(report.modelCalls.length, 2);
   assert.equal(report.modelCalls[1].usage.total_tokens, 200);
   assert.doesNotMatch(JSON.stringify(report), /fixture-key-not-a-real-secret/);
@@ -120,4 +129,31 @@ test("a rendering failure leaves the last complete site and published data uncha
   assert.equal((await readdir(directory)).some((name) => name.startsWith(".public-")), false);
   const draft = JSON.parse(await readFile(join(directory, "drafts", "2026-10-19-ai-builder.json")));
   assert.equal(draft.status, "draft");
+});
+
+test("unusable source material never reaches the AI editor or becomes a publication", async (t) => {
+  const { directory, args, environment } = await newsroom(t, "no-material");
+  const env = { ...environment, OPENAI_API_KEY: "fixture-key-not-a-real-secret", OPENAI_MODEL: "fixture-model" };
+  await assert.rejects(run(process.execPath, args, { cwd: directory, env }), (error) => error.code === 2);
+  assert.deepEqual(await readdir(join(directory, "issues")), ["2026-10-18-ai-builder.json"]);
+  await assert.rejects(readFile(join(directory, "editorial-input.json")), { code: "ENOENT" });
+  const files = await readdir(join(directory, "runs"));
+  const report = JSON.parse(await readFile(join(directory, "runs", files[0])));
+  assert.equal(report.usable, 0);
+});
+
+test("feed-only fallback provenance survives extraction, AI input, publication, and reader rendering", async (t) => {
+  const { directory, args, environment } = await newsroom(t, "feed-fallback");
+  const env = { ...environment, OPENAI_API_KEY: "fixture-key-not-a-real-secret", OPENAI_MODEL: "fixture-model" };
+  await run(process.execPath, args, { cwd: directory, env });
+  const issue = JSON.parse(await readFile(join(directory, "issues", "2026-10-19-ai-builder.json")));
+  assert.equal(issue.stories[0].sourceMaterial.status, "fallback");
+  assert.equal(issue.stories[0].sourceMaterial.method, "feed-summary");
+  assert.equal(issue.stories[0].sourceMaterial.url, "https://example.com/feed.xml");
+  assert.ok(issue.stories[0].sourceMaterial.fetchedAt);
+  const input = await readFile(join(directory, "editorial-input.json"), "utf8");
+  assert.match(input, /"status":"fallback"/);
+  assert.match(input, /https:\/\/example.com\/feed.xml/);
+  const html = await readFile(join(directory, "public", "editions", issue.id, "index.html"), "utf8");
+  assert.match(html, /Based on a feed summary · Original article unavailable/);
 });

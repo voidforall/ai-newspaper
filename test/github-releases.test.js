@@ -25,6 +25,7 @@ test("normalizes public GitHub releases with source attribution", async () => {
     url: "https://github.com/example/project/releases/tag/v1.2.0",
     publishedAt: "2026-07-19T08:00:00.000Z",
     rawSummary: "A useful release with a detailed changelog.",
+    material: { kind: "release-notes", text: "A useful release with a detailed changelog.", url: "https://github.com/example/project/releases/tag/v1.2.0" },
     score: 1,
     sourceLinks: [
       { name: "Example releases", url: "https://github.com/example/project/releases" },

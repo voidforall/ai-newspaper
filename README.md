@@ -4,7 +4,7 @@ A static daily newspaper generated from configurable sources. The first configur
 
 ## Run
 
-Requires Node.js 20+.
+Requires Node.js 22.13+ (or Node.js 24+). Install dependencies with `npm ci` first.
 
 ```sh
 npm test

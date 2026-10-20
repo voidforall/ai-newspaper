@@ -5,7 +5,7 @@ import { createIssue } from "./create-issue.js";
 import { fetchConfiguredArticles } from "./source-adapters.js";
 import { loadEditionRecipe } from "./edition-recipes.js";
 import { editIssueWithAi, selectArticlesWithAi } from "./edit-issue.js";
-import { investigateArticles } from "./investigate-content.js";
+import { hasEditorialMaterial, investigateArticles } from "./investigate-content.js";
 import { renderIssue } from "./render-issue.js";
 import { renderCollection, renderSourceTimeline, sourceFor } from "./render-collection.js";
 import { assertValidIssue, isValidIssueDate, validateIssue } from "./validate-issue.js";
@@ -105,7 +105,10 @@ async function generate() {
     const investigatedArticles = await investigateArticles(selectedArticles);
     report.selected = selectedArticles.length;
     report.extracted = investigatedArticles.filter((article) => article.investigation?.status === "complete").length;
-    issue = await editIssueWithAi(createIssue({ date, id, articles: investigatedArticles, maxStories: recipe.maxStories, recipe, sources }), investigatedArticles, process.env, { run: report });
+    const usableArticles = investigatedArticles.filter(hasEditorialMaterial);
+    report.materials = investigatedArticles.map(({ id: articleId, investigation, publishedAt, fetchedAt }) => ({ articleId, ...investigation, publishedAt, fetchedAt }));
+    report.usable = usableArticles.length;
+    issue = await editIssueWithAi(createIssue({ date, id, articles: usableArticles, maxStories: recipe.maxStories, recipe, sources }), usableArticles, process.env, { run: report });
     const errors = validateIssue(issue);
     const missingRequired = sources.some((source) => source.required && !report.sources.some((entry) => entry.id === source.id && entry.status === "success"));
     if (issue.editorial.status !== "complete" || errors.length || missingRequired) {

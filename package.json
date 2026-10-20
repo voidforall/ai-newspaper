@@ -3,10 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "engines": { "node": "^22.13.0 || >=24.0.0" },
   "scripts": {
     "test": "node --test",
     "research": "node src/cli.js research",
     "build": "node src/cli.js build",
     "generate": "node src/cli.js generate"
+  },
+  "dependencies": {
+    "@mozilla/readability": "0.6.0",
+    "jsdom": "29.1.1"
   }
 }

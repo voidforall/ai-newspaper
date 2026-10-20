@@ -6,6 +6,7 @@ test("normalizes only allowed, attributable research candidates", async () => {
   const requests = [];
   const articles = await fetchAgentResearch({
     source: { id: "policy", name: "Policy Watch", topic: "AI policy", allowedDomains: ["gov.uk"], maxCandidates: 2, maxSearches: 1, maxOutputTokens: 500 },
+    date: "2026-10-19",
     environment: { OPENAI_API_KEY: "key", OPENAI_MODEL: "model" },
     fetchImpl: async (_url, options) => {
       requests.push(JSON.parse(options.body));

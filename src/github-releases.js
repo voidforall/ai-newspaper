@@ -35,6 +35,7 @@ export async function fetchGitHubReleases({ source, date, limit = 30, fetchImpl 
       url: release.html_url,
       publishedAt: new Date(release.published_at).toISOString(),
       rawSummary: release.body ?? "",
+      material: { kind: "release-notes", text: release.body ?? "", url: release.html_url },
       score: Math.max(1, limit - index),
       sourceLinks: [
         { name: source.name, url: `https://github.com/${repository}/releases` },

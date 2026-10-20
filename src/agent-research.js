@@ -72,7 +72,7 @@ export async function fetchAgentResearch({ source, date, environment = process.e
     return candidates.slice(0, maxCandidates).flatMap((candidate, index) => {
       const url = candidateUrl(candidate?.url, source.allowedDomains);
       if (!url || !citations.has(url) || !text(candidate?.title) || !text(candidate?.summary)) return [];
-      return [{ id: `agent-${source.id}-${slug(url)}`, sourceId: source.id, title: candidate.title.trim(), url, publishedAt: date ? `${date}T00:00:00.000Z` : undefined, rawSummary: candidate.summary.trim(), score: maxCandidates - index, sourceLinks: [{ name: source.name, url: `https://${source.allowedDomains[0]}/` }, { name: "Original source", url }] }];
+      return [{ id: `agent-${source.id}-${slug(url)}`, sourceId: source.id, title: candidate.title.trim(), url, publishedAt: undefined, rawSummary: candidate.summary.trim(), score: maxCandidates - index, sourceLinks: [{ name: source.name, url: `https://${source.allowedDomains[0]}/` }, { name: "Original source", url }] }];
     });
   } catch {
     call.reason = "research-request-failed";

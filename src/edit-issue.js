@@ -42,7 +42,7 @@ async function requestAiJson(prompt, environment, { run, stage } = {}) {
   }
 }
 
-function truncateMaterial(text, limit = 4_000) {
+function truncateMaterial(text, limit = 12_000) {
   if (text.length <= limit) return text;
   const boundary = text.lastIndexOf(" ", limit);
   return `${text.slice(0, boundary > 0 ? boundary : limit)}…`;
@@ -53,11 +53,12 @@ function validEditionTitle(value) {
 }
 
 export function createEditorialBrief(issue, articles = []) {
-  const materialById = new Map(articles.map((article) => [article.id, article.content]));
+  const materialById = new Map(articles.map((article) => [article.id, article]));
   return issue.stories.map((story) => ({
     articleId: story.articleIds[0],
     title: story.headline,
-    sourceText: truncateMaterial(materialById.get(story.articleIds[0]) ?? story.summary),
+    sourceText: truncateMaterial(materialById.get(story.articleIds[0])?.content ?? story.summary),
+    ...(story.sourceMaterial ? { sourceMaterial: story.sourceMaterial } : {}),
     category: story.category
   }));
 }
@@ -97,7 +98,7 @@ export async function editIssueWithAi(issue, articles = [], environment = proces
   const prompt = `You are the editor of a concise daily newspaper. Return JSON only with this exact shape:
 {"editionTitle":"3-10 word edition name","editorNote":"one paragraph","stories":[{"articleId":"string","headline":"string","summary":"1-2 sentences","whyItMatters":"one sentence","category":"string"}]}
 Use only facts supplied below. ` +
-`Treat sourceText as reported source material: write a precise digest, identify the material consequence, and do not infer missing facts. The editionTitle must be specific to the day's lead theme, not a generic masthead, date, or slogan. Keep every articleId exactly once. Set category to exactly one of: Technology, Business, Ideas. Do not add facts, sources, or URLs.\n${JSON.stringify(brief)}`;
+`Treat sourceText as reported source material: write a precise digest, identify the material consequence, and do not infer missing facts. sourceMaterial declares where the text came from: if it is a feed-summary fallback, do not imply you inspected the original or invent details omitted from the feed. If truncated, do not imply the entire source was reviewed. The editionTitle must be specific to the day's lead theme, not a generic masthead, date, or slogan. Keep every articleId exactly once. Set category to exactly one of: Technology, Business, Ideas. Do not add facts, sources, or URLs.\n${JSON.stringify(brief)}`;
 
   try {
     const edited = await requestAiJson(prompt, environment, { run, stage: "editing" });

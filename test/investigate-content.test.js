@@ -58,3 +58,73 @@ test("keeps full investigated material out of the issue but passes it to the AI 
   assert.equal(brief[0].sourceText, "First reported fact. Second reported fact.");
   assert.equal("content" in issue.stories[0], false);
 });
+
+test("editorial input retains later source limitations beyond the old 4,000-character cutoff", () => {
+  const content = `A documented release. ${"Additional implementation detail. ".repeat(160)} Limitations: no Apple Silicon support has been validated.`;
+  assert.ok(content.length > 4_000);
+  const brief = createEditorialBrief({ stories: [{ articleIds: ["release"], headline: "A release", summary: "A short digest.", category: "Technology" }] }, [{ id: "release", content }]);
+  assert.match(brief[0].sourceText, /no Apple Silicon support has been validated/);
+});
+
+test("article extraction removes dialog/navigation noise and preserves decimal versions and later limitations", async () => {
+  const article = { id: "reported-release", url: "https://example.com/dynamic", sourceLinks: [] };
+  const result = await investigateArticle(article, async () => new Response(`<!doctype html><html><body>
+    <nav>Home Download Sign in</nav><div role="dialog">Save your edits? Sign in to continue.</div>
+    <article><h1>A compiler release</h1><div class="advertisement">Advertisement. Subscribe to everything.</div>
+    <p>Version 3.6 adds dynamic packages for the compiler and its development environment. Plugins can now be installed without rebuilding the entire application.</p>
+    <p>Limitations: packages must use the same compiler version and cannot share a name with a contained unit.</p>
+    </article><footer>Contact Advertising</footer></body></html>`, { headers: { "content-type": "text/html" } }));
+  assert.equal(result.investigation.status, "complete");
+  assert.doesNotMatch(result.content, /Sign in|Save your edits|Advertisement|Subscribe|Advertising/);
+  assert.match(result.rawSummary, /Version 3\.6 adds dynamic packages/);
+  assert.match(result.content, /Limitations: packages must use the same compiler version/);
+  assert.equal(result.investigation.method, "readability");
+  assert.ok(result.fetchedAt);
+});
+
+test("GitHub project investigation reads the README instead of the file-list shell", async () => {
+  const calls = [];
+  const result = await investigateArticle({ id: "project", url: "https://github.com/example/project", sourceLinks: [] }, async (url) => {
+    calls.push(url);
+    assert.equal(url, "https://api.github.com/repos/example/project/readme");
+    return new Response("# Project\n\nA documented tool that connects a messaging service to a local developer workflow.\n\n## Limitations\nThe account owner must authorize each integration before it can be used.", { headers: { "content-type": "text/plain" } });
+  });
+  assert.equal(calls.length, 1);
+  assert.equal(result.investigation.method, "github-readme");
+  assert.match(result.content, /account owner must authorize/);
+  assert.doesNotMatch(result.content, /Branches|Go to file/);
+});
+
+test("paper investigation extracts the abstract without author-list and navigation clutter", async () => {
+  const result = await investigateArticle({ id: "paper", url: "https://arxiv.org/abs/2610.18861", sourceLinks: [] }, async () => new Response(`
+    <html><body><nav>Computer Science Login Help</nav><h1>Title: An agent study</h1><div>Authors: A, B, C</div>
+    <blockquote class="abstract"><span class="descriptor">Abstract:</span>We study an agent that performs batched operations using a learned representation. Results are reported on a synthetic benchmark; no production deployment has been evaluated.</blockquote>
+    <footer>References Login</footer></body></html>`, { headers: { "content-type": "text/html" } }));
+  assert.equal(result.investigation.method, "arxiv-abstract");
+  assert.match(result.content, /no production deployment has been evaluated/);
+  assert.doesNotMatch(result.content, /Authors:|Login|Abstract:/);
+});
+
+test("unavailable originals may use an explicitly attributed feed summary, never HN discussion as source facts", async () => {
+  const summary = "The official release introduces a stable API for batched operations. The maintainers document a version requirement that existing users must check before migrating.";
+  const article = { id: "feed", url: "https://example.com/release", rawSummary: summary, material: { kind: "feed-summary", text: summary, url: "https://example.com/feed.xml" }, sourceLinks: [] };
+  const result = await investigateArticle(article, async () => new Response("unavailable", { status: 503 }));
+  assert.equal(result.investigation.status, "fallback");
+  assert.equal(result.investigation.method, "feed-summary");
+  assert.equal(result.investigation.sourceUrl, "https://example.com/feed.xml");
+  assert.equal(result.content, summary);
+  const hn = await investigateArticle({ ...article, material: undefined }, async () => { throw new Error("network blocked"); });
+  assert.equal(hn.investigation.status, "unavailable");
+  assert.equal(hn.content, undefined);
+});
+
+test("source redirects cannot bypass the local-network URL restriction", async () => {
+  let calls = 0;
+  const result = await investigateArticle({ id: "redirect", url: "https://example.com/redirect", sourceLinks: [] }, async () => {
+    calls += 1;
+    return new Response(null, { status: 302, headers: { location: "http://127.0.0.1/private" } });
+  });
+  assert.equal(calls, 1);
+  assert.equal(result.investigation.reason, "unsafe-redirect");
+  assert.equal(result.content, undefined);
+});

@@ -42,6 +42,20 @@ Ticket #2: prevent fallback or incomplete drafts from entering the published sit
 - OpenAI implementation checked against official [text generation guidance](https://developers.openai.com/api/docs/guides/text) and [Responses create reference](https://developers.openai.com/api/reference/resources/responses/methods/create). Requests remain model-configured; no model availability, cost or quality claim is inferred from fixtures.
 - Code-review findings about lost Actions drafts and omitted research usage were fixed. The real-provider criterion remains unchecked until credentials are safely configured and a complete actual run is inspected.
 
-## Extraction investigation — ticket #3 next
+## Source materials — ticket #3
 
-The current extractor was replayed against original URLs from the October 19 issue. Lazarus still extracts navigation and a sign-in/edit dialog; GitHub extracts branch/file-list chrome rather than project documentation. WJCL returned an unavailable/non-HTML response during the replay. Local captured before-results are in ignored research files, not public artifacts. These establish concrete failure cases for the next extraction change.
+The pre-change extractor was replayed against original URLs from the October 19 issue. It extracted navigation and a sign-in/edit dialog from Lazarus and branch/file-list chrome from GitHub rather than project documentation. WJCL returned an unavailable/non-HTML response during the replay. Local captured before-results are in ignored research files, not public artifacts.
+
+- Replaced regex article extraction with Mozilla Readability 0.6.0 and jsdom 29.1.1, following the [Readability Node.js documentation](https://github.com/mozilla/readability#nodejs-usage). jsdom 30 requires a newer Node patch than this environment; locked version 29 supports the selected Node 22 runtime. Scripts and remote resource loading remain disabled. Locked dependencies are installed in Actions via `npm ci`.
+- Real after-replays: Lazarus extracts 7,121 characters of its article rather than dialog/navigation; the GitHub example reads the actual README via the raw GitHub API; arXiv extracts its 1,562-character abstract without author/navigation chrome.
+- Release sources carry original release-note material. RSS candidates carry explicitly attributed feed-summary material; an unavailable original can use a sufficiently detailed feed summary, while an HN discussion excerpt cannot stand in for source facts. Candidates without usable material never reach the AI editor.
+- Both the AI input and persisted story now carry source material method/status/URL, genuine publication time when available, fetch time and truncation status. Readers see a notice for feed-only fallback. The run report retains both timestamps as well. Research query date is never manufactured into a source publication date.
+- Sentence segmentation preserves decimal versions. Up to 12,000 characters reach the editor (formerly 4,000); oversized sources retain a marked head/tail excerpt rather than silently dropping all later limitations. Retrieval and DOM size are bounded; literal private/local redirect destinations are rejected. This is not a claim of DNS-rebinding protection.
+- Actual captured sources rendered into an explicitly labelled local draft preview; browser checked all three clean summaries and no horizontal overflow. This was extraction verification, not an AI quality or publication claim.
+- CLI regression checks the actual material passed to the mocked external editor and confirms a source-only login page does not trigger editing or publication. A feed-only end-to-end case verifies provenance through extraction, AI input, persisted JSON and reader rendering.
+- Standards/Spec reviews found provenance loss in the initial patch; both findings were fixed and re-reviewed with no further defects found.
+- Full current suite: 44/44 pass; build renders all 97 integrated publications.
+
+## Implementation frontier
+
+Ticket #1 is complete. Ticket #2 has its code and deterministic fault checks complete but remains open for actual configured-model acceptance. Ticket #3 is implemented and verified locally. Next: #4 AI Builder editorial policy and #6 direct reader experience, then evidence and distribution. No deployment, real API run or seven-day candidate acceptance is being implied by these local checks.
