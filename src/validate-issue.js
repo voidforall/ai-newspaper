@@ -26,6 +26,17 @@ export function validateIssue(issue, { archive = false } = {}) {
   // Preserve already published, unversioned text when rebuilding the archive.
   // Generation and all versioned editions retain the publication minimum.
   const minimumSummaryLength = archive && issue?.schemaVersion === undefined ? 1 : 40;
+  if (issue?.schemaVersion !== undefined && issue.schemaVersion !== 1) errors.push("Unsupported issue schema version.");
+  if (issue?.schemaVersion === 1) {
+    if (!["draft", "published"].includes(issue.status)) errors.push("Versioned issue must declare draft or published status.");
+    if (!["ai", "manual", "fallback"].includes(issue.editorial?.method)) errors.push("Issue must declare its editorial method.");
+    if (issue.status === "published" && (issue.editorial?.status !== "complete" || issue.editorial.method === "fallback")) {
+      errors.push("Published issue requires completed AI or manual editing.");
+    }
+  }
+  if (issue?.id !== undefined && (typeof issue.id !== "string" || !/^\d{4}-\d{2}-\d{2}(?:-[a-z0-9]+(?:-[a-z0-9]+)*)?$/.test(issue.id) || !issue.id.startsWith(issue.date))) {
+    errors.push("Issue id must be its date with an optional safe edition slug.");
+  }
   if (!isValidIssueDate(issue?.date)) errors.push("Issue date must be a valid YYYY-MM-DD value.");
   if (!Array.isArray(issue?.stories) || issue.stories.length === 0) {
     errors.push("Issue must contain at least one story.");

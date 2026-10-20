@@ -1,3 +1,5 @@
+import { fetchWithRetry } from "./http.js";
+
 function repositoryFor(source) {
   if (typeof source?.repository !== "string" || !/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(source.repository)) {
     throw new Error(`GitHub release source ${source?.id ?? "unknown"} requires an owner/repository value.`);
@@ -13,9 +15,9 @@ export async function fetchGitHubReleases({ source, date, limit = 30, fetchImpl 
   const repository = repositoryFor(source);
   const releases = [];
   for (let page = 1; ; page += 1) {
-    const response = await fetchImpl(`https://api.github.com/repos/${repository}/releases?per_page=100&page=${page}`, {
+    const response = await fetchWithRetry(`https://api.github.com/repos/${repository}/releases?per_page=100&page=${page}`, {
       headers: { Accept: "application/vnd.github+json" }
-    });
+    }, { fetchImpl });
     if (!response.ok) throw new Error(`GitHub releases request failed: ${response.status}`);
     const releasePage = await response.json();
     if (!Array.isArray(releasePage)) throw new Error("GitHub releases response must be an array.");

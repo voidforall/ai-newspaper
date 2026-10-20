@@ -1,3 +1,5 @@
+import { fetchWithRetry } from "./http.js";
+
 function text(value) {
   return typeof value === "string" && value.trim();
 }
@@ -33,38 +35,51 @@ function citedUrls(response) {
   return new Set(response.output?.flatMap((item) => item.content ?? []).flatMap((part) => part.annotations ?? []).filter((annotation) => annotation.type === "url_citation").map((annotation) => annotation.url) ?? []);
 }
 
-export async function fetchAgentResearch({ source, date, environment = process.env, fetchImpl = fetch } = {}) {
+export async function fetchAgentResearch({ source, date, environment = process.env, fetchImpl = fetch, sourceResult, run } = {}) {
   const { maxCandidates, maxSearches, maxOutputTokens } = sourceConfig(source);
   const model = environment.OPENAI_RESEARCH_MODEL ?? environment.OPENAI_MODEL;
   if (!environment.OPENAI_API_KEY || !model) {
+    if (sourceResult) Object.assign(sourceResult, { status: "skipped", reason: "missing-ai-configuration" });
     console.warn(`Agent research skipped for ${source.id}: missing OpenAI credentials.`);
     return [];
   }
+  const started = Date.now();
+  const call = { stage: "research", promptVersion: "research-v1", sourceId: source.id, model, status: "failed" };
+  run?.modelCalls.push(call);
   try {
-    const response = await fetchImpl("https://api.openai.com/v1/responses", {
+    const response = await fetchWithRetry("https://api.openai.com/v1/responses", {
       method: "POST",
       headers: { Authorization: `Bearer ${environment.OPENAI_API_KEY}`, "Content-Type": "application/json" },
       body: JSON.stringify({
         model,
+        store: false,
         input: `Research ${source.topic}${date ? ` for ${date}` : ""}. Return JSON only: {"candidates":[{"title":"string","url":"https://...","summary":"string"}]}. Return at most ${maxCandidates} candidates. Use only the allowed domains and include only reported articles with a direct original URL.`,
         tools: [{ type: "web_search", filters: { allowed_domains: source.allowedDomains } }],
         tool_choice: "required",
         max_tool_calls: maxSearches,
         max_output_tokens: maxOutputTokens
       })
-    });
+    }, { fetchImpl, timeoutMs: 45_000 });
     if (!response.ok) throw new Error(`OpenAI research request failed: ${response.status}`);
     const body = await response.json();
+    if (body.usage) call.usage = Object.fromEntries(["input_tokens", "output_tokens", "total_tokens"].filter((key) => Number.isSafeInteger(body.usage[key])).map((key) => [key, body.usage[key]]));
+    if (typeof body.model === "string") call.model = body.model;
+    if (body.status !== "completed") throw new Error("Research response did not complete");
     const candidates = JSON.parse(outputText(body)).candidates;
     const citations = citedUrls(body);
     if (!Array.isArray(candidates)) throw new Error("research output did not contain candidates");
+    call.status = "complete";
     return candidates.slice(0, maxCandidates).flatMap((candidate, index) => {
       const url = candidateUrl(candidate?.url, source.allowedDomains);
       if (!url || !citations.has(url) || !text(candidate?.title) || !text(candidate?.summary)) return [];
       return [{ id: `agent-${source.id}-${slug(url)}`, sourceId: source.id, title: candidate.title.trim(), url, publishedAt: date ? `${date}T00:00:00.000Z` : undefined, rawSummary: candidate.summary.trim(), score: maxCandidates - index, sourceLinks: [{ name: source.name, url: `https://${source.allowedDomains[0]}/` }, { name: "Original source", url }] }];
     });
-  } catch (error) {
-    console.warn(`Agent research skipped for ${source.id}: ${error.message}`);
+  } catch {
+    call.reason = "research-request-failed";
+    if (sourceResult) Object.assign(sourceResult, { status: "failed", reason: call.reason });
+    console.warn(`Agent research failed for ${source.id}; see the source run report.`);
     return [];
+  } finally {
+    call.durationMs = Date.now() - started;
   }
 }

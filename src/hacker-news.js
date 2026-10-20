@@ -1,8 +1,10 @@
+import { fetchWithRetry } from "./http.js";
+
 const API_ROOT = "https://hacker-news.firebaseio.com/v0";
 const SEARCH_ROOT = "https://hn.algolia.com/api/v1/search";
 
 async function getJson(url) {
-  const response = await fetch(url);
+  const response = await fetchWithRetry(url);
   if (!response.ok) throw new Error(`Hacker News request failed: ${response.status}`);
   return response.json();
 }

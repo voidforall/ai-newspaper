@@ -30,20 +30,31 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - name: Test
         run: npm test
       - name: Generate a scheduled or manual edition
         if: github.event_name != 'push'
         run: |
-          if [ -n "${{ inputs.edition }}" ]; then
-            npm run generate -- --edition="${{ inputs.edition }}"
+          if [ -n "$EDITION_SLUG" ]; then
+            npm run generate -- --edition="$EDITION_SLUG"
           else
             npm run generate
           fi
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          EDITION_SLUG: ${{ inputs.edition }}
+      - name: Retain generation diagnostics
+        if: always() && github.event_name != 'push'
+        uses: actions/upload-artifact@v4
+        with:
+          name: generation-run-${{ github.run_id }}
+          path: |
+            runs/
+            drafts/
+          if-no-files-found: ignore
+          retention-days: 14
       - name: Preserve generated edition data
         if: github.event_name != 'push'
         run: |

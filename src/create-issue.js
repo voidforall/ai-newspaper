@@ -81,6 +81,9 @@ export function createIssue({ date, articles, editionTitle, id = date, maxStorie
     .slice(0, maxStories);
 
   return {
+    schemaVersion: 1,
+    status: "draft",
+    editorial: { method: "fallback", status: "unavailable", reason: "not-edited" },
     id,
     date,
     editionTitle: editionTitle?.trim() || editionTitleFor(selected),

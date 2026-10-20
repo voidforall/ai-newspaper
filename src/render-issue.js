@@ -88,6 +88,10 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
   const masthead = issue.editionTitle.toUpperCase();
   const leadMarkup = lead ? renderStory(lead, { lead: true }) : "<p class=\"empty-edition\">No stories made this edition.</p>";
   const sections = renderSections(remainingStories);
+  const publicationNote = issue.schemaVersion === undefined
+    ? "Archived edition · Editorial review was not tracked for this issue."
+    : issue.status === "draft" ? "Draft · Not published."
+      : issue.editorial?.method === "manual" ? "Editor-reviewed edition." : "AI-edited edition.";
 
   return `<!doctype html>
 <html lang="en">
@@ -104,6 +108,7 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
     .masthead { border-bottom: 5px double var(--rule); padding: 8px 0 10px; text-align: center; }
     .masthead h1 { font: 900 clamp(2.6rem, 8vw, 6.7rem)/.82 Georgia, "Times New Roman", serif; letter-spacing: -.07em; margin: 0; text-transform: uppercase; }
     .deck { border-bottom: 1px solid var(--rule); font-size: clamp(1rem, 2vw, 1.35rem); font-style: italic; line-height: 1.25; margin: 0; padding: 9px 0 11px; text-align: center; }
+    .publication-note { color: #655e53; font: .75rem/1.5 Arial, sans-serif; margin: 10px 0 0; text-align: center; }
     .front-page { border-bottom: 2px solid var(--rule); padding: 22px 0; }
     .lead-story { column-gap: 34px; display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(190px, .65fr); }
     .lead-story .kicker { grid-column: 1 / -1; }
@@ -176,6 +181,7 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
     <div class="edition-line"><span>${escapeHtml(issue.date)}</span><span>Daily Edition</span><span>Independent Daily Edition</span></div>
     <header class="masthead"><h1>${escapeHtml(masthead)}</h1></header>
     <p class="deck"><strong>TODAY&#039;S EDITION</strong> — ${escapeHtml(issue.editorNote)}</p>
+    <p class="publication-note">${escapeHtml(publicationNote)}</p>
     <section class="front-page" aria-label="Lead story">${leadMarkup}</section>
     <div class="newspaper-grid">${sections}</div>
     ${renderEditionNavigation(navigation)}

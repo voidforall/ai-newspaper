@@ -58,6 +58,21 @@ test("build stops before publishing an invalid saved issue", async (t) => {
   );
 });
 
+test("build excludes draft editions and removes stale rendered draft pages", async (t) => {
+  const directory = await mkdtemp(join(tmpdir(), "ai-newspaper-draft-"));
+  t.after(() => rm(directory, { recursive: true, force: true }));
+  await mkdir(join(directory, "issues"));
+  await writeFile(join(directory, "issues", "2026-10-19-ai-builder.json"), JSON.stringify({
+    id: "2026-10-19-ai-builder", date: "2026-10-19", schemaVersion: 1, status: "draft",
+    editionTitle: "PRIVATE DRAFT", stories: []
+  }));
+  await mkdir(join(directory, "public", "editions", "2026-10-19-ai-builder"), { recursive: true });
+  await writeFile(join(directory, "public", "editions", "2026-10-19-ai-builder", "index.html"), "STALE PRIVATE DRAFT");
+  await run(process.execPath, [cliPath, "build"], { cwd: directory });
+  assert.doesNotMatch(await readFile(join(directory, "public", "index.html"), "utf8"), /PRIVATE DRAFT/);
+  await assert.rejects(readFile(join(directory, "public", "editions", "2026-10-19-ai-builder", "index.html")), { code: "ENOENT" });
+});
+
 test("build archives a mixed-source recipe in its own collection", async (t) => {
   const directory = await mkdtemp(join(tmpdir(), "ai-newspaper-build-"));
   t.after(() => rm(directory, { recursive: true, force: true }));

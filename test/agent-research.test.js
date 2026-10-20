@@ -9,7 +9,7 @@ test("normalizes only allowed, attributable research candidates", async () => {
     environment: { OPENAI_API_KEY: "key", OPENAI_MODEL: "model" },
     fetchImpl: async (_url, options) => {
       requests.push(JSON.parse(options.body));
-      return new Response(JSON.stringify({ output_text: JSON.stringify({ candidates: [
+      return new Response(JSON.stringify({ status: "completed", output_text: JSON.stringify({ candidates: [
         { title: "UK AI update", url: "https://www.gov.uk/ai-update", summary: "Official policy update." },
         { title: "Rejected", url: "https://example.com/post", summary: "Not allowed." }
       ] }), output: [{ content: [{ type: "output_text", annotations: [{ type: "url_citation", url: "https://www.gov.uk/ai-update" }] }] }] }));
@@ -33,4 +33,21 @@ test("normalizes only allowed, attributable research candidates", async () => {
 test("returns no articles when research credentials are unavailable", async () => {
   const articles = await fetchAgentResearch({ source: { id: "policy", name: "Policy Watch", topic: "AI policy", allowedDomains: ["gov.uk"] }, environment: {} });
   assert.deepEqual(articles, []);
+});
+
+test("failed research reports its source state and observed model usage without exposing response content", async () => {
+  const sourceResult = { status: "pending" };
+  const run = { modelCalls: [] };
+  const articles = await fetchAgentResearch({
+    source: { id: "policy", name: "Policy Watch", topic: "AI policy", allowedDomains: ["gov.uk"] },
+    environment: { OPENAI_API_KEY: "not-a-real-key", OPENAI_MODEL: "research-model" }, sourceResult, run,
+    fetchImpl: async () => new Response(JSON.stringify({ status: "incomplete", model: "research-model-snapshot", usage: { input_tokens: 100, output_tokens: 30, total_tokens: 130 }, output_text: "private response content" }))
+  });
+  assert.deepEqual(articles, []);
+  assert.equal(sourceResult.status, "failed");
+  assert.equal(run.modelCalls.length, 1);
+  assert.equal(run.modelCalls[0].model, "research-model-snapshot");
+  assert.equal(run.modelCalls[0].usage.total_tokens, 130);
+  assert.equal(run.modelCalls[0].status, "failed");
+  assert.doesNotMatch(JSON.stringify(run), /not-a-real-key|private response content/);
 });

@@ -1,3 +1,5 @@
+import { fetchWithRetry } from "./http.js";
+
 function decodeXml(value = "") {
   return value
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
@@ -51,7 +53,7 @@ function identifier(value) {
 export async function fetchRssFeed({ source, date, limit = 30, fetchImpl = fetch } = {}) {
   const feedUrl = safeHttpUrl(source?.feedUrl);
   if (!feedUrl) throw new Error(`RSS source ${source?.id ?? "unknown"} requires an HTTP(S) feedUrl.`);
-  const response = await fetchImpl(feedUrl);
+  const response = await fetchWithRetry(feedUrl, {}, { fetchImpl });
   if (!response.ok) throw new Error(`RSS request failed: ${response.status}`);
   const xml = await response.text();
 
