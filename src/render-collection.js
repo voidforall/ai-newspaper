@@ -18,6 +18,7 @@ function pageHead(title) {
     <style>
       :root { --paper:#f2e8cf; --ink:#28251f; --soft-ink:#67593e; --rule:#aa9364; --accent:#2e4765; --night:#2c2b27; --cream:#fff7df; --signal:#dfc36d; }
       * { box-sizing:border-box; }
+      .page, .masthead > *, .timeline a > * { min-width:0; overflow-wrap:anywhere; }
       body { background:var(--paper); color:var(--ink); font:16px/1.45 Georgia, 'Times New Roman', serif; margin:0; }
       a { color:inherit; }
       .page { margin:0 auto; max-width:1240px; padding:26px clamp(20px, 5vw, 64px) 72px; }
@@ -29,7 +30,7 @@ function pageHead(title) {
       .section-header { align-items:baseline; border-bottom:1px solid var(--ink); display:flex; justify-content:space-between; margin:46px 0 13px; padding-bottom:8px; }
       .section-header h2 { font-family:'Palatino Linotype', 'Book Antiqua', Georgia, serif; font-size:1.45rem; letter-spacing:-.04em; margin:0; }
       .section-header span { color:var(--soft-ink); font:700 .66rem/1 Arial, sans-serif; letter-spacing:.08em; text-transform:uppercase; }
-      .shelf { display:grid; gap:12px; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); }
+      .shelf { display:grid; gap:12px; grid-template-columns:repeat(auto-fit, minmax(min(240px, 100%), 1fr)); }
       .book { background:var(--cream); border:1px solid var(--ink); border-left:10px solid var(--accent); color:var(--ink); display:flex; flex-direction:column; justify-content:space-between; min-height:230px; padding:18px; position:relative; text-decoration:none; transition:background 130ms ease, transform 130ms ease; }
       .book::before { color:var(--soft-ink); content:'SOURCE EDITIONS'; font:700 .58rem/1 Arial, sans-serif; letter-spacing:.1em; position:absolute; right:18px; top:20px; }
       .book:hover { background:#fffaf0; box-shadow:5px 5px 0 rgba(101,79,35,.16); transform:translate(-2px,-2px); }
@@ -63,7 +64,7 @@ function newestFirst(issues) {
   return [...issues].sort((a, b) => String(b.date).localeCompare(String(a.date)) || String(b.id).localeCompare(String(a.id)));
 }
 
-export function renderCollection(issues) {
+export function renderCollection(issues, { basePath = "", includeBuilder = true } = {}) {
   const groups = new Map();
   for (const issue of issues) {
     const source = sourceFor(issue);
@@ -74,7 +75,7 @@ export function renderCollection(issues) {
 
   const cards = [...groups.values()].map((group) => {
     const latest = newestFirst(group.issues)[0];
-    return `<a class="book" href="sources/${group.slug}/">
+    return `<a class="book" href="${basePath}sources/${group.slug}/">
       <span class="book__type">Source desk</span>
       <strong>${escapeHtml(group.name)}</strong>
       <span class="book__meta"><span>${group.issues.length} editions</span><span>Latest: ${escapeHtml(latest.date)}</span></span>
@@ -85,12 +86,17 @@ export function renderCollection(issues) {
     <main class="page">
       <header class="masthead"><h1 class="masthead__title">AI Newspaper</h1><p class="masthead__note"><span class="kicker">Issue index</span>A source-led archive for people who prefer to decide what enters their reading desk.</p></header>
       <section aria-labelledby="source-shelf"><div class="section-header"><h2 id="source-shelf">Filed editions</h2><span>${groups.size} source${groups.size === 1 ? "" : "s"}</span></div>${cards}</section>
-      ${renderRecipeBuilder()}
+      ${includeBuilder ? renderRecipeBuilder() : `<p><a href="${basePath}">← 阅读最新主刊</a> · <a href="${basePath}builder/">配置自己的报纸</a></p>`}
     </main>
   </body></html>`;
 }
 
 export function renderSourceTimeline(source, issues) {
   const editions = newestFirst(issues).map((issue) => `<li><a href="../../editions/${encodeURIComponent(issue.id)}/"><time>${escapeHtml(issue.date)}</time><strong>${escapeHtml(issue.editionTitle)}</strong><span>${escapeHtml(issue.editorNote)}</span></a></li>`).join("\n") || '<li class="empty">No editions published yet.</li>';
-  return `<!doctype html><html lang="en">${pageHead(source.name)}<body><main class="page"><a class="return" href="../../">← All source desks</a><h1 class="timeline-title">${escapeHtml(source.name)}</h1><ol class="timeline">${editions}</ol></main></body></html>`;
+  return `<!doctype html><html lang="en">${pageHead(source.name)}<body><main class="page"><a class="return" href="../../archive/">← All source desks</a><h1 class="timeline-title">${escapeHtml(source.name)}</h1><ol class="timeline">${editions}</ol></main></body></html>`;
+}
+
+
+export function renderBuilderPage() {
+  return `<!doctype html><html lang="en">${pageHead("Build your edition")}<body><main class="page"><a class="return" href="../">← 阅读最新主刊</a>${renderRecipeBuilder()}</main></body></html>`;
 }

@@ -1,3 +1,6 @@
+import { createHash } from "node:crypto";
+import { canonicalArticleUrl } from "./editorial-policy.js";
+
 function escapeHtml(value) {
   return String(value)
     .replaceAll("&", "&amp;")
@@ -45,13 +48,38 @@ function renderEvidence(story, language) {
   return `<details class="evidence"><summary>${zh ? "查看原文依据与编辑判断" : "Inspect source evidence and editorial judgment"}</summary><p class="material-note">${zh ? "摘录和引用关系经过程序检查；不代表独立事实核验。位置对应抓取时的提取文本，原页面可能变化。" : "Excerpt and reference integrity checked; this is not independent fact-checking. Offsets refer to extracted text at retrieval; the source page may change."}</p>${blocks}</details>`;
 }
 
-function renderStory(story, { lead = false, language = "en" } = {}) {
+export function storyIdFor(story) {
+  const original = canonicalArticleUrl(story.sourceLinks?.find((link) => link.name === "Original source")?.url);
+  const source = story.sourceLinks?.map((link) => canonicalArticleUrl(link.url)).find(Boolean);
+  // Legacy feed-only stories have no article ID. Their immutable summary distinguishes
+  // separate articles from the same feed without depending on a display headline/order.
+  const identity = story.articleIds?.[0] ?? original ?? (source ? `${source}\n${story.summary ?? ""}` : undefined);
+  if (!identity) return undefined;
+  return `story-${createHash("sha256").update(String(identity)).digest("hex").slice(0, 20)}`;
+}
+
+function displayUpdate(value, zh) {
+  if (!Number.isFinite(Date.parse(value))) return value;
+  return `${new Intl.DateTimeFormat(zh ? "zh-CN" : "en-GB", { timeZone: "UTC", month: "short", day: "numeric", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).format(new Date(value))} UTC`;
+}
+
+function renderReadingContext(context, issue) {
+  if (!context) return "";
+  const zh = issue.language === "zh-CN";
+  const nav = `<nav class="reader-nav" aria-label="${zh ? "阅读导航" : "Reader navigation"}"><a href="${escapeHtml(context.homeHref)}">AI Builder 日报</a><div><a href="${escapeHtml(context.archiveHref)}">${zh ? "历史期刊" : "Archive"}</a><a href="${escapeHtml(context.builderHref)}">${zh ? "自建报纸" : "Build your edition"}</a></div></nav>`;
+  const note = context.demo ? `${context.home ? "主刊尚未正式发布。" : ""}示例刊 · 根据真实发布说明人工编写，供体验阅读与原文依据；不是当日新闻或正式主刊。`
+    : context.home ? `${issue.date === context.today ? "最新主刊" : "今日主刊尚未发布，以下为最近一期"} · ${issue.date}` : "";
+  return `${nav}<p class="reader-position">${zh ? "给 AI 应用开发者的五分钟日报 · 技术变化、实际影响与原文依据" : "A five-minute newspaper for AI application builders"}</p>${note ? `<p class="reader-status">${escapeHtml(note)}</p>` : ""}<p class="reader-updated">${zh ? "本期日期" : "Edition"} <time datetime="${escapeHtml(issue.date)}">${escapeHtml(issue.date)}</time>${issue.generatedAt ? ` · ${zh ? "生成于" : "Generated"} <time datetime="${escapeHtml(issue.generatedAt)}">${escapeHtml(displayUpdate(issue.generatedAt, zh))}</time>` : ""}${context.editionHref ? ` · <a href="${escapeHtml(context.editionHref)}">${zh ? "本期固定链接" : "Edition permalink"}</a>` : ""}</p>`;
+}
+
+function renderStory(story, { lead = false, language = "en", storyLink } = {}) {
   const kind = lead ? "lead-story" : "story";
   const zh = language === "zh-CN";
   const kicker = zh ? { paper: "研究", release: "版本更新", news: "动态" }[story.kind] ?? displayCategory(story.category, language) : displayCategory(story.category);
-  return `<article class="${kind}">
+  return `<article class="${kind}"${storyIdFor(story) ? ` id="${storyIdFor(story)}"` : ""}>
     <p class="kicker">${escapeHtml(kicker)}</p>
     <h2>${escapeHtml(story.headline)}</h2>
+    ${storyLink ? `<a class="story-permalink" href="${escapeHtml(storyLink(story))}">${zh ? "单独阅读 ↗" : "Story permalink ↗"}</a>` : ""}
     <p class="summary">${escapeHtml(story.summary)}</p>
     <p class="why"><span>${zh ? "开发者影响" : "Why it matters"}</span>${escapeHtml(story.whyItMatters)}</p>
     ${story.caveat ? `<p class="why"><span>${zh ? "限制与未知" : "Limits and unknowns"}</span>${escapeHtml(story.caveat)}</p>` : ""}
@@ -71,11 +99,11 @@ function groupStories(stories, language) {
   }, new Map());
 }
 
-function renderSections(stories, language) {
+function renderSections(stories, language, storyLink) {
   return [...groupStories(stories, language).entries()]
     .map(([category, categoryStories]) => `<section class="news-section">
       <h2 class="section-title">${escapeHtml(category)}</h2>
-      ${categoryStories.map((story) => renderStory(story, { language })).join("\n")}
+      ${categoryStories.map((story) => renderStory(story, { language, storyLink })).join("\n")}
     </section>`)
     .join("\n");
 }
@@ -102,15 +130,15 @@ function renderEditionNavigation(navigation) {
   </nav>`;
 }
 
-export function renderIssue(issue, { template = issue.template ?? "standard", navigation } = {}) {
+export function renderIssue(issue, { template = issue.template ?? "standard", navigation, readingContext, storyLink } = {}) {
   const selectedTemplate = resolveTemplate(template);
   const language = issue.language ?? "en";
   const zh = language === "zh-CN";
   const [lead, ...remainingStories] = issue.stories;
-  const masthead = issue.editionTitle.toUpperCase();
-  const leadMarkup = lead ? renderStory(lead, { lead: true, language }) : `<p class="empty-edition">${zh ? "本期暂无符合标准的新闻。" : "No stories made this edition."}</p>`;
-  const sections = renderSections(remainingStories, language);
-  const publicationNote = issue.schemaVersion === undefined
+  const masthead = (readingContext?.story ? zh ? "AI Builder 日报" : "AI Newspaper" : issue.editionTitle).toUpperCase();
+  const leadMarkup = lead ? renderStory(lead, { lead: true, language, storyLink }) : `<p class="empty-edition">${zh ? "本期暂无符合标准的新闻。" : "No stories made this edition."}</p>`;
+  const sections = renderSections(remainingStories, language, storyLink);
+  const publicationNote = readingContext?.demo ? "示例刊 · 人工审阅" : issue.schemaVersion === undefined
     ? "Archived edition · Editorial review was not tracked for this issue."
     : issue.status === "draft" ? zh ? "草稿 · 尚未发布" : "Draft · Not published."
       : issue.editorial?.method === "manual" ? zh ? "编辑审阅版" : "Editor-reviewed edition." : zh ? "AI 编辑版" : "AI-edited edition.";
@@ -124,6 +152,18 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
   <style>
     :root { --ink: #181715; --paper: #f5f0e5; --rule: #24211c; --accent: #a1261f; }
     * { box-sizing: border-box; }
+    .newspaper, article, .news-section, .lead-story > * { min-width: 0; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+    .reader-nav { align-items: center; display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; border-bottom: 3px double var(--rule); padding-bottom: 16px; margin-bottom: 18px; font: 700 .85rem/1.4 Arial, sans-serif; }
+    .reader-nav > a { font-size: 1.05rem; text-decoration: none; }
+    .reader-nav div { display: flex; gap: 20px; }
+    .reader-nav a { display: inline-flex; align-items: center; min-height: 36px; }
+    .reader-position { font-size: .95rem; margin: 12px 0; }
+    .reader-status { border-left: 3px solid var(--accent); padding: 8px 12px; font: .85rem/1.7 Arial, sans-serif; }
+    .reader-updated { color: #655e53; font: .72rem/1.6 Arial, sans-serif; overflow-wrap: anywhere; }
+    .story-permalink { grid-column: 1 / -1; font: .75rem/1.5 Arial, sans-serif; margin: 10px 0 0; display: inline-block; width: fit-content; min-height: 32px; }
+    .lead-story .story-permalink { grid-row: 3; }
+
     body { background: #dcd4c5; color: var(--ink); font: 16px/1.42 Georgia, "Times New Roman", serif; margin: 0; }
     .newspaper { background: var(--paper); box-shadow: 0 1px 16px #5a4c393d; margin: 28px auto; max-width: 1240px; padding: 20px 28px 46px; }
     .edition-line { border-bottom: 1px solid var(--rule); display: flex; font: 700 .68rem/1.2 Arial, sans-serif; justify-content: space-between; letter-spacing: .08em; padding: 0 0 7px; text-transform: uppercase; }
@@ -131,6 +171,8 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
     .masthead h1 { font: 900 clamp(2.6rem, 8vw, 6.7rem)/.82 Georgia, "Times New Roman", serif; letter-spacing: -.07em; margin: 0; text-transform: uppercase; }
     .deck { border-bottom: 1px solid var(--rule); font-size: clamp(1rem, 2vw, 1.35rem); font-style: italic; line-height: 1.25; margin: 0; padding: 9px 0 11px; text-align: center; }
     .publication-note { color: #655e53; font: .75rem/1.5 Arial, sans-serif; margin: 10px 0 0; text-align: center; }
+    html[lang="zh-CN"] body { line-height: 1.7; }
+    html[lang="zh-CN"] .summary { line-height: 1.65; }
     html[lang="zh-CN"] .masthead h1 { line-height: 1.08; letter-spacing: -.035em; text-wrap: balance; }
     html[lang="zh-CN"] .lead-story h2, html[lang="zh-CN"] .story h2 { line-height: 1.2; }
     .evidence { grid-column: 1 / -1; min-width: 0; margin-top: 14px; border-top: 1px solid #918879; font: .88rem/1.6 Arial, sans-serif; overflow-wrap: anywhere; }
@@ -148,7 +190,8 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
     .lead-story .kicker { grid-column: 1 / -1; }
     h2 { margin: 0; }
     .lead-story h2 { font-size: clamp(2.2rem, 5.2vw, 5rem); letter-spacing: -.045em; line-height: .92; }
-    .lead-story .summary { border-left: 1px solid var(--rule); font-size: 1.14rem; line-height: 1.35; margin: 0; padding-left: 20px; }
+    .lead-story h2 { grid-column: 1; grid-row: 2; }
+    .lead-story .summary { grid-column: 2; grid-row: 2; border-left: 1px solid var(--rule); font-size: 1.14rem; line-height: 1.35; margin: 0; padding-left: 20px; }
     .kicker { color: var(--accent); font: 800 .67rem/1 Arial, sans-serif; letter-spacing: .14em; margin: 0 0 7px; text-transform: uppercase; }
     .why { align-self: end; font-size: .88rem; grid-column: 1 / -1; margin: 8px 0 0; }
     .why span { font: 800 .65rem/1 Arial, sans-serif; letter-spacing: .09em; margin-right: 8px; text-transform: uppercase; }
@@ -190,6 +233,7 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
     .template-classic .story { break-inside: avoid; }
     .template-classic .story h2 { font-family: "Bodoni 72", Didot, Georgia, serif; font-size: 1.55rem; }
     .template-classic .kicker { color: var(--ink); font-family: "Courier New", monospace; }
+    @media (max-width: 1440px) { .page-turn { display: none; } }
     @media (max-width: 900px) and (min-width: 721px) {
       .newspaper-grid { grid-template-columns: 1fr; }
       .news-section { border-bottom: 2px solid var(--rule); border-left: 0; padding: 20px 0; }
@@ -203,7 +247,7 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
       .news-section { border-bottom: 2px solid var(--rule); border-left: 0; padding: 20px 0; }
       .news-section:last-child { border-bottom: 0; }
       .template-classic .newspaper-grid { column-count: 1; }
-      .page-turn { background: var(--paper); border: 1px solid var(--rule); bottom: 15px; flex-direction: row; padding: 6px 9px; position: fixed; top: auto; }
+      .page-turn { display: none; background: var(--paper); border: 1px solid var(--rule); bottom: 15px; flex-direction: row; padding: 6px 9px; position: fixed; top: auto; }
       .page-turn span { font-size: 2rem; }
       .page-turn small { display: none; }
       .page-turn-left { left: 12px; } .page-turn-right { right: 12px; }
@@ -212,14 +256,15 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
 </head>
 <body>
   <main class="newspaper template-${selectedTemplate}">
+    ${renderReadingContext(readingContext, issue)}
     <div class="edition-line"><span>${escapeHtml(issue.date)}</span><span>${zh ? "每日刊" : "Daily Edition"}</span><span>${zh ? "独立日报" : "Independent Daily Edition"}</span></div>
     <header class="masthead"><h1>${escapeHtml(masthead)}</h1></header>
-    <p class="deck"><strong>${zh ? "本期导读" : "TODAY&#039;S EDITION"}</strong> — ${escapeHtml(issue.editorNote)}</p>
+    ${readingContext?.story ? "" : `<p class="deck"><strong>${zh ? "本期导读" : "TODAY&#039;S EDITION"}</strong> — ${escapeHtml(issue.editorNote)}</p>`}
     <p class="publication-note">${escapeHtml(publicationNote)}</p>
-    <section class="front-page" aria-label="Lead story">${leadMarkup}</section>
+    <section class="front-page" aria-label="${zh ? "头条" : "Lead story"}">${leadMarkup}</section>
     <div class="newspaper-grid">${sections}</div>
     ${renderEditionNavigation(navigation)}
-    <footer class="footer">Generated from attributable sources · ${escapeHtml(issue.generatedAt ?? issue.date)}</footer>
+    <footer class="footer">${zh ? "依据可追溯来源编写" : "Generated from attributable sources"} · ${escapeHtml(displayUpdate(issue.generatedAt ?? issue.date, zh))}</footer>
   </main>
 </body>
 </html>`;

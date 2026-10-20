@@ -6,8 +6,10 @@ import { fetchConfiguredArticles } from "./source-adapters.js";
 import { loadEditionRecipe } from "./edition-recipes.js";
 import { editIssueWithAi, selectArticlesWithAi } from "./edit-issue.js";
 import { hasEditorialMaterial, investigateArticles } from "./investigate-content.js";
-import { renderIssue } from "./render-issue.js";
-import { renderCollection, renderSourceTimeline, sourceFor } from "./render-collection.js";
+import { fileURLToPath } from "node:url";
+import { renderHome } from "./render-home.js";
+import { renderIssue, storyIdFor } from "./render-issue.js";
+import { renderBuilderPage, renderCollection, renderSourceTimeline, sourceFor } from "./render-collection.js";
 import { assertValidIssue, isValidIssueDate, validateIssue } from "./validate-issue.js";
 
 const outputDirectory = "public";
@@ -47,12 +49,31 @@ function sourceWindow() {
   return date ? { date } : { since: new Date(Date.now() - 86_400_000).toISOString(), until: new Date().toISOString() };
 }
 
+async function finishWrites(writes) {
+  const results = await Promise.allSettled(writes);
+  const failed = results.find((result) => result.status === "rejected");
+  if (failed) throw failed.reason;
+}
+
 async function writeEdition(issue, { navigation, output = outputDirectory } = {}) {
   const id = issue.id ?? issue.date;
   const htmlPath = join(output, "editions", id, "index.html");
   await mkdir(dirname(htmlPath), { recursive: true });
-  const renderedIssue = renderIssue(issue, { template: templateArgument() ?? issue.template ?? "standard", navigation });
+  const renderedIssue = renderIssue(issue, {
+    template: templateArgument() ?? issue.template ?? "standard", navigation,
+    readingContext: { homeHref: "../../", archiveHref: "../../archive/", builderHref: "../../builder/" },
+    storyLink: (story) => `../../stories/${id}/${storyIdFor(story)}/`
+  });
   await writeFile(htmlPath, renderedIssue);
+  await finishWrites(issue.stories.map(async (story) => {
+    const storyPath = join(output, "stories", id, storyIdFor(story), "index.html");
+    await mkdir(dirname(storyPath), { recursive: true });
+    const html = renderIssue({ ...issue, editionTitle: story.headline, stories: [story] }, {
+      template: templateArgument() ?? issue.template ?? "standard",
+      readingContext: { story: true, homeHref: "../../../", archiveHref: "../../../archive/", builderHref: "../../../builder/", editionHref: `../../../editions/${id}/#${storyIdFor(story)}` }
+    });
+    await writeFile(storyPath, html);
+  }));
 }
 
 async function readIssues() {
@@ -70,7 +91,15 @@ async function readIssues() {
 
 async function writeCollection(issues, output = outputDirectory) {
   await mkdir(output, { recursive: true });
-  await writeFile(join(output, "index.html"), renderCollection(issues));
+  const demo = JSON.parse(await readFile(fileURLToPath(new URL("../samples/demo-issue.json", import.meta.url)), "utf8"));
+  assertValidIssue(demo);
+  await writeFile(join(output, "index.html"), renderHome(issues, demo));
+  await Promise.all(["archive", "builder", "demo"].map((directory) => mkdir(join(output, directory), { recursive: true })));
+  await writeFile(join(output, "archive", "index.html"), renderCollection(issues, { basePath: "../", includeBuilder: false }));
+  await writeFile(join(output, "builder", "index.html"), renderBuilderPage());
+  await writeFile(join(output, "demo", "index.html"), renderIssue(demo, {
+    readingContext: { demo: true, homeHref: "../", archiveHref: "../archive/", builderHref: "../builder/" }
+  }));
   const groups = new Map();
   for (const issue of issues) {
     const source = sourceFor(issue);
@@ -78,7 +107,7 @@ async function writeCollection(issues, output = outputDirectory) {
     group.issues.push(issue);
     groups.set(source.slug, group);
   }
-  await Promise.all([...groups.values()].map(async ({ source, issues: sourceIssues }) => {
+  await finishWrites([...groups.values()].map(async ({ source, issues: sourceIssues }) => {
     const path = join(output, "sources", source.slug, "index.html");
     await mkdir(dirname(path), { recursive: true });
     await writeFile(path, renderSourceTimeline(source, sourceIssues));
@@ -194,7 +223,11 @@ async function preview() {
 
 async function build() {
   const issues = (await readIssues()).filter((issue) => issue.status !== "draft");
-  issues.forEach((issue) => assertValidIssue(issue, { archive: true }));
+  issues.forEach((issue) => {
+    assertValidIssue(issue, { archive: true });
+    const ids = issue.stories.map(storyIdFor);
+    if (ids.some((id) => !id) || new Set(ids).size !== ids.length) throw new Error(`Edition ${issue.id} has ambiguous story identities; add distinct articleIds before publishing.`);
+  });
   const groups = new Map();
   for (const issue of issues) {
     const source = sourceFor(issue);

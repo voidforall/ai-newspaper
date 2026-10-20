@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "status": "draft",
+  "editorial": {
+    "method": "manual",
+    "status": "complete"
+  },
+  "id": "2026-10-20-demo",
+  "date": "2026-10-20",
+  "language": "zh-CN",
+  "policyVersion": "ai-builder-v1",
+  "editionTitle": "多模态生成的一次补丁",
+  "editorNote": "一份面向 AI 应用开发者的示例刊：关注已经发布的技术变化、采用前的限制，以及可以展开查看的原文依据。",
+  "stories": [
+    {
+      "articleIds": [
+        "github-release-417566864"
+      ],
+      "kind": "release",
+      "topic": "models-and-inference",
+      "headline": "Transformers 修复生成输入类型转换问题",
+      "summary": "Transformers v5.20.2 的维护者称，本次补丁修复了生成流程中部分输入丢失原始类型的问题，该问题会影响多模态模型；发布说明还列出了专家并行梯度等修复。",
+      "category": "Technology",
+      "importance": 30,
+      "whyItMatters": "使用多模态生成的团队可针对受影响输入验证补丁，再决定是否升级。",
+      "sourceLinks": [
+        {
+          "name": "Transformers releases",
+          "url": "https://github.com/huggingface/transformers/releases"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2"
+        }
+      ],
+      "sourceMaterial": {
+        "status": "complete",
+        "method": "release-notes",
+        "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2",
+        "publishedAt": "2026-10-19T17:45:37.000Z",
+        "fetchedAt": "2026-10-20T08:27:27.486Z",
+        "truncated": false
+      },
+      "caveat": "这份发布说明未给出独立验证结果、性能数据或完整迁移指南。",
+      "evidence": [
+        {
+          "id": "e1",
+          "quote": "This patch notably solves an issue where some inputs could loose their original type inside `prepare_inputs_for_generation` in `generate`, leading to problems with multimodal models.",
+          "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2",
+          "fetchedAt": "2026-10-20T08:27:27.486Z",
+          "method": "release-notes",
+          "location": {
+            "start": 23,
+            "end": 205,
+            "unit": "utf16"
+          }
+        },
+        {
+          "id": "e2",
+          "quote": "Fix zero expert gradients in bfloat16 with expert parallelism and ep_size < fsdp_size (#49688)",
+          "url": "https://github.com/huggingface/transformers/releases/tag/v5.20.2",
+          "fetchedAt": "2026-10-20T08:27:27.486Z",
+          "method": "release-notes",
+          "location": {
+            "start": 367,
+            "end": 461,
+            "unit": "utf16"
+          }
+        }
+      ],
+      "attribution": {
+        "headline": {
+          "kind": "vendor-claim",
+          "evidenceIds": [
+            "e1"
+          ]
+        },
+        "summary": {
+          "kind": "vendor-claim",
+          "evidenceIds": [
+            "e1",
+            "e2"
+          ]
+        },
+        "whyItMatters": {
+          "kind": "editorial-judgment",
+          "evidenceIds": []
+        },
+        "caveat": {
+          "kind": "unknown",
+          "evidenceIds": []
+        }
+      }
+    }
+  ],
+  "generatedAt": "2026-10-20T08:27:44.568Z",
+  "recipe": {
+    "id": "demo",
+    "name": "示例刊"
+  },
+  "evidenceVersion": 1
+}
