@@ -13,7 +13,7 @@ import { latestMainIssue, renderHome } from "../src/render-home.js";
 const run = promisify(execFile);
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const demo = JSON.parse(await readFile(join(root, "samples/demo-issue.json"), "utf8"));
-const main = (date, status = "published") => ({ ...structuredClone(demo), id: `${date}-ai-builder`, date, status, recipe: { id: "ai-builder", name: "AI Builder 日报" }, editionTitle: `主刊 ${date}` });
+const main = (date, status = "published") => ({ ...structuredClone(demo), id: `${date}-ai-builder`, date, status, publishedAt: `${date}T08:00:00.000Z`, recipe: { id: "ai-builder", name: "AI Builder 日报" }, editionTitle: `主刊 ${date}` });
 
 test("homepage reads the latest published main edition and labels a missing day's update honestly", () => {
   const issues = [main("2026-10-18"), main("2026-10-19"), main("2026-10-20", "draft"), { ...main("2026-10-20"), recipe: { id: "another-desk" } }];

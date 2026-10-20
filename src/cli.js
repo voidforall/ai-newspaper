@@ -1,3 +1,5 @@
+import { renderFeed, shareMetadata, siteConfig } from "./distribution.js";
+import { renderShareImage } from "./share-image.js";
 import { link, mkdir, readdir, readFile, rename, rm, writeFile } from "node:fs/promises";
 import { randomUUID } from "node:crypto";
 import { dirname, join } from "node:path";
@@ -55,25 +57,30 @@ async function finishWrites(writes) {
   if (failed) throw failed.reason;
 }
 
-async function writeEdition(issue, { navigation, output = outputDirectory } = {}) {
+async function writeEdition(issue, { navigation, output = outputDirectory, site } = {}) {
   const id = issue.id ?? issue.date;
   const htmlPath = join(output, "editions", id, "index.html");
   await mkdir(dirname(htmlPath), { recursive: true });
+  const metadata = shareMetadata(issue, site, { path: `editions/${id}/` });
   const renderedIssue = renderIssue(issue, {
+    metadata,
     template: templateArgument() ?? issue.template ?? "standard", navigation,
     readingContext: { homeHref: "../../", archiveHref: "../../archive/", builderHref: "../../builder/" },
     storyLink: (story) => `../../stories/${id}/${storyIdFor(story)}/`
   });
   await writeFile(htmlPath, renderedIssue);
-  await finishWrites(issue.stories.map(async (story) => {
+  await writeFile(join(dirname(htmlPath), "cover.png"), renderShareImage({ title: issue.editionTitle, date: issue.date, url: site.url, label: site.title }));
+  for (const story of issue.stories) {
     const storyPath = join(output, "stories", id, storyIdFor(story), "index.html");
     await mkdir(dirname(storyPath), { recursive: true });
     const html = renderIssue({ ...issue, editionTitle: story.headline, stories: [story] }, {
+      metadata: shareMetadata(issue, site, { path: `stories/${id}/${storyIdFor(story)}/`, story }),
       template: templateArgument() ?? issue.template ?? "standard",
       readingContext: { story: true, homeHref: "../../../", archiveHref: "../../../archive/", builderHref: "../../../builder/", editionHref: `../../../editions/${id}/#${storyIdFor(story)}` }
     });
     await writeFile(storyPath, html);
-  }));
+    await writeFile(join(dirname(storyPath), "cover.png"), renderShareImage({ title: story.headline, date: issue.date, url: site.url, label: site.title }));
+  }
 }
 
 async function readIssues() {
@@ -89,15 +96,18 @@ async function readIssues() {
   }
 }
 
-async function writeCollection(issues, output = outputDirectory) {
+async function writeCollection(issues, output = outputDirectory, site) {
   await mkdir(output, { recursive: true });
   const demo = JSON.parse(await readFile(fileURLToPath(new URL("../samples/demo-issue.json", import.meta.url)), "utf8"));
   assertValidIssue(demo);
-  await writeFile(join(output, "index.html"), renderHome(issues, demo));
+  await writeFile(join(output, "index.html"), renderHome(issues, demo, { site }));
   await Promise.all(["archive", "builder", "demo"].map((directory) => mkdir(join(output, directory), { recursive: true })));
   await writeFile(join(output, "archive", "index.html"), renderCollection(issues, { basePath: "../", includeBuilder: false }));
   await writeFile(join(output, "builder", "index.html"), renderBuilderPage());
+  await writeFile(join(output, "feed.xml"), renderFeed(issues, site));
+  await writeFile(join(output, "demo", "cover.png"), renderShareImage({ title: demo.editionTitle, date: demo.date, url: site.url, label: `${site.title} · 示例刊` }));
   await writeFile(join(output, "demo", "index.html"), renderIssue(demo, {
+    metadata: shareMetadata(demo, site, { path: "demo/", demo: true }),
     readingContext: { demo: true, homeHref: "../", archiveHref: "../archive/", builderHref: "../builder/" }
   }));
   const groups = new Map();
@@ -222,6 +232,7 @@ async function preview() {
 }
 
 async function build() {
+  const site = siteConfig();
   const issues = (await readIssues()).filter((issue) => issue.status !== "draft");
   issues.forEach((issue) => {
     assertValidIssue(issue, { archive: true });
@@ -235,6 +246,7 @@ async function build() {
     group.issues.push(issue);
     groups.set(source.slug, group);
   }
+  if (new Set(issues.map((issue) => issue.id)).size !== issues.length) throw new Error("Edition IDs must be unique before building publication routes and feed.");
   const staging = `.public-build-${randomUUID()}`;
   const previous = `.public-previous-${randomUUID()}`;
   let movedPrevious = false;
@@ -243,7 +255,7 @@ async function build() {
     const results = await Promise.allSettled([...groups.values()].flatMap(({ source, issues: sourceIssues }) => {
       const ordered = [...sourceIssues].sort((left, right) => String(right.date).localeCompare(String(left.date)) || String(right.id).localeCompare(String(left.id)));
       return ordered.map((issue, index) => writeEdition(issue, {
-        output: staging,
+        output: staging, site,
         navigation: {
           source: { name: source.name, href: `../../sources/${source.slug}/` },
           newer: ordered[index - 1] ? { date: ordered[index - 1].date, href: `../${ordered[index - 1].id}/` } : undefined,
@@ -254,7 +266,7 @@ async function build() {
     }));
     const failed = results.find((result) => result.status === "rejected");
     if (failed) throw failed.reason;
-    await writeCollection(issues, staging);
+    await writeCollection(issues, staging, site);
     try {
       await rename(outputDirectory, previous);
       movedPrevious = true;

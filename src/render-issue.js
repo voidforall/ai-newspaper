@@ -1,3 +1,4 @@
+import { renderMetadata } from "./distribution.js";
 import { createHash } from "node:crypto";
 import { canonicalArticleUrl } from "./editorial-policy.js";
 
@@ -63,10 +64,10 @@ function displayUpdate(value, zh) {
   return `${new Intl.DateTimeFormat(zh ? "zh-CN" : "en-GB", { timeZone: "UTC", month: "short", day: "numeric", hour: "2-digit", minute: "2-digit", hourCycle: "h23" }).format(new Date(value))} UTC`;
 }
 
-function renderReadingContext(context, issue) {
+function renderReadingContext(context, issue, metadata) {
   if (!context) return "";
   const zh = issue.language === "zh-CN";
-  const nav = `<nav class="reader-nav" aria-label="${zh ? "阅读导航" : "Reader navigation"}"><a href="${escapeHtml(context.homeHref)}">AI Builder 日报</a><div><a href="${escapeHtml(context.archiveHref)}">${zh ? "历史期刊" : "Archive"}</a><a href="${escapeHtml(context.builderHref)}">${zh ? "自建报纸" : "Build your edition"}</a></div></nav>`;
+  const nav = `<nav class="reader-nav" aria-label="${zh ? "阅读导航" : "Reader navigation"}"><a href="${escapeHtml(context.homeHref)}">AI Builder 日报</a><div>${metadata ? `<a href="${escapeHtml(metadata.feedUrl)}">RSS</a>` : ""}<a href="${escapeHtml(context.archiveHref)}">${zh ? "历史期刊" : "Archive"}</a><a href="${escapeHtml(context.builderHref)}">${zh ? "自建报纸" : "Build your edition"}</a></div></nav>`;
   const note = context.demo ? `${context.home ? "主刊尚未正式发布。" : ""}示例刊 · 根据真实发布说明人工编写，供体验阅读与原文依据；不是当日新闻或正式主刊。`
     : context.home ? `${issue.date === context.today ? "最新主刊" : "今日主刊尚未发布，以下为最近一期"} · ${issue.date}` : "";
   return `${nav}<p class="reader-position">${zh ? "给 AI 应用开发者的五分钟日报 · 技术变化、实际影响与原文依据" : "A five-minute newspaper for AI application builders"}</p>${note ? `<p class="reader-status">${escapeHtml(note)}</p>` : ""}<p class="reader-updated">${zh ? "本期日期" : "Edition"} <time datetime="${escapeHtml(issue.date)}">${escapeHtml(issue.date)}</time>${issue.generatedAt ? ` · ${zh ? "生成于" : "Generated"} <time datetime="${escapeHtml(issue.generatedAt)}">${escapeHtml(displayUpdate(issue.generatedAt, zh))}</time>` : ""}${context.editionHref ? ` · <a href="${escapeHtml(context.editionHref)}">${zh ? "本期固定链接" : "Edition permalink"}</a>` : ""}</p>`;
@@ -130,7 +131,7 @@ function renderEditionNavigation(navigation) {
   </nav>`;
 }
 
-export function renderIssue(issue, { template = issue.template ?? "standard", navigation, readingContext, storyLink } = {}) {
+export function renderIssue(issue, { template = issue.template ?? "standard", navigation, readingContext, storyLink, metadata } = {}) {
   const selectedTemplate = resolveTemplate(template);
   const language = issue.language ?? "en";
   const zh = language === "zh-CN";
@@ -148,7 +149,8 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${escapeHtml(issue.editionTitle)} — ${escapeHtml(issue.date)}</title>
+  <title>${escapeHtml(metadata?.title ?? `${issue.editionTitle} — ${issue.date}`)}</title>
+  ${renderMetadata(metadata)}
   <style>
     :root { --ink: #181715; --paper: #f5f0e5; --rule: #24211c; --accent: #a1261f; }
     * { box-sizing: border-box; }
@@ -256,7 +258,7 @@ export function renderIssue(issue, { template = issue.template ?? "standard", na
 </head>
 <body>
   <main class="newspaper template-${selectedTemplate}">
-    ${renderReadingContext(readingContext, issue)}
+    ${renderReadingContext(readingContext, issue, metadata)}
     <div class="edition-line"><span>${escapeHtml(issue.date)}</span><span>${zh ? "每日刊" : "Daily Edition"}</span><span>${zh ? "独立日报" : "Independent Daily Edition"}</span></div>
     <header class="masthead"><h1>${escapeHtml(masthead)}</h1></header>
     ${readingContext?.story ? "" : `<p class="deck"><strong>${zh ? "本期导读" : "TODAY&#039;S EDITION"}</strong> — ${escapeHtml(issue.editorNote)}</p>`}
