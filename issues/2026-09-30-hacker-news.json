@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-30-hacker-news",
+  "date": "2026-09-30",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49896586"
+      ],
+      "headline": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 992,
+      "whyItMatters": "The Hacker News community gave this story 992 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49896586"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49901736"
+      ],
+      "headline": "Livenerf: Has Opus 5.5 been nerfed yet?",
+      "summary": "ninjahawk / livenerf Public Notifications You must be signed in to change notification settings Fork 8 Star 638 main Branches Tags Go to file Code Open more actions menu Latest commit History 39 Commits 39 Commits Folders and files Name Name Last commit message Last commit date . github/ workflows .",
+      "category": "Technology",
+      "importance": 729,
+      "whyItMatters": "The Hacker News community gave this story 729 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49901736"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/ninjahawk/livenerf"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49896604"
+      ],
+      "headline": "Dots: Always-on agents",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 671,
+      "whyItMatters": "The Hacker News community gave this story 671 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49896604"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openai.com/index/introducing-dots/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49893509"
+      ],
+      "headline": "America.gov",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 647,
+      "whyItMatters": "The Hacker News community gave this story 647 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49893509"
+        },
+        {
+          "name": "Original source",
+          "url": "https://america.gov/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49905487"
+      ],
+      "headline": "September 2026: The world today, as seen by one Polish guy",
+      "summary": "I am a Pole.  My country borders Europe’s largest war since 1945, heats itself with coal and imported gas, and arms itself on borrowed money.",
+      "category": "Ideas",
+      "importance": 370,
+      "whyItMatters": "The Hacker News community gave this story 370 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49905487"
+        },
+        {
+          "name": "Original source",
+          "url": "https://tomwojcik.com/posts/2026-09-21/september-2026-the-world-today/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49898778"
+      ],
+      "headline": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
+      "summary": "Космос сейчас ∞ заставка Загружаю… 🌍 Земля ☀️ Вся система 🔄 Вращать с Землёй ✂ Короткие пути все ничего Тяни — вращать, колесо — приблизить, клик — карточка и орбита, двойной клик — лететь к телу.  WASD — полёт, R/F — вверх/вниз, Q/E и стрелки — поворот, Shift — быстрее.",
+      "category": "Ideas",
+      "importance": 294,
+      "whyItMatters": "The Hacker News community gave this story 294 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49898778"
+        },
+        {
+          "name": "Original source",
+          "url": "https://space.bl2.net/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49897993"
+      ],
+      "headline": "Vermont replacing power plants with home batteries",
+      "summary": "The US state replacing power plants with home batteries 1 day ago Share Save Add as preferred on Google Jack Carroll BBC/ Serenity Strull (Credit: BBC/ Serenity Strull) Spread across thousands of ordinary homes, this \"power plant\" has become Vermont's largest power source.  It's protecting owners from outages and providing cheaper, cleaner energy.",
+      "category": "Ideas",
+      "importance": 256,
+      "whyItMatters": "The Hacker News community gave this story 256 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49897993"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49899090"
+      ],
+      "headline": "U.S. postal inspectors shut down website selling counterfeit postage labels",
+      "summary": "U. S.",
+      "category": "Ideas",
+      "importance": 246,
+      "whyItMatters": "The Hacker News community gave this story 246 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49899090"
+        },
+        {
+          "name": "Original source",
+          "url": "https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49906637"
+      ],
+      "headline": "Pi.dev: You Said No MCP",
+      "summary": "“You Said No MCP! ” Date: Tue, 29 Sep 2026 From: Earendil Engineering rfc@earendil.",
+      "category": "Technology",
+      "importance": 234,
+      "whyItMatters": "The Hacker News community gave this story 234 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49906637"
+        },
+        {
+          "name": "Original source",
+          "url": "https://earendil.com/posts/you-said-no-mcp/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49893002"
+      ],
+      "headline": "Backblaze drive stats for Q2 2026",
+      "summary": "Running a storage cloud means serving as both builder and building inspector.  You choose the materials, put them to work at scale, and return quarter after quarter to see how the structure is holding up.",
+      "category": "Ideas",
+      "importance": 228,
+      "whyItMatters": "The Hacker News community gave this story 228 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49893002"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.backblaze.com/blog/backblaze-drive-stats-for-q2-2026/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-30T13:24:08.364Z"
+}

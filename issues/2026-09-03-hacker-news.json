@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-03-hacker-news",
+  "date": "2026-09-03",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49537553"
+      ],
+      "headline": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "Introducing Gemini 3. 8 Flash and 3.",
+      "category": "Ideas",
+      "importance": 1054,
+      "whyItMatters": "The Hacker News community gave this story 1054 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49537553"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49541256"
+      ],
+      "headline": "Muse Spark 1.3",
+      "summary": "<a href=\"https:&#x2F;&#x2F;research.meta.ai&#x2F;blog&#x2F;introducing-muse-spark-1-3\" rel=\"nofollow\">https:&#x2F;&#x2F;research.meta.ai&#x2F;blog&#x2F;introducing-muse-spark-1-3</a>",
+      "category": "Technology",
+      "importance": 609,
+      "whyItMatters": "The Hacker News community gave this story 609 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49541256"
+        },
+        {
+          "name": "Original source",
+          "url": "https://developer.meta.com/ai/models/muse-spark/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49535284"
+      ],
+      "headline": "Can I opt out of my input or output data being used for training?",
+      "summary": "In certain cases, your input and output data (such as conversations, documents, and other user-provided content) may be included in Mistral’s model training programs .  🔑 You retain full control over this processing and have the right to opt out of these programs at any time .",
+      "category": "Technology",
+      "importance": 462,
+      "whyItMatters": "The Hacker News community gave this story 462 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49535284"
+        },
+        {
+          "name": "Original source",
+          "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49536375"
+      ],
+      "headline": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+      "summary": "We asked two web-grounded models for the best products in 380 software categories and kept every URL they retrieved.  Of the 7,534 citations that came back, 59.",
+      "category": "Technology",
+      "importance": 445,
+      "whyItMatters": "The Hacker News community gave this story 445 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49536375"
+        },
+        {
+          "name": "Original source",
+          "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49537131"
+      ],
+      "headline": "Google avoids a breakup of its ad tech business",
+      "summary": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;rlAbY\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;rlAbY</a><p><a href=\"https:&#x2F;&#x2F;www.reuters.com&#x2F;legal&#x2F;litigation&#x2F;google-defeats-us-bid-force-ad-tech-sale-2026-09-02&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reuters.com&#x2F;legal&#x2F;litigation&#x2F;google-defeats-us-b...</a>",
+      "category": "Business",
+      "importance": 412,
+      "whyItMatters": "The Hacker News community gave this story 412 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49537131"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.nytimes.com/2026/09/02/technology/google-ad-tech-remedies.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49536079"
+      ],
+      "headline": "Biggest dark matter detector spots a single weird particle",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 309,
+      "whyItMatters": "The Hacker News community gave this story 309 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49536079"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49535548"
+      ],
+      "headline": "Aging brains blend memories together instead of just forgetting them",
+      "summary": "Share: Pin Facebook Tweet Yummly Email (Credit: © Aryazu - stock. adobe.",
+      "category": "Technology",
+      "importance": 301,
+      "whyItMatters": "The Hacker News community gave this story 301 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49535548"
+        },
+        {
+          "name": "Original source",
+          "url": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49541458"
+      ],
+      "headline": "Fable 5.1 World Modeling",
+      "summary": "Uh oh!  There was an error while loading.",
+      "category": "Technology",
+      "importance": 279,
+      "whyItMatters": "The Hacker News community gave this story 279 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49541458"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/PhiloLabs/fable51-worlds"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49536606"
+      ],
+      "headline": "Exit the Cave",
+      "summary": "Exit the Cave Ain’t it fun, livin’ in the real world?  Justin Andersun Aug 19, 2026 33 3 10 Share There’s something romantic about the Cave.",
+      "category": "Technology",
+      "importance": 279,
+      "whyItMatters": "The Hacker News community gave this story 279 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49536606"
+        },
+        {
+          "name": "Original source",
+          "url": "https://turtlespace.blog/p/exit-the-cave"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49546753"
+      ],
+      "headline": "Pre-Release of Polars 2.0",
+      "summary": "Back to blog Pre-release of Polars 2. 0 By Ritchie Vink on Wed, 2 Sept 2026 Today we are releasing the first release candidate for Polars 2.",
+      "category": "Ideas",
+      "importance": 215,
+      "whyItMatters": "The Hacker News community gave this story 215 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49546753"
+        },
+        {
+          "name": "Original source",
+          "url": "https://pola.rs/posts/announcing-polars-2/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-03T11:59:02.981Z"
+}

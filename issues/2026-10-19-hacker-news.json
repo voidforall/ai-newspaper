@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-19-hacker-news",
+  "date": "2026-10-19",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-50142573"
+      ],
+      "headline": "Someone behind the software",
+      "summary": "Someone behind the software October 15, 2026 I think good products carry something of the people who make them.  Their experience, what they care about, and how they think things should work.",
+      "category": "Technology",
+      "importance": 502,
+      "whyItMatters": "The Hacker News community gave this story 502 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50142573"
+        },
+        {
+          "name": "Original source",
+          "url": "https://karrisaarinen.com/posts/someone-behind-the-software/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50150750"
+      ],
+      "headline": "Documents: Police officer gave her Flock login to her ICE agent husband",
+      "summary": "Advertisement Documents: Ousted Savannah police officer gave ICE agent husband access to Flock system Advertisement Updated: 9:33 AM EDT Oct 15, 2026 Editorial Standards ⓘ Tia Maggio Anchor/Reporter Graham Cawthon Digital Media Manager Pedro Lopez Photojournalist Documents: Ousted Savannah police officer gave ICE agent husband access to Flock system Updated: 9:33 AM EDT Oct 15, 2026 Editorial Standards ⓘ Tia Maggio Anchor/Reporter Graham Cawthon Digital Media Manager Pedro Lopez Photojournalist SAVANNAH, Ga.  — Download the WJCL app for breaking news alerts: Apple , Google Play A now-former Savannah police officer gave her husband, an Immigration and Customs Enforcement agent, access to the…",
+      "category": "Ideas",
+      "importance": 480,
+      "whyItMatters": "The Hacker News community gave this story 480 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50150750"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50145337"
+      ],
+      "headline": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "summary": "Computer Science > Computation and Language arXiv:2610. 18861 (cs) [Submitted on 13 Oct 2026] Title: Hybrid Reasoning Agents Authors: Jiaru Zou , Yunzhe Qi , Sirui Chen , Federico Bianchi , Shang Zhu , Pan Lu , Jingrui He , James Zou View a PDF of the paper titled Hybrid Reasoning Agents, by Jiaru Zou and 7 other authors View PDF HTML (experimental) Abstract: How can we build an agent that thinks beyond human language, yet still acts through it in the external environment?",
+      "category": "Technology",
+      "importance": 461,
+      "whyItMatters": "The Hacker News community gave this story 461 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50145337"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arxiv.org/abs/2610.18861"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50149392"
+      ],
+      "headline": "Linux 7.3 Released",
+      "summary": "Linus Torvalds has released the 7. 3 kernel, as expected.",
+      "category": "Ideas",
+      "importance": 405,
+      "whyItMatters": "The Hacker News community gave this story 405 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50149392"
+        },
+        {
+          "name": "Original source",
+          "url": "https://lwn.net/Articles/1101143/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50145507"
+      ],
+      "headline": "If you don't run your own LLM proxy, how do you know whats going on?",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 243,
+      "whyItMatters": "The Hacker News community gave this story 243 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50145507"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50146625"
+      ],
+      "headline": "William Gibson and the trademarking of cyberspace",
+      "summary": "Park G&uuml;ell, Barcelona, 1990 Michael Girard, Deborah Gibson, Timothy Leary, Eric Gullichsen, William Gibson.  Susan Amkraut obscured behind Deborah The Cyberspace Rumor From the first days of the web, people have repeated the story that Autodesk trademarked \"cyberspace\" and Gibson retaliated by trademarking \"Eric Gullichsen\".",
+      "category": "Ideas",
+      "importance": 231,
+      "whyItMatters": "The Hacker News community gave this story 231 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50146625"
+        },
+        {
+          "name": "Original source",
+          "url": "https://colo.to/cyberspace.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50150434"
+      ],
+      "headline": "Timestral: Mistral release time-series foundation models",
+      "summary": "Research Introducing Timestral October 15, 2026 By Mistral Back to Blog 7 min read Share this post Copy url to clipboard Copied Thinking Summary Timestral, Mistral’s first family of time-series foundation models, delivers state-of-the-art probabilistic, multivariate forecasts with just 209M parameters, outperforming larger models on key benchmarks while supporting past and future covariates.  Available in four sizes (5M to 209M parameters), it balances accuracy and efficiency, running efficiently on CPUs and excelling in zero-shot forecasting for diverse domains.",
+      "category": "Technology",
+      "importance": 213,
+      "whyItMatters": "The Hacker News community gave this story 213 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50150434"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mistral.ai/news/timestral/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50144066"
+      ],
+      "headline": "Free Pascal compiler now supports dynamic packages",
+      "summary": "Home Dynamic Packages Lazarus is free open source software Why not give it a try today?  \"> Download Now Sign In Save your edits of this page as a pending edit?",
+      "category": "Technology",
+      "importance": 182,
+      "whyItMatters": "The Hacker News community gave this story 182 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50144066"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.getlazarus.org/dynamic/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50145715"
+      ],
+      "headline": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "summary": "main Branches Tags Go to file Code Open more actions menu Latest commit History 6 Commits 6 Commits Folders and files Name Name Last commit message Last commit date local-export local-export scripts scripts src src test test . gitignore .",
+      "category": "Technology",
+      "importance": 134,
+      "whyItMatters": "The Hacker News community gave this story 134 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50145715"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/finereli/whatsapp-mcp"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50147492"
+      ],
+      "headline": "Superlite: A Faster Alternatie to Superpowers",
+      "summary": "I had a dream.  I would hand an agent a spec, close the laptop, make a sandwich, and come back to finished, tested, committed work.",
+      "category": "Ideas",
+      "importance": 120,
+      "whyItMatters": "The Hacker News community gave this story 120 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50147492"
+        },
+        {
+          "name": "Original source",
+          "url": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-19T14:26:01.024Z"
+}

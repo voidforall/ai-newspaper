@@ -124,7 +124,7 @@ async function preview() {
 
 async function build() {
   const issues = await readIssues();
-  issues.forEach(assertValidIssue);
+  issues.forEach((issue) => assertValidIssue(issue, { archive: true }));
   const groups = new Map();
   for (const issue of issues) {
     const source = sourceFor(issue);

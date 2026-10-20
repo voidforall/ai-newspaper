@@ -1,0 +1,209 @@
+{
+  "id": "2026-07-30-hacker-news",
+  "date": "2026-07-30",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49098510"
+      ],
+      "headline": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+      "summary": "drumih / turbo-fieldfare Public Notifications You must be signed in to change notification settings Fork 52 Star 1. 6k main Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 12 Commits 12 Commits .",
+      "category": "Technology",
+      "importance": 792,
+      "whyItMatters": "The Hacker News community gave this story 792 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49098510"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/drumih/turbo-fieldfare"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49095865"
+      ],
+      "headline": "KOReader",
+      "summary": "User Guide Download Wiki Forum Bug Report Develop Developer Docs Logo Gallery",
+      "category": "Ideas",
+      "importance": 710,
+      "whyItMatters": "The Hacker News community gave this story 710 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49095865"
+        },
+        {
+          "name": "Original source",
+          "url": "https://koreader.rocks/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49098965"
+      ],
+      "headline": "Superlogical",
+      "summary": "We are building the multiplexer for all work.  all work.",
+      "category": "Ideas",
+      "importance": 694,
+      "whyItMatters": "The Hacker News community gave this story 694 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49098965"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.superlogical.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49102774"
+      ],
+      "headline": "The coolest use for the Vision Pro",
+      "summary": "The coolest use for the Vision Pro July 29, 2026 One day there will hopefully be a house on this land Over the last year, I admittedly haven&rsquo;t used my Vision Pro a ton, but fairly recently I discovered a super handy use that it&rsquo;s absolutely incredible at, provided you have the right tools.  After years of apartment life my girlfriend and I have recently begun the process of building our (first!",
+      "category": "Technology",
+      "importance": 652,
+      "whyItMatters": "The Hacker News community gave this story 652 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49102774"
+        },
+        {
+          "name": "Original source",
+          "url": "https://christianselig.com/2026/07/vision-pro-house/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49103285"
+      ],
+      "headline": "AI's top startups are barely publishing their research",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 455,
+      "whyItMatters": "The Hacker News community gave this story 455 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49103285"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49101852"
+      ],
+      "headline": "Kimi K3-256k",
+      "summary": "Model Configuration ​ This page covers the models Kimi Code provides and how to switch between them in each client.  Model Overview ​ Kimi Code currently offers two models—Kimi K3 and Kimi K2.",
+      "category": "Technology",
+      "importance": 432,
+      "whyItMatters": "The Hacker News community gave this story 432 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49101852"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.kimi.com/code/docs/en/kimi-code/models"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49099715"
+      ],
+      "headline": "Keychron announces first open-source firmware for gaming mice",
+      "summary": "ZGM.  That's the name of peripheral manufacturer Keychron's upcoming open-source gaming mouse firmware, announced today and planned to release in the first quarter of 2027 for the G6 HE hybrid magnetic switch gaming mouse (pictured above).",
+      "category": "Ideas",
+      "importance": 376,
+      "whyItMatters": "The Hacker News community gave this story 376 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49099715"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49098198"
+      ],
+      "headline": "A.I. companies are recruiting electricians and carpenters by the thousands",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 282,
+      "whyItMatters": "The Hacker News community gave this story 282 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49098198"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.nytimes.com/2026/07/29/business/economy/data-center-electricians-training.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49104117"
+      ],
+      "headline": "LLM Honeypot",
+      "summary": "★ WELCOME TO MY HOMESTEAD ★ LLM2HUMAN. GEO ★ EST.",
+      "category": "Ideas",
+      "importance": 244,
+      "whyItMatters": "The Hacker News community gave this story 244 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49104117"
+        },
+        {
+          "name": "Original source",
+          "url": "https://llm2human.pages.dev/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49104335"
+      ],
+      "headline": "The Productivity Mirage",
+      "summary": "The Productivity Mirage Jul 25, 2026 by Alex Kotliarskyi I remember this legendary software engineer at Facebook.  His name is Bob .",
+      "category": "Technology",
+      "importance": 230,
+      "whyItMatters": "The Hacker News community gave this story 230 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49104335"
+        },
+        {
+          "name": "Original source",
+          "url": "https://frantic.im/mirage/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-30T09:32:23.174Z"
+}

@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-15-hacker-news",
+  "date": "2026-08-15",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49299605"
+      ],
+      "headline": "Qwen 3.8 27B",
+      "summary": "' }}\\n {%- elif 'video' in item or item. type == 'video' %}\\n {%- if is_system_content %}\\n {{- raise_exception('System message cannot contain videos.",
+      "category": "Technology",
+      "importance": 1083,
+      "whyItMatters": "The Hacker News community gave this story 1083 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49299605"
+        },
+        {
+          "name": "Original source",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49296740"
+      ],
+      "headline": "Why does Opus 5 feel worse to work with?",
+      "summary": "Why does Opus 5 feel worse to work with?  Posted on 2026-08-14 :: Source Code Why does Opus 5 feel worse to work with?",
+      "category": "Ideas",
+      "importance": 847,
+      "whyItMatters": "The Hacker News community gave this story 847 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49296740"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49303202"
+      ],
+      "headline": "Firefox is now the last major browser that still supports uBlock Origin",
+      "summary": "When you purchase through links in our articles, we may earn a small commission.  This doesn't affect our editorial independence .",
+      "category": "Ideas",
+      "importance": 839,
+      "whyItMatters": "The Hacker News community gave this story 839 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49303202"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49300314"
+      ],
+      "headline": "Google is making private AI practical with homomorphic encryption",
+      "summary": "Security How Google is Making Private AI Practical with Homomorphic Encryption Aug 14, 2026 | x. com Facebook LinkedIn Mail Copy link Jeremy Kun Staff Software Engineer Share x.",
+      "category": "Technology",
+      "importance": 362,
+      "whyItMatters": "The Hacker News community gave this story 362 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49300314"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49304447"
+      ],
+      "headline": "Going Dark, and the era of law enforcement hacking",
+      "summary": "I’m coming down from spending a few days at Usenix Security , right here in my hometown of Baltimore.  This means that my days have been taken up with two kinds of conversation: first, explaining to colleagues why Baltimore isn’t actually like The Wire .",
+      "category": "Technology",
+      "importance": 307,
+      "whyItMatters": "The Hacker News community gave this story 307 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49304447"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49300568"
+      ],
+      "headline": "AI by Hand",
+      "summary": "AI by Hand ✍️ Math, Algorithms, Architectures, by hand By Prof.  Tom Yeh · Over 73,000 subscribers By subscribing, you agree Substack's Terms of Use , and acknowledge its Information Collection Notice and Privacy Policy .",
+      "category": "Technology",
+      "importance": 281,
+      "whyItMatters": "The Hacker News community gave this story 281 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49300568"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.byhand.ai/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49300759"
+      ],
+      "headline": "RustDesk now supports true unattended remote access on Wayland",
+      "summary": "Wayland support has been one of the harder parts of Linux remote desktop.  RustDesk can now provide true unattended access on Wayland , without requiring someone at the remote machine to approve every session.",
+      "category": "Ideas",
+      "importance": 272,
+      "whyItMatters": "The Hacker News community gave this story 272 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49300759"
+        },
+        {
+          "name": "Original source",
+          "url": "https://rustdesk.com/blog/unattended-remote-access-wayland/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49299746"
+      ],
+      "headline": "Introducing Toast 1",
+      "summary": "[data-slot=icon-swap]]:px-3 group mb-10 h-4 self-start p-0 hover:bg-transparent has-[>svg]:px-0\" href=\"/blog\"> All posts Introducing Toast 1 svg]:pointer-events-none [&>svg]:size-3 border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90\">Research svg]:pointer-events-none [&>svg]:size-3 border-transparent bg-secondary text-secondary-foreground [a&]:hover:bg-secondary/90\">Product MB Mixedbread Team · August 13, 2026 · 6 min read Copy to clipboard Toast 1 , our first specialised search agent, is available today.  It provides frontier search quality, matching or outperforming Claude Opus 5 and GPT-5.",
+      "category": "Technology",
+      "importance": 197,
+      "whyItMatters": "The Hacker News community gave this story 197 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49299746"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.mixedbread.com/blog/toast-1"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49300800"
+      ],
+      "headline": "Maximizing the value of your Claude Code sessions",
+      "summary": "Maximizing the value of your Claude Code sessions How to run efficient sessions that get the most value from every token.  Category Claude Code Enterprise AI Product Claude Code Date August 14, 2026 Reading time 5 min Share Copy link https://claude.",
+      "category": "Technology",
+      "importance": 194,
+      "whyItMatters": "The Hacker News community gave this story 194 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49300800"
+        },
+        {
+          "name": "Original source",
+          "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49306577"
+      ],
+      "headline": "Magnitude 7.7 Earthquake – 68 km NNW of Ende, Indonesia",
+      "summary": "The Earthquake Event Page application supports most recent browsers, view supported browsers .  Or, try our Real-time Notifications, Feeds, and Web Services .",
+      "category": "Ideas",
+      "importance": 176,
+      "whyItMatters": "The Hacker News community gave this story 176 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49306577"
+        },
+        {
+          "name": "Original source",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2/executive"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-15T07:32:35.722Z"
+}

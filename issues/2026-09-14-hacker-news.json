@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-14-hacker-news",
+  "date": "2026-09-14",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49688695"
+      ],
+      "headline": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "summary": "Blog Research Claude Fable 5. 1 Solves the Cyphral Distich We gave Claude Fable 5.",
+      "category": "Ideas",
+      "importance": 1093,
+      "whyItMatters": "The Hacker News community gave this story 1093 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49688695"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49686445"
+      ],
+      "headline": "Why is Google still serving dodgy ads?",
+      "summary": "Why is Google still serving dodgy ads?  View All Posts read Want to keep up to date with the latest posts and videos?",
+      "category": "Ideas",
+      "importance": 888,
+      "whyItMatters": "The Hacker News community gave this story 888 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49686445"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49689048"
+      ],
+      "headline": "Registration without a phone number on Signal will use zero-knowledge proofs",
+      "summary": "Add signal login screen scaffolding.  committed 04:14PM - 25 Aug 26 UTC greyson-signal +998 -2",
+      "category": "Ideas",
+      "importance": 333,
+      "whyItMatters": "The Hacker News community gave this story 333 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49689048"
+        },
+        {
+          "name": "Original source",
+          "url": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49690174"
+      ],
+      "headline": "Apple's Dimensional Drawings",
+      "summary": "Dimensional Drawings Download dimensional drawings and technical specifications.  All Mac iPad iPhone Watch Vision AirPods TV & Home Accessories MacBook Neo Download iPad Air 11-inch (M4) Download iPad Air 13-inch (M4) Download iPhone 17e Download iPad Pro 11-inch (M5) Download iPad Pro 13-inch (M5) Download AirPods Pro 3 Download Apple Watch SE 3, 40 mm Download Apple Watch SE 3, 44 mm Download Apple Watch Series 11, 42 mm Download Apple Watch Series 11, 46 mm Download Apple Watch Ultra 3 Download MagSafe Charging Case for AirPods Pro 3 Download iPhone 17 Download iPhone 17 Pro Download iPhone 17 Pro Max Download iPhone Air Download iPad (A16) Download iPad Air 11-inch (M3) Download iPad…",
+      "category": "Technology",
+      "importance": 283,
+      "whyItMatters": "The Hacker News community gave this story 283 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49690174"
+        },
+        {
+          "name": "Original source",
+          "url": "https://developer.apple.com/accessories/dimensional-drawings/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49691343"
+      ],
+      "headline": "Nike exits the S&P 100 after 18 years and a $200B market-cap wipeout",
+      "summary": "Trending now 1 Amazon workers on food stamps have tripled despite its record revenue—and it’s just the latest evidence of the new economy of shrinking labor shares 2 After Trump says he doesn't need Congress for his $5,000 'dividend,' House Speaker Mike Johnson says not so fast but vows to try to make it happen 3 Anne Hathaway says she was spammed with ChatGPT-written thank you notes after hiring for a recent role: ‘Nobody on that list gets that job’ 1 Amazon workers on food stamps have tripled despite its record revenue—and it’s just the latest evidence of the new economy of shrinking labor shares 2 After Trump says he doesn't need Congress for his $5,000 'dividend,' House Speaker Mike…",
+      "category": "Business",
+      "importance": 227,
+      "whyItMatters": "The Hacker News community gave this story 227 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49691343"
+        },
+        {
+          "name": "Original source",
+          "url": "https://fortune.com/2026/09/08/nike-stock-plummets-sp500-market-cap-index/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49688259"
+      ],
+      "headline": "Mullenweg has returned as CEO after attempted board ouster",
+      "summary": "After a tumultuous week that saw WordPress founder Matt Mullenweg ousted from his position as CEO of WordPress. com’s parent company Automattic by way of a board vote, the company has now issued a statement confirming that Mullenweg has returned to his position.",
+      "category": "Business",
+      "importance": 220,
+      "whyItMatters": "The Hacker News community gave this story 220 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49688259"
+        },
+        {
+          "name": "Original source",
+          "url": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49690554"
+      ],
+      "headline": "The case against JPEG XL",
+      "summary": "Investigating JPEG XL's place as a Web image codec.  Why?",
+      "category": "Technology",
+      "importance": 212,
+      "whyItMatters": "The Hacker News community gave this story 212 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49690554"
+        },
+        {
+          "name": "Original source",
+          "url": "https://giannirosato.com/blog/post/case-against-jxl/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49695459"
+      ],
+      "headline": "XCancel suspended \"due to a new development in the ongoing legal proceedings\"",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 160,
+      "whyItMatters": "The Hacker News community gave this story 160 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49695459"
+        },
+        {
+          "name": "Original source",
+          "url": "https://xcancel.com/twitter"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49693610"
+      ],
+      "headline": "EuroBirdPortal – Live bird movements across Europe",
+      "summary": "Toggle navigation X Home Help About Partners Blog LIFE EBP reinforcement English български Босански català црногорски jeзик Čeština dansk Deutsch ελληνικά English eesti español euskara suomi français Gaeilge Galego עברית‎ hrvatski magyar Íslenska italiano Lietuvių latviešu Македонски Malti Nederlands norsk polski português română Русский язык Slovenčina Slovenščina Shqip Српски svenska Türkçe Українська &times; Species Northern Bobwhite Colinus virginianus L R California Quail Callipepla californica L R Quail Coturnix coturnix L R Rock Partridge Alectoris graeca L R Chukar Alectoris chukar L R Barbary Partridge Alectoris barbara L R Red-legged Partridge Alectoris rufa L R Erckel's Spurfowl…",
+      "category": "Technology",
+      "importance": 144,
+      "whyItMatters": "The Hacker News community gave this story 144 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49693610"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.eurobirdportal.org/ebp/en/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49693613"
+      ],
+      "headline": "A 386 PC for Your RP2350",
+      "summary": "rh1tech / frank-386 Public Notifications You must be signed in to change notification settings Fork 6 Star 88 main Branches Tags Go to file Code Open more actions menu Latest commit History 259 Commits 259 Commits Folders and files Name Name Last commit message Last commit date . githooks .",
+      "category": "Technology",
+      "importance": 109,
+      "whyItMatters": "The Hacker News community gave this story 109 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49693613"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/rh1tech/frank-386"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-14T13:44:16.989Z"
+}

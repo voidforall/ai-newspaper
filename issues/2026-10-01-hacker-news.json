@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-01-hacker-news",
+  "date": "2026-10-01",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49913571"
+      ],
+      "headline": "Gemini 4 Argon",
+      "summary": "Gemini 4 Argon: our next era of frontier intelligence Sep 30, 2026 | x. com Facebook LinkedIn Mail Copy link Gemini 4 Argon delivers frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense.",
+      "category": "Technology",
+      "importance": 1515,
+      "whyItMatters": "The Hacker News community gave this story 1515 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49913571"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49909583"
+      ],
+      "headline": "A brief history of the Bloomberg terminal",
+      "summary": "History of Technology Magazine Article Computing October 2026 Past Forward A Brief History of the Bloomberg Terminal It gave Wall Street traders and analysts an unprecedented window on global markets Allison Marsh 30 Sep 2026 6 min read Allison Marsh is a professor at the University of South Carolina and the codirector of the Ann Johnson Institute for Science, Technology & Society.  This early 1990s keyboard for the Bloomberg Terminal featured a trackball, speaker, and headphone and microphone ports.",
+      "category": "Business",
+      "importance": 331,
+      "whyItMatters": "The Hacker News community gave this story 331 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49909583"
+        },
+        {
+          "name": "Original source",
+          "url": "https://spectrum.ieee.org/bloomberg-terminal"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49915082"
+      ],
+      "headline": "The top secret URSALA, RAQUEL, and FARRAH satellites (2025)",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 263,
+      "whyItMatters": "The Hacker News community gave this story 263 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49915082"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.thespacereview.com/article/4951/1"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49915126"
+      ],
+      "headline": "56k.rip – the 1996 dial-up internet experience",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 226,
+      "whyItMatters": "The Hacker News community gave this story 226 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49915126"
+        },
+        {
+          "name": "Original source",
+          "url": "https://56k.rip/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49912955"
+      ],
+      "headline": "Surprisingly complex waves reveal the brain's inner workings",
+      "summary": "Home Surprisingly Complex Waves Reveal the Brain’s Inner Workings Read Later Share Copied!  Comments Read Later Read Later neuroscience Surprisingly Complex Waves Reveal the Brain’s Inner Workings By Conor Feehly September 30, 2026 Unexpected patterns traveling across the cortex may be reorganizing its activity in real time.",
+      "category": "Technology",
+      "importance": 222,
+      "whyItMatters": "The Hacker News community gave this story 222 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49912955"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49912792"
+      ],
+      "headline": "Before pixels: Modular industrial dashboards",
+      "summary": "In my recent visits to German and Polish museums, I noticed a recurring theme: modular industrial dashboards, which I imagine have by now been all replaced by software.  I don’t know much about these – please write me if you do – but I wanted to share them anyway, perhaps for context, or amusement, or inspiration.",
+      "category": "Technology",
+      "importance": 221,
+      "whyItMatters": "The Hacker News community gave this story 221 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49912792"
+        },
+        {
+          "name": "Original source",
+          "url": "https://unsung.aresluna.org/before-pixels-modular-industrial-dashboards/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49920160"
+      ],
+      "headline": "StreetComplete on iOS is now in public beta",
+      "summary": "streetcomplete / StreetComplete Public Uh oh!  There was an error while loading.",
+      "category": "Ideas",
+      "importance": 218,
+      "whyItMatters": "The Hacker News community gave this story 218 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49920160"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/streetcomplete/StreetComplete/issues/5421"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49912444"
+      ],
+      "headline": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs",
+      "summary": "About a billion Edge Functions run on Netlify every day — Sunweb personalizing pages, Loto-Québec routing traffic on a cookie check, and hundreds of thousands of other sites doing everything from personalization to routing to auth.  All of it runs on a full JavaScript runtime that scales with our customers’ traffic.",
+      "category": "Ideas",
+      "importance": 201,
+      "whyItMatters": "The Hacker News community gave this story 201 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49912444"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49911995"
+      ],
+      "headline": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+      "summary": "magnitudedev / magnitude Public Notifications You must be signed in to change notification settings Fork 401 Star 6k main Branches Tags Go to file Code Open more actions menu Latest commit History 1,061 Commits 1,061 Commits Folders and files Name Name Last commit message Last commit date . agents/ skills .",
+      "category": "Technology",
+      "importance": 178,
+      "whyItMatters": "The Hacker News community gave this story 178 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49911995"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/magnitudedev/magnitude"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49920234"
+      ],
+      "headline": "Returning from vacation? The government can search your phone without a warrant",
+      "summary": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav An Argentinian-American writer and immigration advocate recently sued the federal government, demanding that it delete data that he believes was copied off of his phone when he re-entered the United States earlier this month.  According to the seven-page complaint , Thomas Kennedy said that a Customs and Border Protection agent at Miami International Airport physically searched his bags, questioned him about his books and magazines, and then demanded that he hand over his phone.",
+      "category": "Technology",
+      "importance": 176,
+      "whyItMatters": "The Hacker News community gave this story 176 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49920234"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-01T14:17:46.243Z"
+}

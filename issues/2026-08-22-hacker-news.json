@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-22-hacker-news",
+  "date": "2026-08-22",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49388154"
+      ],
+      "headline": "Kagi added a setting for removing paywalled links from search results",
+      "summary": "Changelog Subscribe to RSS | Email us support@kagi. com Browse Changelogs August 21st, 2026 - A new Stocks widget and a better everyday Assistant experience # Kagi Search Bringing Stocks up to speed We've revamped our Stocks widget.",
+      "category": "Technology",
+      "importance": 1093,
+      "whyItMatters": "The Hacker News community gave this story 1093 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49388154"
+        },
+        {
+          "name": "Original source",
+          "url": "https://kagi.com/changelog#11296"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49386895"
+      ],
+      "headline": "Felony charges for citizen deleting phone data at US Border",
+      "summary": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;SflVC\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;SflVC</a><p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_2rokxux5cU\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_2rokxux5cU</a>",
+      "category": "Ideas",
+      "importance": 727,
+      "whyItMatters": "The Hacker News community gave this story 727 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49386895"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49389430"
+      ],
+      "headline": "Felony Bench",
+      "summary": "Felony Bench A benchmark you really don't want models to be saturated with.  Learn more ↓ Model Evaluator Score ↖ Most illegal Least illegal ↘ 8 Anthropic 8 OpenAI 1 Meta 0 Google 0 Moonshot Scores indicate count of illegal activity.",
+      "category": "Technology",
+      "importance": 649,
+      "whyItMatters": "The Hacker News community gave this story 649 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49389430"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.felonybench.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49387570"
+      ],
+      "headline": "I accidentally logged hundreds of thousands of phone calls to military bases",
+      "summary": "DNS hijacking is silly.  I already took over different .",
+      "category": "Ideas",
+      "importance": 517,
+      "whyItMatters": "The Hacker News community gave this story 517 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49387570"
+        },
+        {
+          "name": "Original source",
+          "url": "https://lina.sh/blog/hijacking-e164-arpa"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49390427"
+      ],
+      "headline": "Kobo can run apps now",
+      "summary": "Your Kobo can run apps now.  Cobalt is an open-source application platform for Kobo e-readers: a launcher, a signed App Store, a Rust SDK, and a runtime that keeps every app in its own unprivileged process.",
+      "category": "Ideas",
+      "importance": 508,
+      "whyItMatters": "The Hacker News community gave this story 508 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49390427"
+        },
+        {
+          "name": "Original source",
+          "url": "https://bandarlabs.github.io/Cobalt/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49386699"
+      ],
+      "headline": "I'm becoming AI-blind",
+      "summary": "← Writing I'm becoming AI-blind Aug 2026 · 4 min read AI AI AI Recently I've been catching myself having these little moments at work, when I'm trying to read a document someone has sent me and my brain somehow refuses to analyze it.  It feels like I'm reading it, but I'm unable to focus on its content.",
+      "category": "Technology",
+      "importance": 338,
+      "whyItMatters": "The Hacker News community gave this story 338 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49386699"
+        },
+        {
+          "name": "Original source",
+          "url": "https://cymerys.com/w/im-becoming-ai-blind"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49395628"
+      ],
+      "headline": "There's no reason for software to be slow anymore",
+      "summary": "The other day, I saw a viral tweet saying that people talking about how LLMs are causing slow, bloated, code are going to eat crow once they re-write everything in super-optimized assembly.  We're not quite at the point where we want to write everything in assembly , but some variant of what Nolan Lawson said about testing, you can choose how many bugs you want now , which I less eloquently noted here , is becoming more true for performance.",
+      "category": "Technology",
+      "importance": 332,
+      "whyItMatters": "The Hacker News community gave this story 332 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49395628"
+        },
+        {
+          "name": "Original source",
+          "url": "https://danluu.com/perf-opt/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49388752"
+      ],
+      "headline": "Claudette: Make Claude stop talking like a BuzzFeed article",
+      "summary": "adnanakil / nobuzz Public Notifications You must be signed in to change notification settings Fork 2 Star 115 Files Expand file tree main / README. md Copy path Blame More file actions Blame More file actions Latest commit History History History 54 lines (33 loc) · 3.",
+      "category": "Technology",
+      "importance": 251,
+      "whyItMatters": "The Hacker News community gave this story 251 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49388752"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49387525"
+      ],
+      "headline": "New Worlds: We are living in the future of J.G. Ballard or William Gibson",
+      "summary": "Don’t let the absence of a flying car in your garage distract you: we are definitely now living in a version of the future out of J. G.",
+      "category": "Ideas",
+      "importance": 232,
+      "whyItMatters": "The Hacker News community gave this story 232 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49387525"
+        },
+        {
+          "name": "Original source",
+          "url": "https://precastreinforced.co.uk/2026/08/16/new-worlds/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49392200"
+      ],
+      "headline": "Scientists release biggest 2D map of the universe",
+      "summary": "Home All News Scientists Release Biggest 2D Map of the Universe \" > Scientists Release Biggest 2D Map of the Universe Article Cosmic Frontiers Key Takeaways The DESI Legacy Imaging Surveys combined more than 263,000 telescope exposures to make the largest 2D map of the universe in visible and near-infrared light.  Astronomers can pair the Legacy Surveys map with their own observations to explore our universe and search for rare phenomena.",
+      "category": "Technology",
+      "importance": 185,
+      "whyItMatters": "The Hacker News community gave this story 185 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49392200"
+        },
+        {
+          "name": "Original source",
+          "url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-22T07:33:11.698Z"
+}

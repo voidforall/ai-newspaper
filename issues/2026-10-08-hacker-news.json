@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-08-hacker-news",
+  "date": "2026-10-08",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49998895"
+      ],
+      "headline": "Margaret Hamilton has died",
+      "summary": "Breadcrumb MIT News Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies at 90 Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies at 90 Over two decades at MIT, Hamilton forged new paths in computer science and engineering.  Her groundbreaking work included leading the team that programmed the first computers that took humans to the moon.",
+      "category": "Technology",
+      "importance": 1864,
+      "whyItMatters": "The Hacker News community gave this story 1864 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49998895"
+        },
+        {
+          "name": "Original source",
+          "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49996437"
+      ],
+      "headline": "Claude Haiku 5.5",
+      "summary": "October 7, 2026 Claude Haiku 5. 5 Skip intro Scroll down Introducing Claude Haiku 5.",
+      "category": "Technology",
+      "importance": 961,
+      "whyItMatters": "The Hacker News community gave this story 961 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49996437"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.anthropic.com/claude-haiku-5-5"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49996425"
+      ],
+      "headline": "GPT‑6 and Intelligent UI for everyone",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 696,
+      "whyItMatters": "The Hacker News community gave this story 696 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49996425"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openai.com/index/gpt-6-for-everyone/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49994443"
+      ],
+      "headline": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+      "summary": "Big words for any screen Make a full-screen sign, timer or message from a link.  Hold up your phone at arrivals, put a countdown on the TV, or show the Wi-Fi password at the front desk.",
+      "category": "Ideas",
+      "importance": 585,
+      "whyItMatters": "The Hacker News community gave this story 585 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49994443"
+        },
+        {
+          "name": "Original source",
+          "url": "https://bigwords.page/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50002008"
+      ],
+      "headline": "“Math 2.0” will need to value mathematical progress more holistically",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 448,
+      "whyItMatters": "The Hacker News community gave this story 448 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50002008"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mathstodon.xyz/@tao/117395269325940185"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49993857"
+      ],
+      "headline": "Animated ASCII Art for Web Pages",
+      "summary": "animated ascii art for web pages [play anyway] [github] [dark] · · · · · · ······•·•·· ···••·•·•·····•········ ········•······················ · · · · · · · · · · · · · · · · · · · · ● · · · · · · · · · · · · · · · • · · · · · · · ··· · · · · · · · · · · · · · · · ··· ··········•·•·•••·····••·••·•···•···•···•·······•······························ ··· ··· ··· ······· ······· ··· ··· ··············································· ······· ··· ··· ··· ··· ··· ·· · · · ··· · ······••••·····••·•••·····•·················•············ ··········· · · · · ··· ··· ··· · · · · · · · · · · · · · · ··· ··· ··· ··· · ····· ··· ··· ······· · · · · · ··· · · · · · · · · ···…",
+      "category": "Ideas",
+      "importance": 406,
+      "whyItMatters": "The Hacker News community gave this story 406 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49993857"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ascii.rest/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49997718"
+      ],
+      "headline": "The Mathocalypse",
+      "summary": "Shtetl-Optimized The Blog of Scott Aaronson If you take nothing else from this blog: quantum computers won't solve hard problems instantly by just trying all solutions in parallel.  &laquo; My new course at UT Austin: AI Alignment Theory The Mathocalypse … then they came for Navier–Stokes and I said nothing because I never worked on Navier–Stokes.",
+      "category": "Technology",
+      "importance": 310,
+      "whyItMatters": "The Hacker News community gave this story 310 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49997718"
+        },
+        {
+          "name": "Original source",
+          "url": "https://scottaaronson.blog/?p=10169"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49996259"
+      ],
+      "headline": "Docker Agent",
+      "summary": "main Branches Tags Go to file Code Open more actions menu Latest commit History 10,723 Commits 10,723 Commits Folders and files Name Name Last commit message Last commit date . agents/ skills .",
+      "category": "Technology",
+      "importance": 272,
+      "whyItMatters": "The Hacker News community gave this story 272 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49996259"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/docker/docker-agent"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50003107"
+      ],
+      "headline": "OpenAI Withdraws 3 Math Papers",
+      "summary": "Files Expand file tree main / history. md Copy path Blame More file actions Blame More file actions Latest commit History History History 31 lines (19 loc) · 2.",
+      "category": "Technology",
+      "importance": 214,
+      "whyItMatters": "The Hacker News community gave this story 214 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50003107"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/openai/math/blob/main/history.md"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49998066"
+      ],
+      "headline": "'Jonathan' is the oldest land animal on Earth",
+      "summary": "Advertisement &bull; Go ad free The Abstract ‘Jonathan’ Is the Oldest Land Animal on Earth.  He Could Hold the Secrets to Defying Death Becky Ferreira · Oct 7, 2026 at 2:00 PM Jonathan, a 194-year-old Aldabra giant tortoise, was born before the Civil War.",
+      "category": "Ideas",
+      "importance": 207,
+      "whyItMatters": "The Hacker News community gave this story 207 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49998066"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.404media.co/oldest-living-land-animal-jonathan-the-tortoise/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-08T14:25:49.220Z"
+}

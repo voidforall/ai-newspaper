@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-06-hacker-news",
+  "date": "2026-09-06",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49580369"
+      ],
+      "headline": "Private German rocket makes history, reaches orbit from European soil",
+      "summary": "Click for next article Isar Aerospace's second Spectrum rocket launches from Andoya Space Center in Norway on Sept.  5, 2026.",
+      "category": "Ideas",
+      "importance": 635,
+      "whyItMatters": "The Hacker News community gave this story 635 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49580369"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/isar-aerospace-second-launch-norway-andoya-spaceport-spectrum-rocket"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49582000"
+      ],
+      "headline": "Cloud in a Bottle: making self-hosting accessible to everyone",
+      "summary": "TLDR: Cloud in a Bottle is your open-source personal cloud: containerized apps, unified auth, good UX.  Self-hosting should feel like using a smartphone that serves webapps, not a sysadmin side job.",
+      "category": "Technology",
+      "importance": 442,
+      "whyItMatters": "The Hacker News community gave this story 442 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49582000"
+        },
+        {
+          "name": "Original source",
+          "url": "https://cloudinabottle.org/blog/launch-post"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49581870"
+      ],
+      "headline": "Chrome again exempts Google from user site data settings",
+      "summary": "Chrome again exempts Google from user site data settings September 5 2026 Six years ago I published a blog post Chrome exempts Google sites from user site data settings that received quite a bit of attention: Michael Tsai , Hacker News The Register , The Verge , and Gizmodo , among others.  The blog post was about a Google Chrome bug that mysteriously exempted Google-owned sites from the setting to automatically delete all site data.",
+      "category": "Technology",
+      "importance": 434,
+      "whyItMatters": "The Hacker News community gave this story 434 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49581870"
+        },
+        {
+          "name": "Original source",
+          "url": "https://lapcatsoftware.com/articles/2026/9/1.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49580939"
+      ],
+      "headline": "The revolt of the reader",
+      "summary": "Reading is important to me.  While I’m not a quick reader nor an especially voracious one, I have found that long-form reading has had a profound influence on me over my life.",
+      "category": "Ideas",
+      "importance": 391,
+      "whyItMatters": "The Hacker News community gave this story 391 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49580939"
+        },
+        {
+          "name": "Original source",
+          "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49576386"
+      ],
+      "headline": "The \"$60 Gaming PC\" – AMD BC-250 (2025)",
+      "summary": "Please wait while your request is being verified...",
+      "category": "Technology",
+      "importance": 350,
+      "whyItMatters": "The Hacker News community gave this story 350 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49576386"
+        },
+        {
+          "name": "Original source",
+          "url": "https://devquasar.com/hardware/the-60-gaming-pc-amd-bc-250/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49580164"
+      ],
+      "headline": "LLMs as a Cognitive Virus",
+      "summary": "Physics > Physics and Society arXiv:2609. 03344 (physics) [Submitted on 3 Sep 2026] Title: Large-Language Models as a Cognitive Virus Authors: Ricard Solé , Giulio Ruffini , Francesca Castaldo , Marco Tuccio , Luis F.",
+      "category": "Technology",
+      "importance": 284,
+      "whyItMatters": "The Hacker News community gave this story 284 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49580164"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arxiv.org/abs/2609.03344"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49578280"
+      ],
+      "headline": "Learn Programming with OCaml",
+      "summary": "Learn Programming with OCaml by Sylvain Conchon and Jean-Christophe Filliâtre This book on OCaml is an English translation (by Urmila Nair ) of this book in French .  The translation was funded by The OCaml Software Foundation .",
+      "category": "Technology",
+      "importance": 264,
+      "whyItMatters": "The Hacker News community gave this story 264 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49578280"
+        },
+        {
+          "name": "Original source",
+          "url": "https://usr.lmf.cnrs.fr/lpo/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49584083"
+      ],
+      "headline": "Isar Aerospace reaches orbit and deploys payloads on second flight",
+      "summary": "And&oslash;ya, 5 September 2026 &ndash; Today, Isar Aerospace became the first commercial space company from Europe to successfully deliver satellites into orbit, on what was only its second flight.  Mission &lsquo;Onward and Upward&rsquo; lifted off from Isar Aerospace&rsquo;s dedicated launch complex at And&oslash;ya Space in Norway at 10:12 pm CEST, deploying payloads in orbit.",
+      "category": "Business",
+      "importance": 234,
+      "whyItMatters": "The Hacker News community gave this story 234 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49584083"
+        },
+        {
+          "name": "Original source",
+          "url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49582582"
+      ],
+      "headline": "GPT-6 Astra on robot arms",
+      "summary": "GPT‑6 Astra on robotic manipulation September 4, 2026 A follow‑up to our comparison of Claude Fable 5 and Fable 5. 1 .",
+      "category": "Ideas",
+      "importance": 203,
+      "whyItMatters": "The Hacker News community gave this story 203 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49582582"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openai.robocurve.org/gpt-6-astra/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49576343"
+      ],
+      "headline": "Visualizing Rust's Vtables: How dyn Trait Works In Memory",
+      "summary": "Visualizing Rust's Vtables: How dyn Trait Works In Memory I&rsquo;m venturing into Rust and it&rsquo;s both satisfying and mind-boggling at the same time.  So far I&rsquo;ve been learning from the book and Mara Bos&rsquo; book , but I got the itch to do some dissecting myself.",
+      "category": "Technology",
+      "importance": 180,
+      "whyItMatters": "The Hacker News community gave this story 180 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49576343"
+        },
+        {
+          "name": "Original source",
+          "url": "https://sofiabelen.github.io/projects/visualizing-rusts-vtables-how-dyn-trait-works-in-memory/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-06T11:33:30.323Z"
+}

@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-12-hacker-news",
+  "date": "2026-09-12",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49662371"
+      ],
+      "headline": "A misalignment of AI in mathematics",
+      "summary": "<a href=\"https:&#x2F;&#x2F;terrytao.wordpress.com&#x2F;2026&#x2F;09&#x2F;11&#x2F;a-severe-misalignment-of-ai-in-mathematics&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;terrytao.wordpress.com&#x2F;2026&#x2F;09&#x2F;11&#x2F;a-severe-misalignm...</a><p><a href=\"https:&#x2F;&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;2026&#x2F;09&#x2F;11&#x2F;top-mathematicians-are-outraged-by-openais-methods\" rel=\"nofollow\">https:&#x2F;&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;2026&#x2F;09&#x2F;11&#x2F;...</a>, <a href=\"https:&#x2F;&#x2F;unwall.app&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;2026&#x2F;09&#x2F;11&#x2F;top-mathematicians-are-outraged-by-openais-methods\" rel=\"nofollow\">https:&#x2F;&#x2F;unwall.app&#x2F;www.economist.com&#x2F;science-and-technology&#x2F;...</a>",
+      "category": "Technology",
+      "importance": 967,
+      "whyItMatters": "The Hacker News community gave this story 967 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49662371"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mathandai.org/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49666735"
+      ],
+      "headline": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "summary": "Intro On May 11th, 2026, hundreds of malicious packages were uploaded to RubyGems by AI agents.  We believe these were authored by internal OpenAI agents (more) .",
+      "category": "Technology",
+      "importance": 741,
+      "whyItMatters": "The Hacker News community gave this story 741 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49666735"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.rubyhack.ai/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49662990"
+      ],
+      "headline": "I spent $220 on Google app ads and 60% of the installs were robots",
+      "summary": "Notes from building Dayzle I spent $220 on Google app ads.  60% of the installs were robots.",
+      "category": "Ideas",
+      "importance": 567,
+      "whyItMatters": "The Hacker News community gave this story 567 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49662990"
+        },
+        {
+          "name": "Original source",
+          "url": "https://dayzlegame.com/blog/google-ads-bot-farm/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49668386"
+      ],
+      "headline": "google.com/goto: Google's anti-scraping update",
+      "summary": "What's happening Google Search is rewriting organic result links to google. com/goto?",
+      "category": "Ideas",
+      "importance": 461,
+      "whyItMatters": "The Hacker News community gave this story 461 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49668386"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.autom.dev/blog/google-search-goto-links"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49663373"
+      ],
+      "headline": "GrapheneOS' rewritten Messages app is released",
+      "summary": "Uh oh!  There was an error while loading.",
+      "category": "Ideas",
+      "importance": 281,
+      "whyItMatters": "The Hacker News community gave this story 281 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49663373"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/GrapheneOS/Messaging/releases/tag/13"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49660149"
+      ],
+      "headline": "Rune is now open source",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 195,
+      "whyItMatters": "The Hacker News community gave this story 195 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49660149"
+        },
+        {
+          "name": "Original source",
+          "url": "https://rune.build/blog/rune-is-now-open-source"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49668706"
+      ],
+      "headline": "Navier-Stokes Announcement",
+      "summary": "Navier-Stokes Announcement Date: 11 September 2026 The Millennium Prize Problems were unveiled by the Clay Mathematics Institute (CMI) at a meeting in Paris in 2000 to celebrate “ The Universality of Mathematical Thought ”.  These problems encapsulate some of the most difficult challenges that mathematicians were grappling with at the turn of the millennium.",
+      "category": "Ideas",
+      "importance": 191,
+      "whyItMatters": "The Hacker News community gave this story 191 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49668706"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.claymath.org/news/navier-stokes-announcement/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49662020"
+      ],
+      "headline": "Mind-altering drugs played key role in rise of Andean civilization",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 169,
+      "whyItMatters": "The Hacker News community gave this story 169 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49662020"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.science.org/content/article/mind-altering-drugs-played-key-role-rise-andean-civilization"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49662767"
+      ],
+      "headline": "Litelm: LiteLLM Without the Bloat",
+      "summary": "kennethwolters / litelm Public Notifications You must be signed in to change notification settings Fork 3 Star 156 main Branches Tags Go to file Code Open more actions menu Latest commit History 69 Commits 69 Commits Folders and files Name Name Last commit message Last commit date . github/ workflows .",
+      "category": "Technology",
+      "importance": 150,
+      "whyItMatters": "The Hacker News community gave this story 150 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49662767"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/kennethwolters/litelm"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49662214"
+      ],
+      "headline": "Λ Snap – An inviting programming language for kids and adults for CS study",
+      "summary": "Previous Next Welcome to Snap !  Snap !",
+      "category": "Technology",
+      "importance": 147,
+      "whyItMatters": "The Hacker News community gave this story 147 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49662214"
+        },
+        {
+          "name": "Original source",
+          "url": "https://snap.berkeley.edu/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-12T11:31:01.143Z"
+}

@@ -1,0 +1,209 @@
+{
+  "id": "2026-07-28-hacker-news",
+  "date": "2026-07-28",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49076057"
+      ],
+      "headline": "Our position on open-weights models",
+      "summary": "Announcements Our position on open-weights models Jul 27, 2026 A post by Dario Amodei, Anthropic CEO Over the last few days there has been a lot of discussion about open-weights models, especially those from China.  Reports suggest that some US officials are considering banning the use of Chinese open-weights models by US companies.",
+      "category": "Technology",
+      "importance": 898,
+      "whyItMatters": "The Hacker News community gave this story 898 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49076057"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.anthropic.com/news/position-open-weights-models"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49076923"
+      ],
+      "headline": "Netflix employee fired for sharing personal details in retreat trust exercise",
+      "summary": "See more of our coverage in your search results.  Add The California Post on Google A Netflix executive was fired from his $1.",
+      "category": "Technology",
+      "importance": 327,
+      "whyItMatters": "The Hacker News community gave this story 327 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49076923"
+        },
+        {
+          "name": "Original source",
+          "url": "https://nypost.com/2026/07/26/us-news/netflix-exec-goes-ballistic-after-being-fired-for-stunning-trust-exercise-confession-at-retreat-suit/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49076116"
+      ],
+      "headline": "A missing underscore sent innocent man to prison for 18 months",
+      "summary": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav One missing underscore in a Skyrim-themed username put an innocent Nova Scotia man in prison for 18 months.  A 2018 child-luring investigation, which began in Madison, Wisconsin, and eventually extended to Halifax, Canada, was based on a false premise.",
+      "category": "Ideas",
+      "importance": 296,
+      "whyItMatters": "The Hacker News community gave this story 296 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49076116"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49076391"
+      ],
+      "headline": "Benchmarking Opus 5 on SlopCodeBench",
+      "summary": "Uh oh!  There was an error while loading.",
+      "category": "Ideas",
+      "importance": 283,
+      "whyItMatters": "The Hacker News community gave this story 283 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49076391"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-opus-5-on-slop-code-bench.md"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49078583"
+      ],
+      "headline": "Using an open model feels surprisingly good",
+      "summary": "Using an open model feels surprisingly good July 27, 2026 I've been using Claude and ChatGPT like the next guy for probably two years now.  I've never been a huge \"open software\" nerd or anything like that.",
+      "category": "Technology",
+      "importance": 276,
+      "whyItMatters": "The Hacker News community gave this story 276 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49078583"
+        },
+        {
+          "name": "Original source",
+          "url": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49070138"
+      ],
+      "headline": "Paged Out #9 [pdf]",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 235,
+      "whyItMatters": "The Hacker News community gave this story 235 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49070138"
+        },
+        {
+          "name": "Original source",
+          "url": "https://pagedout.institute/download/PagedOut_009.pdf"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49080664"
+      ],
+      "headline": "7.1 Earthquake in Japan",
+      "summary": "都道府県 震度 市町村名",
+      "category": "Ideas",
+      "importance": 179,
+      "whyItMatters": "The Hacker News community gave this story 179 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49080664"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49078454"
+      ],
+      "headline": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review",
+      "summary": "Cost vs.  quality on catalog integrity The article in one picture: on the same catalog-review workflow, with the same tools, images, and scorer, our GRPO fine-tune of a 9B open-source model (pink) beats every frontier configuration we tested, at $0.",
+      "category": "Technology",
+      "importance": 179,
+      "whyItMatters": "The Hacker News community gave this story 179 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49078454"
+        },
+        {
+          "name": "Original source",
+          "url": "https://fermisense.com/when-machines-take-the-wheel/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49070756"
+      ],
+      "headline": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
+      "summary": "Exploiting Volvo/Eicher’s fleet management platform to gain control over all users and vehicles Eaton • Jul 27, 2026 Copy Link Share Key Points / Summary VE Commercial Vehicles , a joint venture between the Volvo Group and Eicher Motors, builds and maintains a fleet management system called My Eicher for Indian commercial vehicle customers.  “My Eicher is a complete fleet management & vehicle GPS tracking system designed for commercial vehicle owners, fleet managers, & operators.",
+      "category": "Technology",
+      "importance": 155,
+      "whyItMatters": "The Hacker News community gave this story 155 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49070756"
+        },
+        {
+          "name": "Original source",
+          "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49073942"
+      ],
+      "headline": "Self-contained highly-portable Python distributions",
+      "summary": "Python Standalone Builds ¶ This project produces self-contained, highly-portable Python distributions.  These Python distributions contain a fully-usable, full-featured Python installation: most extension modules from the Python standard library are present and their library dependencies are either distributed with the distribution or are statically linked.",
+      "category": "Technology",
+      "importance": 145,
+      "whyItMatters": "The Hacker News community gave this story 145 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49073942"
+        },
+        {
+          "name": "Original source",
+          "url": "https://gregoryszorc.com/docs/python-build-standalone/main/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-28T09:37:31.250Z"
+}

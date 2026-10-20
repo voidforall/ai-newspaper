@@ -1,0 +1,209 @@
+{
+  "id": "2026-07-21-hacker-news",
+  "date": "2026-07-21",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-48979269"
+      ],
+      "headline": "China’s open-weights AI strategy is winning",
+      "summary": "Link: China delivers a one-two punch to America’s AI dominance, by Robert Hart in The Verge AI models, as a product in themselves, have very little moat beyond what amounts to brand loyalty and superficial switching costs.  Instead, the moat is in the enterprise services that sit around them: the deals and contracts, connectivity with enterprise systems, and quality of life features in an enterprise context.",
+      "category": "Technology",
+      "importance": 1108,
+      "whyItMatters": "The Hacker News community gave this story 1108 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48979269"
+        },
+        {
+          "name": "Original source",
+          "url": "https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48978605"
+      ],
+      "headline": "Hacker wipes Romania's land registry database",
+      "summary": "This newsletter is brought to you by Thinkst , the makers of the much-loved Thinkst Canary .  You can subscribe to an audio version of this newsletter as a podcast by searching for \"Risky Business\" in your podcatcher or subscribing via this RSS feed .",
+      "category": "Technology",
+      "importance": 641,
+      "whyItMatters": "The Hacker News community gave this story 641 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48978605"
+        },
+        {
+          "name": "Original source",
+          "url": "https://news.risky.biz/risky-bulletin-hacker-wipes-romanias-entire-land-registry-database/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48977128"
+      ],
+      "headline": "Who's afraid of Chinese models?",
+      "summary": "Who’s Afraid of Chinese Models?  Monday, July 20, 2026 Listen to Podcast Listen to this post : Log in to listen There’s a story I tell about my first day in STRT-431 at Kellogg School of Management, the introductory class that every first-year MBA was required to take; I leafed through the readings and case studies and was dismayed that there weren’t any tech companies on the docket.",
+      "category": "Technology",
+      "importance": 630,
+      "whyItMatters": "The Hacker News community gave this story 630 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48977128"
+        },
+        {
+          "name": "Original source",
+          "url": "https://stratechery.com/2026/whos-afraid-of-chinese-models/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48981703"
+      ],
+      "headline": "Kimi Work",
+      "summary": "Kimi Work The AI Desktop for Knowledge Work Download for Windows Your intelligent local agent Deeply connected to your local files.  Capable of browser automation.",
+      "category": "Technology",
+      "importance": 542,
+      "whyItMatters": "The Hacker News community gave this story 542 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48981703"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.kimi.com/products/kimi-work"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48981620"
+      ],
+      "headline": "Jelly UI: Soft-body physics for native HTML form controls",
+      "summary": "It's okay to be a little jelly Jelly UI is a dependency-free Web Components library for soft, tactile product interfaces.  Real form controls meet soft-body physics, with dark mode, right-to-left support and WCAG AA color tokens built in.",
+      "category": "Ideas",
+      "importance": 491,
+      "whyItMatters": "The Hacker News community gave this story 491 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48981620"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jelly-ui.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48983382"
+      ],
+      "headline": "Human mathematicians are being outcounterexampled",
+      "summary": "Xena Mathematicians learning Lean by doing.  Skip to content Home About Xena Student projects Installing Lean and mathlib Bluesky Useful links.",
+      "category": "Ideas",
+      "importance": 342,
+      "whyItMatters": "The Hacker News community gave this story 342 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48983382"
+        },
+        {
+          "name": "Original source",
+          "url": "https://xenaproject.wordpress.com/2026/07/20/human-mathematicians-are-being-outcounterexampled/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48987863"
+      ],
+      "headline": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
+      "summary": "Technology Five US tech giants' hidden debts soar to $1. 65tn on opaque AI funding Data center leases, GPU supply contracts raise liabilities at Meta, Oracle, Nikkei study shows A Meta data center in the state of Georgia.",
+      "category": "Technology",
+      "importance": 280,
+      "whyItMatters": "The Hacker News community gave this story 280 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48987863"
+        },
+        {
+          "name": "Original source",
+          "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48982681"
+      ],
+      "headline": "Nativ: Run frontier open models locally on your Mac",
+      "summary": "Latest release · 100% open source · live now Run AI models locally on your Mac.  Nativ puts frontier intelligence on your desk.",
+      "category": "Technology",
+      "importance": 274,
+      "whyItMatters": "The Hacker News community gave this story 274 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48982681"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blaizzy.github.io/nativ/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48979120"
+      ],
+      "headline": "Perfection is not over-engineering",
+      "summary": "Perfection is not over-engineering 2026-07-19 \"We don't want to do perfect. \" \"We don't want to build the perfect solution.",
+      "category": "Ideas",
+      "importance": 239,
+      "whyItMatters": "The Hacker News community gave this story 239 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48979120"
+        },
+        {
+          "name": "Original source",
+          "url": "https://var0.xyz/posts/perfection-is-not-over-engineering.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48981206"
+      ],
+      "headline": "How we measured AI writing across arXiv, and where the measurement breaks",
+      "summary": "How we measured AI writing across arXiv, and where the measurement breaks We scored the full text of 12,750 arXiv papers and found that about a third of new ones read as machine-written.  Here is the method, the results, and an honest account of the limitations.",
+      "category": "Technology",
+      "importance": 224,
+      "whyItMatters": "The Hacker News community gave this story 224 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48981206"
+        },
+        {
+          "name": "Original source",
+          "url": "https://unslop.run/blog/measuring-ai-writing-on-arxiv"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-21T09:28:40.531Z"
+}

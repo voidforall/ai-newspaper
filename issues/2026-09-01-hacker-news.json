@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-01-hacker-news",
+  "date": "2026-09-01",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49510514"
+      ],
+      "headline": "Playa Phone",
+      "summary": "For the rest of the week of Burning Man, a phone booth is standing on the dusty street corner of 3:30 and Ceiba , in front of the Temple of the Flying Spaghetti Monster in Black Rock City, Nevada for anyone to use.  If someone knows the number of a friend or loved one, they can call almost anywhere in the world for 5 minutes for free.",
+      "category": "Ideas",
+      "importance": 656,
+      "whyItMatters": "The Hacker News community gave this story 656 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49510514"
+        },
+        {
+          "name": "Original source",
+          "url": "https://playaphone.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49511856"
+      ],
+      "headline": "I turned my security cameras into an automatic bird identification system",
+      "summary": "My wife loves listening to the birds and identifying them using an app on her phone.  I thought I'd take this a step further and see if there was something that can identify the birds based on their song.",
+      "category": "Technology",
+      "importance": 527,
+      "whyItMatters": "The Hacker News community gave this story 527 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49511856"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jasontucker.blog/how-i-turned-my-security-cameras-into-an-automatic-bird-identification-system-with-birdnet-go/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49517448"
+      ],
+      "headline": "Fastpotify",
+      "summary": "⚡ Lightweight A native binary with no browser engine.  It starts in well under a second and typically uses 100–250 MB of RAM.",
+      "category": "Ideas",
+      "importance": 496,
+      "whyItMatters": "The Hacker News community gave this story 496 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49517448"
+        },
+        {
+          "name": "Original source",
+          "url": "https://fastpotify.rocks/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49508982"
+      ],
+      "headline": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
+      "summary": "Apple Caught Off Guard by AI Demand for Mac Mini and Mac Studio Sunday August 30, 2026 8:52 am PDT by Hartley Charlton Apple's unusually timed announcement of new Mac mini and Mac Studio models this week was driven by unexpectedly strong enterprise appetite for AI hardware, according to The Information .  Apple normally releases new Mac models in the autumn, closer to October or November, making this week's announcement unusually early, falling just before the anticipated arrival of new iPhone models.",
+      "category": "Technology",
+      "importance": 428,
+      "whyItMatters": "The Hacker News community gave this story 428 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49508982"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49512975"
+      ],
+      "headline": "A walkable ASCII cyberpunk city in one HTML file [video]",
+      "summary": "About Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy & Safety How YouTube works Test new features NFL Sunday Ticket &copy; 2026 Google LLC",
+      "category": "Ideas",
+      "importance": 342,
+      "whyItMatters": "The Hacker News community gave this story 342 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49512975"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.youtube.com/watch?v=3YtygAx_C6A"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49517584"
+      ],
+      "headline": "GPU World",
+      "summary": "Submit Your Story “The future is already here, it’s just unevenly distributed. ” — William Gibson In our story contest, we ask people to imagine the future, evenly distributed.",
+      "category": "Ideas",
+      "importance": 282,
+      "whyItMatters": "The Hacker News community gave this story 282 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49517584"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.gpuworld.org/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49516199"
+      ],
+      "headline": "Evidence of Fraud in an Influential Study About Procrastination",
+      "summary": "A new paper in Psychological Science (.  htm ) reports a failure to replicate Study 2 of Ariely and Wertenbroch’s influential article entitled, “Procrastination, Deadlines, and Performance: Self-Control by Precommitment.",
+      "category": "Technology",
+      "importance": 273,
+      "whyItMatters": "The Hacker News community gave this story 273 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49516199"
+        },
+        {
+          "name": "Original source",
+          "url": "https://datacolada.org/138"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49520022"
+      ],
+      "headline": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
+      "summary": "Uh oh!  There was an error while loading.",
+      "category": "Ideas",
+      "importance": 226,
+      "whyItMatters": "The Hacker News community gave this story 226 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49520022"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/ankidroid/Anki-Android/issues/21656"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49511534"
+      ],
+      "headline": "RavynOS: Pre-alpha open-source OS based on Darwin, FreeBSD, Apple open-source",
+      "summary": "Project Goals Features that you'd love.  We intend to bring many of the features you've come to love from macOS to ravynOS such as clean design, global menus, and drag-and-drop installs.",
+      "category": "Ideas",
+      "importance": 206,
+      "whyItMatters": "The Hacker News community gave this story 206 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49511534"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ravynos.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49517624"
+      ],
+      "headline": "Restroom Archive",
+      "summary": "The Restroom Archive",
+      "category": "Ideas",
+      "importance": 169,
+      "whyItMatters": "The Hacker News community gave this story 169 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49517624"
+        },
+        {
+          "name": "Original source",
+          "url": "https://restroomarchive.com"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-01T12:25:04.361Z"
+}

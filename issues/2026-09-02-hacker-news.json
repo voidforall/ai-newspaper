@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-02-hacker-news",
+  "date": "2026-09-02",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49525378"
+      ],
+      "headline": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "summary": "We’re introducing Claude Fable 5. 1 and Claude Mythos 5.",
+      "category": "Ideas",
+      "importance": 1292,
+      "whyItMatters": "The Hacker News community gave this story 1292 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49525378"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49526069"
+      ],
+      "headline": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "summary": "I was curious how well the predictions of the most widely cited AI skeptic I've seen (Ed Zitron) have done, so I looked at how his predictions panned out.  To disclose my own biases, I've never had a particularly strong pro or anti AI progress position.",
+      "category": "Technology",
+      "importance": 749,
+      "whyItMatters": "The Hacker News community gave this story 749 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49526069"
+        },
+        {
+          "name": "Original source",
+          "url": "https://danluu.com/zitron/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49521973"
+      ],
+      "headline": "Introducing Ad Blocker for Firefox on iOS",
+      "summary": "Firefox Introducing Ad Blocker for Firefox on iOS: More Control, Fewer Distractions September 1, 2026 Mozilla There’s only so much room on your screen.  Pop-ups, overlays, and ads can take over fast, getting between you and what you came to do.",
+      "category": "Ideas",
+      "importance": 513,
+      "whyItMatters": "The Hacker News community gave this story 513 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49521973"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.mozilla.org/en/firefox/ad-blocker-on-ios/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49527396"
+      ],
+      "headline": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+      "summary": "Simon Willison’s Weblog Subscribe Sponsored by: Greptile &mdash; The Al code reviewer that runs your code.  Catch bugs that only show up at runtime.",
+      "category": "Ideas",
+      "importance": 433,
+      "whyItMatters": "The Hacker News community gave this story 433 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49527396"
+        },
+        {
+          "name": "Original source",
+          "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49523387"
+      ],
+      "headline": "Ambient CSS v3 – Blender meets CSS",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 282,
+      "whyItMatters": "The Hacker News community gave this story 282 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49523387"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ambientcss.vercel.app/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49524320"
+      ],
+      "headline": "Movie Scene Map – 13,312 films, series, games, anime and manga",
+      "summary": "The interactive map of where films and television were actually shot Movie Scene Map is a free interactive map of 15,565 real filming locations in 166 countries: the studios, castles, streets and landscapes where films and television series were shot.  Pan and zoom the map above, click any point for a photograph and the productions shot there, or open a place’s page for everything filmed in it.",
+      "category": "Ideas",
+      "importance": 274,
+      "whyItMatters": "The Hacker News community gave this story 274 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49524320"
+        },
+        {
+          "name": "Original source",
+          "url": "https://moviescenemap.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49529621"
+      ],
+      "headline": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada.  Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana.",
+      "category": "Technology",
+      "importance": 263,
+      "whyItMatters": "The Hacker News community gave this story 263 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49529621"
+        },
+        {
+          "name": "Original source",
+          "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49530989"
+      ],
+      "headline": "True Rate of Unemployment",
+      "summary": "Menu Stay up to date on the latest news from LISEP, and receive an exclusive newsletter when unemployment and earnings numbers are published.  Thank you.",
+      "category": "Ideas",
+      "importance": 256,
+      "whyItMatters": "The Hacker News community gave this story 256 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49530989"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.lisep.org/tru"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49525297"
+      ],
+      "headline": "The creator of Jujutsu has joined ERSC",
+      "summary": "NEW YORK (September 1, 2026), FOR IMMEDIATE RELEASE East River Source Control has appointed Martin von Zweigbergk, creator of the Jujutsu version control system, as chief technology officer, to lead engineering on the company’s next generation version control platforms.  von Zweigbergk began Jujutsu as a side project in late 2019 and turned it into his full-time work at Google.",
+      "category": "Business",
+      "importance": 247,
+      "whyItMatters": "The Hacker News community gave this story 247 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49525297"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ersc.io/blog/martin-joins-ersc"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49529132"
+      ],
+      "headline": "My local model setup on an M4 Pro Mac Mini",
+      "summary": "My local model setup on an M4 Pro Mac mini [2026-09-01] I run a local LLM server on my M4 Pro Mac mini with 48 GB of RAM.  It handles everything from my Hermes agent backend to quick chat queries on my phone.",
+      "category": "Technology",
+      "importance": 230,
+      "whyItMatters": "The Hacker News community gave this story 230 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49529132"
+        },
+        {
+          "name": "Original source",
+          "url": "https://lws.io/blog/my-local-model-setup/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-02T11:59:48.110Z"
+}

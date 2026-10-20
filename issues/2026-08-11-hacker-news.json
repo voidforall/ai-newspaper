@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-11-hacker-news",
+  "date": "2026-08-11",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49241679"
+      ],
+      "headline": "Muse Glimmer: 30B-parameter model optimized for always-on local agent workflows",
+      "summary": "Today, we're introducing Muse Glimmer, the next model from Meta Superintelligence Labs, and open sourcing the model weights under a permissive Apache 2. 0 license.",
+      "category": "Technology",
+      "importance": 1105,
+      "whyItMatters": "The Hacker News community gave this story 1105 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49241679"
+        },
+        {
+          "name": "Original source",
+          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49243880"
+      ],
+      "headline": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+      "summary": "<a href=\"https:&#x2F;&#x2F;archive.is&#x2F;20LOJ\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.is&#x2F;20LOJ</a><p><a href=\"https:&#x2F;&#x2F;www.meta.com&#x2F;thefutureisforeveryone&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.meta.com&#x2F;thefutureisforeveryone&#x2F;</a>",
+      "category": "Technology",
+      "importance": 488,
+      "whyItMatters": "The Hacker News community gave this story 488 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49243880"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49251411"
+      ],
+      "headline": "The UK's war on anonymity has come to America",
+      "summary": "An Effort investigation has identified a coordinated operation to influence American lawmakers by five foreign non-government organizations and their US affiliates.  These NGOs have converged upon a unified strategy: use the rhetoric of ‘child safety’ to advocate for digital ID laws that would prevent adults from using the internet anonymously.",
+      "category": "Ideas",
+      "importance": 463,
+      "whyItMatters": "The Hacker News community gave this story 463 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49251411"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.effort.news/uk-lobby"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49245023"
+      ],
+      "headline": "Mars Bar from 1991 found – and it's 20g bigger than today's",
+      "summary": "Mars Bar from 1991 found - and it's 20g bigger than today's 19 hours ago Share Save Add as preferred on Google Eleanor Maslin East Yorkshire and Lincolnshire Victoria Gordon Now and then...  the 1991 Mars Bar alongside one from today A 35-year-old Mars Bar has been found during a house clearance – and the discovery has gone viral amid claims it highlights the effect of \"shrinkflation\".",
+      "category": "Technology",
+      "importance": 339,
+      "whyItMatters": "The Hacker News community gave this story 339 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49245023"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.bbc.com/news/articles/c1j1kjy7gewo"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49246804"
+      ],
+      "headline": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+      "summary": "Cactus Needle Agentic LLM for tiny devices An open 14MB model for tool calling, device use, and structured extraction.  Needle 2 Sandbox loading model...",
+      "category": "Technology",
+      "importance": 307,
+      "whyItMatters": "The Hacker News community gave this story 307 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49246804"
+        },
+        {
+          "name": "Original source",
+          "url": "https://cactuscompute.com/needle"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49242653"
+      ],
+      "headline": "Squeak 6.1",
+      "summary": "Squeak 6. 1 Release Notes These release notes are optimized for viewing inside Squeak, as they contain a lot of interactive examples.",
+      "category": "Technology",
+      "importance": 260,
+      "whyItMatters": "The Hacker News community gave this story 260 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49242653"
+        },
+        {
+          "name": "Original source",
+          "url": "https://squeak.org/release_notes/6.1/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49252179"
+      ],
+      "headline": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
+      "summary": "antirez / h3. c Public Notifications You must be signed in to change notification settings Fork 37 Star 703 main Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 120 Commits 120 Commits tests tests .",
+      "category": "Technology",
+      "importance": 221,
+      "whyItMatters": "The Hacker News community gave this story 221 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49252179"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/antirez/h3.c"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49243474"
+      ],
+      "headline": "Humanising LLM Outputs Is Dumb",
+      "summary": "The largest tell for me to tell where culture and sentiment is shifting for AI tools is usually X, viral GitHub repositories and Hacker News.  One of these tells I’ve been seeing a lot lately is skills like I have ADHD and Agents.",
+      "category": "Technology",
+      "importance": 204,
+      "whyItMatters": "The Hacker News community gave this story 204 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49243474"
+        },
+        {
+          "name": "Original source",
+          "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49250836"
+      ],
+      "headline": "As AI eats the web, the internet’s collective memory is disappearing",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 199,
+      "whyItMatters": "The Hacker News community gave this story 199 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49250836"
+        },
+        {
+          "name": "Original source",
+          "url": "https://thewalrus.ca/google-search-is-dying/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49247070"
+      ],
+      "headline": "Learning more about Claude's mathematical capabilities",
+      "summary": "Science Learning more about Claude's mathematical capabilities Aug 10, 2026 Recently, a member of staff at Anthropic gave Claude an unreasonable challenge.  It was about one of the most famous unsolved problems in mathematics: Take a real stab at the Riemann hypothesis .",
+      "category": "Ideas",
+      "importance": 186,
+      "whyItMatters": "The Hacker News community gave this story 186 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49247070"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.anthropic.com/research/riemann-zeta"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-11T08:10:09.827Z"
+}

@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-07-hacker-news",
+  "date": "2026-09-07",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49588988"
+      ],
+      "headline": "Nitter and XCancel resume service after legal advice",
+      "summary": "zedeus / nitter Public Uh oh!  There was an error while loading.",
+      "category": "Ideas",
+      "importance": 809,
+      "whyItMatters": "The Hacker News community gave this story 809 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49588988"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/zedeus/nitter/commit/1428b4c2b4246f92a7e5b2673438e5fb39fcc4a3"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49593563"
+      ],
+      "headline": "Keep Our Servers Running",
+      "summary": "“Universal access to all human knowledge is within our grasp.  Our job is to put the best our world has to offer within the reach of our children.",
+      "category": "Ideas",
+      "importance": 656,
+      "whyItMatters": "The Hacker News community gave this story 656 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49593563"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49594878"
+      ],
+      "headline": "LG smart TVs caught logging audio with screen off and snooping on local devices",
+      "summary": "LG smart TVs continuously sweep home networks, map secondary devices, and log microphone audio while appearing to be turned off, according to a new 135-minute-long video published by Gamers Nexus (see below).  In more detail, Steve had been working with Level1Techs and independent security researchers.",
+      "category": "Technology",
+      "importance": 456,
+      "whyItMatters": "The Hacker News community gave this story 456 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49594878"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49590512"
+      ],
+      "headline": "GrapheneOS Overhauled Default Apps and Secure Clipboard",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 334,
+      "whyItMatters": "The Hacker News community gave this story 334 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49590512"
+        },
+        {
+          "name": "Original source",
+          "url": "https://grapheneos.social/@GrapheneOS/117225539756835649"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49590611"
+      ],
+      "headline": "It took a year to ship WebAssembly in Anubis",
+      "summary": "Making sure you're not a bot!  Loading...",
+      "category": "Ideas",
+      "importance": 304,
+      "whyItMatters": "The Hacker News community gave this story 304 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49590611"
+        },
+        {
+          "name": "Original source",
+          "url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49591876"
+      ],
+      "headline": "Making a Python interpreter in 1024 bytes",
+      "summary": "Austin Z.  Henley I build tools for people austin.",
+      "category": "Ideas",
+      "importance": 260,
+      "whyItMatters": "The Hacker News community gave this story 260 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49591876"
+        },
+        {
+          "name": "Original source",
+          "url": "https://austinhenley.com/blog/python1024.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49594251"
+      ],
+      "headline": "Switzerland's Federal Government Is Replacing Microsoft on 3k Computers",
+      "summary": "Switzerland's Federal Government is Replacing Microsoft on 3,000 Computers This is the pilot phase, with 3,000 workstations moving away from Microsoft 365.  The federal administration has over 54,000 computers.",
+      "category": "Technology",
+      "importance": 246,
+      "whyItMatters": "The Hacker News community gave this story 246 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49594251"
+        },
+        {
+          "name": "Original source",
+          "url": "https://itsfoss.com/news/switzerland-replace-microssoft-pilot/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49596119"
+      ],
+      "headline": "'You Can See Everything' Review: Nathan Fielder's Doc About Elizabeth Holmes",
+      "summary": "Sep 7, 2026 12:50am PT ‘You Can See Everything’ Review: Nathan Fielder’s Documentary About Elizabeth Holmes Is a Shameless, Fascinating, Reality-TV-Eats-Its-Tale Look at Entitled Duplicity It's a hangout-movie portrait of the Theranos fraudster, which is really Fielder's way of asking: What makes someone like Elizabeth Holmes tick?  By Owen Gleiberman Plus Icon Owen Gleiberman Chief Film Critic @OwenGleiberman Latest ‘The Debut’ Review: Julianne Moore Is Astonishing in Jesse Eisenberg’s Funny and Dizzying Community-Theater Comedy 1 day ago ‘Pete Townshend: Behind Blue Eyes’ Review: The Legendary Rocker Gets a Lively Doc That Asks: Who Are You?",
+      "category": "Technology",
+      "importance": 144,
+      "whyItMatters": "The Hacker News community gave this story 144 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49596119"
+        },
+        {
+          "name": "Original source",
+          "url": "https://variety.com/2026/film/reviews/nathan-fielder-surprise-film-telluride-elizabeth-holmes-1236853513/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49595360"
+      ],
+      "headline": "Programming is Art",
+      "summary": "Programming is art When I started programming, my whole day revolved around development.  I’d wake up, write code, and go to sleep.",
+      "category": "Technology",
+      "importance": 119,
+      "whyItMatters": "The Hacker News community gave this story 119 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49595360"
+        },
+        {
+          "name": "Original source",
+          "url": "https://orchidfiles.com/programming-is-art/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49595865"
+      ],
+      "headline": "Live map of public transport in Belgium",
+      "summary": "Openbaar vervoer in België, live op de kaart Elke bus, tram, metro en trein van De Lijn, STIB-MIVB, TEC en NMBS op één kaart, met realtime vertragingen, haltes en vertrektijden.  De kaart wordt geladen… · La carte se charge… · Loading the map… ovlive bus · tram · metro · trein",
+      "category": "Ideas",
+      "importance": 102,
+      "whyItMatters": "The Hacker News community gave this story 102 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49595865"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openbaarvervoerbelgie.be/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-07T13:20:44.010Z"
+}

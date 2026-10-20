@@ -1,0 +1,209 @@
+{
+  "id": "2026-07-31-hacker-news",
+  "date": "2026-07-31",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49113929"
+      ],
+      "headline": "UEFA and its national associations will not participate in FIFA competitions",
+      "summary": "Media Releases Article summary UEFA and its national associations will not participate in FIFA competitions.  Article top media content Article body UEFA and its 55 member associations stand as one.",
+      "category": "Ideas",
+      "importance": 1027,
+      "whyItMatters": "The Hacker News community gave this story 1027 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49113929"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.uefa.com/news-media/news/02a7-213a92896eb0-54dfbf454e3b-1000--statement-on-behalf-of-uefa-and-its-55-national-associations/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49112744"
+      ],
+      "headline": "Read this before you buy that TV streaming stick",
+      "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user’s Internet connection out to strangers.  But a groundbreaking new analysis finds these devices also routinely spoof themselves as mobile phones clicking ads on AI-generated websites as part of a sprawling operation that seeks to defraud online merchants and advertising networks.",
+      "category": "Technology",
+      "importance": 712,
+      "whyItMatters": "The Hacker News community gave this story 712 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49112744"
+        },
+        {
+          "name": "Original source",
+          "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49112232"
+      ],
+      "headline": "Stacked PRs are now live on GitHub",
+      "summary": "Back to changelog Stacked pull requests break large changes into small, reviewable pull requests.  They&rsquo;re an ordered series of pull requests that each represent focused layers of your change.",
+      "category": "Ideas",
+      "importance": 642,
+      "whyItMatters": "The Hacker News community gave this story 642 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49112232"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49111237"
+      ],
+      "headline": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "summary": "July 30, 2026 Models Gemini Robotics 2 brings whole body intelligence to robots Carolina Parada Share Your browser does not support the video tag.  From feet to fingertips — we are teaching robots intelligent whole-body control, fine dexterity, and teamwork to complete a broad range of complex tasks For decades, we’ve dreamed of robots that can seamlessly step into our world and lend a hand.",
+      "category": "Technology",
+      "importance": 557,
+      "whyItMatters": "The Hacker News community gave this story 557 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49111237"
+        },
+        {
+          "name": "Original source",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49118781"
+      ],
+      "headline": "The session you cannot take with you",
+      "summary": "The Session You Cannot Take With You Date: Thu, 30 Jul 2026 From: Earendil Engineering rfc@earendil. com > To: You Subject: The Session You Cannot Take With You The original promise of an inference API was wonderfully simple: send some input, receive some output.",
+      "category": "Ideas",
+      "importance": 321,
+      "whyItMatters": "The Hacker News community gave this story 321 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49118781"
+        },
+        {
+          "name": "Original source",
+          "url": "https://earendil.com/posts/session-portability/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49117099"
+      ],
+      "headline": "The AI Aesthetic",
+      "summary": "Every zeitgeist comes with new design idioms unique to its challenges.  Many of them disappear as fads change, but others bake themselves into deeper parts of existing software interaction paradigms.",
+      "category": "Technology",
+      "importance": 303,
+      "whyItMatters": "The Hacker News community gave this story 303 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49117099"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49108685"
+      ],
+      "headline": "GCC steering committee announces AI policy",
+      "summary": "The GCC steering committee has announced that it has accepted an AI contributions policy recommended by the GCC AI policy working group.  The policy, in part, states that the project will decline any \" legally significant contributions which include LLM-generated content or are derived from LLM-generated content \".",
+      "category": "Technology",
+      "importance": 293,
+      "whyItMatters": "The Hacker News community gave this story 293 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49108685"
+        },
+        {
+          "name": "Original source",
+          "url": "https://lwn.net/Articles/1086041/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49119559"
+      ],
+      "headline": "DeepSeek-V4-Flash Update",
+      "summary": "On this page Change Log Date: 2026-07-31 ​ DeepSeek-V4-Flash Update ​ The official release of the DeepSeek-V4-Flash API is now in public beta.  The API calling method remains unchanged — simply set the model name to deepseek-v4-flash to use the latest version.",
+      "category": "Technology",
+      "importance": 255,
+      "whyItMatters": "The Hacker News community gave this story 255 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49119559"
+        },
+        {
+          "name": "Original source",
+          "url": "https://api-docs.deepseek.com/updates/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49111176"
+      ],
+      "headline": "The Economic Benefit of Refactoring",
+      "summary": "The Economic Benefit of Refactoring Giles Edwards-Alexander Giles is CTO for Europe, Middle East and India at Thoughtworks.  He has over 25 years experience in engineering and technology leadership across technologies from mobile to AI and industries including retail, fintech and healthcare.",
+      "category": "Technology",
+      "importance": 236,
+      "whyItMatters": "The Hacker News community gave this story 236 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49111176"
+        },
+        {
+          "name": "Original source",
+          "url": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49111305"
+      ],
+      "headline": "Physicists Solve a Muon Mystery. Now, Old Results Don't Add Up",
+      "summary": "Home Physicists Solve a Big Quantum Mystery.  Now, Old Results Don’t Add Up.",
+      "category": "Ideas",
+      "importance": 217,
+      "whyItMatters": "The Hacker News community gave this story 217 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49111305"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-31T09:46:15.768Z"
+}

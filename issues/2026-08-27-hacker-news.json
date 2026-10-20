@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-27-hacker-news",
+  "date": "2026-08-27",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49458161"
+      ],
+      "headline": "Nvidia agrees to acquire Hugging Face for $13B",
+      "summary": "Business Insider tells the innovative stories you want to know comments comment_author Loading comment 0 replies",
+      "category": "Business",
+      "importance": 1722,
+      "whyItMatters": "The Hacker News community gave this story 1722 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49458161"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49462763"
+      ],
+      "headline": "Microduck",
+      "summary": "AV-1 Microduck Made to move · Ready to learn A 25 cm open-source biped you train yourself with reinforcement learning.  Playable out of the box.",
+      "category": "Technology",
+      "importance": 343,
+      "whyItMatters": "The Hacker News community gave this story 343 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49462763"
+        },
+        {
+          "name": "Original source",
+          "url": "https://pollen-robotics.com/microduck/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49464896"
+      ],
+      "headline": "Trade (and Tariffs)",
+      "summary": "Archive What If?  About Feed &bull; Email TW &bull; FB &bull; IG -Books- What If?",
+      "category": "Technology",
+      "importance": 308,
+      "whyItMatters": "The Hacker News community gave this story 308 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49464896"
+        },
+        {
+          "name": "Original source",
+          "url": "https://xkcd.com/3290/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49465169"
+      ],
+      "headline": "507 Mechanical Movements",
+      "summary": "FIVE HUNDRED AND SEVEN Mechanical Movements Index Now Animated for the Internet!  &laquo; prev next &raquo; Wait...",
+      "category": "Technology",
+      "importance": 305,
+      "whyItMatters": "The Hacker News community gave this story 305 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49465169"
+        },
+        {
+          "name": "Original source",
+          "url": "https://507movements.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49466917"
+      ],
+      "headline": "Small Models Have Arrived",
+      "summary": "Small Models Have Arrived AUG 26, 2026 For the past few weeks, I've been playing with gpt-5. 6-luna .",
+      "category": "Technology",
+      "importance": 143,
+      "whyItMatters": "The Hacker News community gave this story 143 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49466917"
+        },
+        {
+          "name": "Original source",
+          "url": "https://calv.info/small-models-have-arrived"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49464543"
+      ],
+      "headline": "Emacs 31: An unofficial guide to Markdown-ts-mode",
+      "summary": "Rahul's Blog light dark An unofficial guide to markdown-ts-mode on Emacs 31 Rahul M.  Juliato Rahul M.",
+      "category": "Ideas",
+      "importance": 113,
+      "whyItMatters": "The Hacker News community gave this story 113 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49464543"
+        },
+        {
+          "name": "Original source",
+          "url": "https://rahuljuliato.com/posts/markdown-ts-mode-emacs-31"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49464637"
+      ],
+      "headline": "CoMaps integration with the wider FLOSS ecosystem",
+      "summary": "CoMaps integration with the wider FLOSS ecosystem August 23, 2026 Leonardo Bishop , Manuel Marcatili Blog CoMaps is proud to be a fully free and open source app, and this ideal exists as one of CoMaps' core principles .  Naturally, it's within our interest to make sure the ecosystem of FLOSS apps can flourish and serve as a viable alternative to their proprietary counterparts.",
+      "category": "Ideas",
+      "importance": 110,
+      "whyItMatters": "The Hacker News community gave this story 110 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49464637"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.comaps.app/news/2026-08-23/comaps-integration-with-the-wider-floss-ecosystem/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49466052"
+      ],
+      "headline": "Nvidia projects $673B in sales as AI demand widens",
+      "summary": "hot Business A A A Aug 27, 2026 • 5 min read Nvidia projects $673 billion in sales as AI demand widens Nvidia forecasts 70% fiscal 2028 growth, implying $673 billion in sales as demand expands beyond hyperscalers despite supply constraints.  Image: Blockonomi Nvidia is projecting 70% revenue growth in fiscal 2028 , which would put annual sales at roughly $673 billion if the current Wall Street consensus for fiscal 2027 holds.",
+      "category": "Technology",
+      "importance": 83,
+      "whyItMatters": "The Hacker News community gave this story 83 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49466052"
+        },
+        {
+          "name": "Original source",
+          "url": "https://forgeeks.net/nvidia-673-billion-ai-growth-forecast/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49464314"
+      ],
+      "headline": "MIT's Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training",
+      "summary": "Report​ MIT’s Ad Hoc Committee on AI Use in Teaching, Learning, and Research Training August 13, 2026 1.  Introduction This report is a call to action.",
+      "category": "Technology",
+      "importance": 74,
+      "whyItMatters": "The Hacker News community gave this story 74 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49464314"
+        },
+        {
+          "name": "Original source",
+          "url": "https://aiandeducation.mit.edu/report/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49466006"
+      ],
+      "headline": "Decompiling a Nintendo 64 game in 84 days",
+      "summary": "Decompiling a Nintendo 64 Game in 84 Days 26 Aug, 2026 I’m very pleased to announce that the original Snowboard Kids is now 100% decompiled!  This means that all functions 1 have matching C implementations that, when compiled, produce identical machine code to the original game.",
+      "category": "Ideas",
+      "importance": 65,
+      "whyItMatters": "The Hacker News community gave this story 65 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49466006"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.chrislewis.au/decompiling-a-nintendo-64-game-in-84-days/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-27T18:08:16.201Z"
+}

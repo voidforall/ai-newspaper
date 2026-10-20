@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-11-hacker-news",
+  "date": "2026-10-11",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-50036864"
+      ],
+      "headline": "A city-building game in which the city would prefer you didn't",
+      "summary": "Map City Height limits Supervisor districts Homeowner politics Coalition politics Home values Names Day/night Pause for news − + The Fog City Ledger ‹ › Close ✕",
+      "category": "Ideas",
+      "importance": 412,
+      "whyItMatters": "The Hacker News community gave this story 412 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50036864"
+        },
+        {
+          "name": "Original source",
+          "url": "https://housing.over.pizza/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50037949"
+      ],
+      "headline": "Build your own decision model",
+      "summary": "\"System one\" decision models are models that infer and respond with calibrated probabilities or every allowed answer.  Consider your everyday language model, to get typed output from it (JSON), you may use Structured Output to constrain the output to guaranteed valid JSON.",
+      "category": "Technology",
+      "importance": 377,
+      "whyItMatters": "The Hacker News community gave this story 377 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50037949"
+        },
+        {
+          "name": "Original source",
+          "url": "https://nishtahir.com/build-your-own-decision-model/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50041619"
+      ],
+      "headline": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 342,
+      "whyItMatters": "The Hacker News community gave this story 342 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50041619"
+        },
+        {
+          "name": "Original source",
+          "url": "https://radar.cloudflare.com/bots/as13238?dateRange=7d"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50040547"
+      ],
+      "headline": "3rd Yandex Cloud Data Center Was Hit",
+      "summary": "If you have any problems, please use the feedback form 9560274727503853063 : 1791726637",
+      "category": "Ideas",
+      "importance": 314,
+      "whyItMatters": "The Hacker News community gave this story 314 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50040547"
+        },
+        {
+          "name": "Original source",
+          "url": "https://status.yandex.cloud/en/incidents/2136"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50040276"
+      ],
+      "headline": "LineageOS 24.0",
+      "summary": "Changelog 32 - Slick Seventeen, Awesome Applications, Universal USB Tools Written on October 11, 2026 by Nolen Johnson (npjohnson) 24 - Getting Sentimental Hey there!  Welcome back!",
+      "category": "Ideas",
+      "importance": 210,
+      "whyItMatters": "The Hacker News community gave this story 210 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50040276"
+        },
+        {
+          "name": "Original source",
+          "url": "https://lineageos.org/Changelog-32/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50034081"
+      ],
+      "headline": "Knuth reward check",
+      "summary": "It&rsquo;s been twenty years now that I&rsquo;ve gotten one of the best letters ever.  Donald Knuth confirmed the error I had found in one of his books and sent me the coveted check!",
+      "category": "Ideas",
+      "importance": 206,
+      "whyItMatters": "The Hacker News community gave this story 206 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50034081"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.thomas-huehn.com/knuth-reward-check/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50041682"
+      ],
+      "headline": "Nitter: Update Oct 10th seeking funding and legal help",
+      "summary": "UPDATE Oct 10th On 24 August 2026 X Corp.  sent cease and desist letters demanding a permanent takedown of Nitter instances and the project's repository.",
+      "category": "Business",
+      "importance": 199,
+      "whyItMatters": "The Hacker News community gave this story 199 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50041682"
+        },
+        {
+          "name": "Original source",
+          "url": "https://nitter.net"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50041540"
+      ],
+      "headline": "IRCv3",
+      "summary": "Home Working Group WG FAQs Specifications Specs Registry Reg Support Tables Networks Clients Servers Bridges Libraries SASL Mechanisms Open, extensible, feature-rich chat, proven through years of use.  Specifications These are the specifications which make up modern IRC, and the extensions that the IRCv3 WG have defined.",
+      "category": "Ideas",
+      "importance": 146,
+      "whyItMatters": "The Hacker News community gave this story 146 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50041540"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ircv3.net/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50038623"
+      ],
+      "headline": "PSPi 6 – Raspberry Pi in a PSP",
+      "summary": "main Branches Tags Go to file Code Open more actions menu Latest commit History 718 Commits 718 Commits Folders and files Name Name Last commit message Last commit date . github .",
+      "category": "Technology",
+      "importance": 112,
+      "whyItMatters": "The Hacker News community gave this story 112 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50038623"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/othermod/PSPi-Version-6"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50042219"
+      ],
+      "headline": "I paid people to try and follow my README",
+      "summary": "Developers suck at writing documentation.  We like to say RTFM but often there ain't no FM to R.",
+      "category": "Technology",
+      "importance": 95,
+      "whyItMatters": "The Hacker News community gave this story 95 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50042219"
+        },
+        {
+          "name": "Original source",
+          "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-11T13:50:37.370Z"
+}

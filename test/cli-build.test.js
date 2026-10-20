@@ -10,6 +10,33 @@ import { promisify } from "node:util";
 const run = promisify(execFile);
 const cliPath = join(dirname(fileURLToPath(import.meta.url)), "..", "src", "cli.js");
 
+test("build preserves an already published short legacy summary without weakening new-edition validation", async (t) => {
+  const directory = await mkdtemp(join(tmpdir(), "ai-newspaper-archive-"));
+  t.after(() => rm(directory, { recursive: true, force: true }));
+  await mkdir(join(directory, "issues"));
+  const path = join(directory, "issues", "2026-07-22-hacker-news.json");
+  const archived = {
+    id: "2026-07-22-hacker-news", date: "2026-07-22", editionTitle: "Archived edition",
+    editorNote: "An existing publication, preserved verbatim.",
+    stories: [{
+      headline: "An archived short summary", summary: "Read the original source.",
+      category: "Technology", whyItMatters: "The original editorial note.",
+      sourceLinks: [{ name: "Original source", url: "https://example.com/original" }]
+    }]
+  };
+  const original = `${JSON.stringify(archived, null, 2)}\n`;
+  await writeFile(path, original);
+
+  await run(process.execPath, [cliPath, "build"], { cwd: directory });
+
+  const html = await readFile(join(directory, "public", "editions", archived.id, "index.html"), "utf8");
+  assert.match(html, /Read the original source\./);
+  assert.equal(await readFile(path, "utf8"), original);
+
+  await writeFile(path, JSON.stringify({ ...archived, schemaVersion: 1 }));
+  await assert.rejects(run(process.execPath, [cliPath, "build"], { cwd: directory }), /summary must be at least 40 characters/);
+});
+
 test("build stops before publishing an invalid saved issue", async (t) => {
   const directory = await mkdtemp(join(tmpdir(), "ai-newspaper-build-"));
   t.after(() => rm(directory, { recursive: true, force: true }));

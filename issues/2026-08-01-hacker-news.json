@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-01-hacker-news",
+  "date": "2026-08-01",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49124218"
+      ],
+      "headline": "Elevators",
+      "summary": "Everyone has shared the frustration of waiting for an elevator that never seems to arrive.  \"I pressed the button, why isn't it coming?",
+      "category": "Technology",
+      "importance": 1273,
+      "whyItMatters": "The Hacker News community gave this story 1273 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49124218"
+        },
+        {
+          "name": "Original source",
+          "url": "https://john.fun/elevators"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49126604"
+      ],
+      "headline": "qm – Multiplayer agent harness for work",
+      "summary": "Uh oh!  There was an error while loading.",
+      "category": "Ideas",
+      "importance": 564,
+      "whyItMatters": "The Hacker News community gave this story 564 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49126604"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/yc-software/qm"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49123386"
+      ],
+      "headline": "Run Kimi K3 using 29 GB of RAM at 0.50 tok/s",
+      "summary": "Uh oh!  There was an error while loading.",
+      "category": "Ideas",
+      "importance": 245,
+      "whyItMatters": "The Hacker News community gave this story 245 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49123386"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/sqliteai/waste"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49124858"
+      ],
+      "headline": "Big Food vs. the People",
+      "summary": "Big Food vs.  The People NEWSROOM: FOOD SYSTEMS Co-published with Lucy Jones for Lighthouse Reports CREDITS Thin Lei Win, Emmanuel Freudenthal, Monica Camacho, Sarasvati Nagesh Thuppadolla, Elena DeBre, Tessa Pang, Wael Eskandar, Lu Min Lwin, Viktoriia Maksymova, Charles Boutaud, Margot Gibbs and Beatriz Ramalho da Silva with Alexandria Bordas, Andrea Rincón, Andrew Gregory, Ankit Raj, Armando Talamantes, Ed Wanderley, Edier Buitrago, Gloria Riva, ⁨Guilherme Cavalcanti, Irene van den Berg⁩, ⁨Jahnavi Sen, ⁨Jesse Kathan, ⁨João Peres⁩, ⁨Kennia Velazquez⁩, ⁨Laura Martínez Mejía, Maria Martha Bruno, Nicoletta Dentico, Paulina Macias Ortega, Philip Baker, Rodrigo Oliveira, Scott Slater, Thalita…",
+      "category": "Ideas",
+      "importance": 227,
+      "whyItMatters": "The Hacker News community gave this story 227 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49124858"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.lighthousereports.com/investigation/big-food-vs-the-people/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49125034"
+      ],
+      "headline": "Getting 25 Gbps Thunderbolt Ethernet on My Mac Studio",
+      "summary": "Getting 25 Gbps Thunderbolt Ethernet on my Mac Studio Jul 31, 2026 I've been using the built-in 10 Gigabit Ethernet on my Mac Studio for a few years.  It works fine: I can edit 4K video straight off my NAS over the network, and run backups at around 1 GB/sec.",
+      "category": "Technology",
+      "importance": 188,
+      "whyItMatters": "The Hacker News community gave this story 188 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49125034"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.jeffgeerling.com/blog/2026/getting-25g-ethernet-mac-thunderbolt/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49129990"
+      ],
+      "headline": "How to Exist",
+      "summary": "Switch to mobile version Raptitude. com Menu About Archives Experiments Courses Contact Best posts RSS How to Exist { 12 comments } Facebook Email Pinterest Reddit Share Here’s an experiment for a true daredevil.",
+      "category": "Technology",
+      "importance": 187,
+      "whyItMatters": "The Hacker News community gave this story 187 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49129990"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.raptitude.com/2026/07/how-to-exist/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49124042"
+      ],
+      "headline": "The most official water costs $120k a gallon",
+      "summary": "The most official water costs $120,000 a gallon We all learned in science class that water freezes at 0 °C or 32 °F at atmospheric pressure.  But what water, exactly?",
+      "category": "Ideas",
+      "importance": 184,
+      "whyItMatters": "The Hacker News community gave this story 184 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49124042"
+        },
+        {
+          "name": "Original source",
+          "url": "https://signoregalilei.com/2026/07/26/the-most-official-water-costs-120000-a-gallon/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49121196"
+      ],
+      "headline": "Progressive Web Components",
+      "summary": "Progressive Web Components I’ve worked with web components for nearly a decade and built various enterprise-scale design systems with them.  While I love what they offer on paper, the same pain points keep coming back: Layout shifts, flash of unstyled content, poor server-side rendering support, too much reliance on client side JavaScript, doesn't play well with frame­works like React Server Components, accessibility issues, and so on… Despite all of this, I still think web components are a great foundation for a design system .",
+      "category": "Technology",
+      "importance": 151,
+      "whyItMatters": "The Hacker News community gave this story 151 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49121196"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arielsalminen.com/2026/progressive-web-components/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49127031"
+      ],
+      "headline": "Golang proposal: container/: generic collection types",
+      "summary": "Uh oh!  There was an error while loading.",
+      "category": "Technology",
+      "importance": 151,
+      "whyItMatters": "The Hacker News community gave this story 151 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49127031"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/golang/go/issues/80590"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49126765"
+      ],
+      "headline": "June in Servo: real world compat, media queries, SharedWorker, and more",
+      "summary": "June in Servo: real world compat, media queries, SharedWorker, and more!  We now have a new way for you to help us write the monthly updates :) Posted 2026-07-31 Servo 0.",
+      "category": "Ideas",
+      "importance": 143,
+      "whyItMatters": "The Hacker News community gave this story 143 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49126765"
+        },
+        {
+          "name": "Original source",
+          "url": "https://servo.org/blog/2026/07/31/june-in-servo/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-01T09:07:10.049Z"
+}

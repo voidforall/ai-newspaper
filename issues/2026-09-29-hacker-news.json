@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-29-hacker-news",
+  "date": "2026-09-29",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49879645"
+      ],
+      "headline": "Updated Google Maps shows destruction of the city of Rafah",
+      "summary": "Post Log in Sign up Post Log in Sign up Ali Abunimah on X: \"Google Maps has been updated to show Zionist-holocausted Gaza.  This is part of Rafah.",
+      "category": "Ideas",
+      "importance": 757,
+      "whyItMatters": "The Hacker News community gave this story 757 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49879645"
+        },
+        {
+          "name": "Original source",
+          "url": "https://twitter.com/AliAbunimah/status/2103890594137309425"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49880036"
+      ],
+      "headline": "Pirating the Pirates",
+      "summary": "Notebook Feature Home video release images from The Good, the Bad and the Ugly (Sergio Leone, 1966).  Clockwise from top-left: Arrow Video (4K UHD, 2025), Kino Lorber (4K UHD, 2021), MGM (4K Blu-ray, 2014), MGM (DVD, 1998).",
+      "category": "Ideas",
+      "importance": 638,
+      "whyItMatters": "The Hacker News community gave this story 638 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49880036"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49883844"
+      ],
+      "headline": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+      "summary": "firelex / jeff Public Notifications You must be signed in to change notification settings Fork 29 Star 889 main Branches Tags Go to file Code Open more actions menu Latest commit History 8 Commits 8 Commits Folders and files Name Name Last commit message Last commit date assets assets docs docs scripts scripts src/ jeff src/ jeff tests tests videos videos . gitattributes .",
+      "category": "Technology",
+      "importance": 536,
+      "whyItMatters": "The Hacker News community gave this story 536 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49883844"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/firelex/jeff"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49891295"
+      ],
+      "headline": "You Are No Longer Invited to Dinner",
+      "summary": "You Are No Longer Invited to Dinner We’re witnessing the death of hosting in America.  The share of adults who say they regularly have friends over has declined 70 percent since 1975 Derek Thompson Sep 29, 2026 176 8 43 Share Mid-century Americans knew how to throw a party, for better or worse.",
+      "category": "Ideas",
+      "importance": 297,
+      "whyItMatters": "The Hacker News community gave this story 297 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49891295"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.derekthompson.org/p/the-death-of-the-american-host"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49883539"
+      ],
+      "headline": "California farmers are struggling to sell grapes as demand for wine drops",
+      "summary": "upper waypoint The Associated Press California Farmers Are Struggling to Sell Grapes as Demand for Wine Drops Many California growers can’t find buyers as the industry produces more wine grapes than the market wants.  Wine consumption is declining globally as people drink less.",
+      "category": "Business",
+      "importance": 286,
+      "whyItMatters": "The Hacker News community gave this story 286 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49883539"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.kqed.org/news/12101534/california-farmers-are-struggling-to-sell-grapes-as-demand-for-wine-drops"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49882781"
+      ],
+      "headline": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 263,
+      "whyItMatters": "The Hacker News community gave this story 263 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49882781"
+        },
+        {
+          "name": "Original source",
+          "url": "https://stateofutopia.com/experiments/microllmlab/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49890226"
+      ],
+      "headline": "AI companies leak data to advertisers [pdf]",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 248,
+      "whyItMatters": "The Hacker News community gave this story 248 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49890226"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49880411"
+      ],
+      "headline": "Phyllotaxis: An audio-reactive LED display",
+      "summary": "I&rsquo;ve been fascinated by understanding patterns that appear in nature, through code.  Communing with the inherent emergent patterns that exist in the universe.",
+      "category": "Ideas",
+      "importance": 184,
+      "whyItMatters": "The Hacker News community gave this story 184 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49880411"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jagi.studio/posts/phyllotaxis/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49891480"
+      ],
+      "headline": "500k facial scans at UK stations yield no arrests, 1 false positive",
+      "summary": "More than half a million faces were scanned in some of the capital’s busiest transport hubs during the trial.  Photograph: Mike Kemp/In Pictures/Getty Images View image in fullscreen More than half a million faces were scanned in some of the capital’s busiest transport hubs during the trial.",
+      "category": "Ideas",
+      "importance": 174,
+      "whyItMatters": "The Hacker News community gave this story 174 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49891480"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.theguardian.com/technology/2026/sep/29/trial-live-facial-recognition-cameras-london-stations-false-positive"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49891550"
+      ],
+      "headline": "US sanctions force The Netherlands off Microsoft and toward alternative NixOS",
+      "summary": "(Image credit: Getty) {alert('Link copied')}). catch(err => {console.",
+      "category": "Ideas",
+      "importance": 162,
+      "whyItMatters": "The Hacker News community gave this story 162 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49891550"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.tomshardware.com/software/the-netherlands-is-rolling-alternative-nixos-based-software-ecosystem-after-u-s-sanctions-on-icc-took-microsoft-off-the-table-trial-programs-running-now-first-release-expected-at-end-of-2027"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-29T13:50:25.700Z"
+}

@@ -1,0 +1,209 @@
+{
+  "id": "2026-07-27-hacker-news",
+  "date": "2026-07-27",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49057175"
+      ],
+      "headline": "Kill The Cookie Banner",
+      "summary": "Stop the tracking circus.  Kill the cookie banner!",
+      "category": "Ideas",
+      "importance": 1041,
+      "whyItMatters": "The Hacker News community gave this story 1041 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49057175"
+        },
+        {
+          "name": "Original source",
+          "url": "https://killthecookiebanner.eu/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49063022"
+      ],
+      "headline": "US citizen charged after GrapheneOS phone wipes during airport search",
+      "summary": "Serving tech enthusiasts for over 25 years.  TechSpot means tech analysis and advice you can trust .",
+      "category": "Technology",
+      "importance": 807,
+      "whyItMatters": "The Hacker News community gave this story 807 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49063022"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49063754"
+      ],
+      "headline": "PGSimCity - How PostgreSQL Works",
+      "summary": "PG SimCity A working model of the PostgreSQL engine loading the city code… Early, unreviewed prototype.  It almost certainly contains inaccuracies in both the model and explanations.",
+      "category": "Technology",
+      "importance": 631,
+      "whyItMatters": "The Hacker News community gave this story 631 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49063754"
+        },
+        {
+          "name": "Original source",
+          "url": "https://nikolays.github.io/PGSimCity/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49057241"
+      ],
+      "headline": "Htmx 4.0, the first JavaScript library to release exclusively on the Game Boy",
+      "summary": "htmx 4: the game $35. 97 CAD HTMX 4.",
+      "category": "Ideas",
+      "importance": 462,
+      "whyItMatters": "The Hacker News community gave this story 462 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49057241"
+        },
+        {
+          "name": "Original source",
+          "url": "https://swag.htmx.org/en-cad/products/htmx-4-the-game"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49060495"
+      ],
+      "headline": "French firefighters face 'pyrocumulonimbus' for first time",
+      "summary": "Advertising French firefighters face 'pyrocumulonimbus' for first time Paris (France) (AFP) – The gigantic wildfire ravaging southwest France has created an extremely dangerous \"pyrocumulonimbus\" -- a phenomenon never before seen in the country -- the spokesman for the country's National Firefighters Federation of France (FNSPF) told AFP.  Issued on: 26/07/2026 - 16:49 2 min Reading time Share The main wildfire burning in France's southwest has created a 'fire cloud', which generates its own winds © ROMAIN PERROCHEAU / AFP/File Such a formation, also called a cumulonimbus flammagenitus cloud, can be seen during volcanic eruptions -- or, as in this case, when a wildfire roasts the air near…",
+      "category": "Technology",
+      "importance": 389,
+      "whyItMatters": "The Hacker News community gave this story 389 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49060495"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.france24.com/en/live-news/20260726-french-firefighters-face-pyrocumulonimbus-for-first-time"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49065752"
+      ],
+      "headline": "Kimi-K3 Releases on HuggingFace 7/27",
+      "summary": "Upcoming release Kimi-K3 Kimi-K3 The latest model from Moonshot AI.  00 days 04 hours 15 min July 27, 2026 Like and Notify on release 2,514 waiting for the release Kimi K3 K3 is the next generation of open frontier models from Moonshot AI.",
+      "category": "Technology",
+      "importance": 356,
+      "whyItMatters": "The Hacker News community gave this story 356 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49065752"
+        },
+        {
+          "name": "Original source",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49060856"
+      ],
+      "headline": "Decker, a platform that builds on the legacy of Hypercard and classic macOS",
+      "summary": "Decker Decker is a multimedia platform for creating and sharing interactive documents, with sound, images, hypertext, and scripted behavior.  You can try it in your web browser right now .",
+      "category": "Ideas",
+      "importance": 317,
+      "whyItMatters": "The Hacker News community gave this story 317 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49060856"
+        },
+        {
+          "name": "Original source",
+          "url": "https://beyondloom.com/decker/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49059367"
+      ],
+      "headline": "Design is compromise",
+      "summary": "Design is compromise December 31, 2018 · 1 minute read When did the word “compromise” become vilified?  Compromise is neither good nor bad, it’s something we do every day.",
+      "category": "Ideas",
+      "importance": 260,
+      "whyItMatters": "The Hacker News community gave this story 260 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49059367"
+        },
+        {
+          "name": "Original source",
+          "url": "https://stephango.com/design-is-compromise"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49057666"
+      ],
+      "headline": "Show HN: Reverse Minesweeper",
+      "summary": "Settings About Tutorial How to play Terms Send feedback Skip tutorial Easy New Game #1 Daily puzzle Daily master Beginner Easy Medium Hard Extreme Insane Enter puzzle ID Sunflowers Double tap click to plant 8 Numbers = flowers around 2 0 Never need to guess Play tutorial Hide instructions Puzzle # 1 Mistakes 0/3 00:00 Game paused Your garden is waiting whenever you are ready.  Resume 3 See results 0/3 mistakes – – / 100 ≈ –:–– 6×6 7×7 8×8 10×10 12×12 14×14 Beginner Easy Medium Hard Extreme Insane New Copy JSON Difficulty tuning Medium: min subset deductions 2 A Medium grid must force at least this many two-clue subset moves.",
+      "category": "Technology",
+      "importance": 227,
+      "whyItMatters": "The Hacker News community gave this story 227 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49057666"
+        },
+        {
+          "name": "Original source",
+          "url": "https://sunflowersgame.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49057398"
+      ],
+      "headline": "Go Analysis Framework: modular static analysis by go team",
+      "summary": "Documentation ¶ Overview ¶ Background Analyzer Pass Modular analysis with Facts Testing an Analyzer Standalone commands Package analysis defines the interface between a modular static analysis and an analysis driver program.  Background ¶ A static analysis is a function that inspects a package of Go code and reports a set of diagnostics (typically mistakes in the code), and perhaps produces other results as well, such as suggested refactorings or other facts.",
+      "category": "Technology",
+      "importance": 212,
+      "whyItMatters": "The Hacker News community gave this story 212 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49057398"
+        },
+        {
+          "name": "Original source",
+          "url": "https://pkg.go.dev/golang.org/x/tools/go/analysis"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-27T10:44:42.354Z"
+}

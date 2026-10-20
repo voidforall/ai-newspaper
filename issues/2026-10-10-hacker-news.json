@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-10-hacker-news",
+  "date": "2026-10-10",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-50022292"
+      ],
+      "headline": "Triple-A Minesweeper",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 1094,
+      "whyItMatters": "The Hacker News community gave this story 1094 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50022292"
+        },
+        {
+          "name": "Original source",
+          "url": "https://minesweeper.mikelacher.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50028275"
+      ],
+      "headline": "REA Reverse – Engineer Anything",
+      "summary": "Reverse engineering, with your coding agent Find out how software works.  REA gives your agent the tools to inspect a program and explain what it does.",
+      "category": "Technology",
+      "importance": 504,
+      "whyItMatters": "The Hacker News community gave this story 504 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50028275"
+        },
+        {
+          "name": "Original source",
+          "url": "https://rea.tools/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50023450"
+      ],
+      "headline": "Typesafe AI raises $870M at $7.5B",
+      "summary": "TypeSafe AI Enterprise Thoughts Company Docs API console Contact Sales API console Docs Menu ∵ Back Company News Company News TypeSafe A raises Series AI TL;DR we raised $$$ and we’re going to make sure it shows up as benefits to y’all 🫶 We’ve raised a really big series A¹ led by Andreessen Horowitz , with participation from Sequoia Capital, existing investor DCVC, and the tech illuminati (aka a bunch of the best angel investors).  We find fundraising announcements incredibly boring, so we want to be straightforward with what this means for all of you… For developers We intend to take all of the things you love about Jev to the extreme There will be even more machine-native models And we’ll…",
+      "category": "Technology",
+      "importance": 389,
+      "whyItMatters": "The Hacker News community gave this story 389 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50023450"
+        },
+        {
+          "name": "Original source",
+          "url": "https://typesafe.ai/blog/series-ai"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50024499"
+      ],
+      "headline": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+      "summary": "carrier-explode Explode and decode carrier data GitHub About News carrier-explode 2. 0 is out with a much improved backend.",
+      "category": "Ideas",
+      "importance": 348,
+      "whyItMatters": "The Hacker News community gave this story 348 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50024499"
+        },
+        {
+          "name": "Original source",
+          "url": "https://carrierexplode.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50020533"
+      ],
+      "headline": "'Wallace and Gromit,' 90% Alone",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 236,
+      "whyItMatters": "The Hacker News community gave this story 236 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50020533"
+        },
+        {
+          "name": "Original source",
+          "url": "https://animationobsessive.substack.com/p/wallace-and-gromit-90-alone"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50029123"
+      ],
+      "headline": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+      "summary": "Telegram Desktop: one-click account takeover via IPC injection Contents Telegram Desktop: one-click account takeover via IPC injection Introduction Someone adds you to a Telegram group.  A link shows up in the chat.",
+      "category": "Ideas",
+      "importance": 233,
+      "whyItMatters": "The Hacker News community gave this story 233 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50029123"
+        },
+        {
+          "name": "Original source",
+          "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50031269"
+      ],
+      "headline": "`123456' password used in Danish CPR data breach",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 193,
+      "whyItMatters": "The Hacker News community gave this story 193 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50031269"
+        },
+        {
+          "name": "Original source",
+          "url": "https://cphpost.dk/2026-10-10/news/round-up/123456-password-used-in-massive-danish-cpr-data-breach/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50023995"
+      ],
+      "headline": "Scam American companies are using to manipulate ingredient lists",
+      "summary": "Post Log in Sign up Post Log in Sign up Wall Street Apes on X: \"There is a scam American companies are using to manipulate what ingredient gets listed as the first main ingredient on products Take Smuckers, strawberries is the first ingredient.  So you would think strawberries is the main primary ingredient, but that’s not true American companies are using a food formulation technique known as ‘ingredient splitting’ For Smuckers, they divide the sweeteners up into 3 different ingredients.",
+      "category": "Technology",
+      "importance": 151,
+      "whyItMatters": "The Hacker News community gave this story 151 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50023995"
+        },
+        {
+          "name": "Original source",
+          "url": "https://twitter.com/WallStreetApes/status/2108594998656807078"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50024090"
+      ],
+      "headline": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "summary": "What's new Updates on my research and expository papers, discussion of open problems, and other maths-related topics.  By Terence Tao Home About Career advice On writing Books Mastodon+ Applets Subscribe to feed What mathematicians should know about the Lean Theorem Prover: questions of reliability and AI 9 October, 2026 in math.",
+      "category": "Technology",
+      "importance": 143,
+      "whyItMatters": "The Hacker News community gave this story 143 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50024090"
+        },
+        {
+          "name": "Original source",
+          "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50029982"
+      ],
+      "headline": "Computers Cannot Make Decisions",
+      "summary": "art:computers_cannot_make_decisions Computers Cannot Make Decisions Blame has no place falling on computer programs because computer programs cannot make decisions.  Headlines must be read through this lens: Anthropic [...",
+      "category": "Technology",
+      "importance": 136,
+      "whyItMatters": "The Hacker News community gave this story 136 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50029982"
+        },
+        {
+          "name": "Original source",
+          "url": "https://wiki.cateat.fish/art:computers_cannot_make_decisions"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-10T13:22:00.389Z"
+}

@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-20-hacker-news",
+  "date": "2026-08-20",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49360015"
+      ],
+      "headline": "A joke domain purchase turned in geopolitical warfare",
+      "summary": "Strap in, this story involves a cheese fortune teller, the department of war, and nearly every other government department in between.  In 2017 (I think?",
+      "category": "Technology",
+      "importance": 871,
+      "whyItMatters": "The Hacker News community gave this story 871 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49360015"
+        },
+        {
+          "name": "Original source",
+          "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49364559"
+      ],
+      "headline": "OpenRouter is joining Stripe",
+      "summary": "OpenRouter is Joining Stripe OpenRouter &middot; 8/19/2026 What this means for our users What this means for our users Our mission Why Stripe?  What’s next Today, we are excited to announce that we are joining forces with Stripe , to power the next wave of GDP growth globally.",
+      "category": "Ideas",
+      "importance": 810,
+      "whyItMatters": "The Hacker News community gave this story 810 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49364559"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openrouter.ai/blog/announcements/openrouter-is-joining-stripe/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49365405"
+      ],
+      "headline": "Go 1.27",
+      "summary": "The Go Blog Go 1. 27 is released Nicholas Husin, on behalf of the Go team 19 August 2026 Today the Go team is pleased to release Go 1.",
+      "category": "Ideas",
+      "importance": 601,
+      "whyItMatters": "The Hacker News community gave this story 601 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49365405"
+        },
+        {
+          "name": "Original source",
+          "url": "https://go.dev/blog/go1.27"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49364745"
+      ],
+      "headline": "Google has stopped pushing Git tags for some Android source code",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 481,
+      "whyItMatters": "The Hacker News community gave this story 481 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49364745"
+        },
+        {
+          "name": "Original source",
+          "url": "https://grapheneos.social/@GrapheneOS/117057099753905023"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49360545"
+      ],
+      "headline": "Geolocating a random island using geometry and CUDA programming",
+      "summary": "gralhix004 | Geolocating Random Islet Image Using Geometry & CUDA GPU Programming 16-08-2026 NOTE: this is a genuine human work, didnt use LLM generation.  I'm writing this page as a writeup for this challenge gralhix 004 made by Sofia Santos | Gralhix .",
+      "category": "Technology",
+      "importance": 464,
+      "whyItMatters": "The Hacker News community gave this story 464 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49360545"
+        },
+        {
+          "name": "Original source",
+          "url": "https://yassa9.github.io/osint/gralhix-004/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49362887"
+      ],
+      "headline": "Casio F-B100W-1A",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 353,
+      "whyItMatters": "The Hacker News community gave this story 353 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49362887"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.casio.com/uk/watches/casio/product.F-B100W-1A/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49361279"
+      ],
+      "headline": "PostgreSQL for Everything",
+      "summary": "Home Interim CTO Services Blog About 🇩🇪 Home Interim CTO Services Blog About 🇩🇪 Menu PostgreSQL for Everything .  Contrary to popular belief - the answer to everything is NOT 42 - it&rsquo;s PostgreSQL.",
+      "category": "Ideas",
+      "importance": 351,
+      "whyItMatters": "The Hacker News community gave this story 351 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49361279"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.raphaelbauer.com:443/posts/postgresql-everything/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49359425"
+      ],
+      "headline": "Air Theremin – A browser theremin you play by waving at your webcam",
+      "summary": "— 0 HZ 0:00 TILT ↔ VOLUME · TILT ↕ PITCH · TOUCH TO PLAY · OUTSIDE FRAME = SILENCE ✋ ✋ SPREAD HANDS = LOUDER PALMS TOGETHER = SILENCE ✋ ✋ RAISE BOTH HANDS = HIGHER KEEP BOTH HANDS IN VIEW ✋ ✋ TILT LIKE A SEE-SAW = VIBRATO LEAN BACK = DARKER, MORE ROOM TAP TO PLAY // INPUT ⟲ GYRO ◉ HANDS ◎ CAL // WAVE ∿ SINE △ TRI ◠ WARM ⊔ REED REVERB NOTE SNAP // FX ∿ VIB ≋ TREM ⟳ ECHO ● REC ❚❚ PAUSE ▛ AIR·THEREMIN ▜ Play it in mid-air, two ways.  HANDS — wave both hands at the camera: spread them apart for volume, raise them for pitch, lean back to soften the tone, put your palms together for silence.",
+      "category": "Technology",
+      "importance": 270,
+      "whyItMatters": "The Hacker News community gave this story 270 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49359425"
+        },
+        {
+          "name": "Original source",
+          "url": "https://theremin.bizibah.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49365443"
+      ],
+      "headline": "Unsloth Dynamic 3.0 GGUFs",
+      "summary": "For the complete documentation index, see llms. txt .",
+      "category": "Ideas",
+      "importance": 247,
+      "whyItMatters": "The Hacker News community gave this story 247 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49365443"
+        },
+        {
+          "name": "Original source",
+          "url": "https://unsloth.ai/docs/basics/dynamic-3.0-ggufs"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49367350"
+      ],
+      "headline": "Feature Request: Support AGENTS.md",
+      "summary": "Uh oh!  There was an error while loading.",
+      "category": "Ideas",
+      "importance": 228,
+      "whyItMatters": "The Hacker News community gave this story 228 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49367350"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/anthropics/claude-code/issues/6235"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-20T07:42:08.804Z"
+}

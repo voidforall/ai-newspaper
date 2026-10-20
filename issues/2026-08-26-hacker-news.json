@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-26-hacker-news",
+  "date": "2026-08-26",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49438052"
+      ],
+      "headline": "Dolly Parton has died",
+      "summary": "Dolly Parton pictured in 2022.  Photograph: NBC/Katherine Bomboy/Getty Images View image in fullscreen Dolly Parton pictured in 2022.",
+      "category": "Ideas",
+      "importance": 1424,
+      "whyItMatters": "The Hacker News community gave this story 1424 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49438052"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49433292"
+      ],
+      "headline": "Apple introduces M6 and M5 Ultra",
+      "summary": "opens in new window PRESS RELEASE August 25, 2026 Apple introduces M6 and M5 Ultra for a big leap in performance and AI compute M6, Apple’s first 2 nm chip, features a larger, more powerful 12-core CPU, 12-core GPU, and Dual 16-core Neural Engine, while M5 Ultra is Apple’s first quad-die architecture and its most powerful chip ever M6 delivers a revolutionary leap in everyday performance and power efficiency.  M5 Ultra unleashes unprecedented desktop-class power and massive unified memory bandwidth to conquer the most demanding projects.",
+      "category": "Technology",
+      "importance": 1100,
+      "whyItMatters": "The Hacker News community gave this story 1100 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49433292"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49437283"
+      ],
+      "headline": "Nitter and XCancel receive cease and desist notices",
+      "summary": "This repository was archived by the owner on Aug 25, 2026.  It is now read-only.",
+      "category": "Ideas",
+      "importance": 853,
+      "whyItMatters": "The Hacker News community gave this story 853 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49437283"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/zedeus/nitter/issues/1442"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49433316"
+      ],
+      "headline": "New Mac Studio with M5 Max and M5 Ultra",
+      "summary": "opens in new window PRESS RELEASE August 25, 2026 Apple introduces new Mac Studio with M5 Max and M5 Ultra — the ultimate desktop for on‑device AI and the most extreme pro workflows Apple’s most powerful Mac raises the bar for local AI with up to 4. 3x faster performance, more advanced graphics, up to 512GB of unified memory, and extensive connectivity Apple unveils the new Mac Studio, the most powerful Mac ever, featuring M5 Max and M5 Ultra.",
+      "category": "Technology",
+      "importance": 756,
+      "whyItMatters": "The Hacker News community gave this story 756 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49433316"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49437069"
+      ],
+      "headline": "My Friend Aaron",
+      "summary": "Posts My Friend Aaron 21st August 2026 The following is a short story.  * * * * * This one is about my friend, Aaron.",
+      "category": "Ideas",
+      "importance": 533,
+      "whyItMatters": "The Hacker News community gave this story 533 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49437069"
+        },
+        {
+          "name": "Original source",
+          "url": "https://rorz.io/writing/my-friend-aaron"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49433450"
+      ],
+      "headline": "New Mac mini, featuring M6 and M5 Pro",
+      "summary": "opens in new window PRESS RELEASE August 25, 2026 Apple’s new Mac mini, featuring M6 and M5 Pro, delivers a massive leap in AI performance, supercharging the leading desktop for always-on agentic computing Mac mini delivers up to 4x faster AI performance, up to 2x faster graphics and storage, along with enhanced connectivity — all in its ultracompact footprint Users can do it all with the ultracompact Mac mini featuring the all-new M6 or powerful M5 Pro — from advanced productivity to running AI models on device, and more.  CUPERTINO, CALIFORNIA Apple today announced the new Mac mini with the all-new M6 and powerful M5 Pro, delivering a dramatic boost in performance and even more versatility…",
+      "category": "Technology",
+      "importance": 487,
+      "whyItMatters": "The Hacker News community gave this story 487 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49433450"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.apple.com/newsroom/2026/08/apple-unveils-a-more-powerful-mac-mini-featuring-the-all-new-m6-and-m5-pro/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49434378"
+      ],
+      "headline": "OpenAI Jalapeño: Better than Nvidia Blackwell",
+      "summary": "OpenAI Jalapeño: Better Than Nvidia Blackwell OpenAI’s self-designed ASIC compared with Rubin, Jalapeño’s TCO, throughput per MW, and spicy deets Bryan Shan , Myron Xie , Jordan Nanos , and 3 others Aug 25, 2026 ∙ Paid 151 1 17 Share OpenAI has spent the past couple years quietly building “Jalapeño,” an inference chip just announced at Hot Chips.  Rumors of a successful tapeout had been swirling for a while.",
+      "category": "Technology",
+      "importance": 449,
+      "whyItMatters": "The Hacker News community gave this story 449 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49434378"
+        },
+        {
+          "name": "Original source",
+          "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49439017"
+      ],
+      "headline": "FDA authorizes first wearable device that monitors ketone and blood sugar levels",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 367,
+      "whyItMatters": "The Hacker News community gave this story 367 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49439017"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49437946"
+      ],
+      "headline": "Firefox 157 will include JPEG XL by default on all platforms",
+      "summary": "Groups Groups     Intent to ship: JPEG XL 9,042 views Skip to first unread message  Timothy Nikkel unread, Aug 24, 2026, 6:15:09 AM (2 days ago) Aug 24    Reply to author Sign in to reply to author Forward Sign in to forward Delete You do not have permission to delete messages in this group Copy link Report message Show original message Either email addresses are anonymous for this group or you need the view member email addresses permission to view the original message to dev-pl... @mozilla.",
+      "category": "Technology",
+      "importance": 358,
+      "whyItMatters": "The Hacker News community gave this story 358 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49437946"
+        },
+        {
+          "name": "Original source",
+          "url": "https://groups.google.com/a/mozilla.org/g/dev-platform/c/3YMV4MS34KA?pli=1"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49432319"
+      ],
+      "headline": "Don't Wordle",
+      "summary": "Don't Wordle Don't Wordle is a free daily word game.  Like Wordle, you get six tries—but here the goal is to avoid guessing the hidden word.",
+      "category": "Technology",
+      "importance": 343,
+      "whyItMatters": "The Hacker News community gave this story 343 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49432319"
+        },
+        {
+          "name": "Original source",
+          "url": "https://dontwordle.com/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-26T07:49:02.935Z"
+}

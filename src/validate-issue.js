@@ -1,5 +1,4 @@
 const categories = new Set(["Technology", "Business", "Ideas"]);
-const minimumSummaryLength = 40;
 const originalSourceName = "Original source";
 
 export function isValidIssueDate(value) {
@@ -22,8 +21,11 @@ function validSourceLink(link) {
   }
 }
 
-export function validateIssue(issue) {
+export function validateIssue(issue, { archive = false } = {}) {
   const errors = [];
+  // Preserve already published, unversioned text when rebuilding the archive.
+  // Generation and all versioned editions retain the publication minimum.
+  const minimumSummaryLength = archive && issue?.schemaVersion === undefined ? 1 : 40;
   if (!isValidIssueDate(issue?.date)) errors.push("Issue date must be a valid YYYY-MM-DD value.");
   if (!Array.isArray(issue?.stories) || issue.stories.length === 0) {
     errors.push("Issue must contain at least one story.");
@@ -52,7 +54,7 @@ export function validateIssue(issue) {
   return errors;
 }
 
-export function assertValidIssue(issue) {
-  const errors = validateIssue(issue);
+export function assertValidIssue(issue, options) {
+  const errors = validateIssue(issue, options);
   if (errors.length) throw new Error(`Issue validation failed:\n- ${errors.join("\n- ")}`);
 }

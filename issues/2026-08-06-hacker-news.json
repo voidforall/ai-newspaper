@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-06-hacker-news",
+  "date": "2026-08-06",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49184960"
+      ],
+      "headline": "Discovery Loop",
+      "summary": "Discovery L P Continuous Exploration Automating discovery to accelerate science and engineering for the world.  Scroll Scientific discovery is bottlenecked .",
+      "category": "Ideas",
+      "importance": 752,
+      "whyItMatters": "The Hacker News community gave this story 752 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49184960"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.discoveryloop.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49184755"
+      ],
+      "headline": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+      "summary": "The next chapter of our AI momentum x. com Facebook LinkedIn Mail Copy link Sundar Pichai CEO of Google and Alphabet Demis Hassabis Chair, Google DeepMind and Chief Scientist, Alphabet Share x.",
+      "category": "Technology",
+      "importance": 657,
+      "whyItMatters": "The Hacker News community gave this story 657 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49184755"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49182996"
+      ],
+      "headline": "Cloudflare OS: an open platform for agents, apps, and work",
+      "summary": "Every organization has a mission, a reason for being.  Organizations pass that mission — along with their terminology, procedures, systems, standards, and ways of working — to their people.",
+      "category": "Ideas",
+      "importance": 559,
+      "whyItMatters": "The Hacker News community gave this story 559 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49182996"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.cloudflare.com/cloudflare-os/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49187256"
+      ],
+      "headline": "Zed DeltaDB",
+      "summary": "Early Access Software is made between commits Be among the first to try DeltaDB, a version control system that records the work as it unfolds and keeps every change connected to the conversation that shaped it.  Learn about DeltaDB Rewind to any edit DeltaDB captures every operation in between commits and gives each one a stable identity, so you can point to the code at any moment in its evolution.",
+      "category": "Technology",
+      "importance": 422,
+      "whyItMatters": "The Hacker News community gave this story 422 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49187256"
+        },
+        {
+          "name": "Original source",
+          "url": "https://zed.dev/deltadb"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49188022"
+      ],
+      "headline": "I'm switching my phone from Android to Linux",
+      "summary": "I'm switching my phone from Android to Linux.  02 Aug, 2026 For the past months or even years, I've become more and more dissatisfied with the path Google has taken with the Android Open Source Project (AOSP).",
+      "category": "Ideas",
+      "importance": 332,
+      "whyItMatters": "The Hacker News community gave this story 332 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49188022"
+        },
+        {
+          "name": "Original source",
+          "url": "https://runarcn.no/android-to-linux/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49186762"
+      ],
+      "headline": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+      "summary": "Back to Blog / Product How Castform + Neon Beats Frontier Models on Price and Efficiency A 4B open-source model post-trained with Castform retrieved search results as accurately as GPT-5. 6 Sol, while costing 100x less Pranav Aurora , Ying Hang Seah , Angel Pan Aug 05, 2026 Subscribe to our changelog Receive only our latest updates.",
+      "category": "Technology",
+      "importance": 316,
+      "whyItMatters": "The Hacker News community gave this story 316 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49186762"
+        },
+        {
+          "name": "Original source",
+          "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49181083"
+      ],
+      "headline": "Position: LLMs Can't Jump",
+      "summary": "Verifying your browser Complete the check below to continue to OpenReview Please complete the verification above.  Have an OpenReview account?",
+      "category": "Ideas",
+      "importance": 276,
+      "whyItMatters": "The Hacker News community gave this story 276 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49181083"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49189287"
+      ],
+      "headline": "The title cards in Blade Runner are amazing",
+      "summary": "Appreciating typography is a study in paradox.  The primary goal of well-designed typography is to help you read the words, not appreciate how the words are composed of letters and how each of those individual letters has been designed to convey a small bit of meaning.",
+      "category": "Ideas",
+      "importance": 266,
+      "whyItMatters": "The Hacker News community gave this story 266 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49189287"
+        },
+        {
+          "name": "Original source",
+          "url": "https://randsinrepose.com/archives/blade-runner-title-cards/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49187061"
+      ],
+      "headline": "Born Against, or why hobby programming communities are against LLM usage",
+      "summary": "[ fogus. me / send more paramedics / read-eval-print-λove / src ] I came across a GH thread related to chess engine development that made me think of why hobby programming communities are increasingly hostile toward LLM development.",
+      "category": "Technology",
+      "importance": 264,
+      "whyItMatters": "The Hacker News community gave this story 264 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49187061"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.fogus.me/llm/born-against.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49187575"
+      ],
+      "headline": "Muse Code and Muse Spark 1.2",
+      "summary": "We're excited to release Muse Code (beta), a terminal coding agent powered by Muse Spark 1. 2, our newest model.",
+      "category": "Technology",
+      "importance": 260,
+      "whyItMatters": "The Hacker News community gave this story 260 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49187575"
+        },
+        {
+          "name": "Original source",
+          "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-06T09:41:19.497Z"
+}

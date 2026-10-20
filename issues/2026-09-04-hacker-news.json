@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-04-hacker-news",
+  "date": "2026-09-04",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49550772"
+      ],
+      "headline": ".name Termination",
+      "summary": "Neil's News 2026 . name Termination Blockly AGC 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 2015 2014 2013 2012 2011 2010 2009 2008 2007 2006 2005 2004 2003 2002 .",
+      "category": "Ideas",
+      "importance": 1923,
+      "whyItMatters": "The Hacker News community gave this story 1923 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49550772"
+        },
+        {
+          "name": "Original source",
+          "url": "https://neil.fraser.name/news/2026/09/03/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49554643"
+      ],
+      "headline": "GPT-6 Astra",
+      "summary": "System Card: <a href=\"https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-6-astra\" rel=\"nofollow\">https:&#x2F;&#x2F;deploymentsafety.openai.com&#x2F;gpt-6-astra</a><p>Related ongoing threads:<p><i>OpenAI&#x27;s GPT-6 Astra on ARC-AGI-3</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49555691\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49555691</a><p><i>GPT-6 Astra makes major gains in the Artificial Analysis Coding Agent Index</i> - <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49556147\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49556147</a>",
+      "category": "Technology",
+      "importance": 1889,
+      "whyItMatters": "The Hacker News community gave this story 1889 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49554643"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openai.com/index/gpt-6-astra/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49550698"
+      ],
+      "headline": "Any Human Ever – One life, drawn at random from all who have ever lived",
+      "summary": "When Where Life Story Over 100,000,000,000 people have ever lived.  Choose one.",
+      "category": "Ideas",
+      "importance": 608,
+      "whyItMatters": "The Hacker News community gave this story 608 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49550698"
+        },
+        {
+          "name": "Original source",
+          "url": "https://anyhumanever.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49554520"
+      ],
+      "headline": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+      "summary": "Copy page Copy MCP Server View as Markdown Models on Cerebras public endpoints are available on the free trial and pay-as-you-go tiers, subject to rate limits and pricing .  For additional model families, reserved capacity, higher throughput, and production SLAs, see Dedicated Endpoints .",
+      "category": "Technology",
+      "importance": 584,
+      "whyItMatters": "The Hacker News community gave this story 584 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49554520"
+        },
+        {
+          "name": "Original source",
+          "url": "https://inference-docs.cerebras.ai/models/overview"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49550375"
+      ],
+      "headline": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+      "summary": "← All posts By Rabah Shihab · September 1, 2026 Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly In 1993, in Baghdad, I built a game called Babylonian Twins on an Amiga 500: 512KB of RAM, no hard drive, plugged into a TV.  I was an engineering student in my twenties.",
+      "category": "Ideas",
+      "importance": 308,
+      "whyItMatters": "The Hacker News community gave this story 308 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49550375"
+        },
+        {
+          "name": "Original source",
+          "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49551760"
+      ],
+      "headline": "K2 Horizon: A connected fleet of six open models",
+      "summary": "Today IFM is releasing K2 Horizon, a connected fleet of six models: 375B-A23B, 36B-A4B, 32B, 7B, 3. 7B, and 0.",
+      "category": "Technology",
+      "importance": 303,
+      "whyItMatters": "The Hacker News community gave this story 303 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49551760"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ifm.ai/blog/k2/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49552572"
+      ],
+      "headline": "Artificial beaver dams saw juvenile coho salmon survival rates go from 8% to 60%",
+      "summary": "It’s well known that beaver dams transform landscapes.  In their absence, artificial versions were built in northern California to recreate lost wetlands – boosting the survival of threatened coho salmon.",
+      "category": "Ideas",
+      "importance": 280,
+      "whyItMatters": "The Hacker News community gave this story 280 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49552572"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.discoverwildlife.com/animal-facts/artificial-beaver-dams-california"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49557206"
+      ],
+      "headline": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+      "summary": "How did we run all these experiments concretely?  Our panel of repositories We started by running an analysis over thousands of public GitHub repositories from which we extracted statistics about programming languages & frameworks, third-party services, deployment platform, team sizes, and codebase age.",
+      "category": "Technology",
+      "importance": 235,
+      "whyItMatters": "The Hacker News community gave this story 235 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49557206"
+        },
+        {
+          "name": "Original source",
+          "url": "https://armature.tech/blog/which-tools-coding-agents-install"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49561320"
+      ],
+      "headline": "Hackers Had a Live Feed of Every ID Verification Company Scanned for over a Year",
+      "summary": "Am I the only person left in the entire world who’s old enough to remember the 1990s?  Way back, every so oft, some idiot would announce an urgent need for an Internet Driver’s License for the Information Superhighway kind of online identity scheme to stop crime, protect children, etc.",
+      "category": "Business",
+      "importance": 229,
+      "whyItMatters": "The Hacker News community gave this story 229 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49561320"
+        },
+        {
+          "name": "Original source",
+          "url": "http://www.techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-for-over-a-year/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49559522"
+      ],
+      "headline": "Project Xanadu: Even More Hindsight (2025)",
+      "summary": "Skip to main content JS , design , meta Retrospective on Project Xanadu’s success and failure: a lack of design iteration, meaningful use-cases, or practicality stopped a valuable vision from maturing into something useful.  (And contrasted with my approach.",
+      "category": "Technology",
+      "importance": 88,
+      "whyItMatters": "The Hacker News community gave this story 88 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49559522"
+        },
+        {
+          "name": "Original source",
+          "url": "https://gwern.net/xanadu"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-04T12:00:53.675Z"
+}

@@ -1,0 +1,209 @@
+{
+  "id": "2026-07-23-hacker-news",
+  "date": "2026-07-23",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49010345"
+      ],
+      "headline": "Terence Tao's ChatGPT conversation about the Jacobian Conjecture counterexample",
+      "summary": "ChatGPT is AI.  By using it, you agree to our Terms & Privacy Policy .",
+      "category": "Technology",
+      "importance": 866,
+      "whyItMatters": "The Hacker News community gave this story 866 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49010345"
+        },
+        {
+          "name": "Original source",
+          "url": "https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49008211"
+      ],
+      "headline": "Show HN: Bento - An entire PowerPoint in one HTML file (edit+view+data+collab)",
+      "summary": "Bento /Slides",
+      "category": "Ideas",
+      "importance": 827,
+      "whyItMatters": "The Hacker News community gave this story 827 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49008211"
+        },
+        {
+          "name": "Original source",
+          "url": "https://bento.page/slides/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49012070"
+      ],
+      "headline": "John C. Dvorak has died",
+      "summary": "Post Log in Sign up Post The No Agenda Show @NA_Announce svg]:size-[1. 125rem] text-subtext1 hover:bg-mix-current hover:bg-mix-amount-10 active:bg-mix-current active:bg-mix-amount-15 focus-visible:bg-mix-current focus-visible:bg-mix-amount-10 outline-current -my-2 size-8 min-w-8 shrink-0 border-transparent bg-transparent p-0 text-gray-700 hover:bg-blue-500/10 hover:text-blue-500 focus-visible:outline-blue-500\" aria-label=\"More\" type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" data-state=\"closed\"> It is with great sadness that we announce the passing of John C.",
+      "category": "Ideas",
+      "importance": 746,
+      "whyItMatters": "The Hacker News community gave this story 746 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49012070"
+        },
+        {
+          "name": "Original source",
+          "url": "https://twitter.com/na_announce/status/2079952538040672302"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49010129"
+      ],
+      "headline": "Are AI labs pelicanmaxxing?",
+      "summary": "For the past few years, Simon Willison has tested every major LLM release with the same prompt: “Generate an SVG of a pelican riding a bicycle”.  What began as a tongue-in-cheek benchmark has become one of the most famous informal benchmarks in AI.",
+      "category": "Technology",
+      "importance": 526,
+      "whyItMatters": "The Hacker News community gave this story 526 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49010129"
+        },
+        {
+          "name": "Original source",
+          "url": "https://dylancastillo.co/posts/pelicanmaxxing.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49010167"
+      ],
+      "headline": "GigaToken: ~1000x faster Language model tokenization",
+      "summary": "marcelroed / gigatoken Public Notifications You must be signed in to change notification settings Fork 53 Star 1. 6k main Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 357 Commits 357 Commits .",
+      "category": "Technology",
+      "importance": 503,
+      "whyItMatters": "The Hacker News community gave this story 503 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49010167"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/marcelroed/gigatoken/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49005747"
+      ],
+      "headline": "So Reddit has decided that plain HTML is unsafe",
+      "summary": "Reddit-The-Company If you don&rsquo;t know Reddit, it basically is the host of many popular forums.  And like any company which encourages you to &ldquo;come for the cats [and] stay for the empathy,&rdquo; Reddit seems to be in the business of extracting as much value as it can from said forums without completely destroying them.",
+      "category": "Technology",
+      "importance": 458,
+      "whyItMatters": "The Hacker News community gave this story 458 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49005747"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.cole-k.com/2026/07/21/reddit/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49010648"
+      ],
+      "headline": "Everyone should know SIMD",
+      "summary": "Mitchell Hashimoto Everyone Should Know SIMD July 22, 2026 SIMD has a reputation for being complex.  I've met many very good software engineers who dismiss it as something too complex to learn or a niche optimization meant for only the highest-performance software, not useful in everyday programming.",
+      "category": "Technology",
+      "importance": 421,
+      "whyItMatters": "The Hacker News community gave this story 421 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49010648"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mitchellh.com/writing/everyone-should-know-simd"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49005787"
+      ],
+      "headline": "The startup's Postgres survival guide",
+      "summary": "2026-07-22 The startup's Postgres survival guide A guide to preventing Postgres from toppling over.  Alexander Belanger Co-Founder Hatchet Over the past half year or so, I’ve been writing an internal doc for our engineers trying to distill two years of Postgres battles into a somewhat cohesive document.",
+      "category": "Business",
+      "importance": 406,
+      "whyItMatters": "The Hacker News community gave this story 406 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49005787"
+        },
+        {
+          "name": "Original source",
+          "url": "https://hatchet.run/blog/postgres-survival-guide"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49007247"
+      ],
+      "headline": "Quality non-fiction books are the antithesis of AI slop",
+      "summary": "<a href=\"https:&#x2F;&#x2F;book-prize-index.vercel.app&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;book-prize-index.vercel.app&#x2F;</a>",
+      "category": "Technology",
+      "importance": 357,
+      "whyItMatters": "The Hacker News community gave this story 357 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49007247"
+        },
+        {
+          "name": "Original source",
+          "url": "https://resobscura.substack.com/p/quality-non-fiction-books-are-the"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49008440"
+      ],
+      "headline": "Making",
+      "summary": "On Making Beej's Bit Bucket ⚡ Tech and Programming Fun 2026-03-12 On Making I made this!  TLDR: I gain a lot of fulfillment by making things.",
+      "category": "Technology",
+      "importance": 357,
+      "whyItMatters": "The Hacker News community gave this story 357 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49008440"
+        },
+        {
+          "name": "Original source",
+          "url": "https://beej.us/blog/data/ai-making/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-23T09:25:35.344Z"
+}

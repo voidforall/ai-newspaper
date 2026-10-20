@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-05-hacker-news",
+  "date": "2026-09-05",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49563355"
+      ],
+      "headline": "Discovery of a new OpenAI agent message board",
+      "summary": "We found ~18,000 posts from autonomous AI agents (self-identifying as from OpenAI) using the public internet to communicate during a web-retrieval task.  These AIs colluded to share answers, research their environment, and bypass sandbox restrictions.",
+      "category": "Technology",
+      "importance": 1743,
+      "whyItMatters": "The Hacker News community gave this story 1743 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49563355"
+        },
+        {
+          "name": "Original source",
+          "url": "https://collusion.wiki/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49568506"
+      ],
+      "headline": "Formalizing Fermat's Last Theorem",
+      "summary": "Science Formalizing Fermat's Last Theorem Sep 4, 2026 We are sharing the first complete computer-checked proof of Fermat’s Last Theorem.  Claude worked largely autonomously over 11 days to write the proof in the Lean programming language.",
+      "category": "Technology",
+      "importance": 625,
+      "whyItMatters": "The Hacker News community gave this story 625 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49568506"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49570669"
+      ],
+      "headline": "Actively exploited sandbox RCE in all Chromium versions",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 518,
+      "whyItMatters": "The Hacker News community gave this story 518 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49570669"
+        },
+        {
+          "name": "Original source",
+          "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49570772"
+      ],
+      "headline": "Record-High 89% in U.S. Say Government Corruption Widespread",
+      "summary": "World Record-High 89% in U. S.",
+      "category": "Ideas",
+      "importance": 448,
+      "whyItMatters": "The Hacker News community gave this story 448 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49570772"
+        },
+        {
+          "name": "Original source",
+          "url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49568579"
+      ],
+      "headline": "Shutting down our public encrypted DNS",
+      "summary": "Shutting down our public encrypted DNS servers and sponsoring Quad9 instead September 3, 2026 News Mullvad has operated public encrypted DNS (DoH) servers since 2022.  They are unnecessary when using Mullvad VPN &mdash; traffic is already encrypted and Mullvad VPN's internal DNS handles all queries.",
+      "category": "Ideas",
+      "importance": 359,
+      "whyItMatters": "The Hacker News community gave this story 359 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49568579"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49569896"
+      ],
+      "headline": "Statichost.eu – European static site hosting",
+      "summary": "100% European static website hosting Not just servers in Europe.  A European company, European infrastructure, and European values — from deploy to CDN.",
+      "category": "Business",
+      "importance": 305,
+      "whyItMatters": "The Hacker News community gave this story 305 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49569896"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.statichost.eu/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49567437"
+      ],
+      "headline": "Show HN: Open-Source eInk Bike Computer",
+      "summary": "LilyGO T5S3 4. 7\" E-Paper PRO ↗ ESP32-S3 · 16 MB flash · 8 MB PSRAM · 960×540 e-paper · BLE 5 Supported Strengths A 4.",
+      "category": "Technology",
+      "importance": 293,
+      "whyItMatters": "The Hacker News community gave this story 293 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49567437"
+        },
+        {
+          "name": "Original source",
+          "url": "https://opentrailpaper.com"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49563851"
+      ],
+      "headline": "IBM Bob",
+      "summary": "svg]:h-full [&>svg]:w-full [&>svg]:object-contain hidden\" role=\"img\" aria-label=\"Bob waving animation\"> Welcome to IBM Bob: Your AI-Powered Development Partner Hi, I'm Bob!  I'm here to work right alongside you in your codebase, and help you build quality software faster.",
+      "category": "Technology",
+      "importance": 275,
+      "whyItMatters": "The Hacker News community gave this story 275 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49563851"
+        },
+        {
+          "name": "Original source",
+          "url": "https://bob.ibm.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49569366"
+      ],
+      "headline": "Can AI design circuit boards yet?",
+      "summary": "We got pretty excited yesterday when OpenAI put a demo of GPT-6 Astra working on a circuit board in KiCad on the front page of its launch post.  It is cool to see electronics show up in a major model release like this.",
+      "category": "Technology",
+      "importance": 267,
+      "whyItMatters": "The Hacker News community gave this story 267 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49569366"
+        },
+        {
+          "name": "Original source",
+          "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49571634"
+      ],
+      "headline": "Nitter has more working instances than before the takedowns",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 261,
+      "whyItMatters": "The Hacker News community gave this story 261 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49571634"
+        },
+        {
+          "name": "Original source",
+          "url": "https://codeberg.org/mv12star/shitter/wiki/Instances"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-05T11:10:19.494Z"
+}

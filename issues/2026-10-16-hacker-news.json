@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-16-hacker-news",
+  "date": "2026-10-16",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-50107379"
+      ],
+      "headline": "Muse Spark Open",
+      "summary": "Muse Spark Open is available today and brings leading agentic capabilities to your desktop for the first time on Apple M5 Ultra Mac Studios.  Today, we’re releasing the weights for Muse Spark Open, the most capable US open-weight model to date.",
+      "category": "Technology",
+      "importance": 843,
+      "whyItMatters": "The Hacker News community gave this story 843 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50107379"
+        },
+        {
+          "name": "Original source",
+          "url": "https://research.meta.ai/blog/muse-spark-open"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50105647"
+      ],
+      "headline": "Neural networks are clean",
+      "summary": "Neural Networks Are Already Clean The cause of polysemanticity in early model organisms wasn’t superposition, but several ordinary, mostly fixable issues.  We can now understand most neurons in models up to trillions of parameters, and think the outlook for mechanistic interpretability may be far better than we thought.",
+      "category": "Technology",
+      "importance": 722,
+      "whyItMatters": "The Hacker News community gave this story 722 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50105647"
+        },
+        {
+          "name": "Original source",
+          "url": "https://already-clean.goodfire.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50103338"
+      ],
+      "headline": "Wayland desktop for Linux with skeuomorphic design",
+      "summary": "main Branches Tags Go to file Code Open more actions menu Latest commit History 7 Commits 7 Commits Folders and files Name Name Last commit message Last commit date applications applications docs docs include include packaging/ debian packaging/ debian protocols protocols scripts scripts session session src src themes themes . dockerignore .",
+      "category": "Technology",
+      "importance": 630,
+      "whyItMatters": "The Hacker News community gave this story 630 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50103338"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/fyzugx/DEsk"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50109715"
+      ],
+      "headline": "What I self-host",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 533,
+      "whyItMatters": "The Hacker News community gave this story 533 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50109715"
+        },
+        {
+          "name": "Original source",
+          "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50106023"
+      ],
+      "headline": "Jev meets the Trolley Problem",
+      "summary": "If you’re active in AI or software development circles, you’ve probably heard about Jev in the last few weeks.  It seems like everyone, myself included, is excited by the possibilities of Jev and the Jev-like models: fast, cheap, general decision making.",
+      "category": "Technology",
+      "importance": 503,
+      "whyItMatters": "The Hacker News community gave this story 503 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50106023"
+        },
+        {
+          "name": "Original source",
+          "url": "https://zachlandes.com/trolley-problem/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50108872"
+      ],
+      "headline": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 363,
+      "whyItMatters": "The Hacker News community gave this story 363 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50108872"
+        },
+        {
+          "name": "Original source",
+          "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50111852"
+      ],
+      "headline": "Meta’s new commercial terms will allow the scraping of news sites: experts",
+      "summary": ", each one a full-viewport div with a dark background — crimson, teal, navy.  Every part of what hides them (position:fixed, opacity:0, visibility:hidden) is declared in roscoe.",
+      "category": "Ideas",
+      "importance": 345,
+      "whyItMatters": "The Hacker News community gave this story 345 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50111852"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50109375"
+      ],
+      "headline": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 326,
+      "whyItMatters": "The Hacker News community gave this story 326 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50109375"
+        },
+        {
+          "name": "Original source",
+          "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50105648"
+      ],
+      "headline": "Krea 3 – An image model built for editing at scale",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 316,
+      "whyItMatters": "The Hacker News community gave this story 316 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50105648"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.krea.ai/krea-3"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50102923"
+      ],
+      "headline": "Libreboot 26.10 \"Ominous Olive\" released with UEFI, Chromebook support",
+      "summary": "Return to index Article published by: Leah Rowe Date of publication: 15 October 2026 Next > >> You can find today’s release in https://rsync. libreboot.",
+      "category": "Ideas",
+      "importance": 293,
+      "whyItMatters": "The Hacker News community gave this story 293 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50102923"
+        },
+        {
+          "name": "Original source",
+          "url": "https://libreboot.org/news/libreboot2610.html"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-16T12:08:57.104Z"
+}

@@ -1,0 +1,209 @@
+{
+  "id": "2026-07-20-hacker-news",
+  "date": "2026-07-20",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-48966713"
+      ],
+      "headline": "What I learned selling 2,500 MIDI recorders: Hardware is not so hard",
+      "summary": "What I learned selling 2500 MIDI recorders, part 1: Hardware is not so hard July 19, 2026 A year and a half ago , I launched Jamcorder .  A Jamcorder, in situ.",
+      "category": "Ideas",
+      "importance": 494,
+      "whyItMatters": "The Hacker News community gave this story 494 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48966713"
+        },
+        {
+          "name": "Original source",
+          "url": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48973869"
+      ],
+      "headline": "Claude Fable produced a counterexample to the Jacobian Conjecture",
+      "summary": "levent @__alpoge__ 7h hello there the jacobian conjecture is false thanx to my close friend akhil for asking about it and my other close friend fable for working during the world cup final ((1+xy)^3 z + y^2 (1+xy) (4+3xy), y + 3 x (1+xy)^2 z + 3 x y^2 (4+3xy), 2 x - 3 x^2 y - x^3 z): \\C^3\\to \\C^3, has jacobian determinant -2, and sends (0, 0, -1/4), (1, -3/2, 13/2), and (-1, 3/2, 13/2) to (-1/4, 0, 0) Jul 20, 2026 · 2:19 AM UTC 556 1,047 7,400 2,612,819 levent @__alpoge__ 7h wolframalpha. com/input?",
+      "category": "Ideas",
+      "importance": 404,
+      "whyItMatters": "The Hacker News community gave this story 404 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48973869"
+        },
+        {
+          "name": "Original source",
+          "url": "https://xcancel.com/__alpoge__/status/2079028340955197566"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48967256"
+      ],
+      "headline": "Minecraft: Java Edition now uses SDL3",
+      "summary": "Skip to Main Content News Written By Java Team Published 7/16/26 Minecraft 26. 3 Snapshot 4 A Minecraft Java Snapshot Happy Snapshot Tues...",
+      "category": "Technology",
+      "importance": 320,
+      "whyItMatters": "The Hacker News community gave this story 320 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48967256"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48974454"
+      ],
+      "headline": "Xiaomi-Robotics-1",
+      "summary": "Breaking the data barrier.  Scaling robot policy models with embodiment-free pre-training.",
+      "category": "Technology",
+      "importance": 225,
+      "whyItMatters": "The Hacker News community gave this story 225 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48974454"
+        },
+        {
+          "name": "Original source",
+          "url": "https://robotics.xiaomi.com/xiaomi-robotics-1.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48970894"
+      ],
+      "headline": "Orion Browser by Kagi",
+      "summary": "Orion — A web browser designed from the ground-up.  Native WebKit speed, compatibility with a wide selection of extensions, and absolute privacy — finally together in one browser that respects you.",
+      "category": "Ideas",
+      "importance": 209,
+      "whyItMatters": "The Hacker News community gave this story 209 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48970894"
+        },
+        {
+          "name": "Original source",
+          "url": "https://orionbrowser.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48966984"
+      ],
+      "headline": "I joined the IndieWeb, here's what I learned",
+      "summary": "Driven by curiosity, I decided to find out what the IndieWeb tag that kept showing up on some blogs and Mastodon toots was all about.  I quickly discovered it was more than an empty concept or a feeling of nostalgia for the web of the 90s.",
+      "category": "Ideas",
+      "importance": 204,
+      "whyItMatters": "The Hacker News community gave this story 204 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48966984"
+        },
+        {
+          "name": "Original source",
+          "url": "https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48972970"
+      ],
+      "headline": "Moonshine: Lets you stream games from your PC to any device running Moonlight",
+      "summary": "hgaiser / moonshine Public Notifications You must be signed in to change notification settings Fork 38 Star 514 main Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 563 Commits 563 Commits . github .",
+      "category": "Technology",
+      "importance": 188,
+      "whyItMatters": "The Hacker News community gave this story 188 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48972970"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/hgaiser/moonshine"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48968063"
+      ],
+      "headline": "Bananas sprout in Rayleigh Garden UK after 15 years",
+      "summary": "Bananas in bloom - warm weather impact on gardens 1 day ago Share Save Add as preferred on Google Henry Godfrey-Evans Essex Supplied Emma (pictured) and Peter Stav waited 15 years for their plants to suddenly grow fruit Could bananas be common in British gardens soon?  Warmer summers and milder winters might mean new fruits appearing, while we say goodbye to some old favourites.",
+      "category": "Technology",
+      "importance": 159,
+      "whyItMatters": "The Hacker News community gave this story 159 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48968063"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.bbc.com/news/articles/cvg8edqq5g5o"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48967355"
+      ],
+      "headline": "I burned all my tokens researching how to save tokens",
+      "summary": "At Quesma we are researching the economics of AI agents: what agentic coding really costs and what you can do about it.  For this research I am running my own deep research setup, a pipeline of agents that builds a knowledge base I can actually trust.",
+      "category": "Technology",
+      "importance": 134,
+      "whyItMatters": "The Hacker News community gave this story 134 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48967355"
+        },
+        {
+          "name": "Original source",
+          "url": "https://quesma.com/blog/custom-deep-research-pipeline/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-48970772"
+      ],
+      "headline": "HomeLab #1: MikroTik as a Home Router",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 124,
+      "whyItMatters": "The Hacker News community gave this story 124 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=48970772"
+        },
+        {
+          "name": "Original source",
+          "url": "https://justsomebody.dev/blog/mikrotik-home-router"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-20T10:14:33.107Z"
+}

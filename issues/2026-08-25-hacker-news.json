@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-25-hacker-news",
+  "date": "2026-08-25",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49419237"
+      ],
+      "headline": "How Europe is killing makers and micro-entrepreneurs",
+      "summary": "Lectronz is a marketplace for open-source hardware makers and DIY electronics.  Most of our sellers are not factories or well-funded start-ups.",
+      "category": "Business",
+      "importance": 1268,
+      "whyItMatters": "The Hacker News community gave this story 1268 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49419237"
+        },
+        {
+          "name": "Original source",
+          "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49420873"
+      ],
+      "headline": "Xiaomi: New CPU matches Apple cores single threaded, much faster multithreaded",
+      "summary": "Post Log in Sign up Post Daniel Lemire on X: \"Xiaomi is the Chinese tech giant.  Their phones compete with iPhones.",
+      "category": "Ideas",
+      "importance": 837,
+      "whyItMatters": "The Hacker News community gave this story 837 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49420873"
+        },
+        {
+          "name": "Original source",
+          "url": "https://twitter.com/lemire/status/2091894299289874926"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49421158"
+      ],
+      "headline": "MS Paint and Photos inivisibly watermark even locally generated output with GUID",
+      "summary": "14 minutes Microsoft Paint and Photos Embed Server-Issued GUIDs as Invisible Watermarks in Locally-Generated Images Reverse engineering reveals how Paint and Photos embed a server-issued GUID into the pixels of locally generated AI images.  TL;DR Microsoft Paint supports both local and cloud image generation Paint and Photos also ship local AI models The two apps send the prompt to a remote server for moderation The server returns a GUID along with the moderated prompt The GUID is embedded into the locally generated image as an invisible watermark A separate visible-watermark setting does not control this invisible watermark On Copilot+ PCs, image generation is local but prompt moderation…",
+      "category": "Technology",
+      "importance": 678,
+      "whyItMatters": "The Hacker News community gave this story 678 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49421158"
+        },
+        {
+          "name": "Original source",
+          "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49424606"
+      ],
+      "headline": "Oceans hit highest temperature on record",
+      "summary": "World's oceans hit highest temperature on record as El Niño grows 15 hours ago Share Save Add as preferred on Google Mark Poynting Climate reporter Getty Images The world's oceans are hotter than ever recorded, new data suggests, as they suffer from human-caused climate change and the growing El Niño weather phenomenon.  The average surface temperature of the planet's seas outside the polar regions hit 21.",
+      "category": "Ideas",
+      "importance": 513,
+      "whyItMatters": "The Hacker News community gave this story 513 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49424606"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.bbc.com/news/articles/c62m4gpnp78o"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49422784"
+      ],
+      "headline": "The entire city of San Francisco as a video game",
+      "summary": "Copyright © 2026 Apple Inc.  All rights reserved.",
+      "category": "Ideas",
+      "importance": 439,
+      "whyItMatters": "The Hacker News community gave this story 439 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49422784"
+        },
+        {
+          "name": "Original source",
+          "url": "https://sf.thijs.gg/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49426564"
+      ],
+      "headline": "iCloud+ Hide My Email addresses will remain on icloud.com",
+      "summary": "Update: New domain for Sign in with Apple August 24, 2026 Starting later this year, new Sign in with Apple addresses, previously issued on privaterelay. appleid.",
+      "category": "Technology",
+      "importance": 409,
+      "whyItMatters": "The Hacker News community gave this story 409 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49426564"
+        },
+        {
+          "name": "Original source",
+          "url": "https://developer.apple.com/news/?id=1ptvdtcm"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49422800"
+      ],
+      "headline": "Where did all the public bathrooms go?",
+      "summary": "The icon indicates free access to the linked research on JSTOR.  Here’s a pop quiz for you: What purpose did this little kiosk serve?",
+      "category": "Ideas",
+      "importance": 222,
+      "whyItMatters": "The Hacker News community gave this story 222 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49422800"
+        },
+        {
+          "name": "Original source",
+          "url": "https://daily.jstor.org/where-did-all-the-public-bathrooms-go/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49421536"
+      ],
+      "headline": "Jabber/XMPP: 25 Years of Digital Independence",
+      "summary": "Table of Contents: Infrastructure “We should own our infrastructure. ” A lot of people would instinctively nod in agreement with that statement.",
+      "category": "Ideas",
+      "importance": 216,
+      "whyItMatters": "The Hacker News community gave this story 216 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49421536"
+        },
+        {
+          "name": "Original source",
+          "url": "https://gultsch.de/posts/25-years-of-digital-independence/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49418255"
+      ],
+      "headline": "SeL4 security proofs now complete on AArch64",
+      "summary": "Proofcraft News - 2026 News from other years: 2025 2024 2023 2022 2021 21 Aug 2026 seL4 security proofs now complete on AArch64 After completing the proofs of functional correctness and integrity , Proofcraft has now established the proof that seL4 enforces confidentiality on AArch64, providing a formal mathematical proof that the kernel prevents an application running on top of seL4 from learning information without authorisation.  Thanks to continued support from NCSC , this milestone completes the formal proof that the seL4 implementation code on AArch64 enforces security isolation of the applications running on top (under the assumptions listed here ).",
+      "category": "Technology",
+      "importance": 185,
+      "whyItMatters": "The Hacker News community gave this story 185 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49418255"
+        },
+        {
+          "name": "Original source",
+          "url": "https://proofcraft.systems/news-2026/#2026-08-21"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49426466"
+      ],
+      "headline": "Moon (2024)",
+      "summary": "Bartosz Ciechanowski Blog Archives Patreon X / Twitter Instagram e-mail RSS December 17, 2024 Moon In the vastness of empty space surrounding Earth, the Moon is our closest celestial neighbor.  Its face, periodically filled with light and devoured by darkness, has an ever-changing, but dependable presence in our skies.",
+      "category": "Technology",
+      "importance": 165,
+      "whyItMatters": "The Hacker News community gave this story 165 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49426466"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ciechanow.ski/moon/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-25T07:45:33.548Z"
+}

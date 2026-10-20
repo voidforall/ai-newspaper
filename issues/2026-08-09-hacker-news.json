@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-09-hacker-news",
+  "date": "2026-08-09",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49222189"
+      ],
+      "headline": "“Code was never the hard part” is an insult to all programmers",
+      "summary": "“Code was never the hard part” is an insult to all programmers August 8, 2026 The software development profession is in the midst of upheaval.  Nobody knows how the AI revolution will play out in the end, but it is clear many aspects of work and life will be transformed—including programming.",
+      "category": "Technology",
+      "importance": 714,
+      "whyItMatters": "The Hacker News community gave this story 714 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49222189"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49223082"
+      ],
+      "headline": "Fastmail offers EU data region",
+      "summary": "US or EU?  Your choice Many of you have been telling us that where your email is stored matters to you.",
+      "category": "Technology",
+      "importance": 392,
+      "whyItMatters": "The Hacker News community gave this story 392 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49223082"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.fastmail.com/blog/fastmail-offers-eu-data-region/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49221668"
+      ],
+      "headline": "_for-sale DNS records",
+      "summary": "What it is _for-sale is a reserved DNS leaf node name, defined by RFC 10023 (Informational, July 2026) and registered with IANA.  A TXT record published at _for-sale.",
+      "category": "Ideas",
+      "importance": 386,
+      "whyItMatters": "The Hacker News community gave this story 386 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49221668"
+        },
+        {
+          "name": "Original source",
+          "url": "https://specification.website/spec/foundations/for-sale-dns/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49226636"
+      ],
+      "headline": "My server is a phone now",
+      "summary": "For a while, my personal infrastructure lived on a small Hetzner VPS.  It ran a few web apps, a remote browser called Surf , Caddy, and the usual supporting cast.",
+      "category": "Ideas",
+      "importance": 277,
+      "whyItMatters": "The Hacker News community gave this story 277 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49226636"
+        },
+        {
+          "name": "Original source",
+          "url": "https://seg6.space/posts/phone-server/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49221711"
+      ],
+      "headline": "Triton: DirectX 11 Driver for QEMU",
+      "summary": "In the prequel , we introduced Neptune, a Direct3D protocol forwarding layer for VirtIO.  Neptune allowed us to serialize Direct3D API calls across the hypervisor boundary and this allowed us to run Wine games on a Linux guest with a Linux host faster than with DXVK directly in the guest.",
+      "category": "Ideas",
+      "importance": 171,
+      "whyItMatters": "The Hacker News community gave this story 171 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49221711"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.getutm.app/2026/introducing-triton-directx-11-driver-for-qemu/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49226536"
+      ],
+      "headline": "Shopify replaced Redis with MySQL for inventory reservations–and it scaled",
+      "summary": "blog | Infrastructure We replaced Redis with MySQL for inventory reservations—and it scaled How we used SKIP LOCKED, composite primary keys, and connection visibility to hit our scale targets.  Published on May 12, 2026 img]:mt-3 [&_a>img]:mb-8 [&_a>img]:h-[revert-layer] [&_img]:my-12 [&_a>img]:inline-block [&_figure>img]:mb-0 [&_figure]:mb-12 [&_img]:inline-block [&_ul]:list-disc [&_ul]:space-y-3 [&_ul]:pl-6 [&_ul]:mb-6 [&_ul_li]:pl-4 [&_ol]:list-decimal [&_ol]:space-y-3 [&_ol]:pl-6 [&_ol]:mb-6 [&_ol_li]:pl-4 [&_ol_li::marker]:font-bold [&_iframe]:max-w-full [&_figcaption]:mb-12 [&_figcaption]:text-center [&_figcaption]:text-xs [&_figcaption]:sm:text-sm [&_figcaption]:mt-1…",
+      "category": "Ideas",
+      "importance": 170,
+      "whyItMatters": "The Hacker News community gave this story 170 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49226536"
+        },
+        {
+          "name": "Original source",
+          "url": "https://shopify.engineering/scaling-inventory-reservations"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49228166"
+      ],
+      "headline": "Retraction: The App Store Rejection of the Week That Was a Correct Rejection",
+      "summary": "By John Gruber Archive The Talk Show Dithering Projects Contact Colophon Feeds / Social Sponsorship WorkOS — MCP vs.  REST : the right way to connect agents to your API.",
+      "category": "Ideas",
+      "importance": 156,
+      "whyItMatters": "The Hacker News community gave this story 156 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49228166"
+        },
+        {
+          "name": "Original source",
+          "url": "https://daringfireball.net/2026/08/retraction_app_store_rejection_of_the_week"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49226742"
+      ],
+      "headline": "Dithered QR Codes",
+      "summary": "How to make error-diffused QR codes Making your own dithered QR codes QR codes: the basics A QR code is really just a way of encoding a few bytes of data in a way that can be easily read froma photo by a smartphone or similar device.  They're designed to be very robust to bad focus, bad printing, funny angles, and missing areas.",
+      "category": "Ideas",
+      "importance": 151,
+      "whyItMatters": "The Hacker News community gave this story 151 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49226742"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.andrewt.net/dithered-qr-codes/wtf/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49226923"
+      ],
+      "headline": "Os8088: A powerful Mac-like OS for the IBM XT, 286, 386",
+      "summary": "os8088 1. 0 This operating system was written using AI.",
+      "category": "Technology",
+      "importance": 146,
+      "whyItMatters": "The Hacker News community gave this story 146 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49226923"
+        },
+        {
+          "name": "Original source",
+          "url": "https://os8088.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49225139"
+      ],
+      "headline": "Open-source interactive map for the Aug 12 total solar eclipse",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 136,
+      "whyItMatters": "The Hacker News community gave this story 136 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49225139"
+        },
+        {
+          "name": "Original source",
+          "url": "https://eclipsefan.org/?v=2&t=max&layers=eclipse%2Cbesselian%2Cumbra-live%2Cshadow-3d%2Ccloud-projection%2Cosm&lat=43.4623&lon=-3.8099&opacity=besselian%3A0.2%2Cumbra-live%3A0.2&zoom=6&palier=minute"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-09T07:54:53.170Z"
+}

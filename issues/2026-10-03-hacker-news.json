@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-03-hacker-news",
+  "date": "2026-10-03",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49937276"
+      ],
+      "headline": "Apple Pass Designer",
+      "summary": "Introducing Pass Designer Whether you’re creating passes for a local fitness center, a small music venue, a global airline, or a national coffee chain, Pass Designer makes it easy to craft and preview passes that reflect your business.  Building passes made easy Start with templates provided by Apple or your own to capture the personality of your brand.",
+      "category": "Technology",
+      "importance": 453,
+      "whyItMatters": "The Hacker News community gave this story 453 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49937276"
+        },
+        {
+          "name": "Original source",
+          "url": "https://developer.apple.com/pass-designer/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49941114"
+      ],
+      "headline": "Extra Big Ass Intelligence",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 325,
+      "whyItMatters": "The Hacker News community gave this story 325 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49941114"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.extrabigassintelligence.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49933235"
+      ],
+      "headline": "The Legend of von Neumann (1973) [pdf]",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 290,
+      "whyItMatters": "The Hacker News community gave this story 290 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49933235"
+        },
+        {
+          "name": "Original source",
+          "url": "https://gwern.net/doc/math/1973-halmos.pdf"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49940394"
+      ],
+      "headline": "Newgrounds.com – A community of games, music, and art",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 272,
+      "whyItMatters": "The Hacker News community gave this story 272 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49940394"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.newgrounds.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49936575"
+      ],
+      "headline": "From the creator of Redis; run LLM locally with ds4",
+      "summary": "DS4 · LOCAL FRONTIER INFERENCE Run frontier open weights locally with ds4.  DwarfStar 4 is a narrow C inference engine for high-memory Mac, CUDA and ROCm machines.",
+      "category": "Ideas",
+      "importance": 270,
+      "whyItMatters": "The Hacker News community gave this story 270 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49936575"
+        },
+        {
+          "name": "Original source",
+          "url": "https://dwarfstar.sh/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49933869"
+      ],
+      "headline": "The Forgetful CPU (Linux on M4)",
+      "summary": "The forgetful CPU (Linux on M4) This blog post goes into quite some detail about how I first booted Linux on my M4 Mac mini.  I encourage you to look up terms and concepts you don’t know, since I cannot explain all the background in this post ;) Before saying anything further, I need to thank the entire Asahi Linux team for all their prior work and help during the journey.",
+      "category": "Technology",
+      "importance": 236,
+      "whyItMatters": "The Hacker News community gave this story 236 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49933869"
+        },
+        {
+          "name": "Original source",
+          "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49933740"
+      ],
+      "headline": "With most information hidden, the game Stratego had stumped AI until now",
+      "summary": "Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav Deep Blue took down Garry Kasparov at chess in 1997, AlphaGo beat Lee Sedol at Go in 2016, and poker bots have been beating professionals for years.  But one classic game called Stratego held out.",
+      "category": "Technology",
+      "importance": 227,
+      "whyItMatters": "The Hacker News community gave this story 227 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49933740"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49937631"
+      ],
+      "headline": "Updates to Full Disk Access in macOS",
+      "summary": "Updates to Full Disk Access in macOS October 2, 2026 We give developers powerful APIs to build incredible capabilities into their apps for Apple products, backed by a set of controls designed to protect users’ private data.  Full Disk Access largely sidesteps these controls in order to allow backup apps to function properly on the Mac.",
+      "category": "Ideas",
+      "importance": 218,
+      "whyItMatters": "The Hacker News community gave this story 218 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49937631"
+        },
+        {
+          "name": "Original source",
+          "url": "https://developer.apple.com/news/?id=p6zjojqw"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49937504"
+      ],
+      "headline": "Muse Gadgets",
+      "summary": "Open source hardware for your Muse Muse gadgets are open source devices you build yourself.  Program an off-the-shelf ESP32 board or set up a Raspberry Pi with our SDKs, then connect Muse to your displays, buttons, sensors, actuators, and whatever else you’ve got lying on your workbench.",
+      "category": "Technology",
+      "importance": 205,
+      "whyItMatters": "The Hacker News community gave this story 205 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49937504"
+        },
+        {
+          "name": "Original source",
+          "url": "https://gadgets.muse.ai"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49934620"
+      ],
+      "headline": "One month coding with GLM 5.3 Flash",
+      "summary": "Setting a challenge to spend the whole of September on only one efficient open model felt like a great idea at the time.  Turns out not so much in practice.",
+      "category": "Technology",
+      "importance": 171,
+      "whyItMatters": "The Hacker News community gave this story 171 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49934620"
+        },
+        {
+          "name": "Original source",
+          "url": "https://wagtail.org/blog/one-month-on-glm-53-flash/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-03T12:18:30.987Z"
+}

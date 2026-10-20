@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-10-hacker-news",
+  "date": "2026-09-10",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49630931"
+      ],
+      "headline": "iPhone Duo",
+      "summary": "iPhone Duo Hello, hello.  Pre-order starting 5:00 a.",
+      "category": "Ideas",
+      "importance": 1241,
+      "whyItMatters": "The Hacker News community gave this story 1241 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49630931"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.apple.com/iphone-duo/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49626190"
+      ],
+      "headline": "Shopify acquires Tailwind",
+      "summary": "Big one today — Tailwind is joining Shopify.  When I started working on Tailwind over nine years ago, my only goal was to create something that would make it easier to build beautiful interfaces for my own projects.",
+      "category": "Technology",
+      "importance": 1056,
+      "whyItMatters": "The Hacker News community gave this story 1056 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49626190"
+        },
+        {
+          "name": "Original source",
+          "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49639090"
+      ],
+      "headline": "DeepSeek v4.1 Flash",
+      "summary": "Post Log in Sign up Post DeepSeek on X: \"🚀 Introducing DeepSeek-V4. 1-Flash: smarter, faster, more efficient.",
+      "category": "Ideas",
+      "importance": 484,
+      "whyItMatters": "The Hacker News community gave this story 484 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49639090"
+        },
+        {
+          "name": "Original source",
+          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49630253"
+      ],
+      "headline": "AirPods 5",
+      "summary": "opens in new window PRESS RELEASE September 9, 2026 Apple introduces AirPods 5, featuring best-in-class open‑ear Active Noise Cancellation With industry-leading ANC in an open-ear design, improved sound quality, hands-free access to Siri AI, and Live Translation, AirPods 5 deliver the best audio experience Apple has ever offered in this style of AirPods, at an incredible price AirPods 5 deliver the industry’s best Active Noise Cancellation in an open-ear design, an all-new multiport acoustic architecture, and next-generation Adaptive EQ for even more immersive sound.  CUPERTINO, CALIFORNIA Apple today announced AirPods 5 , delivering the industry’s best Active Noise Cancellation (ANC) in an…",
+      "category": "Technology",
+      "importance": 470,
+      "whyItMatters": "The Hacker News community gave this story 470 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49630253"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49627370"
+      ],
+      "headline": "GPT-6 Astra, looped transformers, and hidden reasoning",
+      "summary": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks Sebastian Raschka, PhD Sep 09, 2026 223 29 24 Share A lot has happened in the last few weeks.  I am sure that OpenAI’s GPT-6 Astra is top of mind for everyone right now.",
+      "category": "Technology",
+      "importance": 454,
+      "whyItMatters": "The Hacker News community gave this story 454 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49627370"
+        },
+        {
+          "name": "Original source",
+          "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49628493"
+      ],
+      "headline": "No Man's Sky Cosmos",
+      "summary": "Cosmos: Introducing Update 7. 0 Become director of a space station , join a galactic alliance , construct a space base and discover deep-space marvels in No Man's Sky Cosmos.",
+      "category": "Ideas",
+      "importance": 411,
+      "whyItMatters": "The Hacker News community gave this story 411 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49628493"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.nomanssky.com/cosmos-update/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49637385"
+      ],
+      "headline": "Show HN: What if the speed of light was 5 km/h?",
+      "summary": "Your velocity 0. 00 km/h &beta;: v / c 0.",
+      "category": "Ideas",
+      "importance": 401,
+      "whyItMatters": "The Hacker News community gave this story 401 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49637385"
+        },
+        {
+          "name": "Original source",
+          "url": "https://rivendell.dmitrybrant.com/relativity/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49630151"
+      ],
+      "headline": "iPhone 18 Pro and iPhone 18 Pro Max",
+      "summary": "opens in new window PRESS RELEASE September 9, 2026 Apple debuts iPhone 18 Pro and iPhone 18 Pro Max The new Pro lineup introduces variable aperture with the most advanced camera in an iPhone, incredible battery life, next‑level performance, and Siri AI, all powered by A20 Pro iPhone 18 Pro and iPhone 18 Pro Max feature the most advanced camera Apple has ever made and deliver massive leaps in battery life and performance.  CUPERTINO, CALIFORNIA Apple today announced iPhone 18 Pro and iPhone 18 Pro Max , delivering the most advanced pro camera system in an iPhone, and huge leaps in battery life and performance.",
+      "category": "Technology",
+      "importance": 374,
+      "whyItMatters": "The Hacker News community gave this story 374 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49630151"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49629886"
+      ],
+      "headline": "Growing proof that autonomous cars save lives",
+      "summary": "Transportation Magazine Article The Growing Proof That Autonomous Cars Save Lives Self-driving tech could prevent 580,000 deaths every year Lawrence Ulrich 08 Sep 2026 4 min read Lawrence Ulrich is an award-winning auto writer and former chief auto critic at The New York Times and The Detroit Free Press.  Video captured by Rivian technicians shows, in red, areas scanned by lidar during a test drive.",
+      "category": "Ideas",
+      "importance": 365,
+      "whyItMatters": "The Hacker News community gave this story 365 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49629886"
+        },
+        {
+          "name": "Original source",
+          "url": "https://spectrum.ieee.org/are-self-driving-cars-safe"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49636283"
+      ],
+      "headline": "Automattic's board forces CEO Matt Mullenweg into leave of absence",
+      "summary": "Matt Mullenweg, the founder and CEO of Automattic, best known as the parent company of WordPress. com, has been put on a leave of absence by his board against his will, according to a Slack message seen by TechCrunch.",
+      "category": "Technology",
+      "importance": 327,
+      "whyItMatters": "The Hacker News community gave this story 327 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49636283"
+        },
+        {
+          "name": "Original source",
+          "url": "https://techcrunch.com/2026/09/09/automattics-board-forces-ceo-matt-mullenweg-into-leave-of-absence/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-10T12:06:10.611Z"
+}

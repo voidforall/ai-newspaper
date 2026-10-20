@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-13-hacker-news",
+  "date": "2026-09-13",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49672510"
+      ],
+      "headline": "We must pace the frontier",
+      "summary": "We Must Pace the Frontier September 2026 I have worked on AI for the last twelve years because I believe it could dramatically raise the quality of human life.  I’ve written often about these incredible benefits: I believe that AI could cure most major diseases in the next 5–10 years, greatly accelerate economic growth rates, create a world of abundance and empowerment, and usher in a renaissance of democracy and freedom.",
+      "category": "Technology",
+      "importance": 674,
+      "whyItMatters": "The Hacker News community gave this story 674 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49672510"
+        },
+        {
+          "name": "Original source",
+          "url": "https://darioamodei.com/post/we-must-pace-the-frontier"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49678683"
+      ],
+      "headline": "Everyone should slow down AI development except for me",
+      "summary": "Everyone should slow down AI development except for me Published on 2026-09-12 , 337 words, 2 minutes to read A cyberpunk city recreated through triangle primitives - Final Fantasy XIV screenshot passed through Primitive The power of science is staggering!  Every day we're making new advancements in the field of generative artificial intelligence via judicious application of large language model inference technology.",
+      "category": "Technology",
+      "importance": 574,
+      "whyItMatters": "The Hacker News community gave this story 574 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49678683"
+        },
+        {
+          "name": "Original source",
+          "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49673098"
+      ],
+      "headline": "Nvidia is the central bank of AI",
+      "summary": "<a href=\"https:&#x2F;&#x2F;archive.ph&#x2F;kt50V\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.ph&#x2F;kt50V</a>",
+      "category": "Technology",
+      "importance": 507,
+      "whyItMatters": "The Hacker News community gave this story 507 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49673098"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49674050"
+      ],
+      "headline": "Make your first edit to OpenStreetMap",
+      "summary": "Intro This quick tutorial will help you make a meaningful contribution to OpenStreetMap (OSM) in less than 15 minutes.  By the end, you will have added an official website tag to a nearby shop or amenity.",
+      "category": "Ideas",
+      "importance": 501,
+      "whyItMatters": "The Hacker News community gave this story 501 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49674050"
+        },
+        {
+          "name": "Original source",
+          "url": "https://high5apps.github.io/josm-plugin-website-wizard/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49678969"
+      ],
+      "headline": "Why are AI agents lying, cheating and coordinating?",
+      "summary": "We use cookies to analyze the browsing and usage of our website and to personalize your experience.  You can disable these technologies at any time, but this may limit certain functionalities of the site.",
+      "category": "Technology",
+      "importance": 319,
+      "whyItMatters": "The Hacker News community gave this story 319 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49678969"
+        },
+        {
+          "name": "Original source",
+          "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49681152"
+      ],
+      "headline": "JetKVM Mini",
+      "summary": "Press release Sep 11, 2026 Share on Reddit Share on X Share on Bluesky Share on Mastodon Share on Hacker News JetKVM Mini is a smaller, more affordable JetKVM.  It comes in two models: JetKVM Mini with Ethernet for $39 and JetKVM Mini W , wireless, for $42 .",
+      "category": "Technology",
+      "importance": 215,
+      "whyItMatters": "The Hacker News community gave this story 215 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49681152"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jetkvm.com/blog/introducing-jetkvm-mini"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49677577"
+      ],
+      "headline": "Don't be the out of touch Kung Fu master",
+      "summary": "Post Log in Sign up Post Log in Sign up John Carmack on X: \"I recently went through a translation of Musashi’s Book of Five Rings.  The introduction chronicled the evolution of swordsmanship and martial arts in general from pragmatic battlefield necessities to sports, historical curiosities, and hobbies.",
+      "category": "Ideas",
+      "importance": 154,
+      "whyItMatters": "The Hacker News community gave this story 154 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49677577"
+        },
+        {
+          "name": "Original source",
+          "url": "https://twitter.com/ID_AA_Carmack/status/2098443262214230095"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49679459"
+      ],
+      "headline": "The Interim Computer Museum",
+      "summary": "Welcome to ...  The Interim Computer Museum &times; Welcome to the Interim Computer Museum Online!",
+      "category": "Technology",
+      "importance": 133,
+      "whyItMatters": "The Hacker News community gave this story 133 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49679459"
+        },
+        {
+          "name": "Original source",
+          "url": "https://icm.museum/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49681545"
+      ],
+      "headline": "Homebrew 7.0.0",
+      "summary": "7. 0.",
+      "category": "Ideas",
+      "importance": 126,
+      "whyItMatters": "The Hacker News community gave this story 126 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49681545"
+        },
+        {
+          "name": "Original source",
+          "url": "https://brew.sh/2026/09/13/homebrew-7.0.0/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49677450"
+      ],
+      "headline": "P(doom)",
+      "summary": "Armin Ronacher 's Thoughts and Writings blog archive projects travel talks about P(doom) written on September 12, 2026 This week some flavor of “AI is going to kill us all” went viral.  In particular one where an employee put his personal probability of that happening above 10%.",
+      "category": "Technology",
+      "importance": 114,
+      "whyItMatters": "The Hacker News community gave this story 114 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49677450"
+        },
+        {
+          "name": "Original source",
+          "url": "https://lucumr.pocoo.org/2026/9/12/pdoom/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-13T12:36:00.901Z"
+}

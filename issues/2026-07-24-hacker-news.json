@@ -1,0 +1,209 @@
+{
+  "id": "2026-07-24-hacker-news",
+  "date": "2026-07-24",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49022152"
+      ],
+      "headline": "Writing by hand is good for your brain",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 1299,
+      "whyItMatters": "The Hacker News community gave this story 1299 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49022152"
+        },
+        {
+          "name": "Original source",
+          "url": "https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49023016"
+      ],
+      "headline": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+      "summary": "<a href=\"https:&#x2F;&#x2F;littletech.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;littletech.org&#x2F;</a><p><a href=\"https:&#x2F;&#x2F;static.politico.com&#x2F;4a&#x2F;bf&#x2F;9c4021d8404386b0a311dcccf0e5&#x2F;lta-open-weight-ai-letter-7-22-26.pdf\" rel=\"nofollow\">https:&#x2F;&#x2F;static.politico.com&#x2F;4a&#x2F;bf&#x2F;9c4021d8404386b0a311dcccf0...</a>",
+      "category": "Technology",
+      "importance": 925,
+      "whyItMatters": "The Hacker News community gave this story 925 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49023016"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49028927"
+      ],
+      "headline": "98.css",
+      "summary": "98. css A design system for building faithful recreations of old UIs.",
+      "category": "Technology",
+      "importance": 470,
+      "whyItMatters": "The Hacker News community gave this story 470 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49028927"
+        },
+        {
+          "name": "Original source",
+          "url": "https://jdan.github.io/98.css/#status-bar"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49024691"
+      ],
+      "headline": "What happened to TheNumbers.com",
+      "summary": "What just happened to TheNumbers. com should worry us all The inside story of how one of film data's most trusted sites vanished overnight, and why every website you rely on is more fragile than you think.",
+      "category": "Ideas",
+      "importance": 370,
+      "whyItMatters": "The Hacker News community gave this story 370 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49024691"
+        },
+        {
+          "name": "Original source",
+          "url": "https://stephenfollows.com/p/what-just-happened-to-thenumberscom-should-worry-us-all"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49023019"
+      ],
+      "headline": "Why Software Factories Fail (or: harness engineering is not enough)",
+      "summary": "Uh oh!  There was an error while loading.",
+      "category": "Technology",
+      "importance": 314,
+      "whyItMatters": "The Hacker News community gave this story 314 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49023019"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49021856"
+      ],
+      "headline": "I regret migrating to Codeberg",
+      "summary": "A brief comment on Codeberg&rsquo;s new terms, and why a free-software host deciding which projects are welcome worries me more than the bans themselves.  My primary reason for leaving GitHub was not about a single feature or a single outage, but about the &ldquo;enshittification&rdquo; of the platform under Microsoft &rsquo;s ownership.",
+      "category": "Technology",
+      "importance": 289,
+      "whyItMatters": "The Hacker News community gave this story 289 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49021856"
+        },
+        {
+          "name": "Original source",
+          "url": "https://xn--gckvb8fzb.com/i-regret-migrating-to-codeberg/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49022038"
+      ],
+      "headline": "Software rendering in 500 lines of bare C++",
+      "summary": "Bresenham’s line drawing Triangle rasterization Barycentric coordinates Hidden faces removal Naive camera handling Better camera Shading More data!  Tangent space Shadow mapping Ambient occlusion Bonus: toon shading Afterword tinycompiler tinyoptimizer tinyfloat The banana tossing project strange things Software rendering in 500 lines of bare C++ In this series of articles, I aim to demonstrate how OpenGL, Vulkan, Metal, and DirectX work by writing a simplified clone from scratch.",
+      "category": "Technology",
+      "importance": 282,
+      "whyItMatters": "The Hacker News community gave this story 282 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49022038"
+        },
+        {
+          "name": "Original source",
+          "url": "https://haqr.eu/tinyrenderer/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49024643"
+      ],
+      "headline": "The arguments against open source AI are bad",
+      "summary": "The release of Kimi K3 has opened a fresh round of angst and confused discourse.  There's a loud cohort of journalists, business leaders, and politicians arguing that open source AI is a dangerous threat.",
+      "category": "Technology",
+      "importance": 274,
+      "whyItMatters": "The Hacker News community gave this story 274 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49024643"
+        },
+        {
+          "name": "Original source",
+          "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49022634"
+      ],
+      "headline": "Learn OpenGL, extensive tutorial resource for learning Modern OpenGL",
+      "summary": "If you're running AdBlock, please consider whitelisting this site if you'd like to support LearnOpenGL (it helps a lot ); and no worries, I won't be mad if you don't :) Introduction Getting started OpenGL Creating a window Hello Window Hello Triangle Shaders Textures Transformations Coordinate Systems Camera Review Lighting Colors Basic Lighting Materials Lighting maps Light casters Multiple lights Review Model Loading Assimp Mesh Model Advanced OpenGL Depth testing Stencil testing Blending Face culling Framebuffers Cubemaps Advanced Data Advanced GLSL Geometry Shader Instancing Anti Aliasing Advanced Lighting Advanced Lighting Gamma Correction Shadows Shadow Mapping Point Shadows Normal…",
+      "category": "Technology",
+      "importance": 243,
+      "whyItMatters": "The Hacker News community gave this story 243 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49022634"
+        },
+        {
+          "name": "Original source",
+          "url": "https://learnopengl.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49021597"
+      ],
+      "headline": "DARPA, U.S. Air Force fly AI-controlled F-16",
+      "summary": "Breadcrumb Home News DARPA, U. S.",
+      "category": "Technology",
+      "importance": 241,
+      "whyItMatters": "The Hacker News community gave this story 241 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49021597"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-24T09:22:50.946Z"
+}

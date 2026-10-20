@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-18-hacker-news",
+  "date": "2026-10-18",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-50132193"
+      ],
+      "headline": "Pele – Mermaid diagrams as themeable SVG",
+      "summary": "Pele is a lightweight open source library that renders Mermaid diagrams to SVG, themed with CSS variables .  Write Mermaid syntax, Pele renders it to SVG.",
+      "category": "Technology",
+      "importance": 460,
+      "whyItMatters": "The Hacker News community gave this story 460 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50132193"
+        },
+        {
+          "name": "Original source",
+          "url": "https://pele.run/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50132870"
+      ],
+      "headline": "Gold is now the top U.S. export",
+      "summary": "Coin Market Gold is Now the Top U. S.",
+      "category": "Business",
+      "importance": 347,
+      "whyItMatters": "The Hacker News community gave this story 347 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50132870"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.numismaticnews.net/gold-now-top-u-s-export"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50136536"
+      ],
+      "headline": "NY announces game ownership bill requiring ownership rather than licensing",
+      "summary": "(Image credit: Tom's Hardware) {alert('Link copied')}). catch(err => {console.",
+      "category": "Ideas",
+      "importance": 323,
+      "whyItMatters": "The Hacker News community gave this story 323 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50136536"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50131213"
+      ],
+      "headline": "Making chicken transparent using Dorito dust",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 312,
+      "whyItMatters": "The Hacker News community gave this story 312 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50131213"
+        },
+        {
+          "name": "Original source",
+          "url": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50138531"
+      ],
+      "headline": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+      "summary": "On this page Search & Fetch The Search API and the Fetch API give agents and RAG applications access to live web content: Search API finds web pages for a query and returns structured results.  It is powered by DeepSeek's in-house search engine.",
+      "category": "Ideas",
+      "importance": 254,
+      "whyItMatters": "The Hacker News community gave this story 254 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50138531"
+        },
+        {
+          "name": "Original source",
+          "url": "https://api-docs.deepseek.com/guides/search/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50131189"
+      ],
+      "headline": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
+      "summary": "main Branches Tags Go to file Code Open more actions menu Latest commit History 1,469 Commits 1,469 Commits Folders and files Name Name Last commit message Last commit date . github/ workflows .",
+      "category": "Technology",
+      "importance": 174,
+      "whyItMatters": "The Hacker News community gave this story 174 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50131189"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/mikroverk/esp32sim"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50137620"
+      ],
+      "headline": "How the Elizabeth Holmes documentary “You Can See Everything” is deceiving",
+      "summary": "How the Elizabeth Holmes Doc 'You Can See Everything' Is Deceiving You Did you realize the film was actually manipulating *you*?  Polina Pompliano Oct 16, 2026 41 13 11 Share Holy freaking cow.",
+      "category": "Ideas",
+      "importance": 164,
+      "whyItMatters": "The Hacker News community gave this story 164 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50137620"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50137950"
+      ],
+      "headline": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "summary": "Free FOSS “Outsource your thinking, not your understanding . ” — Sun Tzu Sphinx is a Git hook for agent-assisted development.",
+      "category": "Technology",
+      "importance": 149,
+      "whyItMatters": "The Hacker News community gave this story 149 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50137950"
+        },
+        {
+          "name": "Original source",
+          "url": "https://sphinx-six-theta.vercel.app/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50131006"
+      ],
+      "headline": "Show HN: High-quality duck audio synthesizer",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 144,
+      "whyItMatters": "The Hacker News community gave this story 144 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50131006"
+        },
+        {
+          "name": "Original source",
+          "url": "https://celphase.github.io/duck-pond/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-50133231"
+      ],
+      "headline": "Codex Desktop continuously generates Crashpad pending dumps",
+      "summary": "Codex Desktop continuously generates Crashpad pending dumps, growing without any limit: +5GB per day at least #25921 New issue Copy link New issue Copy link Open Open Codex Desktop continuously generates Crashpad pending dumps, growing without any limit: +5GB per day at least #25921 Copy link Labels app Issues related to the Codex desktop app Issues related to the Codex desktop app bug Something isn't working Something isn't working performance Description Jolg42 opened on Jun 2, 2026 Issue body actions Summary Codex Desktop is continuously adding paired . dmp and _sidecar.",
+      "category": "Technology",
+      "importance": 140,
+      "whyItMatters": "The Hacker News community gave this story 140 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50133231"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/openai/codex/issues/25921"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-18T11:58:19.496Z"
+}

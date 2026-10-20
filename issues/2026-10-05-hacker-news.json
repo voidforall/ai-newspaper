@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-05-hacker-news",
+  "date": "2026-10-05",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49957116"
+      ],
+      "headline": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+      "summary": "omlahore / RemoveMacAI Public Notifications You must be signed in to change notification settings Fork 27 Star 1. 4k main Branches Tags Go to file Code Open more actions menu Latest commit History 13 Commits 13 Commits Folders and files Name Name Last commit message Last commit date .",
+      "category": "Technology",
+      "importance": 700,
+      "whyItMatters": "The Hacker News community gave this story 700 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49957116"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/omlahore/RemoveMacAI"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49956681"
+      ],
+      "headline": "A browser-native classic Visual Basic VB6 IDE",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 333,
+      "whyItMatters": "The Hacker News community gave this story 333 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49956681"
+        },
+        {
+          "name": "Original source",
+          "url": "https://wieslawsoltes.github.io/VB6/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49962012"
+      ],
+      "headline": "Denmark Data Breach Exposes 8.8M People's Personal Data",
+      "summary": "Omfattende uautoriseret adgang til borgeres CPR-oplysninger Publiceret 05-10-2026 Nyhed CPR Det Centrale Personregister (CPR) har konstateret en alvorlig sikkerhedshændelse.  Ved at misbruge en dansk virksomheds lovlige adgang til at søge oplysninger i CPR-systemet, har uvedkommende skaffet sig adgang til navne, adresser, CPR-numre mv.",
+      "category": "Ideas",
+      "importance": 326,
+      "whyItMatters": "The Hacker News community gave this story 326 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49962012"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49963366"
+      ],
+      "headline": "Europe's new robotics unicorn: Germany's RobCo hits $1B valuation",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 262,
+      "whyItMatters": "The Hacker News community gave this story 262 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49963366"
+        },
+        {
+          "name": "Original source",
+          "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49964303"
+      ],
+      "headline": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
+      "summary": "Loading...  Something went wrong while trying to load the full version of this site.",
+      "category": "Technology",
+      "importance": 197,
+      "whyItMatters": "The Hacker News community gave this story 197 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49964303"
+        },
+        {
+          "name": "Original source",
+          "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49957812"
+      ],
+      "headline": "In the wake of Tippett Studios’ closure, a digital archive appears online",
+      "summary": "Share this Article: The stop motion work of Phil Tippett and the now closed Tippett Studios is being preserved in a free-to-browse online archive.  August brought with it the sad news that Tippett Studios, the Berkeley-based animation and effects house founded by Phil Tippett, was closing down.",
+      "category": "Ideas",
+      "importance": 195,
+      "whyItMatters": "The Hacker News community gave this story 195 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49957812"
+        },
+        {
+          "name": "Original source",
+          "url": "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49963171"
+      ],
+      "headline": "Web Search API",
+      "summary": "View RSS feeds Subscribe to RSS Back to all posts October 2, 2026 Introducing Web Search API AI Gateway Web Search API Copy as Markdown | View as Markdown | Agent setup Web Search API is now available in beta.  Web Search API lets your AI agents and applications search the Internet and ground their responses in live information, instead of guessing URLs or relying on a model's training cutoff.",
+      "category": "Technology",
+      "importance": 185,
+      "whyItMatters": "The Hacker News community gave this story 185 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49963171"
+        },
+        {
+          "name": "Original source",
+          "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49962857"
+      ],
+      "headline": "Apple and a Hacker's Future",
+      "summary": "Apple and a Hacker’s Future Monday, October 5, 2026 Listen to Podcast Listen to this post : Log in to listen My computer got hacked, which is always embarrassing to admit, because it was my fault; the vulnerability that was exploited is detailed in this Ars Technica story : Dutch officials have warned that a high-severity macOS vulnerability that allows attackers to execute malicious code is under active exploitation.  “The NCSC has received a notification indicating that active abuse of this vulnerability has been observed on multiple systems on which port 5900 was accessible from the Internet,” the Netherlands National Cyber Security Centrum warned earlier this week.",
+      "category": "Technology",
+      "importance": 130,
+      "whyItMatters": "The Hacker News community gave this story 130 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49962857"
+        },
+        {
+          "name": "Original source",
+          "url": "https://stratechery.com/2026/apple-and-a-hackers-future/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49961861"
+      ],
+      "headline": "Huawei and Qualcomm Announce Broad Patent License Agreement",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 115,
+      "whyItMatters": "The Hacker News community gave this story 115 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49961861"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49963094"
+      ],
+      "headline": "Press Release: Nobel Prize in Physiology or Medicine 2026",
+      "summary": "Navigate to: Summary - Karl Deisseroth - Peter Hegemann - Georg Nagel Prize announcement Press release Popular information Advanced information English English (pdf) Swedish Swedish (pdf) 5 October 2026 The Nobel Assembly at Karolinska Institutet has decided to award the 2026 Nobel Prize in Physiology or Medicine jointly to: KARL DEISSEROTH The Howard Hughes Medical Institute and Stanford University, USA PETER HEGEMANN Humboldt University of Berlin, Germany GEORG NAGEL University of Würzburg, Germany “for their discoveries concerning light-gated ion channels and optogenetics” Light-seeking algae gave us a switch for nerve cells The Nobel Prize in Physiology or Medicine 2026 is awarded for…",
+      "category": "Ideas",
+      "importance": 105,
+      "whyItMatters": "The Hacker News community gave this story 105 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49963094"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.nobelprize.org/prizes/medicine/2026/press-release/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-05T15:39:13.982Z"
+}

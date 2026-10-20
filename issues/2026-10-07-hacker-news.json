@@ -1,0 +1,209 @@
+{
+  "id": "2026-10-07-hacker-news",
+  "date": "2026-10-07",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49984923"
+      ],
+      "headline": "Sharing AI progress in mathematics",
+      "summary": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math</a><p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math&#x2F;tree&#x2F;main&#x2F;preprints\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;openai&#x2F;math&#x2F;tree&#x2F;main&#x2F;preprints</a>",
+      "category": "Technology",
+      "importance": 1068,
+      "whyItMatters": "The Hacker News community gave this story 1068 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49984923"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49980487"
+      ],
+      "headline": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "summary": "EmbeddingGemma 2: an open, lightweight multimodal embedding model Oct 06, 2026 | x. com Facebook LinkedIn Mail Copy link EmbeddingGemma 2 is the most capable model for on-device multimodal embeddings, natively mapping combinations of text, images, audio, and video into a unified embedding space.",
+      "category": "Technology",
+      "importance": 378,
+      "whyItMatters": "The Hacker News community gave this story 378 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49980487"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49984025"
+      ],
+      "headline": "Decisions API is in public beta",
+      "summary": "Copy Page The Decisions API evaluates text, images, or both and returns typed answers about 10x faster than the Responses API.  Get the probability that a condition is true, a choice from a fixed set, or a score against a rubric.",
+      "category": "Technology",
+      "importance": 360,
+      "whyItMatters": "The Hacker News community gave this story 360 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49984025"
+        },
+        {
+          "name": "Original source",
+          "url": "https://developers.openai.com/api/docs/guides/decisions"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49980715"
+      ],
+      "headline": "OpenTPU – An open-source AI accelerator, developed by AI",
+      "summary": "main Branches Tags Go to file Code Open more actions menu Latest commit History 1,423 Commits 1,423 Commits Folders and files Name Name Last commit message Last commit date boards/ ypcb-00338 boards/ ypcb-00338 docs docs opentpu opentpu rtl rtl sim/ verilator sim/ verilator tests tests tools tools . gitignore .",
+      "category": "Technology",
+      "importance": 321,
+      "whyItMatters": "The Hacker News community gave this story 321 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49980715"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/FeSens/openTPU"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49981905"
+      ],
+      "headline": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 240,
+      "whyItMatters": "The Hacker News community gave this story 240 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49981905"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49987076"
+      ],
+      "headline": "Strands Decider 2B: a small, open-source, decision model",
+      "summary": "Earlier this year, we announced strands-labs , a place to get hands-on with state-of-the-art approaches to agentic AI.  Today, we’re excited to add Strands Decider 2B: a small decision model optimized for fast experimentation, local development, and innovation.",
+      "category": "Technology",
+      "importance": 233,
+      "whyItMatters": "The Hacker News community gave this story 233 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49987076"
+        },
+        {
+          "name": "Original source",
+          "url": "https://strandsagents.com/blog/introducing-strands-decider/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49984716"
+      ],
+      "headline": "Penguin Mail – open-source Rust email client for Linux with AI",
+      "summary": "Penguin Mail Mail and calendar for Linux Gmail, Microsoft and any IMAP or POP3 account, with your calendar and contacts, in one fast app on your own computer.  Download Source on GitHub Version 1.",
+      "category": "Technology",
+      "importance": 220,
+      "whyItMatters": "The Hacker News community gave this story 220 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49984716"
+        },
+        {
+          "name": "Original source",
+          "url": "https://penguin-mail.com/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49990224"
+      ],
+      "headline": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "summary": "main Branches Tags Go to file Code Open more actions menu Latest commit History 9 Commits 9 Commits Folders and files Name Name Last commit message Last commit date docs docs fonts fonts glyphs glyphs scripts scripts . gitignore .",
+      "category": "Technology",
+      "importance": 206,
+      "whyItMatters": "The Hacker News community gave this story 206 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49990224"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/szabadkai/c64-keyboard-font/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49991227"
+      ],
+      "headline": "Shipping JPEG XL in Chrome",
+      "summary": "‫Google برای ترجمه محتوا به زبان ترجیحی شما از فناوری هوشواره استفاده می‌کند.  ترجمه‌های هوشواره‌ای ممکن است اشتباه داشته باشند.",
+      "category": "Ideas",
+      "importance": 202,
+      "whyItMatters": "The Hacker News community gave this story 202 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49991227"
+        },
+        {
+          "name": "Original source",
+          "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49986862"
+      ],
+      "headline": "ESP32-C3 Adblock",
+      "summary": "main Branches Tags Go to file Code Open more actions menu Latest commit History 35 Commits 35 Commits Folders and files Name Name Last commit message Last commit date . github/ workflows .",
+      "category": "Technology",
+      "importance": 147,
+      "whyItMatters": "The Hacker News community gave this story 147 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49986862"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/M-Abozaid/esp32-c3-adblock"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-10-07T14:17:40.431Z"
+}

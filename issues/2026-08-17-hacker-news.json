@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-17-hacker-news",
+  "date": "2026-08-17",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49319556"
+      ],
+      "headline": "Claude: System Prompts",
+      "summary": "Loading Loading Loading Loading Loading Loading Loading Loading Loading Loading Loading Loading",
+      "category": "Ideas",
+      "importance": 632,
+      "whyItMatters": "The Hacker News community gave this story 632 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49319556"
+        },
+        {
+          "name": "Original source",
+          "url": "https://platform.claude.com/docs/en/release-notes/system-prompts"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49321717"
+      ],
+      "headline": "A third world engineer responds to “RISC-V: They should have known better”",
+      "summary": "A Third World Embedded Engineer Responds to \"RISC-V: They Should Have Known Better\" August 16, 2026 | RISC-V Article Dmitry Grinberg published a long piece explaining his distaste for RISC-V, you can read his article here: RISC-V: They Should Have Known Better - Dmitry. GR .",
+      "category": "Technology",
+      "importance": 480,
+      "whyItMatters": "The Hacker News community gave this story 480 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49321717"
+        },
+        {
+          "name": "Original source",
+          "url": "https://rvembedded.com/blog_post/12/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49324985"
+      ],
+      "headline": "Qwen 3.8 27B is excellent, but it defaults to overthinking things",
+      "summary": "Simon Willison’s Weblog Subscribe Sponsored by: WorkOS &mdash; auth. md by WorkOS: agents register users, no sign-up form.",
+      "category": "Ideas",
+      "importance": 372,
+      "whyItMatters": "The Hacker News community gave this story 372 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49324985"
+        },
+        {
+          "name": "Original source",
+          "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49323381"
+      ],
+      "headline": "Stripe will reportedly acquire OpenRouter for $7B+",
+      "summary": "In Brief Posted: 1:57 PM PDT · August 16, 2026 Image Credits: SOPA Images/Contributor / Getty Images Anthony Ha Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+ Stripe has finalized a deal to acquire OpenRouter, according to a new report in Bloomberg .  OpenRouter helps customers to select different AI models to perform different tasks, depending on their specific needs and budget.",
+      "category": "Technology",
+      "importance": 316,
+      "whyItMatters": "The Hacker News community gave this story 316 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49323381"
+        },
+        {
+          "name": "Original source",
+          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49320611"
+      ],
+      "headline": "The AI Credit Resale Economy",
+      "summary": "threat-research llm-security Who Are the Token Brokers?  August 10, 2026 · Matt Lenhard · 5 min read Share Where This Started This is a follow-up article to a piece I recently wrote about the token relay market .",
+      "category": "Technology",
+      "importance": 277,
+      "whyItMatters": "The Hacker News community gave this story 277 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49320611"
+        },
+        {
+          "name": "Original source",
+          "url": "https://vectoral.com/blog/who-are-the-token-brokers"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49324087"
+      ],
+      "headline": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+      "summary": "By John Gruber Archive The Talk Show Dithering Projects Contact Colophon Feeds / Social Sponsorship Manage GRC Faster with Drata’s Agentic Trust Management Platform Anthropic’s ‘Watermark’ Text Adulteration in Claude Is a Perversion of Writing Sunday, 16 August 2026 When I wrote this week about Anthropic’s announcement that all Claude models, worldwide, would soon begin “watermarking” everything they generate, including text, to comply with this EU regulation , we were left to speculate how this was going to work, because Anthropic offered not even a vague description of how it would work — despite the fact that the title of the announcement was, absurdly and insultingly, “ How Claude Marks…",
+      "category": "Technology",
+      "importance": 186,
+      "whyItMatters": "The Hacker News community gave this story 186 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49324087"
+        },
+        {
+          "name": "Original source",
+          "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49325185"
+      ],
+      "headline": "The Life and Death of Direct File [pdf]",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 183,
+      "whyItMatters": "The Hacker News community gave this story 183 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49325185"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.ischool.berkeley.edu/sites/default/files/vinton_report_5.pdf"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49322573"
+      ],
+      "headline": "Protobuf has LSP support",
+      "summary": "Buf is proud to announce the first fully-featured, production-grade LSP server for Protobuf.  The Language Server Protocol is the standard API for integrating language support into your favorite IDE or text editor, such as VSCode, IntelliJ, or Neovim.",
+      "category": "Ideas",
+      "importance": 147,
+      "whyItMatters": "The Hacker News community gave this story 147 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49322573"
+        },
+        {
+          "name": "Original source",
+          "url": "https://buf.build/blog/protobuf-lsp"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49325061"
+      ],
+      "headline": "Reticulum – Decentralized Mesh Network",
+      "summary": "Deutsch | English | Español | Nederlands | Polski | Português | Türkçe | Українська | 日本語 | 简体中文 Reticulum | Start | Hardware | Connect | Manual | Cryptography | Credits | Source | Donate Reticulum Reticulum is the cryptography-based networking stack for building local and wide-area networks with readily available hardware.  Reticulum can continue to operate even in adverse conditions with very high latency and extremely low bandwidth.",
+      "category": "Technology",
+      "importance": 105,
+      "whyItMatters": "The Hacker News community gave this story 105 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49325061"
+        },
+        {
+          "name": "Original source",
+          "url": "https://reticulum.network/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49322330"
+      ],
+      "headline": "MathCode, Mathematical Coding Agent",
+      "summary": "Overview MathCode is a terminal AI coding assistant with a built-in math formalization engine.  Give it a math problem in plain language and it will automatically convert it into a Lean 4 theorem and attempt a formal proof &mdash; with a persistent Lean REPL, reusable theorem and axiom libraries, agentic proving, and an Obsidian knowledge graph.",
+      "category": "Technology",
+      "importance": 86,
+      "whyItMatters": "The Hacker News community gave this story 86 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49322330"
+        },
+        {
+          "name": "Original source",
+          "url": "https://math-ai-org.github.io/mathcode/"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-17T07:54:08.816Z"
+}

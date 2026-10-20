@@ -1,0 +1,209 @@
+{
+  "id": "2026-09-17-hacker-news",
+  "date": "2026-09-17",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49731285"
+      ],
+      "headline": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "summary": "How good are query optimizers, really?  Leis et al.",
+      "category": "Technology",
+      "importance": 582,
+      "whyItMatters": "The Hacker News community gave this story 582 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49731285"
+        },
+        {
+          "name": "Original source",
+          "url": "https://rohanbansal.com/qorl"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49729000"
+      ],
+      "headline": "Small programming tricks",
+      "summary": "Small Programming Tricks Day to day, I think a surprising amount of engineering productivity comes from small nuggets of knowledge: being aware that a language feature exists; knowing that an unexplained tcp delay is probably related to the TCP_NO_DELAY setting and Nagle&rsquo;s algorithm; knowing the right git incantation to get out of a pickle; or knowing a trick with sed to rewrite a file.  In one sense, this is self-evident: anything you know is going to be made up of smaller pieces of knowledge.",
+      "category": "Technology",
+      "importance": 562,
+      "whyItMatters": "The Hacker News community gave this story 562 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49729000"
+        },
+        {
+          "name": "Original source",
+          "url": "https://will-keleher.com/posts/small-programming-tricks-matter/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49732270"
+      ],
+      "headline": "Xiaomi Mimo 2.6 live post-training dashboard",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 464,
+      "whyItMatters": "The Hacker News community gave this story 464 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49732270"
+        },
+        {
+          "name": "Original source",
+          "url": "https://mimo.xiaomi.com/rl/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49732513"
+      ],
+      "headline": "Backups Aren't Simple",
+      "summary": "Backups aren't simple Aleksandar Filipovski , 2026-09-16 See also: John Salvatier’s excellent blog, Reality has a surprising amount of detail I read a comment somewhere that stuck with me, that went something like this: “There are two types of people: those who have suffered a catastrophic loss of data, and those who will. ” Trying to find the source for it for this blog, it turned out that every other sysadmin has his rehashed version of the quote, but the gist of it is the same everywhere.",
+      "category": "Technology",
+      "importance": 267,
+      "whyItMatters": "The Hacker News community gave this story 267 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49732513"
+        },
+        {
+          "name": "Original source",
+          "url": "https://filipovski.net/2026/09/16/backups-arent-simple.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49732931"
+      ],
+      "headline": "Breaking the 1.58-bit Barrier for Ternary LLMs",
+      "summary": "Computer Science > Artificial Intelligence arXiv:2609. 16338 (cs) [Submitted on 14 Sep 2026] Title: Breaking the 1.",
+      "category": "Technology",
+      "importance": 215,
+      "whyItMatters": "The Hacker News community gave this story 215 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49732931"
+        },
+        {
+          "name": "Original source",
+          "url": "https://arxiv.org/abs/2609.16338"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49735930"
+      ],
+      "headline": "Keys Not Included: recovering the signing keys for US driver's license barcodes",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 206,
+      "whyItMatters": "The Hacker News community gave this story 206 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49735930"
+        },
+        {
+          "name": "Original source",
+          "url": "https://ryan.science/blog/keys-not-included"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49737849"
+      ],
+      "headline": "One Year of Sponsored Servo Development",
+      "summary": "Your Donations at Work: One Year of Sponsored Servo Development Looking back on Servo's first donation-funded role.  Posted 2026-09-15 Last September, the Servo project announced that long-time maintainer Josh Bowman-Matthews (@jdm) would work part-time on improving the Servo contributor experience, entirely funded by the monthly donations on OpenCollective and GitHub .",
+      "category": "Technology",
+      "importance": 157,
+      "whyItMatters": "The Hacker News community gave this story 157 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49737849"
+        },
+        {
+          "name": "Original source",
+          "url": "https://servo.org/blog/2026/09/15/one-year-of-sponsorship/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49734264"
+      ],
+      "headline": "OpenSpec – A lightweight and configurable AI spec framework",
+      "summary": "The spec framework for building the right thing and building it right FIG.  1 / DRIFT 0.",
+      "category": "Technology",
+      "importance": 155,
+      "whyItMatters": "The Hacker News community gave this story 155 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49734264"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openspec.dev/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49733726"
+      ],
+      "headline": "HarnessTax: How Much Does the Harness Matter for Coding Agents?",
+      "summary": "loading…",
+      "category": "Ideas",
+      "importance": 148,
+      "whyItMatters": "The Hacker News community gave this story 148 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49733726"
+        },
+        {
+          "name": "Original source",
+          "url": "https://harnesstax.github.io/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49737922"
+      ],
+      "headline": "GLM Built Its Own Inference Infrastructure",
+      "summary": "Read the discussion and original source.",
+      "category": "Ideas",
+      "importance": 122,
+      "whyItMatters": "The Hacker News community gave this story 122 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49737922"
+        },
+        {
+          "name": "Original source",
+          "url": "https://z.ai/blog/glm-built-its-inference-infrastructure"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-09-17T12:28:06.229Z"
+}

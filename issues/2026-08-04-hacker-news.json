@@ -1,0 +1,209 @@
+{
+  "id": "2026-08-04-hacker-news",
+  "date": "2026-08-04",
+  "editionTitle": "The Daily Signal",
+  "editorNote": "A curated view of 10 stories shaping today's Hacker News conversation.",
+  "stories": [
+    {
+      "articleIds": [
+        "hn-49161518"
+      ],
+      "headline": "LLMs reward expertise",
+      "summary": "In the 2010s, if you had technical gaps (say, you couldn’t write CSS), you had to either rely on a skilled colleague or just hope that the answer to your exact problem was out there on the internet.  Today, everyone can write sort-of-okay CSS by delegating the task to an LLM.",
+      "category": "Ideas",
+      "importance": 936,
+      "whyItMatters": "The Hacker News community gave this story 936 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49161518"
+        },
+        {
+          "name": "Original source",
+          "url": "https://www.seangoedecke.com/llms-reward-expertise/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49156111"
+      ],
+      "headline": "Devtools must be open source",
+      "summary": "Five years ago, most software engineers I spoke to had no programs they had written for themselves.  (I was asking this question a lot as part of trying to understand how Tailscale could fit into engineers’ lives.",
+      "category": "Technology",
+      "importance": 606,
+      "whyItMatters": "The Hacker News community gave this story 606 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49156111"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.exe.dev/devtools-must-be-open-source"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49157930"
+      ],
+      "headline": "Ten advances in mathematics and theoretical computer science",
+      "summary": "Read the discussion and original source.",
+      "category": "Technology",
+      "importance": 537,
+      "whyItMatters": "The Hacker News community gave this story 537 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49157930"
+        },
+        {
+          "name": "Original source",
+          "url": "https://openai.com/index/ten-advances-in-mathematics/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49156011"
+      ],
+      "headline": "Andy Pavlo joins ClickHouse to establish ClickHouse Labs",
+      "summary": "-> Scroll to top Back Blog / Company and culture Copy page Copied!  More actions View as Markdown Open this page in Markdown Open in ChatGPT Ask questions about this page Open in Claude Ask questions about this page Open in v0 Ask questions about this page Andy Pavlo joins ClickHouse to establish ClickHouse Labs Andy Pavlo Aug 3, 2026 · 5 minutes read I am excited to announce that I am joining ClickHouse to establish and lead a new research team called ClickHouse Labs .",
+      "category": "Business",
+      "importance": 312,
+      "whyItMatters": "The Hacker News community gave this story 312 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49156011"
+        },
+        {
+          "name": "Original source",
+          "url": "https://clickhouse.com/blog/andy-pavlo-joins-clickhouse"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49155629"
+      ],
+      "headline": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+      "summary": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video An open-weights omni-modal video model with real stereo sound and 2K output — this powerful model is greatly optimized in ComfyUI and can run locally on a 3060.  Rob and Alexis Rolland Aug 03, 2026 7 2 Share MiniMax H3 dropped today with open weights, and it’s natively supported in ComfyUI as of this morning.",
+      "category": "Technology",
+      "importance": 296,
+      "whyItMatters": "The Hacker News community gave this story 296 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49155629"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49156750"
+      ],
+      "headline": "Twenty Years of Pandoc",
+      "summary": "Twenty Years of Pandoc On August 3, 2006, I uploaded the first version of pandoc to my website, releasing it under the free GPL license.  Pandoc 0.",
+      "category": "Ideas",
+      "importance": 255,
+      "whyItMatters": "The Hacker News community gave this story 255 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49156750"
+        },
+        {
+          "name": "Original source",
+          "url": "https://pandoc.org/twenty-years-of-pandoc.html"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49154228"
+      ],
+      "headline": "AirLLM 70B inference with single 4GB GPU",
+      "summary": "lyogavin / airllm Public Uh oh!  There was an error while loading.",
+      "category": "Technology",
+      "importance": 220,
+      "whyItMatters": "The Hacker News community gave this story 220 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49154228"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/lyogavin/airllm"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49158581"
+      ],
+      "headline": "Smaller, faster, safer: running Kimi and GLM at scale",
+      "summary": "Workers AI runs inference for some of the best open models in the world on GPUs in Cloudflare data centers close to your users.  Two of the most capable, and most demanding, are Moonshot's Kimi K-series and Z.",
+      "category": "Technology",
+      "importance": 216,
+      "whyItMatters": "The Hacker News community gave this story 216 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49158581"
+        },
+        {
+          "name": "Original source",
+          "url": "https://blog.cloudflare.com/smaller-faster-safer-models/"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49158333"
+      ],
+      "headline": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+      "summary": "leonickson1 / Swiftlet Public Notifications You must be signed in to change notification settings Fork 2 Star 201 main Branches Tags Go to file Code Open more actions menu Folders and files Name Name Last commit message Last commit date Latest commit History 6 Commits 6 Commits Sources Sources Tests/ SwiftletCoreTests Tests/ SwiftletCoreTests assets/ model-configs assets/ model-configs fixtures fixtures references references scripts scripts . gitignore .",
+      "category": "Technology",
+      "importance": 179,
+      "whyItMatters": "The Hacker News community gave this story 179 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49158333"
+        },
+        {
+          "name": "Original source",
+          "url": "https://github.com/leonickson1/Swiftlet"
+        }
+      ]
+    },
+    {
+      "articleIds": [
+        "hn-49158474"
+      ],
+      "headline": "Celebrating 45 Years of Kermit with the First New C-Kermit Release in 15 Years",
+      "summary": "1981 was a different time for computing.  It was expensive ( both hardware and software ), and it was far from a given that machines from one vendor would be able to talk to those from another.",
+      "category": "Technology",
+      "importance": 163,
+      "whyItMatters": "The Hacker News community gave this story 163 points.",
+      "sourceLinks": [
+        {
+          "name": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=49158474"
+        },
+        {
+          "name": "Original source",
+          "url": "https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2026-08-04T09:39:39.929Z"
+}
